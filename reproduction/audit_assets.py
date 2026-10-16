@@ -7,6 +7,7 @@ import sys
 from datetime import datetime, timezone
 
 import numpy as np
+from download_assets import FILES
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -26,6 +27,7 @@ def audit_dataset(root, dataset):
     checked = set()
     timed_captions = 0
     filtered = []
+    content_digest = hashlib.sha256()
     for split in ['train', 'val', 'test']:
         path = root / (split + '.txt')
         if not path.is_file():
@@ -47,6 +49,7 @@ def audit_dataset(root, dataset):
                     raise ValueError('Wrong feature shape: ' + str(motion.shape))
                 if not np.isfinite(motion).all():
                     raise ValueError('Nonfinite motion')
+                content_digest.update((name + ':' + sha256(motion_path) + ':' + sha256(text_path) + '\n').encode())
                 if len(motion) < minimum or len(motion) >= 200:
                     filtered.append(name)
                 lines = text_path.read_text().splitlines()
@@ -69,6 +72,7 @@ def audit_dataset(root, dataset):
     return {'root': str(root.resolve()), 'splits': splits,
             'checked_ids': len(checked), 'length_filtered_ids': filtered,
             'timed_captions': timed_captions,
+            'motion_text_content_sha256': content_digest.hexdigest(),
             'kit_time_crop_note': 'Upstream loader uses 20 fps for time tags even for KIT; audit before interpreting timed KIT segments.' if dataset == 'kit' and timed_captions else None,
             'errors': errors}
 
@@ -80,6 +84,21 @@ def main():
     args = parser.parse_args()
     root = ROOT / 'dataset' / ('humanml3d' if args.dataset == 't2m' else 'kit-ml')
     result = audit_dataset(root, args.dataset)
+    required = [ROOT / 'checkpoints' / args.dataset / n for n in FILES[args.dataset]]
+    required += [ROOT / 'glove' / n for n in
+                 ['our_vab_data.npy', 'our_vab_idx.pkl', 'our_vab_words.pkl']]
+    for path in required:
+        if not path.is_file() or not path.stat().st_size:
+            result['errors'].append('Missing required asset: ' + str(path))
+    for name in ['mean.npy', 'std.npy']:
+        path = ROOT / 'checkpoints' / args.dataset / 'Comp_v6_KLD005/meta' / name
+        if path.is_file():
+            values = np.load(path, allow_pickle=False)
+            dim = 263 if args.dataset == 't2m' else 251
+            if values.shape != (dim,) or not np.isfinite(values).all():
+                result['errors'].append('Invalid normalization array: ' + str(path))
+            if name == 'std.npy' and (values <= 0).any():
+                result['errors'].append('Nonpositive normalization standard deviation')
     files = list((ROOT / 'checkpoints' / args.dataset).rglob('*.tar'))
     files += list((ROOT / 'checkpoints' / args.dataset).rglob('opt.txt'))
     files += list((ROOT / 'checkpoints' / args.dataset).rglob('*.npy'))
