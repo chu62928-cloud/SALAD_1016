@@ -12,7 +12,7 @@ from models.denoiser.trainer import DenoiserTrainer
 from utils.get_opt import get_opt
 from utils.metrics import calculate_R_precision, calculate_frechet_distance
 from data.t2m_dataset import MotionDataset
-from t2m import mirror
+from t2m import mirror, refine
 
 
 class SmallVAE(torch.nn.Module):
@@ -70,10 +70,24 @@ class Regressions(unittest.TestCase):
     def test_saved_options_preserve_colons(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / 'opt.txt'
-            path.write_text('checkpoints_dir: ./checkpoints\ndataset_name: t2m\nname: example\nlabel: value: detail\nlayers: [1, 2]\n')
+            path.write_text('checkpoints_dir: ./checkpoints\ndataset_name: t2m\nname: example\nlabel: value: detail\nlayers: [1, 2]\nweight_decay: 1e-06\n')
             opt = get_opt(path, torch.device('cpu'))
             self.assertEqual(opt.label, 'value: detail')
             self.assertEqual(opt.layers, [1, 2])
+            self.assertEqual(opt.weight_decay, 1e-6)
+
+    def test_resume_rejects_invalid_optimizer_state(self):
+        model = torch.nn.Linear(1, 1)
+        trainer = DenoiserTrainer(Namespace(device='cpu', is_train=False), model,
+                                   SmallVAE(), SmallScheduler())
+        trainer.optim = torch.optim.AdamW(model.parameters())
+        trainer.lr_scheduler = torch.optim.lr_scheduler.MultiStepLR(trainer.optim, [10])
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory)/'invalid.pt'
+            torch.save({'denoiser': model.state_dict(), 'optim': {}, 'lr_scheduler': {},
+                        'epoch': 0, 'total_iter': 1}, path)
+            with self.assertRaises(KeyError):
+                trainer.resume(path)
 
     def test_training_windows_cover_exact_and_last_window_once(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -93,6 +107,18 @@ class Regressions(unittest.TestCase):
         self.assertTrue(torch.equal(source, original))
         self.assertFalse(torch.equal(output, original))
         self.assertTrue(torch.equal(mirror(output, 'upper'), original))
+
+    def test_refine_aligns_shared_tokens_after_insertion(self):
+        class Tokenizer:
+            def encode(self, text, **kwargs):
+                return {'source': [0, 1, 2, 3, 9], 'edited': [0, 1, 4, 2, 3, 9]}[text]
+        source = torch.arange(8, dtype=torch.float32).reshape(1, 1, 1, 1, 8)
+        edited = source + 100
+        original = source.clone()
+        output = refine(Tokenizer(), source, edited, 'source', 'edited')
+        expected = torch.tensor([0, 1, 102, 2, 3, 4, 6, 7], dtype=torch.float32)
+        self.assertTrue(torch.equal(output.flatten(), expected))
+        self.assertTrue(torch.equal(source, original))
 
 
 if __name__ == '__main__':

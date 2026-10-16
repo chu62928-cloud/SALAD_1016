@@ -209,8 +209,8 @@ def refine(
     edit_text: str,
 ):
     *_, n_words = src_attn_weights.size()
-    x_seq = tokenizer.encode(src_text)
-    y_seq = tokenizer.encode(edit_text)
+    x_seq = tokenizer.encode(src_text, truncation=True, max_length=n_words)
+    y_seq = tokenizer.encode(edit_text, truncation=True, max_length=n_words)
     _, trace_back = global_align(x_seq, y_seq)
     mapper_base = get_aligned_sequences(x_seq, y_seq, trace_back)[-1]
     mapper = torch.zeros(n_words, dtype=torch.int64)
@@ -227,8 +227,7 @@ def refine(
     # print(f"mapper: \n {mapper}")
     # print(mask)
     
-    attn_weights = src_attn_weights.clone()
-    # attn_weights[..., torch.arange(n_words)] = src_attn_weights[..., mapper]
+    attn_weights = src_attn_weights[..., mapper.clamp(min=0).to(src_attn_weights.device)].clone()
     attn_weights[..., mask] = edit_attn_weights[..., mask]
 
     return attn_weights

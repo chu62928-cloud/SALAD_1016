@@ -210,11 +210,8 @@ class DenoiserTrainer:
         assert len(unexpected_keys) == 0
         assert all([k.startswith("clip_model.") for k in missing_keys])
 
-        try:
-            self.optim.load_state_dict(checkpoint["optim"])
-            self.lr_scheduler.load_state_dict(checkpoint["lr_scheduler"])
-        except:
-            print("Fail to load optimizer and lr_scheduler")
+        self.optim.load_state_dict(checkpoint["optim"])
+        self.lr_scheduler.load_state_dict(checkpoint["lr_scheduler"])
         return checkpoint["epoch"], checkpoint["total_iter"]
 
 
