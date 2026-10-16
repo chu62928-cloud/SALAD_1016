@@ -58,3 +58,7 @@
 - 跳跃落地：[种子 20261016](artifacts/physics_v1_20261016/videos/jump_20261016.mp4)；[种子 20261017](artifacts/physics_v1_20261016/videos/jump_20261017.mp4)；[种子 20261018](artifacts/physics_v1_20261016/videos/jump_20261018.mp4)
 
 [逐动作指标](results/physics_v1/metrics.csv) · [示例指标](results/physics_v1/example_metrics.csv) · [独立核验](results/physics_v1/verification.json) · [运行绑定](results/physics_v1/binding.json) · [原始协议](results/physics_v1/protocol.json)
+
+## 人体网格补充
+
+同批 18 段动作另有 [人体网格播放页](artifacts/physics_v1_20261016/mesh_v1/index.html) 和 [网格记录](MESH_zh.md)。网格由中性人体模板按原始关节驱动，没有贴地、平滑、锁脚或骨长修正。表面是估计结果，以上物理指标仍按原始关节计算。

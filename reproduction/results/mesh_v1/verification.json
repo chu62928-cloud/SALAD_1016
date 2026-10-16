@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-16T15:35:07.966637+00:00",
+  "videos": 18,
+  "media_checksums": 36,
+  "browser_checks": 36,
+  "geometry_audit": {
+    "neutral_template_max_m": 5.9421287668115497e-08,
+    "rigid_transform_max_m": 1.1920514930707782e-07,
+    "joint_attachment_max_m": 4.440892098500626e-16,
+    "source_files_unchanged": true
+  },
+  "same_original_motion_set": true
+}

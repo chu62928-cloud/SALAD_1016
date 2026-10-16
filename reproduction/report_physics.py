@@ -146,6 +146,8 @@ for(const article of document.querySelectorAll('article[data-motion]')){
     document=document.replace('CARDS',''.join(cards)).replace('TABLE',html_table(['指标','真实参考','SALAD','生成减真实','差值95%区间','有效配对'],table))
     document=document.replace('SENSITIVITY',html_table(['高度阈值','速度阈值','真实滑步比例','生成滑步比例'],sensitivity))
     document=document.replace('NOTES',''.join('<p>'+html.escape(p)+'</p>' for p in notes)).replace('DATA',json.dumps(data,ensure_ascii=False).replace('</','<\\/'))
+    if (DEST/'mesh_v1/index.html').exists():
+        document=document.replace('<a href="REPORT_zh.md">', '<a href="mesh_v1/index.html">人体网格动作</a> · <a href="REPORT_zh.md">', 1)
     (DEST/'index.html').write_text(document,encoding='utf-8')
     if args.record:
         if load('qa/browser.json')['status']!='passed':raise ValueError('Browser acceptance required before recording')

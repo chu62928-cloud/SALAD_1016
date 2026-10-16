@@ -83,3 +83,22 @@ HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 python reproduction/sample_physics.py --
 滑步使用原始世界坐标与固定地面 `y=0`：脚尖在相邻两帧都低于 5 厘米时统计水平速度，超过 0.2 米/秒记为滑步；同时报告低位接触覆盖率、条件滑步比例，以及三档高度/速度阈值敏感性。无低位接触时速度为 `null`，不写零。脚部穿地、腾空、骨长变异及根相对加速度/加加速度是运动学诊断，不是力学仿真、网格碰撞或统一合格门槛；跳跃腾空本身不是错误。这些指标是补充诊断，不是原论文结果表。
 
 视频包含双视角和脚尖曲线。相机水平跟随根节点，0.5 米网格固定于世界坐标；原动作不贴地、不平滑、不锁脚。主要基准评估运行期间，可将新增脚本复制到被忽略的独立目录并设置 `SALAD_ROOT`，不更新正在运行的核心源码。运行绑定记录核心提交、新增代码摘要及资产摘要。
+
+## 人体网格
+
+网格直接使用上述同一批 18 段动作，不重新生成。采用已有中性 SMPL-H 模板、姿态修正形变和关节驱动的线性混合蒙皮，保留原关节位置及骨长变化。它是估计表面，手指和绕骨轴旋转没有独立生成；不能将关节附着精度当作表面重建精度。物理指标继续使用原始关节。
+
+服务器渲染需要 NumPy、SciPy、Pillow、pyrender、trimesh、FFmpeg 和可用的 EGL，以及已获授权的人体模型资产。本次使用既有 `mdm5090` 环境，不修改 SALAD 的评估环境。在 Linux 上可指定自己的模型路径：
+
+```bash
+python reproduction/render_mesh.py --source reproduction/artifacts/physics_v1_20261016 --body /path/to/smplh/neutral/model.npz --font /path/to/chinese-font.ttc
+```
+
+工作站通过已配置的 SSH 别名同步：
+
+```powershell
+python reproduction/remote_mesh.py status
+python reproduction/remote_mesh.py fetch
+```
+
+本地播放页为 `reproduction/artifacts/physics_v1_20261016/mesh_v1/index.html`，网格记录见 [MESH_zh.md](MESH_zh.md)。原始数组及网格缓存只留服务器，Git 仅保存渲染代码和小型核验证据。相机共用固定尺度及高度，仅跟随水平根位移；地面为固定的 `y=0`，网格间距 0.5 米。没有逆运动学拟合、贴地、平滑、锁脚或骨长修正。

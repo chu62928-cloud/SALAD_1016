@@ -1,0 +1,17 @@
+{
+  "version": "salad-joint-driven-mesh-v1",
+  "examples_sha256": "38e8b25296fd936b622ebb74314c815e5321b479df315cc8664bc35a2474145c",
+  "protocol_sha256": "db38b615cd93b53fc17fa800da9ceb9bea266b8d5a2973c4d6c9ed0a95a1623c",
+  "body_model_sha256": "a60a7e29d33f09ef1a6352907e2f485e161f471330ca40592764374063e751df",
+  "skinning_sha256": "94de24244259b9a9a45870735a77142464d652cc169f08c08cfca2ae3daa8b7d",
+  "renderer_sha256": "926042e4e142e22b421455f5a17f37501dc97651b746873f444c460a3e6be429",
+  "fps": 20,
+  "frames": 120,
+  "method": "Neutral SMPL-H, pose corrective shapes, joint-driven linear blend skinning; estimated surface",
+  "processing": "No new generation, IK fitting, smoothing, floor snapping, foot locking or bone length correction",
+  "floor_y": 0,
+  "grid_m": 0.5,
+  "camera": "Fixed common scale and height; horizontal root following only",
+  "scientific_metrics": "Unchanged: original recovered joints, not the estimated mesh",
+  "arrays_server_only": true
+}

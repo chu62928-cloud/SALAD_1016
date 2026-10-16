@@ -1,0 +1,377 @@
+{
+  "status": "complete",
+  "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+  "camera": {
+    "ycenter": 1.1054641008377075,
+    "ymag": 1.4644010136207295
+  },
+  "geometry_audit": {
+    "neutral_template_max_m": 5.9421287668115497e-08,
+    "rigid_transform_max_m": 1.1920514930707782e-07,
+    "joint_attachment_max_m": 4.440892098500626e-16,
+    "source_files_unchanged": true
+  },
+  "videos": [
+    {
+      "id": "stand",
+      "label": "站立",
+      "seed": 20261016,
+      "path": "videos/stand_20261016.mp4",
+      "poster": "videos/stand_20261016.png",
+      "sha256": "cd8b57b86dfe77c6c8a8e479dcdf6800b01e57fd6b42e5daef8cd8a9dd3f572d",
+      "poster_sha256": "37c83cd364ae7585394354a1b1dbf2825bf56aae1d71c668b272281c205e08bd",
+      "source_sha256": "39a9de1cc76333143dfbc41597f0d7f087fc286c41e395c82291131df9d75faf",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 1.1102230246251565e-16,
+      "min_body_pixels": [
+        24182,
+        19951
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "walk",
+      "label": "正常行走",
+      "seed": 20261016,
+      "path": "videos/walk_20261016.mp4",
+      "poster": "videos/walk_20261016.png",
+      "sha256": "4613f2f51630cce4f459d718b0d5f5024fb418891e1649121602073c2bffa818",
+      "poster_sha256": "ebd5a2a36c14da1f8f8a241c2e65b0499fa103cbd8e4ca52692d312d8495fd07",
+      "source_sha256": "b80a61ff0d44800b3cf52025949cc1a673e3144206d3561cdb7d91a5a6f56fe9",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 4.440892098500626e-16,
+      "min_body_pixels": [
+        24733,
+        17919
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "slow_walk",
+      "label": "慢走",
+      "seed": 20261016,
+      "path": "videos/slow_walk_20261016.mp4",
+      "poster": "videos/slow_walk_20261016.png",
+      "sha256": "7f83b77a6fa415e53cc45408a2f39afe5ae4cc82b83cd9b04d0533ee0b6b120b",
+      "poster_sha256": "34306ee0c8bb9663ed0063b95c35a4f44d1aed8f40351606766899d7f4b357e1",
+      "source_sha256": "eadfe1c15fd39cb1327fd3ab834c4f92790d4acd6ee5d89496b991e28415651a",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 4.440892098500626e-16,
+      "min_body_pixels": [
+        24122,
+        18703
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "run",
+      "label": "跑步",
+      "seed": 20261016,
+      "path": "videos/run_20261016.mp4",
+      "poster": "videos/run_20261016.png",
+      "sha256": "7e3784553f6c11419aadf575292d80921200c6da362b3dfff6bc9c422c8e090a",
+      "poster_sha256": "670680dc0c41ef21232ae2d53d2f1cc98e81725715b37a98675457f916ca7b3c",
+      "source_sha256": "98710c2acd47aadee5345bef87e44ba3d9880932fa53057e0c2aaf3b56bd56e9",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 4.440892098500626e-16,
+      "min_body_pixels": [
+        20275,
+        17683
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "squat",
+      "label": "下蹲起立",
+      "seed": 20261016,
+      "path": "videos/squat_20261016.mp4",
+      "poster": "videos/squat_20261016.png",
+      "sha256": "12afa9eb3a023cb8ffb55a1114121146cadbfa5b674f8abf577b2f479d06ecba",
+      "poster_sha256": "f3816adffdb629bc2355cf8bf7f3264951502fc8d9e585b4e86ecb336eeebfc7",
+      "source_sha256": "b54f328175d2a8d4688163ec335e648463ae8778fef3369bf9a51b4c49a22a83",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 2.220446049250313e-16,
+      "min_body_pixels": [
+        12644,
+        16878
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "jump",
+      "label": "跳跃落地",
+      "seed": 20261016,
+      "path": "videos/jump_20261016.mp4",
+      "poster": "videos/jump_20261016.png",
+      "sha256": "78f76afcc7fd50bd52da013f2ff405616ef83a1a8c570ca13c11e8ed07af3873",
+      "poster_sha256": "d3a698515a0280c1aede9d463c89177984e9bfd9abfd3dac44657283bf7c880f",
+      "source_sha256": "663cd73739a19a382453448e9fd483e9806c5cd1eb614cd67b5837ec7cf8c272",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 2.220446049250313e-16,
+      "min_body_pixels": [
+        21445,
+        18769
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "stand",
+      "label": "站立",
+      "seed": 20261017,
+      "path": "videos/stand_20261017.mp4",
+      "poster": "videos/stand_20261017.png",
+      "sha256": "c2a0bc09cc6c8a3c99acbb0b2472972aa301951af15f1ed28d3199062214f5c7",
+      "poster_sha256": "4c1476cf75d711768ae17676b7541f618a2f142761b17e87126bdd2e87222719",
+      "source_sha256": "052cfb554f116304ecf66798f3ac82505fba7a0abc170a47992d3de543afd86a",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 1.1102230246251565e-16,
+      "min_body_pixels": [
+        25132,
+        19633
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "walk",
+      "label": "正常行走",
+      "seed": 20261017,
+      "path": "videos/walk_20261017.mp4",
+      "poster": "videos/walk_20261017.png",
+      "sha256": "77aec9499e6fd4651aba23a4058ad1661377b60f00a8b1edd64acde5dfd4b3e9",
+      "poster_sha256": "ef836a03cfe2edbdf3e07aff340db8e8a6c05d0c80fd596046bbff94c71fa47b",
+      "source_sha256": "c8fb85ae34364079779b2e904f2951b01c9ad49222db82e779f6f944015a2a12",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 4.440892098500626e-16,
+      "min_body_pixels": [
+        24687,
+        18353
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "slow_walk",
+      "label": "慢走",
+      "seed": 20261017,
+      "path": "videos/slow_walk_20261017.mp4",
+      "poster": "videos/slow_walk_20261017.png",
+      "sha256": "e8b1636d2e51e44dc14c9bf1ae41ae63526adfc08c315f4064d6a7c0ba38dc4a",
+      "poster_sha256": "97d5916aed74efbe5f84b2d4b58f6cfb18a480fee31d1755222c79b09bc5eae6",
+      "source_sha256": "eb61dfe5f6cec9a1a870dd5cae94b2fe9a1e7cd6ec24e3090a990e468da8c481",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 2.220446049250313e-16,
+      "min_body_pixels": [
+        24196,
+        19411
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "run",
+      "label": "跑步",
+      "seed": 20261017,
+      "path": "videos/run_20261017.mp4",
+      "poster": "videos/run_20261017.png",
+      "sha256": "f46460519d79bfcd824d531fe0c4752965a88d796d9cb972e3fad4e9e05760e0",
+      "poster_sha256": "719301302bc2e9f62b3fcd647436366a62849fca12c7b1dfa554ace02fec726c",
+      "source_sha256": "76b6807521533aa46fdb986f9632561b1c75cea672e8308546fc76374d283225",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 4.440892098500626e-16,
+      "min_body_pixels": [
+        21004,
+        17392
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "squat",
+      "label": "下蹲起立",
+      "seed": 20261017,
+      "path": "videos/squat_20261017.mp4",
+      "poster": "videos/squat_20261017.png",
+      "sha256": "f6d02c7df10da2afa78107ada5805df34314b9d6d773ce532f79e64df5e11775",
+      "poster_sha256": "ca764417931d54b5663135efafdf747bb384b2f5ea422ba4528c9a3597076c0e",
+      "source_sha256": "0429dbf31804e143993bc473f455bd67f67af0f3092fd1a282f626785116886b",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 2.220446049250313e-16,
+      "min_body_pixels": [
+        15208,
+        17476
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "jump",
+      "label": "跳跃落地",
+      "seed": 20261017,
+      "path": "videos/jump_20261017.mp4",
+      "poster": "videos/jump_20261017.png",
+      "sha256": "3f93b083a2568f8ab0393cc413267ab1d43dde8085d8dcd4502546698b4724bc",
+      "poster_sha256": "fa95ae9bee7226d34a924239543cd2c76701c4866be3e8f6d0ff9baba93fea55",
+      "source_sha256": "27e330bfef9ec2ecdd0973b5a9f0a28cf57c1b77574f38844ec6405975d0c502",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 2.220446049250313e-16,
+      "min_body_pixels": [
+        14587,
+        15655
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "stand",
+      "label": "站立",
+      "seed": 20261018,
+      "path": "videos/stand_20261018.mp4",
+      "poster": "videos/stand_20261018.png",
+      "sha256": "5001bb9f0f49f4536f4c1a6ee4c0711be47c2ed76e6ae9393432fddc17f59094",
+      "poster_sha256": "055bdb5123a43ad0f3a8154cb39a97e6b5033f568f661f77fa2cd3700901f3f8",
+      "source_sha256": "7643336784ca246e40ab865105588214160ea5d9e3892958be65d78c29655578",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 1.1102230246251565e-16,
+      "min_body_pixels": [
+        24308,
+        19931
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "walk",
+      "label": "正常行走",
+      "seed": 20261018,
+      "path": "videos/walk_20261018.mp4",
+      "poster": "videos/walk_20261018.png",
+      "sha256": "5a8d9165fad261f53815c2882afd8e80f12fb5ec658f5b1af56d7b244e983967",
+      "poster_sha256": "2cc1404ab7cf6b5cb5619af119d8e6032dde35448e1b40fe1ef6cbcff8d3fcd6",
+      "source_sha256": "89612479b854ee847520f8c65b8ea5eac97763d2d1e7c775eff331dee83ed88b",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 4.440892098500626e-16,
+      "min_body_pixels": [
+        24315,
+        17482
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "slow_walk",
+      "label": "慢走",
+      "seed": 20261018,
+      "path": "videos/slow_walk_20261018.mp4",
+      "poster": "videos/slow_walk_20261018.png",
+      "sha256": "62f1b691aad31fd756faaa3dde4939d5cf0c7cc7d602f9b99f3ee75a33489fa3",
+      "poster_sha256": "671acf655b7618ec83d95997931f0abef27715a9f1ef4b4eecf2fa8edc0c6c92",
+      "source_sha256": "94ea0431e8e2828c10403e03f39f4b3323b88f1b79a17f4db150991ebf0535ff",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 4.440892098500626e-16,
+      "min_body_pixels": [
+        24318,
+        17180
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "run",
+      "label": "跑步",
+      "seed": 20261018,
+      "path": "videos/run_20261018.mp4",
+      "poster": "videos/run_20261018.png",
+      "sha256": "6e080c3b5f5eabdd4a15f3ec987225481b554833f8d2ba9ca2388ae1dc7a693d",
+      "poster_sha256": "2d2cff3ff747853346fba22068f21aaf454e6a7db4d838a42136d53ebb09f613",
+      "source_sha256": "a98980083422ebe07d98f45051631f6024e3a02edcead5729f8b20449ef14ab0",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 4.440892098500626e-16,
+      "min_body_pixels": [
+        20022,
+        17642
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "squat",
+      "label": "下蹲起立",
+      "seed": 20261018,
+      "path": "videos/squat_20261018.mp4",
+      "poster": "videos/squat_20261018.png",
+      "sha256": "de3eaeabb43642f37e85e08e4fefeaeb5da0539061172016ca6f43a7d8960fbf",
+      "poster_sha256": "8853fefd812c39c521970e4b1c5e160897fb5f4aa808eac6a371c79358575aea",
+      "source_sha256": "f5fe16c99560c04a83348c19b4984b088089db66511fa13da259e91a20b2fadc",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 2.220446049250313e-16,
+      "min_body_pixels": [
+        14732,
+        16736
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    },
+    {
+      "id": "jump",
+      "label": "跳跃落地",
+      "seed": 20261018,
+      "path": "videos/jump_20261018.mp4",
+      "poster": "videos/jump_20261018.png",
+      "sha256": "7562028cf8472c49c7dc389770fe9df1d1ff1f0682ab4d94088a817648e8a532",
+      "poster_sha256": "0d5fa69a82ffe12cd0c2d8934c477f64f18a23698ca664d59d993c7b9521d574",
+      "source_sha256": "469d799e11b6a672eda6d8cc13154891f83d5988c5dc7419e0767ea0ea24b720",
+      "binding_sha256": "d21207e03590b0e2dc99fe7a8f1ed53ac40b6e7709834473b4e93f6a7a41ee23",
+      "attachment_max_m": 2.220446049250313e-16,
+      "min_body_pixels": [
+        21101,
+        18372
+      ],
+      "width": 1280,
+      "height": 800,
+      "frames": 120,
+      "fps": 20
+    }
+  ],
+  "completed_at": "2026-10-16T15:32:40.281129+00:00"
+}
