@@ -4,6 +4,7 @@ import json
 import os
 from pathlib import Path
 import sys
+import textwrap
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -44,7 +45,7 @@ def main():
         xyz = recover_from_ric(torch.from_numpy(normalized*std+mean).float(), joints).numpy()
         assert np.isfinite(xyz).all()
         video = args.output/(name+'.mp4')
-        plot_3d_motion(str(video), tree, xyz, title=captions[name], figsize=(5, 5),
+        plot_3d_motion(str(video), tree, xyz, title=textwrap.fill(captions[name], width=34), figsize=(5, 5),
                        fps=result['fps'], radius=4 if humanml else 1920)
         result['videos'][name] = {'path': video.name, 'frames': len(xyz),
                                  'text': captions[name], 'bytes': video.stat().st_size}
