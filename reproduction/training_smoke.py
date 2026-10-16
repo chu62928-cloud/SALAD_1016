@@ -26,7 +26,7 @@ import torch
 
 def exact(first, second):
     if isinstance(first, torch.Tensor):
-        return torch.equal(first, second)
+        return torch.equal(first.cpu(), second.cpu())
     if isinstance(first, dict):
         return first.keys() == second.keys() and all(exact(first[k], second[k]) for k in first)
     if isinstance(first, (list, tuple)):
