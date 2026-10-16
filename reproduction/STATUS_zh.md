@@ -25,9 +25,9 @@
 
 ## 主评估进度
 
-- 2026-10-16 21:49 核验：HumanML3D 文本生成完成 8/20 次，KIT-ML 完成 15/20 次，均包含多模态指标，仍在服务器运行。阶段性均值不能代替最终结果。
+- 2026-10-16 21:59 核验：HumanML3D 文本生成完成 9/20 次，KIT-ML 完成 17/20 次，均包含多模态指标，仍在服务器运行。阶段性均值不能代替最终结果。
 - 运行绑定：HumanML3D `bd2b7d5`，KIT-ML `807ff21`。后续提交仅增加视频标题换行和记录，不改变运行中的科学代码；每组最终结果保留各自源码绑定。
-- 逐次结果及本地报告由外层 `scripts/run_salad_reproduction.py` 核验与同步。最新进度见 `reproduction/artifacts/index.html`；完整 20 次完成后生成 `RESULTS_zh.md` 及小体积证据文件。
+- 逐次结果及本地报告由 `reproduction/sync_results.py` 核验与同步，外层 `scripts/run_salad_reproduction.py` 保留兼容入口。同步与发布的 8 项本地检查通过，包括原始证据字节保留、错误汇总拒绝、工作区改动保护及失败拉取重试。最新进度见 `reproduction/artifacts/index.html`；完整 20 次完成后生成 `RESULTS_zh.md` 及小体积证据文件。
 
 ## 已知限制
 

@@ -1,0 +1,3 @@
+# Preserve the bytes used by frozen experiment bindings across platforms.
+reproduction/protocol.json -text
+reproduction/results/**/*.json -text

@@ -50,3 +50,19 @@ HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 python reproduction/run_evaluation.py --
 每轮保存未舍入指标、耗时与随机状态，重复相同命令可继续；源码/资产/协议不匹配时拒绝续跑。首轮用独立公式复算真实嵌入上的检索计数、匹配距离、统计量、FID、多样性及多模态，不消耗额外全局随机数。区间沿用作者的 `1.96 × 总体标准差 / √20`，区间重叠只作描述，不作为统计等价性证明。
 
 Git 维护方式为本地提交及 `git push origin main`，服务器 `git pull --ff-only`。正式任务运行期间固定源码，修改实现后使用新结果目录。
+
+## 本地结果同步
+
+工作站配置好 `motion-data` 的 SSH 别名后，在本仓库运行：
+
+```powershell
+python reproduction/sync_results.py sync
+python reproduction/test_sync_results.py
+python reproduction/sync_results.py watch --publish
+```
+
+同步器只读取服务器证据和视频，校验跨端 SHA-256、冻结的源码与协议、测试覆盖数、指标完整性，并独立复算逐次均值和区间。网页入口为 `reproduction/artifacts/index.html`。工作站需要 NumPy；持续监控的文件锁采用 Windows 接口。
+
+`watch --publish` 每 60 秒同步。四组均完成 20 次且验证通过后，生成 `reproduction/RESULTS_zh.md` 和 `reproduction/results/`，提交并推送 GitHub，再快进拉取到服务器并核对提交号。网络故障会重试；证据异常或任务提前停止则记录失败并退出。已有本地改动或生成报告被手工改动时停止自动发布；不会覆盖这些改动。
+
+证据文件按服务器原始字节提交，避免 Windows 换行转换破坏实验绑定摘要。状态与发布收据分别位于 `reproduction/artifacts/evidence/watch_status.json` 和 `publication.json`。持续监控依赖本地工作站与 SSH 连接保持可用，不会唤醒聊天。
