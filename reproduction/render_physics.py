@@ -37,6 +37,7 @@ def render(xyz,record,protocol,video,poster):
     for left,azimuth,label in [(.01,-60,'View 1'),(.51,0,'View 2')]:
         axis=figure.add_axes([left,.30,.48,.58],projection='3d')
         axis.view_init(elev=15,azim=azimuth)
+        axis.dist=7
         axis.set_box_aspect((1,1,(top-bottom)/3.2))
         axis.set_axis_off()
         axis.set_title(label,fontsize=10,pad=0)
