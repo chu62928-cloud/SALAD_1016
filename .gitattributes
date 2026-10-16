@@ -2,3 +2,4 @@
 reproduction/protocol.json -text
 reproduction/physics_protocol.json -text
 reproduction/results/**/*.json -text
+reproduction/results/**/*.csv -text

@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "M012633",
+    "text": "a person is crawling slowly backwards.",
+    "frames": 196,
+    "loader_index": 1427,
+    "crop_caption_seed": 900000,
+    "source_motion_sha256": "4448da8493ec78545aa0d761cf2a6c719f4a7abd7366baf66f87d1362958aa60",
+    "source_text_sha256": "2fce62001af3780d74d15716076b66390e18c5e59917f6f0f66eb8ad972cdc42"
+  },
+  {
+    "id": "009113",
+    "text": "a person sways with their shoulders slumped and waves their left hand slightly.",
+    "frames": 136,
+    "loader_index": 648,
+    "crop_caption_seed": 900001,
+    "source_motion_sha256": "881fb2671ee9f62a2255f84528ece20a4790f39a99acaf83179db4199f73af32",
+    "source_text_sha256": "de158585694a7659a7ffa1bc62782c11b428c06af87c76596d70d081cfe42f89"
+  },
+  {
+    "id": "M001297",
+    "text": "with his hands out in front of him, he steps forward and feels around the walls trying to find something.",
+    "frames": 196,
+    "loader_index": 1262,
+    "crop_caption_seed": 900002,
+    "source_motion_sha256": "9205b1494483ef8ebf0cb19d80c1c745a5d24ee2a3bc61a97c6d37328dd30a7b",
+    "source_text_sha256": "a44e9c17222cf5322ce059ab7e4671cc4464d553d57b5b97a63928e537efc93e"
+  },
+  {
+    "id": "M010565",
+    "text": "a person is learning to the side",
+    "frames": 196,
+    "loader_index": 1301,
+    "crop_caption_seed": 900003,
+    "source_motion_sha256": "10a695fb3590a0d68e69443ba9a4ef3eeeb5060d895b16d1f9c5e9d5654bcd8c",
+    "source_text_sha256": "6aec1f815e329be46db2d951cdae6a789f861b1ab4e1d0b6e80ada74c60514e6"
+  },
+  {
+    "id": "011511",
+    "text": "the person is sitting and threw some thing.",
+    "frames": 196,
+    "loader_index": 1197,
+    "crop_caption_seed": 900004,
+    "source_motion_sha256": "96f57314e575993c530d5860deeec57e58a3404e98e50cad554ecd1ecfd9a2f6",
+    "source_text_sha256": "b4de085d2842f4c45a25a446c2fbdd7f126f70a1f244d5641e92ad90a031ccb9"
+  },
+  {
+    "id": "009421",
+    "text": "the person is recovering from being pushed.",
+    "frames": 56,
+    "loader_index": 126,
+    "crop_caption_seed": 900005,
+    "source_motion_sha256": "6fe98b611a81809b49f19eabcee29cd89fbbc9a4d7321aa54f1088c5af73b02b",
+    "source_text_sha256": "89af497ecdcbe9b9fc8aa3c72145ecdcfb11e458eaae5fe4a92d14aaa780a5ae"
+  },
+  {
+    "id": "005612",
+    "text": "a person crawls on their hands and knees, then stands up.",
+    "frames": 164,
+    "loader_index": 811,
+    "crop_caption_seed": 900006,
+    "source_motion_sha256": "95ba15d9f493974078442850a151cd154162e62fd5fcd189d5019abaf26fb985",
+    "source_text_sha256": "d0282197eb34e5f7038e620f49f823f99702e58aff3f68162a662c21dd89efd9"
+  },
+  {
+    "id": "M013212",
+    "text": "person makes move to scratch right armpit with right arm before dancing with arms waving in 's' figure.",
+    "frames": 196,
+    "loader_index": 1261,
+    "crop_caption_seed": 900007,
+    "source_motion_sha256": "a4cf2efe14afe01cd919cf8db46228bcff6207d8ee241ac822e769fd07bfb287",
+    "source_text_sha256": "fe6c1553be91a085c1c9d30a31a893c1ebdb165ff641057a4c33c2ff81312c56"
+  },
+  {
+    "id": "003202",
+    "text": "the stick figure is in a squat postition dancing.",
+    "frames": 52,
+    "loader_index": 57,
+    "crop_caption_seed": 900008,
+    "source_motion_sha256": "d70a2584a19a3eb794e1a972d666db3a1324ce8f098dc47cabc627e0a23de648",
+    "source_text_sha256": "ce4e0a2b4ae71776b0fe628ebf9db685bffddbca121d10252ad06dbe75c75f14"
+  },
+  {
+    "id": "M002326",
+    "text": "some one is squatting down",
+    "frames": 108,
+    "loader_index": 484,
+    "crop_caption_seed": 900009,
+    "source_motion_sha256": "8962f356a8e18f5ca802466d41d4accaa00f777692b5a2c87093d8f5d84a9abc",
+    "source_text_sha256": "9eb82d9bdbe9a6b15f888702f353c8d15caad97696908274e9f2d3e345e9548e"
+  },
+  {
+    "id": "M000346",
+    "text": "a person moves their left arm gently, then picks something up with both hands and puts it to the side",
+    "frames": 196,
+    "loader_index": 1495,
+    "crop_caption_seed": 900010,
+    "source_motion_sha256": "3fd7d0cf117274a647ed6b2fba20a8253d4fceaa73fbad584a6647234d2e76eb",
+    "source_text_sha256": "be71b0ed7bf0f34831e4953a5a98e4453350df859bc5aef8513b62a2cfcbcd72"
+  },
+  {
+    "id": "009125",
+    "text": "a person claps their hands once, then takes 3 steps foward, then sits on something to their right",
+    "frames": 192,
+    "loader_index": 1044,
+    "crop_caption_seed": 900011,
+    "source_motion_sha256": "9244d1461d8c3a7a0c985075a6c021329b55008167b4c730cae7adb999f48ea1",
+    "source_text_sha256": "27c3f57e6609592cb1a87ec68f5d2269558a9c2afad20a5fb467004a32ff6d7f"
+  },
+  {
+    "id": "M005317",
+    "text": "the person is standing sideways, brings hands together in the front at the waist line, swings hands backwards together and then follows through with both hands still together, in a swinging motion.",
+    "frames": 124,
+    "loader_index": 601,
+    "crop_caption_seed": 900012,
+    "source_motion_sha256": "235282d2b75cef0a1b87dd56f9eefbf5d19180f3d634bfe1a0dbed3e6fadd018",
+    "source_text_sha256": "f998737123cfc4b3e173bfbddf6c5566ec1d173e4b4ddd2e66180dc2cfdcd91c"
+  },
+  {
+    "id": "002646",
+    "text": "a person steps out, and places hands outward on something, then down.",
+    "frames": 80,
+    "loader_index": 296,
+    "crop_caption_seed": 900013,
+    "source_motion_sha256": "cb3fdc60f5b6885443a48a4951ed3da1fdd557d355a04004f2aae2bcb22f0604",
+    "source_text_sha256": "d97f518009c5e4e7d65941ad680abcb4e9f1db2be908faed42e3c2c0b053476b"
+  },
+  {
+    "id": "M007850",
+    "text": "a person leans to their left and stretches.",
+    "frames": 196,
+    "loader_index": 1518,
+    "crop_caption_seed": 900014,
+    "source_motion_sha256": "9b15ef2d103e0987524503760ed33b072242bdc8c51ade882e4440871f58412a",
+    "source_text_sha256": "67e1f5c34007ba073b053af91a982fcf0d731057677f8daf00ef12a304379373"
+  },
+  {
+    "id": "M004911",
+    "text": "someone who has no control of their arms",
+    "frames": 188,
+    "loader_index": 942,
+    "crop_caption_seed": 900015,
+    "source_motion_sha256": "28544526b4ce6a28947da48a8f47e4d86f59e3fe33b96ed1180d134159dc20d9",
+    "source_text_sha256": "6a03ae834d9ab21211c5b8bc665cc3630ae2667cc8c1a8d67a01aefa187c02ef"
+  },
+  {
+    "id": "002883",
+    "text": "a person walks diagonally to the left, turns around, and walks diagonally to the right.",
+    "frames": 60,
+    "loader_index": 125,
+    "crop_caption_seed": 900016,
+    "source_motion_sha256": "4dc92b29765c4cdc76087f6196caaf84a303c4ec29355cd94a87cb87a09d8279",
+    "source_text_sha256": "1d641c73f023be840042f1913c9ef4c354a1c4f07df7889b821ca293dd6f7bdb"
+  },
+  {
+    "id": "M004750",
+    "text": "someone is working out jumping up and down",
+    "frames": 84,
+    "loader_index": 313,
+    "crop_caption_seed": 900017,
+    "source_motion_sha256": "cd973c69efd3d8e3b40ab069a289473d3c37e248ee15e263db9576e82628bb1d",
+    "source_text_sha256": "49462de661de56d6d0c070f92ad6c5fc5a47e1f9e7dc6214935147ea0b897d31"
+  },
+  {
+    "id": "013529",
+    "text": "a perosn jumps up 12 times and then stands with feet and arms stretched apart",
+    "frames": 164,
+    "loader_index": 808,
+    "crop_caption_seed": 900018,
+    "source_motion_sha256": "9f7369e4d8a76078fc65813f8f194e324241ad251ddc2e2c1b4fa2e4e4be8b7b",
+    "source_text_sha256": "9c380ea6959c538e2d6f420d90f5dd8478af6ea7bdc635d3dea6614127daa0a5"
+  },
+  {
+    "id": "007660",
+    "text": "he starts to strech a lot",
+    "frames": 72,
+    "loader_index": 204,
+    "crop_caption_seed": 900019,
+    "source_motion_sha256": "273eee133371fe7284b648bac7eaa5d180a07db9e4ae905935f36ce9ec1e6211",
+    "source_text_sha256": "af5f4bce9df0322f1885ce491fc3fcd00be430a88402496c498621c963f13c49"
+  },
+  {
+    "id": "000807",
+    "text": "a person does jumping jacks.",
+    "frames": 76,
+    "loader_index": 280,
+    "crop_caption_seed": 900020,
+    "source_motion_sha256": "6b7d20db826ca7b88292d45d8e9cd6c3d180490379f31cc21bd7b62a1cec16f0",
+    "source_text_sha256": "5054fb78528fb18f3f48019d941637e2e4bb452f65d9ac613ce54210884abefe"
+  },
+  {
+    "id": "008470",
+    "text": "a person walks forward slowly.",
+    "frames": 76,
+    "loader_index": 273,
+    "crop_caption_seed": 900021,
+    "source_motion_sha256": "0c59bb241d85c33991f80d2ba6a4df84db299e9815a55ae144c52d02d7707df2",
+    "source_text_sha256": "9608362ce071db161bb9aa8fbd1ed693ebb5eb8f140b2453a0d66a58edf9a590"
+  },
+  {
+    "id": "M005144",
+    "text": "a person walked i right and left direction",
+    "frames": 164,
+    "loader_index": 825,
+    "crop_caption_seed": 900022,
+    "source_motion_sha256": "047a9be078ec478ae659f38914018b08401d0f23a5f181a096d90e882cad44c5",
+    "source_text_sha256": "98e0c003b9234ff416ed48ce1ad29ad56bccc061ab3f6a71354e3ddc95886301"
+  },
+  {
+    "id": "M014432",
+    "text": "person holds arms out then put them down then kicks each leg backward one at a time.",
+    "frames": 192,
+    "loader_index": 1505,
+    "crop_caption_seed": 900023,
+    "source_motion_sha256": "6e0b1413fb15e3c4b2747e96f730b40f085b01c8560ade279fb62acc0caa4eeb",
+    "source_text_sha256": "56fafd3dd71232508fd0bb92988a0e9aa308ec992fddf780f8b78d73b2660aec"
+  },
+  {
+    "id": "009726",
+    "text": "a person raises their right arm and pulls it back in wind up motion to throw a ball, the ball is then caught.",
+    "frames": 88,
+    "loader_index": 332,
+    "crop_caption_seed": 900024,
+    "source_motion_sha256": "bc3fa86ad271f7c84545a4cc4fdeb019bfaa3da4bff58ae0c07e6702ae4cb94f",
+    "source_text_sha256": "cb0f0bfc58cc46115b34ee24e815eee76632ff46c8e40c59454d8e40f02e8a5b"
+  },
+  {
+    "id": "M002105",
+    "text": "the person puts his left hand to his head.",
+    "frames": 104,
+    "loader_index": 503,
+    "crop_caption_seed": 900025,
+    "source_motion_sha256": "39b3755d12bc5904c172eaa4234aa83d5f00db69885bb295532c4877b248c04b",
+    "source_text_sha256": "5cb67a2d09ddd6e2ae074a1f11d545d10939ebe72c3f45ca4c220664ff1c55c6"
+  },
+  {
+    "id": "M012508",
+    "text": "the person is acting like a dinosaur.",
+    "frames": 192,
+    "loader_index": 1446,
+    "crop_caption_seed": 900026,
+    "source_motion_sha256": "506a82772cf61521936c881ec6429fca23376a860d95ae7d6cd23eeb155713ff",
+    "source_text_sha256": "8ada160a4686915cb78f4a2b58a16586356422078925d0a101a2a7a8e3968209"
+  },
+  {
+    "id": "011396",
+    "text": "a figure cannot believe what is happening",
+    "frames": 196,
+    "loader_index": 1047,
+    "crop_caption_seed": 900027,
+    "source_motion_sha256": "396487143e6b1ee2f0bdfb0924bf6dfd7893737d0e1399a3a95421f9fdacdbcf",
+    "source_text_sha256": "1d9c5d394fe99c4ec33e3721600f85a09016668b29560a8a1871faa2009f3362"
+  },
+  {
+    "id": "007849",
+    "text": "the man is walking backwards",
+    "frames": 132,
+    "loader_index": 647,
+    "crop_caption_seed": 900028,
+    "source_motion_sha256": "468223241ebee55443c44e8f63e30d00845a064d8962a29a6547be5a7ba5b56b",
+    "source_text_sha256": "f5f4397e6992f6326b2cb8b06bb564950cf985160868d59fc07377d30d225961"
+  },
+  {
+    "id": "M009516",
+    "text": "a person walks forward from one end to the other while slightly leans right.",
+    "frames": 76,
+    "loader_index": 248,
+    "crop_caption_seed": 900029,
+    "source_motion_sha256": "15522728cf27ece3de1e17c1a527b8aba9b53298722a441bce89ac0b826e3f43",
+    "source_text_sha256": "d744ef4ba38d04995d39baee8d01bca9cdd7507cd03796d2b62f83d749d2130a"
+  },
+  {
+    "id": "M012530",
+    "text": "a person walks straight ahead, stumbles & swings their arms to keep balance.",
+    "frames": 76,
+    "loader_index": 267,
+    "crop_caption_seed": 900030,
+    "source_motion_sha256": "8408c431fa895a84207a2f484f1f8b51517df99365c10b07a71c63c308924126",
+    "source_text_sha256": "c27ce392c39a6bf54530ead5980fd74094c382793ec4ac628d4af2c11cfcae36"
+  },
+  {
+    "id": "M004329",
+    "text": "person waving hand up",
+    "frames": 84,
+    "loader_index": 344,
+    "crop_caption_seed": 900031,
+    "source_motion_sha256": "8ee6b9ca4783d6cc88e7dde50c748e9c6d8aa3f0f850c52fcbb9d7f83c3d0f7f",
+    "source_text_sha256": "4d3749bf32796e51a9a08868f825c1bbd30d0dfcc14cdd32d253a5c47c6c9c5c"
+  },
+  {
+    "id": "013645",
+    "text": "motions in a rend sort of directive to a bow and in an; over-foot manner.",
+    "frames": 144,
+    "loader_index": 716,
+    "crop_caption_seed": 900032,
+    "source_motion_sha256": "0525e091b993307d8f65deb5cb5d9e1dee8571dcaaff5b4d2ceac48022058433",
+    "source_text_sha256": "28f10c68b6939fafad6d38e86353a3dbf954ae2b10b0f5295cc842f2d39eaaf7"
+  },
+  {
+    "id": "M001836",
+    "text": "robot was sitting with crossed legs and then decide to stand up and sit again with crossed legs.",
+    "frames": 196,
+    "loader_index": 1344,
+    "crop_caption_seed": 900033,
+    "source_motion_sha256": "57f67ecb16f0840fb76717e046054add73b926e6c0b7d258abaca7c8de79fcf1",
+    "source_text_sha256": "8fccb26b43fcb32466993a3d810ae8677bb31b5f94e672f4276e260370627a2f"
+  },
+  {
+    "id": "M012857",
+    "text": "a man walks forward on his toes.",
+    "frames": 180,
+    "loader_index": 904,
+    "crop_caption_seed": 900034,
+    "source_motion_sha256": "10e67a6b97b41a2de148f0605fcbe4b03b81558ca342bb9410d4c41b26c60ca8",
+    "source_text_sha256": "b3d92b67a87dcc6a63dd13896b4bdee46a4e14563f96ebd5caf89f4c7d880341"
+  },
+  {
+    "id": "002134",
+    "text": "the person points to the sky with their left hand",
+    "frames": 56,
+    "loader_index": 71,
+    "crop_caption_seed": 900035,
+    "source_motion_sha256": "f5a15c91bd345455873245046a5a0e099965f64db8a2260876d816bcc2bedd6d",
+    "source_text_sha256": "7e5f2a23bcf8d90bc0517f8ecad4a976c593d208548fb36251d91bba6a5aaf29"
+  },
+  {
+    "id": "M005770",
+    "text": "a man has his arms extended outwards, then brings them down and back up again",
+    "frames": 192,
+    "loader_index": 972,
+    "crop_caption_seed": 900036,
+    "source_motion_sha256": "254cb4f6b252e028fd13227e53344822563cd7c0ebb13c15487da319f013d743",
+    "source_text_sha256": "92d1d21bdc4fde082877f7f0b2c4c40adf7c7ea9a57b8e877049991ca5fb12af"
+  },
+  {
+    "id": "012633",
+    "text": "person is crawling backwards on their hands and knees",
+    "frames": 192,
+    "loader_index": 1150,
+    "crop_caption_seed": 900037,
+    "source_motion_sha256": "18d3f0f0836c5eafe42a0b528b37ecc2f644c0eae9ac1fad016a1b90e6939e28",
+    "source_text_sha256": "2fce62001af3780d74d15716076b66390e18c5e59917f6f0f66eb8ad972cdc42"
+  },
+  {
+    "id": "003979",
+    "text": "person bends down keeping legs straight  leans to the left then right touching the floor",
+    "frames": 196,
+    "loader_index": 1249,
+    "crop_caption_seed": 900038,
+    "source_motion_sha256": "c5fd40b7b56101dd1aa108cf283f9bc7e5854a880ea7a858968decc9e562a7d9",
+    "source_text_sha256": "3937c19b3114f251ef23b9ce204060d0bb75b42346d307ce9e3bd337371c0985"
+  },
+  {
+    "id": "M010131",
+    "text": "a person walks forward spins to the right then walks back",
+    "frames": 116,
+    "loader_index": 573,
+    "crop_caption_seed": 900039,
+    "source_motion_sha256": "a562c070b610aeff376b12d00b1af66ee195aef20ed44e324f729f785bfe7a02",
+    "source_text_sha256": "75be8b2b58f32727977679106a4e91cf4d752b28aca488d39278c054ca0cb5aa"
+  },
+  {
+    "id": "M004731",
+    "text": "a person waves with left hand.",
+    "frames": 120,
+    "loader_index": 561,
+    "crop_caption_seed": 900040,
+    "source_motion_sha256": "6830c1d74ffe9035f44f33dfa992490fe5206bb9ed3f953dbc32cf48effb9b95",
+    "source_text_sha256": "3e3cd4c5da85f75ba06ca1f3bf5378bf1d0e5ac645a9eb69d6988ab0ee9932f8"
+  },
+  {
+    "id": "M003621",
+    "text": "person picks up objects an moves them.",
+    "frames": 196,
+    "loader_index": 1264,
+    "crop_caption_seed": 900041,
+    "source_motion_sha256": "7bd39093e820046ec3193aec22b2723b3b63fea84fd7cf7eef05998fbede395e",
+    "source_text_sha256": "db1549e54d771e44918e100596a1c3f7fbe69ea6305408e29319d2039932e855"
+  },
+  {
+    "id": "M007034",
+    "text": "a man takes a few steps forwards, crawls on his hands and knees, then stands up and walks again.",
+    "frames": 196,
+    "loader_index": 1362,
+    "crop_caption_seed": 900042,
+    "source_motion_sha256": "39d01667b2089fd25146d078b8286e11e28d0264f72316a2671c6938ea5a05a0",
+    "source_text_sha256": "c5c2a400f580e55939c9c7356d9b6d808525a59e50de053538218295985e9348"
+  },
+  {
+    "id": "005571",
+    "text": "the person is throwing a javelin.",
+    "frames": 196,
+    "loader_index": 1138,
+    "crop_caption_seed": 900043,
+    "source_motion_sha256": "ce2690400869b6ad75d87210df3606a29101b348ecf9aac42e6c2e8c0c2ca2e2",
+    "source_text_sha256": "9e9cc0eb58a7c75e8a0163152689fa213525effb017f023f008146966798899b"
+  },
+  {
+    "id": "014362",
+    "text": "a person stretches arms up together above head.",
+    "frames": 76,
+    "loader_index": 231,
+    "crop_caption_seed": 900044,
+    "source_motion_sha256": "eaac3d1ce89ec22faae62073a726d11dedee8149ba707f80332e1c640145f00e",
+    "source_text_sha256": "7fe6e3b11f2c7dec9119568e6a2272bfa2ca5c00607212595d1ba3112658daa7"
+  },
+  {
+    "id": "013710",
+    "text": "a figure walks forward and to the right in an arc",
+    "frames": 108,
+    "loader_index": 486,
+    "crop_caption_seed": 900045,
+    "source_motion_sha256": "944a96cf46c0780a7b77500d936017f373a05f5c9bab25dd26cc37a7fb605327",
+    "source_text_sha256": "e80a38704b0152210af4b2b84f2eed6624e4ad0c28454c1a99c202046a8d1ba4"
+  },
+  {
+    "id": "M011511",
+    "text": "the person is sitting and threw some thing.",
+    "frames": 192,
+    "loader_index": 1474,
+    "crop_caption_seed": 900046,
+    "source_motion_sha256": "822cd2609a103a1b755052892f79f44337958b628c8166557d130aac0d644b9b",
+    "source_text_sha256": "a3c55482671b25ff6528fa01c866286672b8a9fe286e32b73f0e96afeb768944"
+  },
+  {
+    "id": "000751",
+    "text": "walking in an uneven terrain.",
+    "frames": 192,
+    "loader_index": 1027,
+    "crop_caption_seed": 900047,
+    "source_motion_sha256": "5f8e963440cab08c505dd1f9a00de14360c921151a903c6f3bcbceff95ddbc9a",
+    "source_text_sha256": "379096c6d71d0327292924a21f5393270b843068cf8f14de35a4701b329c7b8a"
+  },
+  {
+    "id": "M007353",
+    "text": "a person hopping around and using both of his/her hand to hit the drum like object in a festive way.",
+    "frames": 192,
+    "loader_index": 1384,
+    "crop_caption_seed": 900048,
+    "source_motion_sha256": "6b05dd02f41e61bdf174eae2dd1efb10dd554c2ff7a42add0441bad58e406d56",
+    "source_text_sha256": "1a6f96e60b9b68c842229b6bf4f5cb0a0b7a9c44752c184c25380b4ff45e941f"
+  },
+  {
+    "id": "M012949",
+    "text": "a person is using objects/furniture to help them walk in a straight line",
+    "frames": 192,
+    "loader_index": 1369,
+    "crop_caption_seed": 900049,
+    "source_motion_sha256": "1e22af1a3a19e659164a5e7dfbf032f1b23e32a325bdc380d2f07c318067b568",
+    "source_text_sha256": "1de46eb09ecfe706eb1e1714984ca6a1e9bf86f28b77c7a1b32b072153aa1b87"
+  },
+  {
+    "id": "003466",
+    "text": "a human tie the waste and flares the dress",
+    "frames": 192,
+    "loader_index": 1140,
+    "crop_caption_seed": 900050,
+    "source_motion_sha256": "85fd2d387d46b39e99892923bf9bc2981dba5130c0850fdecb4d3c2d01587cee",
+    "source_text_sha256": "a8dc8349e1f9586d1ee3ef8e256f2944cdf11ca4085016ddfe02b3f19168507a"
+  },
+  {
+    "id": "M009433",
+    "text": "slow walk forward then stopping",
+    "frames": 96,
+    "loader_index": 384,
+    "crop_caption_seed": 900051,
+    "source_motion_sha256": "ef750a6cf4ea36757046850bca66a1b360e713f704979941f0b3530c9b9fbc08",
+    "source_text_sha256": "bc9c4e06a8ee21e616a46e4419a2418a269a517afdd7cba9326350b167da294d"
+  },
+  {
+    "id": "007438",
+    "text": "the person is looking through the camera at someone.",
+    "frames": 80,
+    "loader_index": 260,
+    "crop_caption_seed": 900052,
+    "source_motion_sha256": "30fd5edf2be2c9bd356ababdbe99f483143406f1fdbcf7b3bd4607613c544140",
+    "source_text_sha256": "820586532897ac82202512206605355d24c4d649c3100c65cee3fc23b78a6845"
+  },
+  {
+    "id": "000387",
+    "text": "person lifts item, tilts it halfway up and then places it back down.",
+    "frames": 148,
+    "loader_index": 736,
+    "crop_caption_seed": 900053,
+    "source_motion_sha256": "0192a0484cb374077cb0868a2f501cf0ea4878319e5212bc79d8814c68ab18d9",
+    "source_text_sha256": "b0761afe0ea8cd05591b091e3aee37f9382f75d9a008a5abdb16de0a6af7e85c"
+  },
+  {
+    "id": "014290",
+    "text": "the man stomps his right foot.",
+    "frames": 84,
+    "loader_index": 304,
+    "crop_caption_seed": 900054,
+    "source_motion_sha256": "ce289c1e7e9e242a0baad466ba0fd01b125690496c6816ef548e1a59aa37d85c",
+    "source_text_sha256": "7ed77b3dfcd9842dfed10679dd4900e56358f3f6973d2fc99013562c11894883"
+  },
+  {
+    "id": "009750",
+    "text": "man moves quickly around in a funny way",
+    "frames": 196,
+    "loader_index": 996,
+    "crop_caption_seed": 900055,
+    "source_motion_sha256": "564f4387dc4826e69e7ff378f3d1756f074b46983f5c7100d952b15dfb686cc3",
+    "source_text_sha256": "614c6b136f0d0d43511810ca6650622401466a20a7590087d0bbc08de3cd342e"
+  },
+  {
+    "id": "M012179",
+    "text": "right and left arm are raised straight out from the shoulders. both elbow are bent to form and upwards square. both arms lift upwards momentarily, the elbows extend slightly and then lower and return to the original position.",
+    "frames": 56,
+    "loader_index": 81,
+    "crop_caption_seed": 900056,
+    "source_motion_sha256": "76e471d4f05b2d98e4e3345733f0410094743d5161c2af38bb91b6d718004b8a",
+    "source_text_sha256": "f4e1ead7437e9e762ce5cf0b13164abcfd7b76a436f6d2df002554e43c026649"
+  },
+  {
+    "id": "006024",
+    "text": "a person who is standing with his hands out from his sides steps forward, picks up an object and puts it down, then steps back and resumes his original position.",
+    "frames": 92,
+    "loader_index": 365,
+    "crop_caption_seed": 900057,
+    "source_motion_sha256": "c1f61caa7c2c18dbd4ec5f1eff6bf223b96f981d8934164cd22229968654a1fa",
+    "source_text_sha256": "238914fc025c15d3a8102ec8f629adb52fc98bb9bcbdaa2568d14e49a676df96"
+  },
+  {
+    "id": "M003694",
+    "text": "a man seems to be lifting weight with both hands and bending knees a bit",
+    "frames": 64,
+    "loader_index": 165,
+    "crop_caption_seed": 900058,
+    "source_motion_sha256": "b269a927f276b86fb5736a16343b5db60eb413c74dad2cbf4f3c19f0f5508e56",
+    "source_text_sha256": "09e95f793bb5e51eb30d72c49c6cce1626b4d0947d7a91bc8d1d53af02de1610"
+  },
+  {
+    "id": "M013937",
+    "text": "a person standing and jumps to the left side.",
+    "frames": 80,
+    "loader_index": 315,
+    "crop_caption_seed": 900059,
+    "source_motion_sha256": "4bb3e76d3120b6945cc2031897bf802bac785e14971f32441becd53da2fdbf6e",
+    "source_text_sha256": "79441d56dda4b84f3da4593edb5a3269ffa8e179c069cda24c4cc95c4f132309"
+  },
+  {
+    "id": "010029",
+    "text": "a person does a jump rope trick.",
+    "frames": 196,
+    "loader_index": 1163,
+    "crop_caption_seed": 900060,
+    "source_motion_sha256": "67b0cd2ffd1b2fcddb6c265083f129d99f63a39b90ccbcfb7aa65ea65c3074b5",
+    "source_text_sha256": "1acc47233241d80d2bc450b41a71357abdb185159b77d20c550ac2c0ec014c60"
+  },
+  {
+    "id": "004133",
+    "text": "a person walking down an elevated surface",
+    "frames": 112,
+    "loader_index": 544,
+    "crop_caption_seed": 900061,
+    "source_motion_sha256": "3d7b7b908db7e24c35300d0c702473a23077816635a7bb338bdbe98e37d37726",
+    "source_text_sha256": "3d24ded8b237a8e4b3d1242858b4a92572648a39ccd4bf713ab634b15b087062"
+  },
+  {
+    "id": "M007635",
+    "text": "the person just did a ballet twirl.",
+    "frames": 120,
+    "loader_index": 558,
+    "crop_caption_seed": 900062,
+    "source_motion_sha256": "8e9bafa7062fa9f0085ca5d69b533602be78d57f164022cdcef24fd035a01a54",
+    "source_text_sha256": "527a964572ecdf782d1c76962ed6a5bff0bf09bf4353905c4c9cb733c693c2d0"
+  },
+  {
+    "id": "004287",
+    "text": "person steps six  steps to front",
+    "frames": 124,
+    "loader_index": 594,
+    "crop_caption_seed": 900063,
+    "source_motion_sha256": "bda4cd55c9c87be5d43050a24ad96efd068685d7458c8beb03d086a646d6733d",
+    "source_text_sha256": "a83eb9b5b165483ea2329e8eed50e89fd1401032a60817db534b5a785defbeb5"
+  },
+  {
+    "id": "013937",
+    "text": "a person hops and turns to their left in mid air.",
+    "frames": 84,
+    "loader_index": 309,
+    "crop_caption_seed": 900064,
+    "source_motion_sha256": "102a49a616be6243d2b561b951f779edc1fcb59eeebc230550ff389dfb04b4c7",
+    "source_text_sha256": "10528047aba587f42921e69c9bf49db53aa619e5ed96e5b7e656741a308d8990"
+  },
+  {
+    "id": "M001637",
+    "text": "person is standing and both arms start to spasm back and forth and the person begins to stumble around back and forth.",
+    "frames": 196,
+    "loader_index": 1410,
+    "crop_caption_seed": 900065,
+    "source_motion_sha256": "78e2118e27cab8e2f7f67c98d9f03647e85748ec048af568fe99a62e86a123d0",
+    "source_text_sha256": "2b4cea2b1009f4b73831e13daa7fb6ea67843d50bb6acf26f0dd3a96efd4d0f4"
+  },
+  {
+    "id": "007000",
+    "text": "this person lifts his right arm, stops then raises it above his head.",
+    "frames": 196,
+    "loader_index": 1202,
+    "crop_caption_seed": 900066,
+    "source_motion_sha256": "61506e7610150039593574f6b32b5419597f5c8c0b51646314b21ae5af9f055f",
+    "source_text_sha256": "15896b9a8c8dbb133708018aaa6a11f62f0e50a6b7546048bfbdb913862ddf3c"
+  },
+  {
+    "id": "M006149",
+    "text": "the person crossed his legs and sat down.",
+    "frames": 152,
+    "loader_index": 739,
+    "crop_caption_seed": 900067,
+    "source_motion_sha256": "1219251e0067c7925e0c628fba2c029dea2fb1b0120e1eb92f12763724d96059",
+    "source_text_sha256": "60bc3e858e3782f30f6b48cd3e4827da1fa1cb7236e0f07d3cafa2e1d6f7738d"
+  },
+  {
+    "id": "003036",
+    "text": "a man plays the drums.",
+    "frames": 176,
+    "loader_index": 863,
+    "crop_caption_seed": 900068,
+    "source_motion_sha256": "f2a03ed426a7a6436a3716d07766990f6223e7d44546ba09ff8540fe5081b203",
+    "source_text_sha256": "226737f3f395531a038794189cad0c13877aaf436bfb7f6735d42277e8a324a7"
+  },
+  {
+    "id": "007429",
+    "text": "a person is casting a fishing line.",
+    "frames": 88,
+    "loader_index": 333,
+    "crop_caption_seed": 900069,
+    "source_motion_sha256": "994a48eb5e69066e943496e18c3b8ff9623c993b78fdc89575987dc875c319ec",
+    "source_text_sha256": "ca634b5c10624fe77b63bdb4495bac38a372f934b97b8986da1ede6d38fa925d"
+  },
+  {
+    "id": "002267",
+    "text": "a person walks to the side horizontally and then back and forth.",
+    "frames": 100,
+    "loader_index": 436,
+    "crop_caption_seed": 900070,
+    "source_motion_sha256": "f7ee50323576093a0f4165c22433281604909e02f2e9cefc26071820236dafba",
+    "source_text_sha256": "3a0df61d1b79292254cbeba15f69243e03a46bd7b85651cb3249528a897167f2"
+  },
+  {
+    "id": "011036",
+    "text": "a person waves both of their arms in a signalling manner.",
+    "frames": 196,
+    "loader_index": 1062,
+    "crop_caption_seed": 900071,
+    "source_motion_sha256": "a11fe41c7f2c019b13e672546733e64818b04dc4ae70557d15dbb81ce36362e9",
+    "source_text_sha256": "2f7ca115a212e8d5323bb0ba6af69ef85af1c9b85f31c8d620954f54d4019a44"
+  },
+  {
+    "id": "011782",
+    "text": "the person is doing knee squats",
+    "frames": 44,
+    "loader_index": 16,
+    "crop_caption_seed": 900072,
+    "source_motion_sha256": "62d9dadb1502f9d1657732dba683d005719f280f5aa5fc3c4116764833f410cb",
+    "source_text_sha256": "75970b610ae235be64a0f7929de461d727d9c804ef7403412badd150e7eb6885"
+  },
+  {
+    "id": "M011384",
+    "text": "a person gets pushed to their left and recover quickly with their left leg.",
+    "frames": 176,
+    "loader_index": 887,
+    "crop_caption_seed": 900073,
+    "source_motion_sha256": "906cd3e8dcea7be20df66e7d246e5ed8b5a5ccc46cb901a60aa82cd3eddf25bc",
+    "source_text_sha256": "6dd5eb110f906f4a90a08d3e311190510892b51c6c321b7fbe0ae12e63697188"
+  },
+  {
+    "id": "M002147",
+    "text": "a person walks slowly backward.",
+    "frames": 168,
+    "loader_index": 859,
+    "crop_caption_seed": 900074,
+    "source_motion_sha256": "89dbeb8bc8d927efb3d040f601eddca52864e0fa9d41aecd5a0beb2fc7934ff0",
+    "source_text_sha256": "ba8b7e36b0707b4fad6c30e9a5ff230925393ecff5f4a85ddb627fa667627cb8"
+  },
+  {
+    "id": "013010",
+    "text": "this person slowly sits as if on a barstool.",
+    "frames": 192,
+    "loader_index": 1060,
+    "crop_caption_seed": 900075,
+    "source_motion_sha256": "d76f709c74b7ca8652ee5f6acd42e256472e37b69e3ac0675923f12d1a5955b9",
+    "source_text_sha256": "d13f53eb20a6a4289384995a7a13307099ffcb9cedb98432fdad8bf0d0b3d13a"
+  },
+  {
+    "id": "004130",
+    "text": "he brings hands to his chest, then places them beside and back a little, and uses them to help himself up; he then walks forward in a clockwise motion.",
+    "frames": 196,
+    "loader_index": 1159,
+    "crop_caption_seed": 900076,
+    "source_motion_sha256": "b22fbe2e563ccf545f15d0b6658381f44e0233e77ec7f65c02cc2d6ca909827e",
+    "source_text_sha256": "853d61a8b40baab651fa16de40514db587e3439cebec21948e218429b42dce76"
+  },
+  {
+    "id": "M001918",
+    "text": "a person grab something with left hand, doing some move with 2 hand, and raise them up",
+    "frames": 196,
+    "loader_index": 1468,
+    "crop_caption_seed": 900077,
+    "source_motion_sha256": "7210b1ac2709d6e963754613dec78523a47539878c4c817850f92746027901e8",
+    "source_text_sha256": "4dbaaeefba341ad410477a8924ee7929c63275742333087ac8519fc079e76142"
+  },
+  {
+    "id": "000645",
+    "text": "man gets up from a sitting position.",
+    "frames": 196,
+    "loader_index": 997,
+    "crop_caption_seed": 900078,
+    "source_motion_sha256": "e9cc803731fe7c516a54f70f850885aeb3f9b3dea2cc611e03a3d64d10ad0025",
+    "source_text_sha256": "69e47d784fb564de02d66bdc57c8aea14496a1b28cbdf439e6112504ac034c9c"
+  },
+  {
+    "id": "M012299",
+    "text": "a person is walking around the room.",
+    "frames": 164,
+    "loader_index": 834,
+    "crop_caption_seed": 900079,
+    "source_motion_sha256": "78175efc3946341d535b3be61818b6977ec5f4db1a06ff45fcbe5f1d54db5eb2",
+    "source_text_sha256": "bba03c03bab281f62581fa7350b32c34330c5781d58f369ee19f83b00f184195"
+  },
+  {
+    "id": "M002686",
+    "text": "the person approaches and slowly walks around the back of a chair to their left then sits down.",
+    "frames": 196,
+    "loader_index": 1466,
+    "crop_caption_seed": 900080,
+    "source_motion_sha256": "391ee3f1c42f068f6d3e31331c2c92e90baaac4aa5f89205bbaed6b311b354e4",
+    "source_text_sha256": "bcdb50c3732e940c2320091c47b20140b621a7894663763a8859a4902131b9b6"
+  },
+  {
+    "id": "001583",
+    "text": "person crouches and rotates hands and legs",
+    "frames": 64,
+    "loader_index": 154,
+    "crop_caption_seed": 900081,
+    "source_motion_sha256": "5a28b97b0cb0ff1807a0cef208433e82a7b681d59d08f1988d87811400f5fa25",
+    "source_text_sha256": "1ff73dd8b3120fdc2a4ea09f8aa8e49d00474d0c2f198817ed06a3a8761bcd78"
+  },
+  {
+    "id": "M012696",
+    "text": "a man starts from a standing position and seems to kick something with his left leg.",
+    "frames": 104,
+    "loader_index": 459,
+    "crop_caption_seed": 900082,
+    "source_motion_sha256": "587340397ed7878910f91f88dc7ade2b40e97c3658f3e371ad4ce5bb324277d8",
+    "source_text_sha256": "4a9e234c78f00e42d81ed1e43c738bc310c434a92634627fa60ae082bb643d29"
+  },
+  {
+    "id": "012187",
+    "text": "a person dances the salsa.",
+    "frames": 196,
+    "loader_index": 1015,
+    "crop_caption_seed": 900083,
+    "source_motion_sha256": "b07c480d8df3b415650928e49383388bbbcec3598c8a538e755164e1d40805b6",
+    "source_text_sha256": "59bfafdb88652e0c56f2a9183d2785431712730e362fb1586104d3d866500b4b"
+  },
+  {
+    "id": "M010381",
+    "text": "person casually swings arms slightly while walking forward.",
+    "frames": 64,
+    "loader_index": 201,
+    "crop_caption_seed": 900084,
+    "source_motion_sha256": "a1cff1549807ee5db48fe286904104b34f6df36dc2e97fc2fdd06a8f025b2049",
+    "source_text_sha256": "4f1e2404eb9887e63ddb1496ca17a8a6f0f353e553b4e850217618dbf022ca38"
+  },
+  {
+    "id": "012326",
+    "text": "a person is holding both arms in a side line from shoulders to elbows, with forearms and hands pointing upward making a short 'y' shape with his upper body while squatting slightly, using both legs spread shoulder-width apart.",
+    "frames": 72,
+    "loader_index": 222,
+    "crop_caption_seed": 900085,
+    "source_motion_sha256": "28a8480839bd9dd1d92b8f8c7b1a966e119394b456d7107e3536aece1a51ef4a",
+    "source_text_sha256": "d9f7dffb1b39bc7d7fe51044a9a95e8281d35853dbce1abd010f3d321cb1c6fc"
+  },
+  {
+    "id": "005361",
+    "text": "a person walks forward several steps.",
+    "frames": 80,
+    "loader_index": 323,
+    "crop_caption_seed": 900086,
+    "source_motion_sha256": "28b51a6937b1791ef16fd654fb9a5664f4b90122fee32cf0a8c5dbfdf199eb3f",
+    "source_text_sha256": "2334cf293f593b3ef4cbe7fb3f11bdac504382c46d89b56d9bd368753c9c4de9"
+  },
+  {
+    "id": "M003300",
+    "text": "stumble backwards and that's it",
+    "frames": 92,
+    "loader_index": 400,
+    "crop_caption_seed": 900087,
+    "source_motion_sha256": "e8e440d70fe92d4c2bd59ae96a1396d17fca55ef67e8f2d81451af0a80ecdc64",
+    "source_text_sha256": "59ece098bdab1c9fc0a6347362bc643ceba61d1b88a9876bb4cf77df393f4687"
+  },
+  {
+    "id": "M013519",
+    "text": "a person picks up a horizontal object from their front right side with both hands, and moves it to the front left side.",
+    "frames": 80,
+    "loader_index": 303,
+    "crop_caption_seed": 900088,
+    "source_motion_sha256": "130b64c5b1b17e0549604d83d7c5374d914a164348d2f42f2d8c367fef5e81a2",
+    "source_text_sha256": "989bec21b59b9d23fd2650d81095c35e623b10bc5b385786de26527cb325f0fe"
+  },
+  {
+    "id": "M006766",
+    "text": "person stumbles and bends to their left side.",
+    "frames": 96,
+    "loader_index": 416,
+    "crop_caption_seed": 900089,
+    "source_motion_sha256": "d0d30009a5b5cb8e5a806fcc56937029d66609835aee00697e77276bbd508fb7",
+    "source_text_sha256": "0f3ab7d61344c868c8a76df4c915f41b1450f36440cd7a982db8dd522fac17c6"
+  },
+  {
+    "id": "001995",
+    "text": "arms are placed down by the side from being straight out and then the right hand goes out making a random jabbing spots.",
+    "frames": 196,
+    "loader_index": 1005,
+    "crop_caption_seed": 900090,
+    "source_motion_sha256": "232352696b2226bc1cd6124aaf7face23140b4afc3b0aa4c4431c55cca2d60f1",
+    "source_text_sha256": "4b3a2e6a4670b488f55b7cb45c5427286a48d9969e1b8a366ec640da43057fcb"
+  },
+  {
+    "id": "009863",
+    "text": "a person walks forward, veering slightly to the left.",
+    "frames": 52,
+    "loader_index": 48,
+    "crop_caption_seed": 900091,
+    "source_motion_sha256": "bd072b67eaf6a804449505eef4ad9f4a4615bb56a285e0934d8f29a9e2c6dca6",
+    "source_text_sha256": "5eecfe5a19527475e2dd04d335dbf54be3be1a3b53bf985481f2768b8b37de01"
+  },
+  {
+    "id": "008984",
+    "text": "a person runs in place.",
+    "frames": 92,
+    "loader_index": 368,
+    "crop_caption_seed": 900092,
+    "source_motion_sha256": "9c3eeeaaa9188bd5624c9679131f237db711701dfb5b5f1df30992724fe41f88",
+    "source_text_sha256": "1390d0178dd63bf4d7bdd3af014b4069bf84314ccb71e25d95fa97cf09ac9128"
+  },
+  {
+    "id": "M006353",
+    "text": "the person does various hand gestures as if speaking in sign language.",
+    "frames": 196,
+    "loader_index": 1256,
+    "crop_caption_seed": 900093,
+    "source_motion_sha256": "b3d883682e0027aaf605962aef9af4c551c54f460df004a967568bf70de7dd58",
+    "source_text_sha256": "979a5c3c5d65730f5d1936dcb436012a796617a901d5de29444b0e05025d9e93"
+  },
+  {
+    "id": "M009933",
+    "text": "a person sitting down in a kneeled down manner like japanese natives",
+    "frames": 196,
+    "loader_index": 1305,
+    "crop_caption_seed": 900094,
+    "source_motion_sha256": "aa53bb2367676409f5c1f0166a72642b69f22b5bead4f5b6ababac77d2351082",
+    "source_text_sha256": "ac792a223cd1af6e33d847715768d889161d036915a941d76399815ed25a2a17"
+  },
+  {
+    "id": "M013823",
+    "text": "this person is walking to his right.",
+    "frames": 100,
+    "loader_index": 418,
+    "crop_caption_seed": 900095,
+    "source_motion_sha256": "a8c310bc049e8e329d7a712b072c705434bb71c7c9d1025da766ab59ac7e75ff",
+    "source_text_sha256": "5484f0959d2abc0045c9663085f488c8d9ca0bd3b5fff1bb1f26109b7e76ac91"
+  },
+  {
+    "id": "005175",
+    "text": "a person repeatedly bends their knees, keeping their hands at head height.",
+    "frames": 64,
+    "loader_index": 183,
+    "crop_caption_seed": 900096,
+    "source_motion_sha256": "bd9faa6b8f2c83b357e0e2a752b8d40fa30fe7567118759aba664e43f7051f8f",
+    "source_text_sha256": "adeaed01a2fedad7645d455bb17beda5b89b2b8efcea5401e947f045a7b14ed4"
+  },
+  {
+    "id": "011220",
+    "text": "plants off left foot and quick shuffle to their right.",
+    "frames": 64,
+    "loader_index": 179,
+    "crop_caption_seed": 900097,
+    "source_motion_sha256": "fe89596960aa319bbaf2cf31ff4895f115a78349d4b04ca4d16828c074d33985",
+    "source_text_sha256": "66068477f5a5ebf00448360c96dcc47ee2798e183203fb7e427522a7879b6c52"
+  },
+  {
+    "id": "M001874",
+    "text": "the man moves his arms in exercising motions.",
+    "frames": 44,
+    "loader_index": 20,
+    "crop_caption_seed": 900098,
+    "source_motion_sha256": "adb0552f1d902dbc40945a9401d80405ca03c215947c58a74f52bd884110a2b8",
+    "source_text_sha256": "5ac96e2de70b849cccc663db32bc0d6c83c968bdbef88c21e212639b234033d8"
+  },
+  {
+    "id": "M008761",
+    "text": "person raises hands overhead, then lowers them down and thrusts them forward while leaning forward.",
+    "frames": 196,
+    "loader_index": 1356,
+    "crop_caption_seed": 900099,
+    "source_motion_sha256": "c5a06db8a1b0e4276b41aa6d02172ce576381353a9359134e14d541f0ae62ba1",
+    "source_text_sha256": "f4678e9b14a8a9a57e2de78e8d5b869b1bfa505fca5228d076f097d70630ac3c"
+  },
+  {
+    "id": "M010000",
+    "text": "he stood in a squated stance before raising both of his arms.",
+    "frames": 192,
+    "loader_index": 1299,
+    "crop_caption_seed": 900100,
+    "source_motion_sha256": "54b85f13d4aaa72752255bb8ed6efbe06faefad151f023159bafb0e84c594579",
+    "source_text_sha256": "9864c3e4589e283447f84a0efd318afd9e472bae8b4141d8ad76eacb326406ec"
+  },
+  {
+    "id": "M000776",
+    "text": "a person scratches their neck and foot with their right hand.",
+    "frames": 184,
+    "loader_index": 927,
+    "crop_caption_seed": 900101,
+    "source_motion_sha256": "68c299ff4b441f5d739cd8bff34c1e6533cadeba1e1286f4741530a5ea0e1d0e",
+    "source_text_sha256": "3f4b842e5527b97fcc544d4e303b1b34e28e00abc77c1ff6722f7382be69b1e9"
+  },
+  {
+    "id": "M003118",
+    "text": "someone shuffling their feet to the left, then back right.",
+    "frames": 196,
+    "loader_index": 1372,
+    "crop_caption_seed": 900102,
+    "source_motion_sha256": "f9322f9466adc38de1b5606ec895c44d3ff268cfe47df95fb7cb236028be4693",
+    "source_text_sha256": "10294ab45745ceac23e9f347ca5cc7be0dba8b061ef0740f6b34abb04d110abe"
+  },
+  {
+    "id": "006846",
+    "text": "a person walks forward in a straight line.",
+    "frames": 80,
+    "loader_index": 256,
+    "crop_caption_seed": 900103,
+    "source_motion_sha256": "ba048c6638e7da42397c41e25971ca42e66aa4266dee6b5bed5db42aa54934b3",
+    "source_text_sha256": "84100d0755963b5f1e7c2494f0dc47c7d0acd17aadf9320184aff3e5b4631cd0"
+  },
+  {
+    "id": "012836",
+    "text": "walking forward and then backwards.",
+    "frames": 92,
+    "loader_index": 364,
+    "crop_caption_seed": 900104,
+    "source_motion_sha256": "a3bbfca5f10433d1d9b3c01bac980c0dae55ecb9b20e8a373b9c5a893ee18ced",
+    "source_text_sha256": "5674d47593677bbce0ba2e3dbfc37f72e26b961e7ee70b236e1fa70ffbc5b791"
+  },
+  {
+    "id": "M009543",
+    "text": "a person walks a few steps in one direction while bopping to a rhythm, then walks backwards, still bopping, and incorporates a couple of spins along the way.",
+    "frames": 160,
+    "loader_index": 785,
+    "crop_caption_seed": 900105,
+    "source_motion_sha256": "2647d56ccb986f102e6634deb4b85772d724fab5015a51e4db1ec1cf618086b5",
+    "source_text_sha256": "403dc46ce91b52764ad0c537d94f32ec7bdde9212c48d44b1bc88d5f7e13c9f9"
+  },
+  {
+    "id": "M001871",
+    "text": "a person walks aimlessly around the floor comically, taking small steps.",
+    "frames": 196,
+    "loader_index": 1521,
+    "crop_caption_seed": 900106,
+    "source_motion_sha256": "4a66bbbe11092c89962ac6bd1b8a959aeb02c7a7608e398aea93b4eee47e9366",
+    "source_text_sha256": "5202e821a2ab69b0b832a18b305b13c4d7a70f599f40b9c54d502d0dabb8e45b"
+  },
+  {
+    "id": "M006974",
+    "text": "a person turns and looks to the left",
+    "frames": 92,
+    "loader_index": 379,
+    "crop_caption_seed": 900107,
+    "source_motion_sha256": "39ab6dfa6410cf6f687c6cf5b46e85cbf654736c52ad885aadf1b945806c4eac",
+    "source_text_sha256": "90a366dc12a3107e144ada1264f9970d3aac246e208a8601e6caeb227f2ed0e7"
+  },
+  {
+    "id": "M001130",
+    "text": "the person is jumping around in place.",
+    "frames": 100,
+    "loader_index": 452,
+    "crop_caption_seed": 900108,
+    "source_motion_sha256": "54f239026ebd996c087d5751ab23a438521d26f97026a87626f3a128d2bbd807",
+    "source_text_sha256": "ca9d0a6540fa9196c4ec49be33ea3976fe1b34d9385273e021266e756729643c"
+  },
+  {
+    "id": "004330",
+    "text": "a person is groving along to something, then makes a hulk pose and then moves both arms to the left.",
+    "frames": 136,
+    "loader_index": 673,
+    "crop_caption_seed": 900109,
+    "source_motion_sha256": "4c1c4596669a4acb6eebf872231c23ae6f6be1de3c46791a09d3436a65b5cd10",
+    "source_text_sha256": "dcb07e25ad29afb20eb117c6bfaeae330d9c0909527d4fc093f276b4cc6a8ab3"
+  },
+  {
+    "id": "M007599",
+    "text": "a person raised left and right hand and after start clapping",
+    "frames": 192,
+    "loader_index": 1309,
+    "crop_caption_seed": 900110,
+    "source_motion_sha256": "8641595e90bbb3771f4c9bc22054dd6653eef79e05a6c83845134f711a2f1141",
+    "source_text_sha256": "76efbfa0d19cdf7396f3a458b55e48a0e0cdc06ab2089e0d63a3c3c8074b23f1"
+  },
+  {
+    "id": "M008807",
+    "text": "a person walks casually clockwise in a circle.",
+    "frames": 108,
+    "loader_index": 502,
+    "crop_caption_seed": 900111,
+    "source_motion_sha256": "a05927ab4a60bdcf84240530492b6927996e8bdaf9692dd2a9d48d8b97c99a80",
+    "source_text_sha256": "5d7f707896f318952c4af8fc525a0cfe2685fea67104b1f64cb378c54109f71d"
+  },
+  {
+    "id": "M002867",
+    "text": "a person quickly hops forward to the left with right foot leading with arms upraised before swinging the left arm down. the figure then returns to the starting point walking.",
+    "frames": 136,
+    "loader_index": 697,
+    "crop_caption_seed": 900112,
+    "source_motion_sha256": "9a2cd747180d403ec5e32671e36406f5a801de21446756f2a82a50e4c03e45bd",
+    "source_text_sha256": "29673e6200854d364ef1b9cabbd76433c2d9498c839aea8a7c145d2cf4fcbd87"
+  },
+  {
+    "id": "M002728",
+    "text": "a person backs up and then waves and makes a hand gesture.",
+    "frames": 192,
+    "loader_index": 1511,
+    "crop_caption_seed": 900113,
+    "source_motion_sha256": "800836660be1c52b59eb442a6cc54cc5e35877ac4d6cfd77670a6a94f934843f",
+    "source_text_sha256": "a983c89787c69391ba4b200887d25fbc89901c0a5d268be48a11cfaaf1629f13"
+  },
+  {
+    "id": "M012187",
+    "text": "the person is doing the salsa dance.",
+    "frames": 196,
+    "loader_index": 1292,
+    "crop_caption_seed": 900114,
+    "source_motion_sha256": "0d70bd843b704256ac531577b660abe1161fd7e42dbb17e4cc051027e7f71405",
+    "source_text_sha256": "59bfafdb88652e0c56f2a9183d2785431712730e362fb1586104d3d866500b4b"
+  },
+  {
+    "id": "M009002",
+    "text": "person flexes arms towards and away from body with elbows bent and then repeats this with arms extended.",
+    "frames": 52,
+    "loader_index": 39,
+    "crop_caption_seed": 900115,
+    "source_motion_sha256": "36d7404da473fe50d050019e6021166092e0a9ba34f103ddad86cb3fbb9fed68",
+    "source_text_sha256": "04f2f7b726c193fa9811609d23c735e6a34bfdd18cc1c8fe36795998cab9ad93"
+  },
+  {
+    "id": "M007438",
+    "text": "the person is looking through the camera at someone.",
+    "frames": 80,
+    "loader_index": 270,
+    "crop_caption_seed": 900116,
+    "source_motion_sha256": "68928564889d7f2829d0aa1cbd64ae08a172c7d638715c19fdcabcb24a6364da",
+    "source_text_sha256": "fd0b3df207aec1ccf4894b2e649b0a57f64ea47a0e940a77699da54dedfba113"
+  },
+  {
+    "id": "006150",
+    "text": "a person shifts their weight and then stands stationary.",
+    "frames": 192,
+    "loader_index": 1026,
+    "crop_caption_seed": 900117,
+    "source_motion_sha256": "b984743737cd7042a5c5abd4b96cf38a3d2e0e6d04f1b7aa3e7c28759136c9f7",
+    "source_text_sha256": "8eb0461b4b015b46f43563e7b3bf57d0b8b22c374e5e895af204cd36f3c31224"
+  },
+  {
+    "id": "013358",
+    "text": "a person raised the rigth ahnd and starts to warm up it",
+    "frames": 76,
+    "loader_index": 228,
+    "crop_caption_seed": 900118,
+    "source_motion_sha256": "4fc20557739e6a5f102e9e9f83ae2a13e73bca05fd6fb7d981ddbb83e2cd9a58",
+    "source_text_sha256": "4dcb1a677e4cf5d19057caf31f9eeab8271d3d6e0c186a45d445d8692f18511f"
+  },
+  {
+    "id": "008199",
+    "text": "a slouched person hits something softly with their right hand",
+    "frames": 196,
+    "loader_index": 1052,
+    "crop_caption_seed": 900119,
+    "source_motion_sha256": "5021be50835108588d32624518d3e33f71aa2ffeff92caf21e50e6be1b2cae82",
+    "source_text_sha256": "5450fdff5819c9b25d7d951f1b21bd2dbb07c7dbe29bcf19315f45b3b613825e"
+  },
+  {
+    "id": "M004972",
+    "text": "a person looks to their right and places their hands on their hips.",
+    "frames": 192,
+    "loader_index": 1311,
+    "crop_caption_seed": 900120,
+    "source_motion_sha256": "a76ed3863140212ad37a5b0ec1751c61eef7045a6bcd005afc11453231f66381",
+    "source_text_sha256": "5ffed5a626578c151affe7444bd9c873e1283746dba48ee8304d1f821db433bd"
+  },
+  {
+    "id": "M008539",
+    "text": "a man crouches in a crouch.",
+    "frames": 172,
+    "loader_index": 858,
+    "crop_caption_seed": 900121,
+    "source_motion_sha256": "d52ba92c9444bfe4b913ae6ccb8c314c8f03572e84a78276910c1cb42f864077",
+    "source_text_sha256": "75d74d8c64a53d492ef169d26cbe1cc4495488df82cbc8985be49fc9b581b2d2"
+  },
+  {
+    "id": "M013136",
+    "text": "a person takes five steps forward in a casual manner.",
+    "frames": 96,
+    "loader_index": 432,
+    "crop_caption_seed": 900122,
+    "source_motion_sha256": "7443c9bd9320be53467059281992d77935339c1f9889a20eda3447d5dbb727ac",
+    "source_text_sha256": "5f498eb5926aadf176e5acf5b1611ef004ad5493126b672e01089205b60ece54"
+  },
+  {
+    "id": "003006",
+    "text": "a human figure shakes out its left arm and holds it up, then the other arm comes up in a \"monkey\" position. both arms go down and loosely shake as the body shakes out loosely",
+    "frames": 180,
+    "loader_index": 883,
+    "crop_caption_seed": 900123,
+    "source_motion_sha256": "d3d0f2c36caa9b388ab9ffca5a984ab11dcc65b7f57414296d90745a33692c6e",
+    "source_text_sha256": "4eec5895dac1dbada1420ae32f69a78deab9601c810f9327043ac8f5cd82cb7f"
+  },
+  {
+    "id": "008859",
+    "text": "person  assumes a position  on the floor",
+    "frames": 184,
+    "loader_index": 912,
+    "crop_caption_seed": 900124,
+    "source_motion_sha256": "211808460843e37d4777a7e00e91469307a5cbbdbd0eb07e14a9a806e4e9b2c3",
+    "source_text_sha256": "ba4819b419a56c8114c647fc584abbf42a755c54030a25fdba78adb40cef4f22"
+  },
+  {
+    "id": "M009537",
+    "text": "person appears to pick something up with left hand then moves it around near their face.",
+    "frames": 192,
+    "loader_index": 1400,
+    "crop_caption_seed": 900125,
+    "source_motion_sha256": "685a99369556ed53134d85017bb332da28700f71a2ac2fb9fd46a8a0a53d16bd",
+    "source_text_sha256": "c0bfa28c51f7b22fa46e49e5db73469366f9ad8ffe8d2b1ca53364b38d53aadc"
+  },
+  {
+    "id": "M005809",
+    "text": "the person is playing a guitar.",
+    "frames": 100,
+    "loader_index": 472,
+    "crop_caption_seed": 900126,
+    "source_motion_sha256": "3151d266c1395cd60f44305684134349b7c2cc372059b04cbad12a6d94098784",
+    "source_text_sha256": "d743c6873ad121aa1af5de0b6212b36e8487cfa2b4230d4030a19f2457d063fe"
+  },
+  {
+    "id": "M011782",
+    "text": "the person is doing knee squats",
+    "frames": 44,
+    "loader_index": 19,
+    "crop_caption_seed": 900127,
+    "source_motion_sha256": "3f693aa5426247deda1a4b75f9bc1ff39ab7b5ede9ef65ead92098e7683b7322",
+    "source_text_sha256": "75970b610ae235be64a0f7929de461d727d9c804ef7403412badd150e7eb6885"
+  }
+]

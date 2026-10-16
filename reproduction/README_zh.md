@@ -76,6 +76,8 @@ python reproduction/test_physics_metrics.py
 HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 python reproduction/sample_physics.py --protocol reproduction/physics_protocol.json --output reproduction/artifacts/physics_v1 --render
 ```
 
+本次结果见 [物理诊断报告](PHYSICS_zh.md)，小体积证据保存在 `reproduction/results/physics_v1/`；视频和原始动作数组位于服务器 `reproduction/artifacts/physics_v1_20261016/`。工作站运行 `python reproduction/remote_physics.py fetch` 可校验并同步证据和视频，再运行 `python reproduction/report_physics.py` 生成本地网页 `reproduction/artifacts/physics_v1_20261016/index.html`。同步不会下载模型或动作数组；报告会从逐段指标独立复算均值和配对重采样区间。
+
 独立冻结的 `physics_protocol.json` 定义六种动作、三个种子及物理指标。先生成 18 段六秒动作，再对 128 段官方验证集描述各生成三次，与真实参考动作作相同长度的物理指标对照。沿用官方评估加载器选描述和裁剪，按编号摘要固定抽样，不选择展示结果。输出保留原始归一化特征、世界坐标、逐动作指标、配对汇总及原编号分组重采样区间。镜像编号与其原编号分在同一组。
 
 滑步使用原始世界坐标与固定地面 `y=0`：脚尖在相邻两帧都低于 5 厘米时统计水平速度，超过 0.2 米/秒记为滑步；同时报告低位接触覆盖率、条件滑步比例，以及三档高度/速度阈值敏感性。无低位接触时速度为 `null`，不写零。脚部穿地、腾空、骨长变异及根相对加速度/加加速度是运动学诊断，不是力学仿真、网格碰撞或统一合格门槛；跳跃腾空本身不是错误。这些指标是补充诊断，不是原论文结果表。

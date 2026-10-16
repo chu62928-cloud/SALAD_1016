@@ -1,0 +1,28 @@
+{
+  "status": "bound",
+  "created_at": "2026-10-16T15:00:27.844810+00:00",
+  "core_commit": "807ff210af0b81e5a0833c2fff0ee95cd9bd0773",
+  "auxiliary_commit": "65020794e706b1bdd73665527af6f6a36ce8eec1",
+  "protocol_sha256": "54ca9dc8dd7f057f7d20e9f525128e78c75650db5f4af9f4909b34294006cd39",
+  "asset_audit_sha256": "f30177391e87eb3d5cdbda2187e177fa1bb8a84a864de01411aa030c6e3e8723",
+  "assets": {
+    "checkpoints/t2m/Comp_v6_KLD005/meta/mean.npy": "0bdb5ba69a3a9e34d71990db15bc535ebc024c8d95ddb5574196f96058faa7d3",
+    "checkpoints/t2m/Comp_v6_KLD005/meta/std.npy": "6a5f7d60301c9465972fc225f8ad0ee8f957e7720431189123eb6d15873a9557",
+    "checkpoints/t2m/Comp_v6_KLD005/opt.txt": "ca4f1004ad5428f282b21ea25686dab0b53af6a230768ac9bbfb9a4a6e506a62",
+    "checkpoints/t2m/t2m_denoiser_vpred_vaegelu/model/net_best_fid.tar": "963c1b8ff34e905adf89b91c7b58cac3b9ea85f0f5acfa4618248f161effe41e",
+    "checkpoints/t2m/t2m_denoiser_vpred_vaegelu/opt.txt": "4390978eb3f13791dcabf7a66803009333c472fe58dee030abdf64c7e7c1ed8b",
+    "checkpoints/t2m/t2m_vae_gelu/model/net_best_fid.tar": "353ecd1a47647a18ec9bb116cd3456e472f997509150f967871ebafc3d58d9fb",
+    "checkpoints/t2m/t2m_vae_gelu/opt.txt": "85a1c4f4a3880d5ecf506f12171bd42c764fc44308216e4ecc73c1c50debab46",
+    "checkpoints/t2m/text_mot_match/model/finest.tar": "881e45bea6fb84b15eca6e7cdd75d602b58a72f2038c223ee96ab75d4f684ada",
+    "glove/our_vab_data.npy": "73ed9b73ee5bc5ab683661c132b9f98fe305672dffdf70ceeac1bc447543d668",
+    "glove/our_vab_idx.pkl": "d85dce83d2c27a92bb94bb51dc1f55a04fcaa328c359d23eccf648e296c16493",
+    "glove/our_vab_words.pkl": "fac88da1be6f00d36b72b88c9745c8ac35a94a7bd6ccf1fa3bab380faf8c2e0d"
+  },
+  "code_sha256": {
+    "sample_physics.py": "3cd224bef24c0fdbe8b5116f1a70659ffabbabf0aa3cc97c07dc2301968c7981",
+    "physics_metrics.py": "87cc6ed4442db39fd9b15152414066b23758659f938f3299ba07febe40af0a6e"
+  },
+  "torch": "1.13.1+cu117",
+  "numpy": "1.21.2",
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER"
+}

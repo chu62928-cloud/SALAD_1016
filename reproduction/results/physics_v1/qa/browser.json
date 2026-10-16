@@ -1,0 +1,831 @@
+{
+  "status": "passed",
+  "viewports": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "corrupted": false,
+      "videos": 6,
+      "tables": [
+        11,
+        9
+      ],
+      "textOverflow": false,
+      "links": [
+        "REPORT_zh.md",
+        "metrics.csv",
+        "verification.json"
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "corrupted": false,
+      "videos": 6,
+      "tables": [
+        11,
+        9
+      ],
+      "textOverflow": false,
+      "links": [
+        "REPORT_zh.md",
+        "metrics.csv",
+        "verification.json"
+      ]
+    }
+  ],
+  "video_checks": [
+    {
+      "width": 1440,
+      "id": "stand",
+      "seed": 20261016,
+      "src": "videos/stand_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1776,
+          1311
+        ],
+        [
+          1807,
+          1339
+        ],
+        [
+          1813,
+          1329
+        ]
+      ],
+      "changed_body_pixels": 10834
+    },
+    {
+      "width": 1440,
+      "id": "stand",
+      "seed": 20261017,
+      "src": "videos/stand_20261017.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1771,
+          1416
+        ],
+        [
+          1833,
+          1174
+        ],
+        [
+          1809,
+          1337
+        ]
+      ],
+      "changed_body_pixels": 10828
+    },
+    {
+      "width": 1440,
+      "id": "stand",
+      "seed": 20261018,
+      "src": "videos/stand_20261018.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1756,
+          1415
+        ],
+        [
+          1786,
+          1527
+        ],
+        [
+          1773,
+          1442
+        ]
+      ],
+      "changed_body_pixels": 8906
+    },
+    {
+      "width": 1440,
+      "id": "walk",
+      "seed": 20261016,
+      "src": "videos/walk_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1834,
+          1150
+        ],
+        [
+          1717,
+          1505
+        ],
+        [
+          1760,
+          1483
+        ]
+      ],
+      "changed_body_pixels": 13011
+    },
+    {
+      "width": 1440,
+      "id": "walk",
+      "seed": 20261017,
+      "src": "videos/walk_20261017.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1808,
+          1375
+        ],
+        [
+          1825,
+          1615
+        ],
+        [
+          1715,
+          1469
+        ]
+      ],
+      "changed_body_pixels": 12773
+    },
+    {
+      "width": 1440,
+      "id": "walk",
+      "seed": 20261018,
+      "src": "videos/walk_20261018.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1858,
+          1246
+        ],
+        [
+          1686,
+          1664
+        ],
+        [
+          1726,
+          1652
+        ]
+      ],
+      "changed_body_pixels": 14350
+    },
+    {
+      "width": 1440,
+      "id": "slow_walk",
+      "seed": 20261016,
+      "src": "videos/slow_walk_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1684,
+          1496
+        ],
+        [
+          1774,
+          1560
+        ],
+        [
+          1741,
+          1584
+        ]
+      ],
+      "changed_body_pixels": 13076
+    },
+    {
+      "width": 1440,
+      "id": "slow_walk",
+      "seed": 20261017,
+      "src": "videos/slow_walk_20261017.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1785,
+          1297
+        ],
+        [
+          1728,
+          1455
+        ],
+        [
+          1758,
+          1352
+        ]
+      ],
+      "changed_body_pixels": 11991
+    },
+    {
+      "width": 1440,
+      "id": "slow_walk",
+      "seed": 20261018,
+      "src": "videos/slow_walk_20261018.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1821,
+          1123
+        ],
+        [
+          1735,
+          1547
+        ],
+        [
+          1701,
+          1341
+        ]
+      ],
+      "changed_body_pixels": 12533
+    },
+    {
+      "width": 1440,
+      "id": "run",
+      "seed": 20261016,
+      "src": "videos/run_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1706,
+          1499
+        ],
+        [
+          1713,
+          1354
+        ],
+        [
+          1680,
+          1652
+        ]
+      ],
+      "changed_body_pixels": 10861
+    },
+    {
+      "width": 1440,
+      "id": "run",
+      "seed": 20261017,
+      "src": "videos/run_20261017.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1708,
+          1477
+        ],
+        [
+          1579,
+          1551
+        ],
+        [
+          1801,
+          1528
+        ]
+      ],
+      "changed_body_pixels": 13424
+    },
+    {
+      "width": 1440,
+      "id": "run",
+      "seed": 20261018,
+      "src": "videos/run_20261018.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1845,
+          1141
+        ],
+        [
+          1697,
+          1591
+        ],
+        [
+          1762,
+          1208
+        ]
+      ],
+      "changed_body_pixels": 11127
+    },
+    {
+      "width": 1440,
+      "id": "squat",
+      "seed": 20261016,
+      "src": "videos/squat_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1322,
+          1623
+        ],
+        [
+          1741,
+          1360
+        ],
+        [
+          1801,
+          1549
+        ]
+      ],
+      "changed_body_pixels": 13423
+    },
+    {
+      "width": 1440,
+      "id": "squat",
+      "seed": 20261017,
+      "src": "videos/squat_20261017.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1509,
+          1571
+        ],
+        [
+          1516,
+          1645
+        ],
+        [
+          1823,
+          1638
+        ]
+      ],
+      "changed_body_pixels": 14862
+    },
+    {
+      "width": 1440,
+      "id": "squat",
+      "seed": 20261018,
+      "src": "videos/squat_20261018.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1435,
+          1549
+        ],
+        [
+          1443,
+          1541
+        ],
+        [
+          1824,
+          1492
+        ]
+      ],
+      "changed_body_pixels": 12692
+    },
+    {
+      "width": 1440,
+      "id": "jump",
+      "seed": 20261016,
+      "src": "videos/jump_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1887,
+          1353
+        ],
+        [
+          1793,
+          1372
+        ],
+        [
+          1783,
+          1328
+        ]
+      ],
+      "changed_body_pixels": 14308
+    },
+    {
+      "width": 1440,
+      "id": "jump",
+      "seed": 20261017,
+      "src": "videos/jump_20261017.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1745,
+          1148
+        ],
+        [
+          1836,
+          1587
+        ],
+        [
+          1771,
+          1301
+        ]
+      ],
+      "changed_body_pixels": 11554
+    },
+    {
+      "width": 1440,
+      "id": "jump",
+      "seed": 20261018,
+      "src": "videos/jump_20261018.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1776,
+          1202
+        ],
+        [
+          1804,
+          1190
+        ],
+        [
+          1629,
+          1177
+        ]
+      ],
+      "changed_body_pixels": 9933
+    },
+    {
+      "width": 390,
+      "id": "stand",
+      "seed": 20261016,
+      "src": "videos/stand_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1776,
+          1311
+        ],
+        [
+          1807,
+          1339
+        ],
+        [
+          1813,
+          1329
+        ]
+      ],
+      "changed_body_pixels": 10834
+    },
+    {
+      "width": 390,
+      "id": "stand",
+      "seed": 20261017,
+      "src": "videos/stand_20261017.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1771,
+          1416
+        ],
+        [
+          1833,
+          1174
+        ],
+        [
+          1809,
+          1337
+        ]
+      ],
+      "changed_body_pixels": 10828
+    },
+    {
+      "width": 390,
+      "id": "stand",
+      "seed": 20261018,
+      "src": "videos/stand_20261018.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1756,
+          1415
+        ],
+        [
+          1786,
+          1527
+        ],
+        [
+          1773,
+          1442
+        ]
+      ],
+      "changed_body_pixels": 8906
+    },
+    {
+      "width": 390,
+      "id": "walk",
+      "seed": 20261016,
+      "src": "videos/walk_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1834,
+          1150
+        ],
+        [
+          1717,
+          1505
+        ],
+        [
+          1760,
+          1483
+        ]
+      ],
+      "changed_body_pixels": 13011
+    },
+    {
+      "width": 390,
+      "id": "walk",
+      "seed": 20261017,
+      "src": "videos/walk_20261017.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1808,
+          1375
+        ],
+        [
+          1825,
+          1615
+        ],
+        [
+          1715,
+          1469
+        ]
+      ],
+      "changed_body_pixels": 12773
+    },
+    {
+      "width": 390,
+      "id": "walk",
+      "seed": 20261018,
+      "src": "videos/walk_20261018.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1858,
+          1246
+        ],
+        [
+          1686,
+          1664
+        ],
+        [
+          1726,
+          1652
+        ]
+      ],
+      "changed_body_pixels": 14350
+    },
+    {
+      "width": 390,
+      "id": "slow_walk",
+      "seed": 20261016,
+      "src": "videos/slow_walk_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1684,
+          1496
+        ],
+        [
+          1774,
+          1560
+        ],
+        [
+          1741,
+          1584
+        ]
+      ],
+      "changed_body_pixels": 13076
+    },
+    {
+      "width": 390,
+      "id": "slow_walk",
+      "seed": 20261017,
+      "src": "videos/slow_walk_20261017.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1785,
+          1297
+        ],
+        [
+          1728,
+          1455
+        ],
+        [
+          1758,
+          1352
+        ]
+      ],
+      "changed_body_pixels": 11991
+    },
+    {
+      "width": 390,
+      "id": "slow_walk",
+      "seed": 20261018,
+      "src": "videos/slow_walk_20261018.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1821,
+          1123
+        ],
+        [
+          1735,
+          1547
+        ],
+        [
+          1701,
+          1341
+        ]
+      ],
+      "changed_body_pixels": 12533
+    },
+    {
+      "width": 390,
+      "id": "run",
+      "seed": 20261016,
+      "src": "videos/run_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1706,
+          1499
+        ],
+        [
+          1713,
+          1354
+        ],
+        [
+          1680,
+          1652
+        ]
+      ],
+      "changed_body_pixels": 10861
+    },
+    {
+      "width": 390,
+      "id": "run",
+      "seed": 20261017,
+      "src": "videos/run_20261017.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1708,
+          1477
+        ],
+        [
+          1579,
+          1551
+        ],
+        [
+          1801,
+          1528
+        ]
+      ],
+      "changed_body_pixels": 13424
+    },
+    {
+      "width": 390,
+      "id": "run",
+      "seed": 20261018,
+      "src": "videos/run_20261018.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1845,
+          1141
+        ],
+        [
+          1697,
+          1591
+        ],
+        [
+          1762,
+          1208
+        ]
+      ],
+      "changed_body_pixels": 11127
+    },
+    {
+      "width": 390,
+      "id": "squat",
+      "seed": 20261016,
+      "src": "videos/squat_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1322,
+          1623
+        ],
+        [
+          1741,
+          1360
+        ],
+        [
+          1801,
+          1549
+        ]
+      ],
+      "changed_body_pixels": 13423
+    },
+    {
+      "width": 390,
+      "id": "squat",
+      "seed": 20261017,
+      "src": "videos/squat_20261017.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1509,
+          1571
+        ],
+        [
+          1516,
+          1645
+        ],
+        [
+          1823,
+          1638
+        ]
+      ],
+      "changed_body_pixels": 14862
+    },
+    {
+      "width": 390,
+      "id": "squat",
+      "seed": 20261018,
+      "src": "videos/squat_20261018.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1435,
+          1549
+        ],
+        [
+          1443,
+          1541
+        ],
+        [
+          1824,
+          1492
+        ]
+      ],
+      "changed_body_pixels": 12692
+    },
+    {
+      "width": 390,
+      "id": "jump",
+      "seed": 20261016,
+      "src": "videos/jump_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1887,
+          1353
+        ],
+        [
+          1793,
+          1372
+        ],
+        [
+          1783,
+          1328
+        ]
+      ],
+      "changed_body_pixels": 14308
+    },
+    {
+      "width": 390,
+      "id": "jump",
+      "seed": 20261017,
+      "src": "videos/jump_20261017.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1745,
+          1148
+        ],
+        [
+          1836,
+          1587
+        ],
+        [
+          1771,
+          1301
+        ]
+      ],
+      "changed_body_pixels": 11554
+    },
+    {
+      "width": 390,
+      "id": "jump",
+      "seed": 20261018,
+      "src": "videos/jump_20261018.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          1776,
+          1202
+        ],
+        [
+          1804,
+          1190
+        ],
+        [
+          1629,
+          1177
+        ]
+      ],
+      "changed_body_pixels": 9933
+    }
+  ]
+}

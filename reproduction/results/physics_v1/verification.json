@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-16T15:15:57.106499+00:00",
+  "reference_clips": 128,
+  "generated_clips": 384,
+  "examples": 18,
+  "independent_means_and_cluster_intervals": true,
+  "metric_count": 24,
+  "media_checksums": 36
+}

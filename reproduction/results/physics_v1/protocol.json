@@ -1,0 +1,81 @@
+{
+  "version": "salad-physics-v1-20261016",
+  "dataset": "t2m",
+  "split": "val",
+  "units": "metres, seconds, Y-up; original recovered world coordinates; floor y=0",
+  "fps": 20,
+  "steps": 50,
+  "guidance_scale": 7.5,
+  "seeds": [
+    20261016,
+    20261017,
+    20261018
+  ],
+  "batch_size": 32,
+  "reference_count": 128,
+  "selection": "Full-motion validation entries, sorted by SHA256(version:name); original loader caption/crop, seed=900000+rank; same input for all three generation seeds",
+  "example_frames": 120,
+  "contact_height_m": 0.05,
+  "slide_speed_mps": 0.2,
+  "penetration_tolerance_m": 0.02,
+  "contact_joints": [
+    10,
+    11
+  ],
+  "penetration_joints": [
+    7,
+    10,
+    8,
+    11
+  ],
+  "sensitivity_heights_m": [
+    0.03,
+    0.05,
+    0.08
+  ],
+  "sensitivity_speeds_mps": [
+    0.1,
+    0.2,
+    0.5
+  ],
+  "bootstrap_seed": 271828,
+  "bootstrap_repetitions": 2000,
+  "aggregation": "Equal weight per reference clip; generated values averaged over three seeds first. Paired bootstrap resamples original-ID clusters, grouping mirrored M-prefixed IDs; missing contact speeds excluded explicitly.",
+  "contact": "Both endpoint toe heights <= contact_height_m; speed is not used to define contact",
+  "skating_frame_ratio": "Fraction of T-1 intervals where either low-height toe moves horizontally faster than slide_speed_mps; also report ratio conditional on any low-height toe",
+  "penetration": "Mean max(-height,0) over four foot joints and all valid frames; penetration_frame_ratio uses any foot height < -0.02m",
+  "airborne": "Fraction of frames where the lowest of four foot joints is above 0.05m. This includes legitimate jumping and is not a floating-error classifier.",
+  "limitations": "Kinematic proxies, not force/contact simulation or mesh collision. No universal pass/fail thresholds. Validation reference and generated motion share captions/crop lengths but are not frame-aligned ground truth. These are additional diagnostics, not metrics reported by SALAD.",
+  "examples": [
+    {
+      "id": "stand",
+      "label": "站立",
+      "text": "a person stands still with both feet on the ground."
+    },
+    {
+      "id": "walk",
+      "label": "正常行走",
+      "text": "a person walks forward at a normal pace."
+    },
+    {
+      "id": "slow_walk",
+      "label": "慢走",
+      "text": "a person walks forward slowly."
+    },
+    {
+      "id": "run",
+      "label": "跑步",
+      "text": "a person runs forward."
+    },
+    {
+      "id": "squat",
+      "label": "下蹲起立",
+      "text": "a person squats down and stands up."
+    },
+    {
+      "id": "jump",
+      "label": "跳跃落地",
+      "text": "a person jumps up and lands on both feet."
+    }
+  ]
+}
