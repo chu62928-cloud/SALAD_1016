@@ -1,0 +1,52 @@
+{
+  "version": "salad-official-checkpoints-v1-20261016",
+  "original_commit": "6487e98957d1643ac70d77cecdab21f3cda62e2b",
+  "scope": "Official checkpoint evaluation, separate from posture experiments",
+  "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Hong_SALAD_Skeleton-aware_Latent_Diffusion_for_Text-driven_Motion_Generation_and_Editing_CVPR_2025_paper.pdf",
+  "split": "test",
+  "batch_size": 32,
+  "drop_last": true,
+  "shuffle": true,
+  "workers": 4,
+  "seed": 1234,
+  "repetitions": 20,
+  "inference_steps": 50,
+  "guidance_scale": 7.5,
+  "scheduler": "DDIMScheduler, parameters from the released model opt.txt",
+  "multimodality": "Separate labelled evaluation with cal_mm=True; original implementation uses 3 batches x 32 prompts x 30 samples and 10 random pairs",
+  "uncertainty": "Upstream convention: 1.96 * population_std / sqrt(20); also preserve every unrounded repetition",
+  "comparison": "Report differences and confidence interval overlap; never tune seeds, batches, checkpoints or normalization against test metrics",
+  "paper_targets": {
+    "t2m": {
+      "top1": [0.581, 0.003],
+      "top2": [0.769, 0.003],
+      "top3": [0.857, 0.002],
+      "fid": [0.076, 0.002],
+      "matching": [2.649, 0.009],
+      "diversity": [9.696, 0.096],
+      "multimodality": [1.751, 0.062]
+    },
+    "kit": {
+      "top1": [0.477, 0.006],
+      "top2": [0.711, 0.005],
+      "top3": [0.828, 0.005],
+      "fid": [0.296, 0.012],
+      "matching": [2.585, 0.016],
+      "diversity": [11.097, 0.095],
+      "multimodality": [1.004, 0.040]
+    },
+    "t2m_vae": {
+      "fid": [0.003, 0.000],
+      "mpjpe": [0.016, 0.000],
+      "parameters_millions": 0.16
+    }
+  },
+  "training_discrepancies_to_resolve": [
+    "Paper HumanML3D batch size 64 and KIT-ML 16, CLI VAE default 256 and denoiser default 64",
+    "Supplement learning rate 0.0002 for both, denoiser CLI default 0.0005",
+    "Supplement VAE decay gamma 0.1, VAE CLI default 0.05"
+  ],
+  "not_automatically_reproducible": [
+    "Table 4 subjective scores from 16 human participants cannot be validated by automated code execution"
+  ]
+}

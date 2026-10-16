@@ -1,0 +1,3 @@
+artifacts/
+*.lock
+*.pid
