@@ -4,3 +4,7 @@ reproduction/physics_protocol.json -text
 reproduction/results/**/*.json -text
 reproduction/results/**/*.csv -text
 reproduction/results/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+reproduction/*jitter*.py text eol=lf
+reproduction/mesh_surface.py text eol=lf
+reproduction/render_mesh.py text eol=lf
+reproduction/physics_metrics.py text eol=lf

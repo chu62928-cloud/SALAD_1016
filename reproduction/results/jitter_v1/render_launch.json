@@ -1,0 +1,8 @@
+{
+  "pid": 2943,
+  "code_sha256": {
+    "diagnose_jitter.py": "ddbce4d0ee6229203aa0443fb39cc1c958ae6a7c4e1840fcc14ece5f89e8e99e",
+    "audit_jitter_pipeline.py": "0bb7e6360eccb6be2c2887e6bc20f30b7ebd62e3ca47dd9104ecfe873bcc64c1",
+    "render_jitter_comparison.py": "2bb046dd5b785439efd4a05973a5be88677f67dad2008512a5f8eb2c75235d8f"
+  }
+}

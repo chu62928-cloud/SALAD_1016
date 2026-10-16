@@ -136,6 +136,8 @@ footer{margin-top:24px;font-size:13px;color:#5a6b63;line-height:1.8}@media(max-w
 <div class="links"><a href="../index.html">骨架与物理指标</a><a href="REPORT_zh.md">网格记录</a><a href="binding.json">来源绑定</a></div></header><section class="gallery">CARDS</section>
 <footer>滑步：相邻两帧脚尖均不高于 5 厘米，且水平速度超过 0.2 米/秒。双脚离地包含正常跳跃。文字描述是模型输入，不代表每段输出均已正确完成该动作。</footer></main>
 <script>const records=PAYLOAD;for(const card of document.querySelectorAll('article[data-motion]')){const select=card.querySelector('select');const update=()=>{const r=records.find(r=>r.id===card.dataset.motion&&r.seed===Number(select.value));const v=card.querySelector('video');if(v.getAttribute('src')!==r.video.path){v.pause();v.src=r.video.path;v.poster=r.video.poster;v.load();}card.querySelector('.skating').textContent=(r.metrics.skating_frame_ratio*100).toFixed(1)+'%';card.querySelector('.airborne').textContent=(r.metrics.airborne_frame_ratio*100).toFixed(1)+'%';card.querySelector('.bone').textContent=(r.metrics.bone_length_cv*100).toFixed(2)+'%';};select.addEventListener('change',update);update();}</script></html>'''.replace('CARDS', '\n'.join(cards)).replace('PAYLOAD', payload)
+    if (LOCAL.parent/'jitter_v1/index.html').exists():
+        page = page.replace('<div class="links">', '<div class="links"><a href="../jitter_v1/index.html">抖动诊断与拟合对照</a>')
     (LOCAL/'index.html').write_text(page, encoding='utf-8')
     audit = manifest['geometry_audit']
     report = '''# SALAD 人体网格记录

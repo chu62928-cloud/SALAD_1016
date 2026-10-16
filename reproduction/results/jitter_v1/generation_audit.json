@@ -1,0 +1,380 @@
+{
+  "status": "complete",
+  "assets_unchanged": true,
+  "batches": [
+    {
+      "seed": 20261016,
+      "clips": 6,
+      "normalized_max_error": 0.0
+    },
+    {
+      "seed": 20261017,
+      "clips": 6,
+      "normalized_max_error": 0.0
+    },
+    {
+      "seed": 20261018,
+      "clips": 6,
+      "normalized_max_error": 0.0
+    }
+  ],
+  "notebook_comparison": [
+    {
+      "id": "walk",
+      "normalized_max_error": 0.003063201904296875,
+      "joint_max_error_m": 1.4901161193847656e-06,
+      "joint_mean_error_m": 5.640972631226759e-07
+    },
+    {
+      "id": "jump",
+      "normalized_max_error": 0.007648468017578125,
+      "joint_max_error_m": 7.68899917602539e-06,
+      "joint_mean_error_m": 3.979252198860195e-07
+    }
+  ],
+  "rotation_branch": [
+    {
+      "id": "stand",
+      "seed": 20261016,
+      "position_branch": {
+        "acceleration_rms_mps2": 0.729300484263268,
+        "jerk_rms_mps3": 14.707279884925262,
+        "above3hz_rms_m": 0.0007658870724568168,
+        "bone_cv_mean": 0.025608069162191664,
+        "bone_above3hz_cv_mean": 0.0026151905920182962
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 1.3294676783668078,
+        "jerk_rms_mps3": 26.089538598977082,
+        "above3hz_rms_m": 0.0014806762238251873,
+        "bone_cv_mean": 1.7442398698415003e-07,
+        "bone_above3hz_cv_mean": 1.4490281337111382e-07
+      },
+      "mean_joint_difference_m": 0.04047444835305214
+    },
+    {
+      "id": "walk",
+      "seed": 20261016,
+      "position_branch": {
+        "acceleration_rms_mps2": 1.9107080007300166,
+        "jerk_rms_mps3": 35.36471339226643,
+        "above3hz_rms_m": 0.0017112035988209402,
+        "bone_cv_mean": 0.028382871829042564,
+        "bone_above3hz_cv_mean": 0.004044872565679234
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 2.32225604741395,
+        "jerk_rms_mps3": 49.08926637251951,
+        "above3hz_rms_m": 0.002236053436426943,
+        "bone_cv_mean": 1.9466130916414165e-07,
+        "bone_above3hz_cv_mean": 1.6475277318848592e-07
+      },
+      "mean_joint_difference_m": 0.031190678477287292
+    },
+    {
+      "id": "slow_walk",
+      "seed": 20261016,
+      "position_branch": {
+        "acceleration_rms_mps2": 1.6647790738117896,
+        "jerk_rms_mps3": 33.467660772219894,
+        "above3hz_rms_m": 0.0014252626598571722,
+        "bone_cv_mean": 0.02517167583803675,
+        "bone_above3hz_cv_mean": 0.004204614926152476
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 2.165674625472993,
+        "jerk_rms_mps3": 47.77586724391313,
+        "above3hz_rms_m": 0.002061448211496077,
+        "bone_cv_mean": 2.078764258117296e-07,
+        "bone_above3hz_cv_mean": 1.7593556847211196e-07
+      },
+      "mean_joint_difference_m": 0.04065787419676781
+    },
+    {
+      "id": "run",
+      "seed": 20261016,
+      "position_branch": {
+        "acceleration_rms_mps2": 2.733488880143132,
+        "jerk_rms_mps3": 53.327390508204715,
+        "above3hz_rms_m": 0.0029109127079633037,
+        "bone_cv_mean": 0.035266823121450054,
+        "bone_above3hz_cv_mean": 0.007651956672918898
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 3.193725596218998,
+        "jerk_rms_mps3": 70.61693415390063,
+        "above3hz_rms_m": 0.003413268575805087,
+        "bone_cv_mean": 1.9659192535306314e-07,
+        "bone_above3hz_cv_mean": 1.6317987660552563e-07
+      },
+      "mean_joint_difference_m": 0.030164122581481934
+    },
+    {
+      "id": "squat",
+      "seed": 20261016,
+      "position_branch": {
+        "acceleration_rms_mps2": 1.2398023141464294,
+        "jerk_rms_mps3": 20.76407783244995,
+        "above3hz_rms_m": 0.0010064120121609582,
+        "bone_cv_mean": 0.04446549883483009,
+        "bone_above3hz_cv_mean": 0.003746567527841269
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 1.7391603568967093,
+        "jerk_rms_mps3": 31.231409771893926,
+        "above3hz_rms_m": 0.001512430380729428,
+        "bone_cv_mean": 1.5823679713410109e-07,
+        "bone_above3hz_cv_mean": 1.3188522497923074e-07
+      },
+      "mean_joint_difference_m": 0.048601578921079636
+    },
+    {
+      "id": "jump",
+      "seed": 20261016,
+      "position_branch": {
+        "acceleration_rms_mps2": 2.414289686432942,
+        "jerk_rms_mps3": 57.398132981883236,
+        "above3hz_rms_m": 0.0026048083577432024,
+        "bone_cv_mean": 0.041124046996273825,
+        "bone_above3hz_cv_mean": 0.012169494436516756
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 3.40468691047342,
+        "jerk_rms_mps3": 95.26530627510076,
+        "above3hz_rms_m": 0.0037458232278632614,
+        "bone_cv_mean": 1.8521316868652897e-07,
+        "bone_above3hz_cv_mean": 1.5550352005860835e-07
+      },
+      "mean_joint_difference_m": 0.032037075608968735
+    },
+    {
+      "id": "stand",
+      "seed": 20261017,
+      "position_branch": {
+        "acceleration_rms_mps2": 0.7376865028271837,
+        "jerk_rms_mps3": 14.923417230229163,
+        "above3hz_rms_m": 0.0007655082233303501,
+        "bone_cv_mean": 0.021935314959822986,
+        "bone_above3hz_cv_mean": 0.002645480713169753
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 1.3894667866835524,
+        "jerk_rms_mps3": 27.78745884537486,
+        "above3hz_rms_m": 0.00139589733245092,
+        "bone_cv_mean": 1.803187178003717e-07,
+        "bone_above3hz_cv_mean": 1.5001100798771676e-07
+      },
+      "mean_joint_difference_m": 0.030758719891309738
+    },
+    {
+      "id": "walk",
+      "seed": 20261017,
+      "position_branch": {
+        "acceleration_rms_mps2": 2.0405821872278693,
+        "jerk_rms_mps3": 41.84317862595256,
+        "above3hz_rms_m": 0.0019105587626727313,
+        "bone_cv_mean": 0.025338356740035612,
+        "bone_above3hz_cv_mean": 0.004931569599887388
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 2.52759846293233,
+        "jerk_rms_mps3": 53.85313893891337,
+        "above3hz_rms_m": 0.002407973334849652,
+        "bone_cv_mean": 2.0421816881824096e-07,
+        "bone_above3hz_cv_mean": 1.6800928268469347e-07
+      },
+      "mean_joint_difference_m": 0.02625703439116478
+    },
+    {
+      "id": "slow_walk",
+      "seed": 20261017,
+      "position_branch": {
+        "acceleration_rms_mps2": 1.583489705911381,
+        "jerk_rms_mps3": 31.29102058610557,
+        "above3hz_rms_m": 0.0013668380005600759,
+        "bone_cv_mean": 0.024803485391607635,
+        "bone_above3hz_cv_mean": 0.0035230250574573665
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 1.9920641660019611,
+        "jerk_rms_mps3": 40.58463491539722,
+        "above3hz_rms_m": 0.0018150049370469171,
+        "bone_cv_mean": 1.9927525609806044e-07,
+        "bone_above3hz_cv_mean": 1.7024897956656444e-07
+      },
+      "mean_joint_difference_m": 0.034712113440036774
+    },
+    {
+      "id": "run",
+      "seed": 20261017,
+      "position_branch": {
+        "acceleration_rms_mps2": 3.756455355560258,
+        "jerk_rms_mps3": 73.30372786130864,
+        "above3hz_rms_m": 0.0031151817049475897,
+        "bone_cv_mean": 0.03722433949867424,
+        "bone_above3hz_cv_mean": 0.009718582573474865
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 4.782014646643299,
+        "jerk_rms_mps3": 115.60056880056366,
+        "above3hz_rms_m": 0.0049798193351377525,
+        "bone_cv_mean": 2.28112559967231e-07,
+        "bone_above3hz_cv_mean": 1.915153943447343e-07
+      },
+      "mean_joint_difference_m": 0.036105215549468994
+    },
+    {
+      "id": "squat",
+      "seed": 20261017,
+      "position_branch": {
+        "acceleration_rms_mps2": 1.6937185431727637,
+        "jerk_rms_mps3": 29.551271615820415,
+        "above3hz_rms_m": 0.001556230931095965,
+        "bone_cv_mean": 0.051387480776896206,
+        "bone_above3hz_cv_mean": 0.006675647309567894
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 2.3241391847283124,
+        "jerk_rms_mps3": 47.78357986763281,
+        "above3hz_rms_m": 0.00230855550948161,
+        "bone_cv_mean": 1.6461108694364162e-07,
+        "bone_above3hz_cv_mean": 1.4075126940009555e-07
+      },
+      "mean_joint_difference_m": 0.04314783215522766
+    },
+    {
+      "id": "jump",
+      "seed": 20261017,
+      "position_branch": {
+        "acceleration_rms_mps2": 3.986251316832517,
+        "jerk_rms_mps3": 87.57696951307551,
+        "above3hz_rms_m": 0.004344718657750911,
+        "bone_cv_mean": 0.05565675689728399,
+        "bone_above3hz_cv_mean": 0.017345429894355575
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 5.25912543408027,
+        "jerk_rms_mps3": 138.39739109181062,
+        "above3hz_rms_m": 0.005873333221417574,
+        "bone_cv_mean": 1.841736760041134e-07,
+        "bone_above3hz_cv_mean": 1.5298929012248145e-07
+      },
+      "mean_joint_difference_m": 0.03792640566825867
+    },
+    {
+      "id": "stand",
+      "seed": 20261018,
+      "position_branch": {
+        "acceleration_rms_mps2": 0.671042829774352,
+        "jerk_rms_mps3": 13.802631364119764,
+        "above3hz_rms_m": 0.0007528015833537749,
+        "bone_cv_mean": 0.025833112872277082,
+        "bone_above3hz_cv_mean": 0.002495761950643941
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 1.2998192778609368,
+        "jerk_rms_mps3": 26.12298256469413,
+        "above3hz_rms_m": 0.0015609765038026582,
+        "bone_cv_mean": 1.7361822344145605e-07,
+        "bone_above3hz_cv_mean": 1.450777011477561e-07
+      },
+      "mean_joint_difference_m": 0.04166138544678688
+    },
+    {
+      "id": "walk",
+      "seed": 20261018,
+      "position_branch": {
+        "acceleration_rms_mps2": 2.399530676122813,
+        "jerk_rms_mps3": 43.531686391633556,
+        "above3hz_rms_m": 0.0022196753278314048,
+        "bone_cv_mean": 0.02948611558529011,
+        "bone_above3hz_cv_mean": 0.0048611041240395015
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 2.859250772909402,
+        "jerk_rms_mps3": 61.62682200268225,
+        "above3hz_rms_m": 0.00274891943431521,
+        "bone_cv_mean": 2.088599714535444e-07,
+        "bone_above3hz_cv_mean": 1.7615546876066765e-07
+      },
+      "mean_joint_difference_m": 0.029467200860381126
+    },
+    {
+      "id": "slow_walk",
+      "seed": 20261018,
+      "position_branch": {
+        "acceleration_rms_mps2": 1.6990747547248564,
+        "jerk_rms_mps3": 34.47877438639469,
+        "above3hz_rms_m": 0.0014410216745162898,
+        "bone_cv_mean": 0.026004289610897673,
+        "bone_above3hz_cv_mean": 0.004023455139765412
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 2.261114733187345,
+        "jerk_rms_mps3": 51.38679833948493,
+        "above3hz_rms_m": 0.0022642960947583555,
+        "bone_cv_mean": 2.0468828623806413e-07,
+        "bone_above3hz_cv_mean": 1.700658765958299e-07
+      },
+      "mean_joint_difference_m": 0.025350717827677727
+    },
+    {
+      "id": "run",
+      "seed": 20261018,
+      "position_branch": {
+        "acceleration_rms_mps2": 2.9877500689938077,
+        "jerk_rms_mps3": 58.25676976859228,
+        "above3hz_rms_m": 0.002637886567364626,
+        "bone_cv_mean": 0.0357314318464938,
+        "bone_above3hz_cv_mean": 0.008263984388192638
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 3.733405226806161,
+        "jerk_rms_mps3": 85.88661045292768,
+        "above3hz_rms_m": 0.003909413596513647,
+        "bone_cv_mean": 2.156476269965346e-07,
+        "bone_above3hz_cv_mean": 1.81519413714372e-07
+      },
+      "mean_joint_difference_m": 0.04182707518339157
+    },
+    {
+      "id": "squat",
+      "seed": 20261018,
+      "position_branch": {
+        "acceleration_rms_mps2": 1.4427774614219835,
+        "jerk_rms_mps3": 24.25533470678287,
+        "above3hz_rms_m": 0.0011781917698343383,
+        "bone_cv_mean": 0.04828512823029554,
+        "bone_above3hz_cv_mean": 0.004923249868633963
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 2.020414421645983,
+        "jerk_rms_mps3": 38.71302280175604,
+        "above3hz_rms_m": 0.002004355020655809,
+        "bone_cv_mean": 1.579479857313713e-07,
+        "bone_above3hz_cv_mean": 1.3396051731768673e-07
+      },
+      "mean_joint_difference_m": 0.059797100722789764
+    },
+    {
+      "id": "jump",
+      "seed": 20261018,
+      "position_branch": {
+        "acceleration_rms_mps2": 3.908173568858568,
+        "jerk_rms_mps3": 89.33054840799085,
+        "above3hz_rms_m": 0.004208010843664765,
+        "bone_cv_mean": 0.0441472650585696,
+        "bone_above3hz_cv_mean": 0.016623600557978433
+      },
+      "rotation_branch": {
+        "acceleration_rms_mps2": 5.039035013376587,
+        "jerk_rms_mps3": 132.47825613034422,
+        "above3hz_rms_m": 0.006195650444445146,
+        "bone_cv_mean": 1.8718805251655367e-07,
+        "bone_above3hz_cv_mean": 1.596828389303104e-07
+      },
+      "mean_joint_difference_m": 0.033693019300699234
+    }
+  ],
+  "rotation_ground_truth_consistency_m": 0.011685708537697792
+}

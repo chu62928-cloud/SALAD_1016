@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "files_sha256": {
+    "generation_audit.json": "325eafaf0ae318a94f887b208c2580276b960c557bcb62799ff26a3ba8672d92",
+    "conversion_audit.json": "b52262eee23e7ce3dd292ce8b408ac8b182e6690991f2680b494b70127e5d985",
+    "replay_launch.json": "bdd7ff79e71683a903c0815bbf9668e76af0aac7860de5bdc3ab0c94863a95a1",
+    "convert_launch.json": "9ecd30cd59a4eaf826db1c7541c6561c325b81679f6e2e484e5671cd6c856e2e",
+    "videos.json": "5e57fd07fa66b38e70c11da6d4e13783ba50bbf4f6f9796b693e506764cb2ff2",
+    "render_launch.json": "bd66fe664da8b3fefde8d2ca4e73e482dbeeb4d091cf35b286a9f8c2aa684de2",
+    "bone_jitter_regression.json": "a74bb82829568fdf856b74c32ad2fd5f11bd273e0b5cd54a7667dc7ad267493b"
+  },
+  "media_sha256": {
+    "videos/stand_20261016.mp4": "02f75533571fc1a0425469253663d9a151d0ce7103d882378bdacdf065f9f639",
+    "videos/stand_20261016.png": "ca2f9469b09ac944a2361ae789ad672b3707d2695b24581c91f891e8b67dcece",
+    "videos/walk_20261016.mp4": "b1ceddc266b4ad1016937056db3d471b410ac895f6de2033e1213d37fe5acf46",
+    "videos/walk_20261016.png": "b0bd39742cfd47249eae90e473fd4b41b637a5440349dff64d4c2c67c7a22ad8",
+    "videos/run_20261016.mp4": "977d7031689c8213734d7df007ce46f148eb89851b7021fe3aa65eebaf30d3c9",
+    "videos/run_20261016.png": "7584617a78ba0beb76c911f96cdc106013fbd24b4a01bbe8a8cf6885b2ab28d2",
+    "videos/jump_20261016.mp4": "031d9ec560684a94fcfcd3be45d530087cf26ea09741df91d096b9293a58603c",
+    "videos/jump_20261016.png": "ddf64478a0f2bcd78cf897f900ccd73fa51b7f401d76b355402a0dafd6ecad71",
+    "videos/jump_20261017.mp4": "8ef61ced3942b0b695cff26e064ee60a6d11c369e909ded91cb63e6e0b23495f",
+    "videos/jump_20261017.png": "f6ddbe597ddec077f6be0e8af2f94b3f6c2b45fdfb0600d5eadd9451cfa775e7",
+    "videos/real_walk_control.mp4": "cb1ea1ce7acabcfa0dbcb09cb7ead52e97b84dfc991508d65c05ec22667122bf",
+    "videos/real_walk_control.png": "69ae5d96db30654773b7222408ca6650cbc01180775bf18630155929c39e97d5"
+  }
+}

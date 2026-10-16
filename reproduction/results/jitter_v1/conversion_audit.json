@@ -1,0 +1,354 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "name": "stand_20261016",
+      "label": "站立",
+      "text": "a person stands still with both feet on the ground.",
+      "source_sha256": "39a9de1cc76333143dfbc41597f0d7f087fc286c41e395c82291131df9d75faf",
+      "stages": {
+        "raw": {
+          "joints": {
+            "acceleration_rms_mps2": 0.729300484263268,
+            "jerk_rms_mps3": 14.707279884925262,
+            "above3hz_rms_m": 0.0007658870724568168,
+            "bone_cv_mean": 0.025608069162191664,
+            "bone_above3hz_cv_mean": 0.0026151905920182962
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 0.916904218559253,
+            "jerk_rms_mps3": 18.51418298082838,
+            "above3hz_rms_m": 0.0009782478950432362
+          },
+          "source_joint_error_mean_m": 0.0,
+          "sha256": "3d4a12b12666a71f6aab8d8c38ebc06ac7ebd50e5fc36e6abbb120b4b1f994be"
+        },
+        "fixed_bones": {
+          "joints": {
+            "acceleration_rms_mps2": 0.5374005118881858,
+            "jerk_rms_mps3": 10.70767366286071,
+            "above3hz_rms_m": 0.0005358887437816589,
+            "bone_cv_mean": 7.329650491726143e-14,
+            "bone_above3hz_cv_mean": 5.814158572174903e-15
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 0.6988784107883785,
+            "jerk_rms_mps3": 13.898558517032994,
+            "above3hz_rms_m": 0.0006824039451922289
+          },
+          "source_joint_error_mean_m": 0.044390344876790944,
+          "sha256": "22177f2c78809e51f7d640256a69a2a390a24cfeee21eb3c95525640d673caf4"
+        },
+        "author_foot_ik": {
+          "joints": {
+            "acceleration_rms_mps2": 0.44562188405939107,
+            "jerk_rms_mps3": 9.157607791652033,
+            "above3hz_rms_m": 0.000428727751550019,
+            "bone_cv_mean": 7.411075888075298e-14,
+            "bone_above3hz_cv_mean": 5.8698928898236185e-15
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 0.6604293059300144,
+            "jerk_rms_mps3": 13.236741926037725,
+            "above3hz_rms_m": 0.0006370631243524076
+          },
+          "source_joint_error_mean_m": 0.04642922568615176,
+          "sha256": "24f4fa951d1df6568fff57a0a4fb4167bdc5ac403bb748540ef5062c67b70387"
+        }
+      }
+    },
+    {
+      "name": "walk_20261016",
+      "label": "正常行走",
+      "text": "a person walks forward at a normal pace.",
+      "source_sha256": "b80a61ff0d44800b3cf52025949cc1a673e3144206d3561cdb7d91a5a6f56fe9",
+      "stages": {
+        "raw": {
+          "joints": {
+            "acceleration_rms_mps2": 1.9107080007300166,
+            "jerk_rms_mps3": 35.36471339226643,
+            "above3hz_rms_m": 0.0017112035988209402,
+            "bone_cv_mean": 0.028382871829042564,
+            "bone_above3hz_cv_mean": 0.004044872565679234
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 1.6643442708648921,
+            "jerk_rms_mps3": 31.12503583673454,
+            "above3hz_rms_m": 0.0015160040625577273
+          },
+          "source_joint_error_mean_m": 0.0,
+          "sha256": "f3f8a1fcfe2d5ec7331439bc753bdedd95b1df23c684a3553c9c526677fbe467"
+        },
+        "fixed_bones": {
+          "joints": {
+            "acceleration_rms_mps2": 1.6015486551915954,
+            "jerk_rms_mps3": 24.69141863574974,
+            "above3hz_rms_m": 0.0011329010061881181,
+            "bone_cv_mean": 1.1023808402658721e-13,
+            "bone_above3hz_cv_mean": 8.077351136022272e-15
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 1.3855736278245965,
+            "jerk_rms_mps3": 22.62934439359599,
+            "above3hz_rms_m": 0.0010569826951283105
+          },
+          "source_joint_error_mean_m": 0.04900131458917683,
+          "sha256": "12ee2b67708d4fa5362d3983d1e536ca212e2f75bbfdbe3017ca256e35363bb5"
+        },
+        "author_foot_ik": {
+          "joints": {
+            "acceleration_rms_mps2": 1.5280298417227591,
+            "jerk_rms_mps3": 23.584007736295664,
+            "above3hz_rms_m": 0.001121727675745251,
+            "bone_cv_mean": 1.2792645084275473e-13,
+            "bone_above3hz_cv_mean": 8.820657421837433e-15
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 1.3140621690431098,
+            "jerk_rms_mps3": 21.426674366486946,
+            "above3hz_rms_m": 0.0010249364884520312
+          },
+          "source_joint_error_mean_m": 0.04416172198064464,
+          "sha256": "9b7cdb3fbc414fb0b5157b950f6d8f62cba5b5f74bb28b767ea326228fe5b1c9"
+        }
+      }
+    },
+    {
+      "name": "run_20261016",
+      "label": "跑步",
+      "text": "a person runs forward.",
+      "source_sha256": "98710c2acd47aadee5345bef87e44ba3d9880932fa53057e0c2aaf3b56bd56e9",
+      "stages": {
+        "raw": {
+          "joints": {
+            "acceleration_rms_mps2": 2.733488880143132,
+            "jerk_rms_mps3": 53.327390508204715,
+            "above3hz_rms_m": 0.0029109127079633037,
+            "bone_cv_mean": 0.035266823121450054,
+            "bone_above3hz_cv_mean": 0.007651956672918898
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 2.558655856104313,
+            "jerk_rms_mps3": 53.59711614087372,
+            "above3hz_rms_m": 0.0028439440306274205
+          },
+          "source_joint_error_mean_m": 0.0,
+          "sha256": "4641128334aba52e3f1e2702a803615ea63331d4930de844909bd7f0b06fb2e3"
+        },
+        "fixed_bones": {
+          "joints": {
+            "acceleration_rms_mps2": 2.5565372256564154,
+            "jerk_rms_mps3": 42.58661713178354,
+            "above3hz_rms_m": 0.002415906650063712,
+            "bone_cv_mean": 1.9111235030064582e-13,
+            "bone_above3hz_cv_mean": 1.9967234261874796e-14
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 2.714665466236073,
+            "jerk_rms_mps3": 48.336214057978175,
+            "above3hz_rms_m": 0.0026676430706357997
+          },
+          "source_joint_error_mean_m": 0.07546788888963386,
+          "sha256": "655cc61c18f9f90f74b411a63fe0ec7c515f8f0e8dd42b37830c0fdda9ebf857"
+        },
+        "author_foot_ik": {
+          "joints": {
+            "acceleration_rms_mps2": 2.511607321209364,
+            "jerk_rms_mps3": 41.60849287762168,
+            "above3hz_rms_m": 0.002366082495355903,
+            "bone_cv_mean": 1.9834407634063725e-13,
+            "bone_above3hz_cv_mean": 2.041543294487064e-14
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 2.655743066701221,
+            "jerk_rms_mps3": 47.1966318463027,
+            "above3hz_rms_m": 0.0026030320982692767
+          },
+          "source_joint_error_mean_m": 0.07457437441766833,
+          "sha256": "7a5a6d91a4512d80a8bd8df19fa44df50610582970abd990032370894fe70427"
+        }
+      }
+    },
+    {
+      "name": "jump_20261016",
+      "label": "跳跃落地",
+      "text": "a person jumps up and lands on both feet.",
+      "source_sha256": "663cd73739a19a382453448e9fd483e9806c5cd1eb614cd67b5837ec7cf8c272",
+      "stages": {
+        "raw": {
+          "joints": {
+            "acceleration_rms_mps2": 2.414289686432942,
+            "jerk_rms_mps3": 57.398132981883236,
+            "above3hz_rms_m": 0.0026048083577432024,
+            "bone_cv_mean": 0.041124046996273825,
+            "bone_above3hz_cv_mean": 0.012169494436516756
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 2.8520338663069382,
+            "jerk_rms_mps3": 65.33101512068858,
+            "above3hz_rms_m": 0.0033441883780963256
+          },
+          "source_joint_error_mean_m": 0.0,
+          "sha256": "4865d670e2451493d9fd2a8d918b76baecc5a3a9d51318218d50ea2f78e66b06"
+        },
+        "fixed_bones": {
+          "joints": {
+            "acceleration_rms_mps2": 1.3435966265305923,
+            "jerk_rms_mps3": 27.355514045065647,
+            "above3hz_rms_m": 0.001519769968336435,
+            "bone_cv_mean": 2.1205469379480513e-13,
+            "bone_above3hz_cv_mean": 4.003292774208285e-14
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 1.857658892199461,
+            "jerk_rms_mps3": 34.81127490645721,
+            "above3hz_rms_m": 0.0020564706447770715
+          },
+          "source_joint_error_mean_m": 0.045794260854827185,
+          "sha256": "82f3eb0577584003dce20c9ecd18a2730ac24b882ce2e4ebf36b4c91e12fbf2e"
+        },
+        "author_foot_ik": {
+          "joints": {
+            "acceleration_rms_mps2": 1.290511229009213,
+            "jerk_rms_mps3": 25.189530544869317,
+            "above3hz_rms_m": 0.0014554666945025547,
+            "bone_cv_mean": 2.271562155928485e-13,
+            "bone_above3hz_cv_mean": 4.235504265780432e-14
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 1.8361471748514582,
+            "jerk_rms_mps3": 33.82686745829973,
+            "above3hz_rms_m": 0.002023046507798386
+          },
+          "source_joint_error_mean_m": 0.04567493225035134,
+          "sha256": "a26f439000a99f833a5a3dbababde93c5f97b8b95e7ec560ed2e9af49603dd5e"
+        }
+      }
+    },
+    {
+      "name": "jump_20261017",
+      "label": "跳跃落地",
+      "text": "a person jumps up and lands on both feet.",
+      "source_sha256": "27e330bfef9ec2ecdd0973b5a9f0a28cf57c1b77574f38844ec6405975d0c502",
+      "stages": {
+        "raw": {
+          "joints": {
+            "acceleration_rms_mps2": 3.986251316832517,
+            "jerk_rms_mps3": 87.57696951307551,
+            "above3hz_rms_m": 0.004344718657750911,
+            "bone_cv_mean": 0.05565675689728399,
+            "bone_above3hz_cv_mean": 0.017345429894355575
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 5.6161957113688,
+            "jerk_rms_mps3": 113.64288424818524,
+            "above3hz_rms_m": 0.005732727789268967
+          },
+          "source_joint_error_mean_m": 0.0,
+          "sha256": "45f10635b47b701ba42ded86e99c062c2a2607e5d973fc466b1a3e68a603f04c"
+        },
+        "fixed_bones": {
+          "joints": {
+            "acceleration_rms_mps2": 2.736370104290078,
+            "jerk_rms_mps3": 52.42221934900105,
+            "above3hz_rms_m": 0.0026463221919518203,
+            "bone_cv_mean": 7.040223402794359e-13,
+            "bone_above3hz_cv_mean": 4.3418156982963605e-14
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 4.2730436116816595,
+            "jerk_rms_mps3": 75.90381286069085,
+            "above3hz_rms_m": 0.00392418007220249
+          },
+          "source_joint_error_mean_m": 0.0562779731619855,
+          "sha256": "31ea8db21f4be335ba1a5ca9524ce7dea84ed3ec215511808b926e37cd32249e"
+        },
+        "author_foot_ik": {
+          "joints": {
+            "acceleration_rms_mps2": 2.676433265870188,
+            "jerk_rms_mps3": 49.706591458181336,
+            "above3hz_rms_m": 0.002611169855676767,
+            "bone_cv_mean": 7.749272288732541e-13,
+            "bone_above3hz_cv_mean": 4.6764891350989e-14
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 4.213972624530687,
+            "jerk_rms_mps3": 74.11523210506626,
+            "above3hz_rms_m": 0.003867525519105941
+          },
+          "source_joint_error_mean_m": 0.05516770072339561,
+          "sha256": "92f4e723ef7d0d19dc7e3d8078d8469fee2941f91de4390f2d0a7fa634d75a8d"
+        }
+      }
+    },
+    {
+      "name": "real_walk_control",
+      "label": "真实动作对照",
+      "text": "a person walked i right and left direction",
+      "source_sha256": "adea6a8767639b252dff75e651995fb6bec689ff27e50d83e457b27c5afec1b6",
+      "stages": {
+        "raw": {
+          "joints": {
+            "acceleration_rms_mps2": 2.81892822299577,
+            "jerk_rms_mps3": 44.06026392331742,
+            "above3hz_rms_m": 0.0026226698024831405,
+            "bone_cv_mean": 4.244841684322345e-07,
+            "bone_above3hz_cv_mean": 3.543665539819985e-07
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 2.4369038282825124,
+            "jerk_rms_mps3": 36.2371205856059,
+            "above3hz_rms_m": 0.0021862900096453575
+          },
+          "source_joint_error_mean_m": 0.0,
+          "sha256": "4d923d49afa2e4614d466b511237036c6543c9b4537d35165d894840de783ff0"
+        },
+        "fixed_bones": {
+          "joints": {
+            "acceleration_rms_mps2": 2.4136179889894045,
+            "jerk_rms_mps3": 31.985234745360824,
+            "above3hz_rms_m": 0.0016077061102728466,
+            "bone_cv_mean": 4.727059039630574e-13,
+            "bone_above3hz_cv_mean": 1.4312211333426056e-14
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 2.1450315458469866,
+            "jerk_rms_mps3": 26.488490540013835,
+            "above3hz_rms_m": 0.0014192272095641305
+          },
+          "source_joint_error_mean_m": 0.058537527703522864,
+          "sha256": "58907e0031a00e76f718b436b83e96a77854dd0b20aa520e24d6c17b24cb18e3"
+        },
+        "author_foot_ik": {
+          "joints": {
+            "acceleration_rms_mps2": 2.4005497651600494,
+            "jerk_rms_mps3": 32.522759263172254,
+            "above3hz_rms_m": 0.0016803645050978938,
+            "bone_cv_mean": 4.73297006383164e-13,
+            "bone_above3hz_cv_mean": 1.4753301851088894e-14
+          },
+          "mesh": {
+            "acceleration_rms_mps2": 2.11760157251045,
+            "jerk_rms_mps3": 26.791959709134854,
+            "above3hz_rms_m": 0.0014600882325618944
+          },
+          "source_joint_error_mean_m": 0.056312000300847743,
+          "sha256": "cc7893a9fa4aadceb8e9e9973786f692297ac90074f59853b0bf99075dd9234d"
+        }
+      }
+    }
+  ],
+  "template_source": "https://github.com/EricGuo5513/momask-codes/blob/94a6636c9c463b7a9414c3401a6f1b67e6c51824/visualization/data/template.bvh",
+  "template_sha256": "d53a5420b1cf5529c881d14fd2ccd0d170950f2b6412091a1abac95204339d67",
+  "conversion_source_sha256": "093a26f6e90285d2b842d1d2b7a3f991db71fc240d1d4fca40d175e875b713be",
+  "real_reference_count": 128,
+  "real_reference_mean": {
+    "acceleration_rms_mps2": 2.296005358526789,
+    "jerk_rms_mps3": 45.05025235453854,
+    "above3hz_rms_m": 0.002357587644413921,
+    "bone_cv_mean": 4.389441939501515e-07,
+    "bone_above3hz_cv_mean": 3.651963771537089e-07
+  },
+  "surface_model_sha256": "a60a7e29d33f09ef1a6352907e2f485e161f471330ca40592764374063e751df",
+  "source_files_unchanged": true
+}

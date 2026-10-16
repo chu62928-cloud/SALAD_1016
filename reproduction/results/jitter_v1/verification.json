@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-16T16:00:56.917451+00:00",
+  "original_replay_clips": 18,
+  "comparison_cases": 6,
+  "media_files": 12,
+  "browser_checks": 12,
+  "fixed_bone_invariant": true,
+  "root_height_unchanged": true,
+  "naturalness_fixed": false,
+  "report_sha256": "48092865b6b058d029bc998120959f9087e859ead6aed3be3fe9a7eb1ad03279",
+  "page_sha256": "dc65298366b764f9d99ac1d200a861352c2faad8df87252d3cdf2a62fb19ff77",
+  "files_sha256": {
+    "generation_audit.json": "325eafaf0ae318a94f887b208c2580276b960c557bcb62799ff26a3ba8672d92",
+    "conversion_audit.json": "b52262eee23e7ce3dd292ce8b408ac8b182e6690991f2680b494b70127e5d985",
+    "videos.json": "5e57fd07fa66b38e70c11da6d4e13783ba50bbf4f6f9796b693e506764cb2ff2",
+    "replay_launch.json": "bdd7ff79e71683a903c0815bbf9668e76af0aac7860de5bdc3ab0c94863a95a1",
+    "convert_launch.json": "9ecd30cd59a4eaf826db1c7541c6561c325b81679f6e2e484e5671cd6c856e2e",
+    "render_launch.json": "bd66fe664da8b3fefde8d2ca4e73e482dbeeb4d091cf35b286a9f8c2aa684de2",
+    "transfer.json": "ef5322e44eb4f73669d5831183b740946bc82f1ea22af09bd65c087a0778b6d3",
+    "bone_jitter_regression.json": "a74bb82829568fdf856b74c32ad2fd5f11bd273e0b5cd54a7667dc7ad267493b",
+    "summary.csv": "8411bd5e07d632ee5b8172c8757565111480b5157cd3986cb9e57a2d13fb14d6",
+    "qa/browser.json": "91985e30ff521261e5b03eaa74ba3e523052cb14fcfe598d890122934e6bb761"
+  },
+  "local_source_sha256": {
+    "diagnose_jitter.py": "ddbce4d0ee6229203aa0443fb39cc1c958ae6a7c4e1840fcc14ece5f89e8e99e",
+    "audit_jitter_pipeline.py": "0bb7e6360eccb6be2c2887e6bc20f30b7ebd62e3ca47dd9104ecfe873bcc64c1",
+    "render_jitter_comparison.py": "2bb046dd5b785439efd4a05973a5be88677f67dad2008512a5f8eb2c75235d8f",
+    "remote_jitter.py": "379756fcf9c7824b03021fd3f962105524b364e241f121bd461a4f909c64e3b8",
+    "report_jitter.py": "088db0becdc7222807de1ff20569853101c625b8634b20d0dbb5c04b8789d8d9",
+    "mesh_surface.py": "94de24244259b9a9a45870735a77142464d652cc169f08c08cfca2ae3daa8b7d",
+    "render_mesh.py": "926042e4e142e22b421455f5a17f37501dc97651b746873f444c460a3e6be429",
+    "physics_metrics.py": "87cc6ed4442db39fd9b15152414066b23758659f938f3299ba07febe40af0a6e"
+  }
+}

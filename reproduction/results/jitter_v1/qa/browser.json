@@ -1,0 +1,371 @@
+{
+  "status": "passed",
+  "viewports": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "corrupted": false,
+      "videos": 6,
+      "textOverflow": false,
+      "links": [
+        "REPORT_zh.md",
+        "summary.csv",
+        "../mesh_v1/index.html",
+        "../index.html",
+        "generation_audit.json"
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "corrupted": false,
+      "videos": 6,
+      "textOverflow": false,
+      "links": [
+        "REPORT_zh.md",
+        "summary.csv",
+        "../mesh_v1/index.html",
+        "../index.html",
+        "generation_audit.json"
+      ]
+    }
+  ],
+  "video_checks": [
+    {
+      "width": 1440,
+      "name": "jump_20261016",
+      "src": "videos/jump_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          19723,
+          19594,
+          19505
+        ],
+        [
+          18767,
+          19752,
+          19668
+        ],
+        [
+          20542,
+          21074,
+          21050
+        ]
+      ],
+      "changed_body_pixels": [
+        4470,
+        5029,
+        5023
+      ]
+    },
+    {
+      "width": 1440,
+      "name": "walk_20261016",
+      "src": "videos/walk_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          19477,
+          19353,
+          18912
+        ],
+        [
+          19944,
+          20013,
+          19496
+        ],
+        [
+          20242,
+          20262,
+          20136
+        ]
+      ],
+      "changed_body_pixels": [
+        4976,
+        4806,
+        4836
+      ]
+    },
+    {
+      "width": 1440,
+      "name": "run_20261016",
+      "src": "videos/run_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          20228,
+          19606,
+          19582
+        ],
+        [
+          19230,
+          19778,
+          19716
+        ],
+        [
+          19674,
+          20691,
+          20628
+        ]
+      ],
+      "changed_body_pixels": [
+        5125,
+        4896,
+        5035
+      ]
+    },
+    {
+      "width": 1440,
+      "name": "stand_20261016",
+      "src": "videos/stand_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          19466,
+          21284,
+          21247
+        ],
+        [
+          19048,
+          20956,
+          20887
+        ],
+        [
+          20349,
+          21285,
+          21318
+        ]
+      ],
+      "changed_body_pixels": [
+        2012,
+        1729,
+        1569
+      ]
+    },
+    {
+      "width": 1440,
+      "name": "jump_20261017",
+      "src": "videos/jump_20261017.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          19369,
+          19630,
+          19472
+        ],
+        [
+          16889,
+          16807,
+          16750
+        ],
+        [
+          21074,
+          21331,
+          21368
+        ]
+      ],
+      "changed_body_pixels": [
+        3482,
+        3459,
+        3705
+      ]
+    },
+    {
+      "width": 1440,
+      "name": "real_walk_control",
+      "src": "videos/real_walk_control.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          19175,
+          17831,
+          17767
+        ],
+        [
+          21609,
+          20759,
+          20808
+        ],
+        [
+          23416,
+          22820,
+          22849
+        ]
+      ],
+      "changed_body_pixels": [
+        5408,
+        6270,
+        6343
+      ]
+    },
+    {
+      "width": 390,
+      "name": "jump_20261016",
+      "src": "videos/jump_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          19723,
+          19594,
+          19505
+        ],
+        [
+          18767,
+          19752,
+          19668
+        ],
+        [
+          20542,
+          21074,
+          21050
+        ]
+      ],
+      "changed_body_pixels": [
+        4470,
+        5029,
+        5023
+      ]
+    },
+    {
+      "width": 390,
+      "name": "walk_20261016",
+      "src": "videos/walk_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          19477,
+          19353,
+          18912
+        ],
+        [
+          19944,
+          20013,
+          19496
+        ],
+        [
+          20242,
+          20262,
+          20136
+        ]
+      ],
+      "changed_body_pixels": [
+        4976,
+        4806,
+        4836
+      ]
+    },
+    {
+      "width": 390,
+      "name": "run_20261016",
+      "src": "videos/run_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          20228,
+          19606,
+          19582
+        ],
+        [
+          19230,
+          19778,
+          19716
+        ],
+        [
+          19674,
+          20691,
+          20628
+        ]
+      ],
+      "changed_body_pixels": [
+        5125,
+        4896,
+        5035
+      ]
+    },
+    {
+      "width": 390,
+      "name": "stand_20261016",
+      "src": "videos/stand_20261016.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          19466,
+          21284,
+          21247
+        ],
+        [
+          19048,
+          20956,
+          20887
+        ],
+        [
+          20349,
+          21285,
+          21318
+        ]
+      ],
+      "changed_body_pixels": [
+        2012,
+        1729,
+        1569
+      ]
+    },
+    {
+      "width": 390,
+      "name": "jump_20261017",
+      "src": "videos/jump_20261017.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          19369,
+          19630,
+          19472
+        ],
+        [
+          16889,
+          16807,
+          16750
+        ],
+        [
+          21074,
+          21331,
+          21368
+        ]
+      ],
+      "changed_body_pixels": [
+        3482,
+        3459,
+        3705
+      ]
+    },
+    {
+      "width": 390,
+      "name": "real_walk_control",
+      "src": "videos/real_walk_control.mp4",
+      "duration": 6,
+      "colored": [
+        [
+          19175,
+          17831,
+          17767
+        ],
+        [
+          21609,
+          20759,
+          20808
+        ],
+        [
+          23416,
+          22820,
+          22849
+        ]
+      ],
+      "changed_body_pixels": [
+        5408,
+        6270,
+        6343
+      ]
+    }
+  ]
+}

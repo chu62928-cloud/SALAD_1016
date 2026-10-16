@@ -1,0 +1,881 @@
+{
+  "status": "complete",
+  "videos": [
+    {
+      "name": "stand_20261016",
+      "label": "站立",
+      "text": "a person stands still with both feet on the ground.",
+      "path": "videos/stand_20261016.mp4",
+      "poster": "videos/stand_20261016.png",
+      "sha256": "02f75533571fc1a0425469253663d9a151d0ce7103d882378bdacdf065f9f639",
+      "poster_sha256": "ca2f9469b09ac944a2361ae789ad672b3707d2695b24581c91f891e8b67dcece",
+      "min_body_pixels": [
+        18821,
+        20315,
+        20349
+      ],
+      "width": 1920,
+      "height": 900,
+      "frames": 120,
+      "fps": 20,
+      "stats": {
+        "raw": {
+          "root_height": {
+            "acceleration_rms_mps2": 0.23528570922773132,
+            "jerk_rms_mps3": 4.973035838737931,
+            "above3hz_rms_m": 0.00031359209046540406
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 0.9162803712950125,
+            "jerk_rms_mps3": 18.42124294771517,
+            "above3hz_rms_m": 0.0009869898988367069
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.10124058817608254,
+            "near_floor_speed_p95_mps": 0.2209240354333107,
+            "near_floor_toe_interval_fraction": 1.0,
+            "near_floor_intervals": 238,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.15966386554621848,
+            "skating_given_contact_ratio": 0.15966386554621848,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.0,
+            "foot_penetration_p95_m": 0.0,
+            "foot_penetration_max_m": 0.0,
+            "penetration_frame_ratio": 0.0,
+            "airborne_frame_ratio": 0.0,
+            "bone_length_cv": 0.025608069162191664,
+            "relative_acceleration_rms_mps2": 1.2631854927285666,
+            "relative_jerk_rms_mps3": 25.473756001826303,
+            "root_speed_mps": 0.032305223927646565,
+            "root_net_displacement_m": 0.18055267673295738,
+            "skating_h03_v010": 0.6554621848739496,
+            "skating_h03_v020": 0.15966386554621848,
+            "skating_h03_v050": 0.0,
+            "skating_h05_v010": 0.6554621848739496,
+            "skating_h05_v020": 0.15966386554621848,
+            "skating_h05_v050": 0.0,
+            "skating_h08_v010": 0.6554621848739496,
+            "skating_h08_v020": 0.15966386554621848,
+            "skating_h08_v050": 0.0
+          }
+        },
+        "fixed_bones": {
+          "root_height": {
+            "acceleration_rms_mps2": 0.23528570922773132,
+            "jerk_rms_mps3": 4.973035838737931,
+            "above3hz_rms_m": 0.00031359209046540406
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 0.7112679837459115,
+            "jerk_rms_mps3": 14.129309223789665,
+            "above3hz_rms_m": 0.0007056284582420394
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.08893816528112096,
+            "near_floor_speed_p95_mps": 0.189044720519806,
+            "near_floor_toe_interval_fraction": 1.0,
+            "near_floor_intervals": 238,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.08403361344537816,
+            "skating_given_contact_ratio": 0.08403361344537816,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.0,
+            "foot_penetration_p95_m": 0.0,
+            "foot_penetration_max_m": 0.0,
+            "penetration_frame_ratio": 0.0,
+            "airborne_frame_ratio": 0.0,
+            "bone_length_cv": 7.395060815302097e-14,
+            "relative_acceleration_rms_mps2": 0.9308049906038603,
+            "relative_jerk_rms_mps3": 18.54623481494189,
+            "root_speed_mps": 0.032305223927646565,
+            "root_net_displacement_m": 0.18055267673295738,
+            "skating_h03_v010": 0.5042016806722689,
+            "skating_h03_v020": 0.08403361344537816,
+            "skating_h03_v050": 0.0,
+            "skating_h05_v010": 0.5378151260504201,
+            "skating_h05_v020": 0.08403361344537816,
+            "skating_h05_v050": 0.0,
+            "skating_h08_v010": 0.5378151260504201,
+            "skating_h08_v020": 0.08403361344537816,
+            "skating_h08_v050": 0.0
+          }
+        },
+        "author_foot_ik": {
+          "root_height": {
+            "acceleration_rms_mps2": 0.23528570922773132,
+            "jerk_rms_mps3": 4.973035838737931,
+            "above3hz_rms_m": 0.00031359209046540406
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 0.6735194381294218,
+            "jerk_rms_mps3": 13.483246435882535,
+            "above3hz_rms_m": 0.0006607614291015096
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.02482124614174535,
+            "near_floor_speed_p95_mps": 0.08666628507870278,
+            "near_floor_toe_interval_fraction": 1.0,
+            "near_floor_intervals": 238,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.01680672268907563,
+            "skating_given_contact_ratio": 0.01680672268907563,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.0,
+            "foot_penetration_p95_m": 0.0,
+            "foot_penetration_max_m": 0.0,
+            "penetration_frame_ratio": 0.0,
+            "airborne_frame_ratio": 0.0,
+            "bone_length_cv": 7.470144215108944e-14,
+            "relative_acceleration_rms_mps2": 0.7718397441554329,
+            "relative_jerk_rms_mps3": 15.861441970929947,
+            "root_speed_mps": 0.032305223927646565,
+            "root_net_displacement_m": 0.18055267673295738,
+            "skating_h03_v010": 0.07563025210084033,
+            "skating_h03_v020": 0.0,
+            "skating_h03_v050": 0.0,
+            "skating_h05_v010": 0.10084033613445378,
+            "skating_h05_v020": 0.01680672268907563,
+            "skating_h05_v050": 0.0,
+            "skating_h08_v010": 0.10084033613445378,
+            "skating_h08_v020": 0.01680672268907563,
+            "skating_h08_v050": 0.0
+          }
+        }
+      }
+    },
+    {
+      "name": "walk_20261016",
+      "label": "正常行走",
+      "text": "a person walks forward at a normal pace.",
+      "path": "videos/walk_20261016.mp4",
+      "poster": "videos/walk_20261016.png",
+      "sha256": "b1ceddc266b4ad1016937056db3d471b410ac895f6de2033e1213d37fe5acf46",
+      "poster_sha256": "b0bd39742cfd47249eae90e473fd4b41b637a5440349dff64d4c2c67c7a22ad8",
+      "min_body_pixels": [
+        16921,
+        16469,
+        16118
+      ],
+      "width": 1920,
+      "height": 900,
+      "frames": 120,
+      "fps": 20,
+      "stats": {
+        "raw": {
+          "root_height": {
+            "acceleration_rms_mps2": 0.7937234435653896,
+            "jerk_rms_mps3": 13.845949761774794,
+            "above3hz_rms_m": 0.0006961560210203404
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 1.684547418495173,
+            "jerk_rms_mps3": 31.199713212085857,
+            "above3hz_rms_m": 0.0015416296364540744
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.2848663385741825,
+            "near_floor_speed_p95_mps": 0.9574449652604269,
+            "near_floor_toe_interval_fraction": 0.20588235294117646,
+            "near_floor_intervals": 49,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.1092436974789916,
+            "skating_given_contact_ratio": 0.37142857142857144,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.0,
+            "foot_penetration_p95_m": 0.0,
+            "foot_penetration_max_m": 0.0,
+            "penetration_frame_ratio": 0.0,
+            "airborne_frame_ratio": 0.7,
+            "bone_length_cv": 0.028382871829042564,
+            "relative_acceleration_rms_mps2": 3.30944333569274,
+            "relative_jerk_rms_mps3": 61.25348039051697,
+            "root_speed_mps": 0.4517505274571578,
+            "root_net_displacement_m": 2.607478590202229,
+            "skating_h03_v010": 0.15966386554621848,
+            "skating_h03_v020": 0.07563025210084033,
+            "skating_h03_v050": 0.0,
+            "skating_h05_v010": 0.19327731092436976,
+            "skating_h05_v020": 0.1092436974789916,
+            "skating_h05_v050": 0.03361344537815126,
+            "skating_h08_v010": 0.2605042016806723,
+            "skating_h08_v020": 0.17647058823529413,
+            "skating_h08_v050": 0.09243697478991597
+          }
+        },
+        "fixed_bones": {
+          "root_height": {
+            "acceleration_rms_mps2": 0.7937234435653896,
+            "jerk_rms_mps3": 13.845949761774794,
+            "above3hz_rms_m": 0.0006961560210203404
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 1.444750779313093,
+            "jerk_rms_mps3": 23.809117268805746,
+            "above3hz_rms_m": 0.001128870371593202
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.16529936091411893,
+            "near_floor_speed_p95_mps": 0.28866084014326476,
+            "near_floor_toe_interval_fraction": 0.025210084033613446,
+            "near_floor_intervals": 6,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.01680672268907563,
+            "skating_given_contact_ratio": 0.3333333333333333,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.0,
+            "foot_penetration_p95_m": 0.0,
+            "foot_penetration_max_m": 0.0,
+            "penetration_frame_ratio": 0.0,
+            "airborne_frame_ratio": 0.9333333333333333,
+            "bone_length_cv": 1.1050765814306041e-13,
+            "relative_acceleration_rms_mps2": 2.7739636415854516,
+            "relative_jerk_rms_mps3": 42.76679158807156,
+            "root_speed_mps": 0.4517505274571578,
+            "root_net_displacement_m": 2.607478590202229,
+            "skating_h03_v010": 0.0,
+            "skating_h03_v020": 0.0,
+            "skating_h03_v050": 0.0,
+            "skating_h05_v010": 0.03361344537815126,
+            "skating_h05_v020": 0.01680672268907563,
+            "skating_h05_v050": 0.0,
+            "skating_h08_v010": 0.226890756302521,
+            "skating_h08_v020": 0.17647058823529413,
+            "skating_h08_v050": 0.1092436974789916
+          }
+        },
+        "author_foot_ik": {
+          "root_height": {
+            "acceleration_rms_mps2": 0.7937234435653896,
+            "jerk_rms_mps3": 13.845949761774794,
+            "above3hz_rms_m": 0.0006961560210203404
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 1.3787978681734911,
+            "jerk_rms_mps3": 22.72369077601356,
+            "above3hz_rms_m": 0.0011029128768737988
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.15232465233906028,
+            "near_floor_speed_p95_mps": 0.2956191772035656,
+            "near_floor_toe_interval_fraction": 0.03361344537815126,
+            "near_floor_intervals": 8,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.025210084033613446,
+            "skating_given_contact_ratio": 0.375,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.0,
+            "foot_penetration_p95_m": 0.0,
+            "foot_penetration_max_m": 0.0,
+            "penetration_frame_ratio": 0.0,
+            "airborne_frame_ratio": 0.9083333333333333,
+            "bone_length_cv": 1.281667242930625e-13,
+            "relative_acceleration_rms_mps2": 2.646625321345249,
+            "relative_jerk_rms_mps3": 40.848699645361556,
+            "root_speed_mps": 0.4517505274571578,
+            "root_net_displacement_m": 2.607478590202229,
+            "skating_h03_v010": 0.0,
+            "skating_h03_v020": 0.0,
+            "skating_h03_v050": 0.0,
+            "skating_h05_v010": 0.04201680672268908,
+            "skating_h05_v020": 0.025210084033613446,
+            "skating_h05_v050": 0.0,
+            "skating_h08_v010": 0.17647058823529413,
+            "skating_h08_v020": 0.15126050420168066,
+            "skating_h08_v050": 0.1092436974789916
+          }
+        }
+      }
+    },
+    {
+      "name": "run_20261016",
+      "label": "跑步",
+      "text": "a person runs forward.",
+      "path": "videos/run_20261016.mp4",
+      "poster": "videos/run_20261016.png",
+      "sha256": "977d7031689c8213734d7df007ce46f148eb89851b7021fe3aa65eebaf30d3c9",
+      "poster_sha256": "7584617a78ba0beb76c911f96cdc106013fbd24b4a01bbe8a8cf6885b2ab28d2",
+      "min_body_pixels": [
+        16699,
+        15784,
+        15723
+      ],
+      "width": 1920,
+      "height": 900,
+      "frames": 120,
+      "fps": 20,
+      "stats": {
+        "raw": {
+          "root_height": {
+            "acceleration_rms_mps2": 2.60218902666747,
+            "jerk_rms_mps3": 47.47931727725142,
+            "above3hz_rms_m": 0.0038751887479712833
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 2.946198562582587,
+            "jerk_rms_mps3": 58.171520364324586,
+            "above3hz_rms_m": 0.0036687938689522965
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.13633064198860897,
+            "near_floor_speed_p95_mps": 0.3963352004493978,
+            "near_floor_toe_interval_fraction": 0.7857142857142857,
+            "near_floor_intervals": 187,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.23529411764705882,
+            "skating_given_contact_ratio": 0.2641509433962264,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.0,
+            "foot_penetration_p95_m": 0.0,
+            "foot_penetration_max_m": 0.0,
+            "penetration_frame_ratio": 0.0,
+            "airborne_frame_ratio": 0.08333333333333333,
+            "bone_length_cv": 0.035266823121450054,
+            "relative_acceleration_rms_mps2": 4.734541622332458,
+            "relative_jerk_rms_mps3": 92.36574979527687,
+            "root_speed_mps": 0.5550937054872128,
+            "root_net_displacement_m": 3.217598300913472,
+            "skating_h03_v010": 0.453781512605042,
+            "skating_h03_v020": 0.08403361344537816,
+            "skating_h03_v050": 0.0,
+            "skating_h05_v010": 0.6470588235294118,
+            "skating_h05_v020": 0.23529411764705882,
+            "skating_h05_v050": 0.04201680672268908,
+            "skating_h08_v010": 0.7563025210084033,
+            "skating_h08_v020": 0.3445378151260504,
+            "skating_h08_v050": 0.14285714285714285
+          }
+        },
+        "fixed_bones": {
+          "root_height": {
+            "acceleration_rms_mps2": 2.60218902666747,
+            "jerk_rms_mps3": 47.47931727725142,
+            "above3hz_rms_m": 0.0038751887479712833
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 3.2168997191496267,
+            "jerk_rms_mps3": 56.206047445798276,
+            "above3hz_rms_m": 0.0036423567029876666
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.5153218717215221,
+            "near_floor_speed_p95_mps": 4.61273808444372,
+            "near_floor_toe_interval_fraction": 0.6722689075630253,
+            "near_floor_intervals": 160,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.2857142857142857,
+            "skating_given_contact_ratio": 0.35051546391752575,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.0014173461204615638,
+            "foot_penetration_p95_m": 0.0,
+            "foot_penetration_max_m": 0.06267701153438812,
+            "penetration_frame_ratio": 0.075,
+            "airborne_frame_ratio": 0.15833333333333333,
+            "bone_length_cv": 1.9112827579444943e-13,
+            "relative_acceleration_rms_mps2": 4.428052366278092,
+            "relative_jerk_rms_mps3": 73.76218459473228,
+            "root_speed_mps": 0.5550937054872128,
+            "root_net_displacement_m": 3.217598300913472,
+            "skating_h03_v010": 0.13445378151260504,
+            "skating_h03_v020": 0.13445378151260504,
+            "skating_h03_v050": 0.12605042016806722,
+            "skating_h05_v010": 0.5546218487394958,
+            "skating_h05_v020": 0.2857142857142857,
+            "skating_h05_v050": 0.15966386554621848,
+            "skating_h08_v010": 0.6638655462184874,
+            "skating_h08_v020": 0.33613445378151263,
+            "skating_h08_v050": 0.20168067226890757
+          }
+        },
+        "author_foot_ik": {
+          "root_height": {
+            "acceleration_rms_mps2": 2.60218902666747,
+            "jerk_rms_mps3": 47.47931727725142,
+            "above3hz_rms_m": 0.0038751887479712833
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 3.166022258486671,
+            "jerk_rms_mps3": 55.262919868404026,
+            "above3hz_rms_m": 0.0035982260602144293
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.4470482228557431,
+            "near_floor_speed_p95_mps": 3.661898546248517,
+            "near_floor_toe_interval_fraction": 0.7352941176470589,
+            "near_floor_intervals": 175,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.2605042016806723,
+            "skating_given_contact_ratio": 0.31313131313131315,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.0014889922289760035,
+            "foot_penetration_p95_m": 4.159884903699137e-05,
+            "foot_penetration_max_m": 0.06342131086699648,
+            "penetration_frame_ratio": 0.09166666666666666,
+            "airborne_frame_ratio": 0.14166666666666666,
+            "bone_length_cv": 1.9835915998753168e-13,
+            "relative_acceleration_rms_mps2": 4.350231488996584,
+            "relative_jerk_rms_mps3": 72.06802369040852,
+            "root_speed_mps": 0.5550937054872128,
+            "root_net_displacement_m": 3.217598300913472,
+            "skating_h03_v010": 0.15126050420168066,
+            "skating_h03_v020": 0.13445378151260504,
+            "skating_h03_v050": 0.12605042016806722,
+            "skating_h05_v010": 0.33613445378151263,
+            "skating_h05_v020": 0.2605042016806723,
+            "skating_h05_v050": 0.16806722689075632,
+            "skating_h08_v010": 0.3697478991596639,
+            "skating_h08_v020": 0.29411764705882354,
+            "skating_h08_v050": 0.20168067226890757
+          }
+        }
+      }
+    },
+    {
+      "name": "jump_20261016",
+      "label": "跳跃落地",
+      "text": "a person jumps up and lands on both feet.",
+      "path": "videos/jump_20261016.mp4",
+      "poster": "videos/jump_20261016.png",
+      "sha256": "031d9ec560684a94fcfcd3be45d530087cf26ea09741df91d096b9293a58603c",
+      "poster_sha256": "ddf64478a0f2bcd78cf897f900ccd73fa51b7f401d76b355402a0dafd6ecad71",
+      "min_body_pixels": [
+        17698,
+        16833,
+        16720
+      ],
+      "width": 1920,
+      "height": 900,
+      "frames": 120,
+      "fps": 20,
+      "stats": {
+        "raw": {
+          "root_height": {
+            "acceleration_rms_mps2": 5.691220900547242,
+            "jerk_rms_mps3": 73.42851482309058,
+            "above3hz_rms_m": 0.0042581804270336605
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 4.03584063137326,
+            "jerk_rms_mps3": 72.80710166007775,
+            "above3hz_rms_m": 0.003422490224848116
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.11504075232209644,
+            "near_floor_speed_p95_mps": 0.22960213723840392,
+            "near_floor_toe_interval_fraction": 0.9117647058823529,
+            "near_floor_intervals": 217,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.15966386554621848,
+            "skating_given_contact_ratio": 0.1743119266055046,
+            "frames": 120,
+            "foot_penetration_mean_m": 3.255683016808083e-05,
+            "foot_penetration_p95_m": 0.0,
+            "foot_penetration_max_m": 0.010723976418375969,
+            "penetration_frame_ratio": 0.0,
+            "airborne_frame_ratio": 0.075,
+            "bone_length_cv": 0.041124046996273825,
+            "relative_acceleration_rms_mps2": 4.181672401091389,
+            "relative_jerk_rms_mps3": 99.4164825842167,
+            "root_speed_mps": 0.0764842953768829,
+            "root_net_displacement_m": 0.12820419134529076,
+            "skating_h03_v010": 0.5966386554621849,
+            "skating_h03_v020": 0.15126050420168066,
+            "skating_h03_v050": 0.0,
+            "skating_h05_v010": 0.6050420168067226,
+            "skating_h05_v020": 0.15966386554621848,
+            "skating_h05_v050": 0.008403361344537815,
+            "skating_h08_v010": 0.6050420168067226,
+            "skating_h08_v020": 0.15966386554621848,
+            "skating_h08_v050": 0.008403361344537815
+          }
+        },
+        "fixed_bones": {
+          "root_height": {
+            "acceleration_rms_mps2": 5.691220900547242,
+            "jerk_rms_mps3": 73.42851482309058,
+            "above3hz_rms_m": 0.0042581804270336605
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 3.7428261563390124,
+            "jerk_rms_mps3": 53.34963297806291,
+            "above3hz_rms_m": 0.0028046944374342147
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.10507999807128031,
+            "near_floor_speed_p95_mps": 0.26535164002658795,
+            "near_floor_toe_interval_fraction": 0.8991596638655462,
+            "near_floor_intervals": 214,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.12605042016806722,
+            "skating_given_contact_ratio": 0.14018691588785046,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.005353316258078439,
+            "foot_penetration_p95_m": 0.03920590939747659,
+            "foot_penetration_max_m": 0.13609015921582857,
+            "penetration_frame_ratio": 0.08333333333333333,
+            "airborne_frame_ratio": 0.09166666666666666,
+            "bone_length_cv": 2.1217097473457226e-13,
+            "relative_acceleration_rms_mps2": 2.3271776220291316,
+            "relative_jerk_rms_mps3": 47.38114019321772,
+            "root_speed_mps": 0.0764842953768829,
+            "root_net_displacement_m": 0.12820419134529076,
+            "skating_h03_v010": 0.29411764705882354,
+            "skating_h03_v020": 0.11764705882352941,
+            "skating_h03_v050": 0.0,
+            "skating_h05_v010": 0.5462184873949579,
+            "skating_h05_v020": 0.12605042016806722,
+            "skating_h05_v050": 0.0,
+            "skating_h08_v010": 0.5546218487394958,
+            "skating_h08_v020": 0.13445378151260504,
+            "skating_h08_v050": 0.0
+          }
+        },
+        "author_foot_ik": {
+          "root_height": {
+            "acceleration_rms_mps2": 5.691220900547242,
+            "jerk_rms_mps3": 73.42851482309058,
+            "above3hz_rms_m": 0.0042581804270336605
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 3.734550409740252,
+            "jerk_rms_mps3": 52.72854309846901,
+            "above3hz_rms_m": 0.0027771087467322055
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.044067413947088796,
+            "near_floor_speed_p95_mps": 0.21636264639689268,
+            "near_floor_toe_interval_fraction": 0.9033613445378151,
+            "near_floor_intervals": 215,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.07563025210084033,
+            "skating_given_contact_ratio": 0.08333333333333333,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.005407048729127468,
+            "foot_penetration_p95_m": 0.044188990242104056,
+            "foot_penetration_max_m": 0.138444191156021,
+            "penetration_frame_ratio": 0.09166666666666666,
+            "airborne_frame_ratio": 0.08333333333333333,
+            "bone_length_cv": 2.272768662648248e-13,
+            "relative_acceleration_rms_mps2": 2.235231016382112,
+            "relative_jerk_rms_mps3": 43.62954672252181,
+            "root_speed_mps": 0.0764842953768829,
+            "root_net_displacement_m": 0.12820419134529076,
+            "skating_h03_v010": 0.12605042016806722,
+            "skating_h03_v020": 0.06722689075630252,
+            "skating_h03_v050": 0.0,
+            "skating_h05_v010": 0.17647058823529413,
+            "skating_h05_v020": 0.07563025210084033,
+            "skating_h05_v050": 0.0,
+            "skating_h08_v010": 0.17647058823529413,
+            "skating_h08_v020": 0.07563025210084033,
+            "skating_h08_v050": 0.0
+          }
+        }
+      }
+    },
+    {
+      "name": "jump_20261017",
+      "label": "跳跃落地",
+      "text": "a person jumps up and lands on both feet.",
+      "path": "videos/jump_20261017.mp4",
+      "poster": "videos/jump_20261017.png",
+      "sha256": "8ef61ced3942b0b695cff26e064ee60a6d11c369e909ded91cb63e6e0b23495f",
+      "poster_sha256": "f6ddbe597ddec077f6be0e8af2f94b3f6c2b45fdfb0600d5eadd9451cfa775e7",
+      "min_body_pixels": [
+        14763,
+        14219,
+        14225
+      ],
+      "width": 1920,
+      "height": 900,
+      "frames": 120,
+      "fps": 20,
+      "stats": {
+        "raw": {
+          "root_height": {
+            "acceleration_rms_mps2": 7.788641126944023,
+            "jerk_rms_mps3": 107.71873653090842,
+            "above3hz_rms_m": 0.007222111031518479
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 6.904820556808372,
+            "jerk_rms_mps3": 123.18686899345126,
+            "above3hz_rms_m": 0.006152846282297714
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.1473769290719457,
+            "near_floor_speed_p95_mps": 0.42626158780550055,
+            "near_floor_toe_interval_fraction": 0.8109243697478992,
+            "near_floor_intervals": 193,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.226890756302521,
+            "skating_given_contact_ratio": 0.27835051546391754,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.0,
+            "foot_penetration_p95_m": 0.0,
+            "foot_penetration_max_m": 0.0,
+            "penetration_frame_ratio": 0.0,
+            "airborne_frame_ratio": 0.16666666666666666,
+            "bone_length_cv": 0.05565675689728399,
+            "relative_acceleration_rms_mps2": 6.904389812492261,
+            "relative_jerk_rms_mps3": 151.6877607695574,
+            "root_speed_mps": 0.11904630390505257,
+            "root_net_displacement_m": 0.26940583620111286,
+            "skating_h03_v010": 0.5210084033613446,
+            "skating_h03_v020": 0.19327731092436976,
+            "skating_h03_v050": 0.04201680672268908,
+            "skating_h05_v010": 0.6134453781512605,
+            "skating_h05_v020": 0.226890756302521,
+            "skating_h05_v050": 0.06722689075630252,
+            "skating_h08_v010": 0.6302521008403361,
+            "skating_h08_v020": 0.24369747899159663,
+            "skating_h08_v050": 0.07563025210084033
+          }
+        },
+        "fixed_bones": {
+          "root_height": {
+            "acceleration_rms_mps2": 7.788641126944023,
+            "jerk_rms_mps3": 107.71873653090842,
+            "above3hz_rms_m": 0.007222111031518479
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 6.246755193685745,
+            "jerk_rms_mps3": 95.83292711430985,
+            "above3hz_rms_m": 0.005338050319316775
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.15021683074576317,
+            "near_floor_speed_p95_mps": 0.41665793781821997,
+            "near_floor_toe_interval_fraction": 0.8067226890756303,
+            "near_floor_intervals": 192,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.2184873949579832,
+            "skating_given_contact_ratio": 0.2708333333333333,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.020432087539697844,
+            "foot_penetration_p95_m": 0.16417207292248043,
+            "foot_penetration_max_m": 0.24396717537717796,
+            "penetration_frame_ratio": 0.175,
+            "airborne_frame_ratio": 0.175,
+            "bone_length_cv": 7.040458976452397e-13,
+            "relative_acceleration_rms_mps2": 4.739532048942962,
+            "relative_jerk_rms_mps3": 90.7979473579901,
+            "root_speed_mps": 0.11904630390505257,
+            "root_net_displacement_m": 0.26940583620111286,
+            "skating_h03_v010": 0.4789915966386555,
+            "skating_h03_v020": 0.21008403361344538,
+            "skating_h03_v050": 0.058823529411764705,
+            "skating_h05_v010": 0.5966386554621849,
+            "skating_h05_v020": 0.2184873949579832,
+            "skating_h05_v050": 0.06722689075630252,
+            "skating_h08_v010": 0.5966386554621849,
+            "skating_h08_v020": 0.2184873949579832,
+            "skating_h08_v050": 0.06722689075630252
+          }
+        },
+        "author_foot_ik": {
+          "root_height": {
+            "acceleration_rms_mps2": 7.788641126944023,
+            "jerk_rms_mps3": 107.71873653090842,
+            "above3hz_rms_m": 0.007222111031518479
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 6.2128280530143,
+            "jerk_rms_mps3": 94.49733048090148,
+            "above3hz_rms_m": 0.00529405116482765
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.09247559324342826,
+            "near_floor_speed_p95_mps": 0.31153621765463324,
+            "near_floor_toe_interval_fraction": 0.8067226890756303,
+            "near_floor_intervals": 192,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.15126050420168066,
+            "skating_given_contact_ratio": 0.1875,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.020598281444158963,
+            "foot_penetration_p95_m": 0.16424571343814923,
+            "foot_penetration_max_m": 0.24261800843602377,
+            "penetration_frame_ratio": 0.18333333333333332,
+            "airborne_frame_ratio": 0.175,
+            "bone_length_cv": 7.74960586486842e-13,
+            "relative_acceleration_rms_mps2": 4.6357183995546665,
+            "relative_jerk_rms_mps3": 86.09434187663923,
+            "root_speed_mps": 0.11904630390505257,
+            "root_net_displacement_m": 0.26940583620111286,
+            "skating_h03_v010": 0.2689075630252101,
+            "skating_h03_v020": 0.14285714285714285,
+            "skating_h03_v050": 0.01680672268907563,
+            "skating_h05_v010": 0.2857142857142857,
+            "skating_h05_v020": 0.15126050420168066,
+            "skating_h05_v050": 0.025210084033613446,
+            "skating_h08_v010": 0.2857142857142857,
+            "skating_h08_v020": 0.15126050420168066,
+            "skating_h08_v050": 0.025210084033613446
+          }
+        }
+      }
+    },
+    {
+      "name": "real_walk_control",
+      "label": "真实动作对照",
+      "text": "a person walked i right and left direction",
+      "path": "videos/real_walk_control.mp4",
+      "poster": "videos/real_walk_control.png",
+      "sha256": "cb1ea1ce7acabcfa0dbcb09cb7ead52e97b84dfc991508d65c05ec22667122bf",
+      "poster_sha256": "69ae5d96db30654773b7222408ca6650cbc01180775bf18630155929c39e97d5",
+      "min_body_pixels": [
+        15249,
+        15045,
+        14919
+      ],
+      "width": 1920,
+      "height": 900,
+      "frames": 120,
+      "fps": 20,
+      "stats": {
+        "raw": {
+          "root_height": {
+            "acceleration_rms_mps2": 1.0900291480585826,
+            "jerk_rms_mps3": 16.2630389826918,
+            "above3hz_rms_m": 0.0007359774884702238
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 2.489721215001719,
+            "jerk_rms_mps3": 37.16295423033186,
+            "above3hz_rms_m": 0.0022276966219887374
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.10722541856063551,
+            "near_floor_speed_p95_mps": 0.4145292643346793,
+            "near_floor_toe_interval_fraction": 0.6470588235294118,
+            "near_floor_intervals": 154,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.11764705882352941,
+            "skating_given_contact_ratio": 0.11764705882352941,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.0,
+            "foot_penetration_p95_m": 0.0,
+            "foot_penetration_max_m": 0.0,
+            "penetration_frame_ratio": 0.0,
+            "airborne_frame_ratio": 0.0,
+            "bone_length_cv": 4.244841684322345e-07,
+            "relative_acceleration_rms_mps2": 4.882526905118523,
+            "relative_jerk_rms_mps3": 76.31461571007982,
+            "root_speed_mps": 0.7459982310549327,
+            "root_net_displacement_m": 1.3852663694284835,
+            "skating_h03_v010": 0.01680672268907563,
+            "skating_h03_v020": 0.008403361344537815,
+            "skating_h03_v050": 0.0,
+            "skating_h05_v010": 0.23529411764705882,
+            "skating_h05_v020": 0.11764705882352941,
+            "skating_h05_v050": 0.05042016806722689,
+            "skating_h08_v010": 0.6554621848739496,
+            "skating_h08_v020": 0.5462184873949579,
+            "skating_h08_v050": 0.3697478991596639
+          }
+        },
+        "fixed_bones": {
+          "root_height": {
+            "acceleration_rms_mps2": 1.0900291480585826,
+            "jerk_rms_mps3": 16.2630389826918,
+            "above3hz_rms_m": 0.0007359774884702238
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 2.201168299397067,
+            "jerk_rms_mps3": 27.84108234924312,
+            "above3hz_rms_m": 0.0014881509828766854
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.04775308917734174,
+            "near_floor_speed_p95_mps": 0.09715918602036538,
+            "near_floor_toe_interval_fraction": 0.058823529411764705,
+            "near_floor_intervals": 14,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.0,
+            "skating_given_contact_ratio": 0.0,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.0,
+            "foot_penetration_p95_m": 0.0,
+            "foot_penetration_max_m": 0.0,
+            "penetration_frame_ratio": 0.0,
+            "airborne_frame_ratio": 0.85,
+            "bone_length_cv": 4.727060549258871e-13,
+            "relative_acceleration_rms_mps2": 4.180508986991868,
+            "relative_jerk_rms_mps3": 55.40005167098233,
+            "root_speed_mps": 0.7459982310549327,
+            "root_net_displacement_m": 1.3852663694284835,
+            "skating_h03_v010": 0.0,
+            "skating_h03_v020": 0.0,
+            "skating_h03_v050": 0.0,
+            "skating_h05_v010": 0.008403361344537815,
+            "skating_h05_v020": 0.0,
+            "skating_h05_v050": 0.0,
+            "skating_h08_v010": 0.37815126050420167,
+            "skating_h08_v020": 0.18487394957983194,
+            "skating_h08_v050": 0.10084033613445378
+          }
+        },
+        "author_foot_ik": {
+          "root_height": {
+            "acceleration_rms_mps2": 1.0900291480585826,
+            "jerk_rms_mps3": 16.2630389826918,
+            "above3hz_rms_m": 0.0007359774884702238
+          },
+          "camera_follow_surface": {
+            "acceleration_rms_mps2": 2.176487308729352,
+            "jerk_rms_mps3": 28.134819953416503,
+            "above3hz_rms_m": 0.0015277992301409346
+          },
+          "physics": {
+            "near_floor_speed_mps": 0.04069876765286937,
+            "near_floor_speed_p95_mps": 0.07745477862725564,
+            "near_floor_toe_interval_fraction": 0.06722689075630252,
+            "near_floor_intervals": 16,
+            "toe_intervals": 238,
+            "skating_frame_ratio": 0.0,
+            "skating_given_contact_ratio": 0.0,
+            "frames": 120,
+            "foot_penetration_mean_m": 0.0,
+            "foot_penetration_p95_m": 0.0,
+            "foot_penetration_max_m": 0.0,
+            "penetration_frame_ratio": 0.0,
+            "airborne_frame_ratio": 0.825,
+            "bone_length_cv": 4.732972065152651e-13,
+            "relative_acceleration_rms_mps2": 4.1578741593547415,
+            "relative_jerk_rms_mps3": 56.33107144614568,
+            "root_speed_mps": 0.7459982310549327,
+            "root_net_displacement_m": 1.3852663694284835,
+            "skating_h03_v010": 0.0,
+            "skating_h03_v020": 0.0,
+            "skating_h03_v050": 0.0,
+            "skating_h05_v010": 0.0,
+            "skating_h05_v020": 0.0,
+            "skating_h05_v050": 0.0,
+            "skating_h08_v010": 0.36134453781512604,
+            "skating_h08_v020": 0.226890756302521,
+            "skating_h08_v050": 0.1092436974789916
+          }
+        }
+      }
+    }
+  ],
+  "camera": {
+    "ycenter": 0.9986238926649094,
+    "ymag": 1.507885930500453
+  },
+  "renderer_sha256": "2bb046dd5b785439efd4a05973a5be88677f67dad2008512a5f8eb2c75235d8f",
+  "conversion_audit_sha256": "b52262eee23e7ce3dd292ce8b408ac8b182e6690991f2680b494b70127e5d985",
+  "fps": 20,
+  "stages": [
+    "raw",
+    "fixed_bones",
+    "author_foot_ik"
+  ],
+  "stage_labels": [
+    "原始关节直接蒙皮",
+    "固定骨架拟合",
+    "固定骨架 + 足部拟合"
+  ],
+  "notes": "Same input motion, same fixed floor and camera. Both fitted variants modify the display joints. No additional temporal filter."
+}

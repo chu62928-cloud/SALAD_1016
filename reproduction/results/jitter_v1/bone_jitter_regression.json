@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "original_command": [
+    "/root/autodl-tmp/envs/salad_1016/bin/python",
+    "/root/autodl-tmp/SALAD_1016/reproduction/artifacts/physics_v1_20261016/jitter_v1/code/diagnose_jitter.py",
+    "--source",
+    "/root/autodl-tmp/SALAD_1016/reproduction/artifacts/physics_v1_20261016",
+    "--clip",
+    "jump_20261016",
+    "--assert-bone-jitter"
+  ],
+  "original_returncode": 1,
+  "original_assertion": "AssertionError: Rapid bone-length oscillation reproduced: 1.217% exceeds diagnostic 0.5%",
+  "original_measurement": {
+    "fps": 20,
+    "high_frequency_cutoff_hz": 3,
+    "diagnostic_limit": 0.005,
+    "limit_is_paper_metric_or_global_quality_gate": false,
+    "description": "Rapid bone-length oscillation: mean per-bone RMS above 3Hz / mean length; diagnostic tolerance 0.5%",
+    "clips": [
+      {
+        "name": "jump_20261016",
+        "source_sha256": "663cd73739a19a382453448e9fd483e9806c5cd1eb614cd67b5837ec7cf8c272",
+        "joints": {
+          "acceleration_rms_mps2": 2.414289686432942,
+          "jerk_rms_mps3": 57.398132981883236,
+          "above3hz_rms_m": 0.0026048083577432024
+        },
+        "bone_above3hz_cv_mean": 0.012169496000546506,
+        "bone_above3hz_cv_max": 0.03208750342319201,
+        "bone_frame_step_relative_rms": 0.025663919746875763,
+        "mesh": {
+          "acceleration_rms_mps2": 2.8520338405703374,
+          "jerk_rms_mps3": 65.33101431270194,
+          "above3hz_rms_m": 0.0033441883283314255
+        },
+        "mesh_sha256": "1afe04759fad4bb42c9f3480bf0f33c48fe06dc61546ee8045bf0746844a7416",
+        "mesh_to_joint_jerk_ratio": 1.1382080029209762
+      }
+    ]
+  },
+  "fitted_bone_length_checks": [
+    {
+      "name": "stand_20261016",
+      "stage": "fixed_bones",
+      "bone_hf_cv_mean": 5.814158572174903e-15
+    },
+    {
+      "name": "stand_20261016",
+      "stage": "author_foot_ik",
+      "bone_hf_cv_mean": 5.869892889823621e-15
+    },
+    {
+      "name": "walk_20261016",
+      "stage": "fixed_bones",
+      "bone_hf_cv_mean": 8.077351136022272e-15
+    },
+    {
+      "name": "walk_20261016",
+      "stage": "author_foot_ik",
+      "bone_hf_cv_mean": 8.820657421837433e-15
+    },
+    {
+      "name": "run_20261016",
+      "stage": "fixed_bones",
+      "bone_hf_cv_mean": 1.9967234261874793e-14
+    },
+    {
+      "name": "run_20261016",
+      "stage": "author_foot_ik",
+      "bone_hf_cv_mean": 2.041543294487064e-14
+    },
+    {
+      "name": "jump_20261016",
+      "stage": "fixed_bones",
+      "bone_hf_cv_mean": 4.003292774208287e-14
+    },
+    {
+      "name": "jump_20261016",
+      "stage": "author_foot_ik",
+      "bone_hf_cv_mean": 4.235504265780434e-14
+    },
+    {
+      "name": "jump_20261017",
+      "stage": "fixed_bones",
+      "bone_hf_cv_mean": 4.3418156982963605e-14
+    },
+    {
+      "name": "jump_20261017",
+      "stage": "author_foot_ik",
+      "bone_hf_cv_mean": 4.6764891350989e-14
+    },
+    {
+      "name": "real_walk_control",
+      "stage": "fixed_bones",
+      "bone_hf_cv_mean": 1.4312211333426056e-14
+    },
+    {
+      "name": "real_walk_control",
+      "stage": "author_foot_ik",
+      "bone_hf_cv_mean": 1.475330185108889e-14
+    }
+  ],
+  "original_arrays_and_assets_unchanged": true,
+  "scope": "Bone-length oscillation only; root-height and perceptual naturalness are not repaired",
+  "naturalness_fixed": false
+}
