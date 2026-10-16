@@ -86,6 +86,9 @@ def main():
     for relative, info in audit['asset_files'].items():
         if sha256(ROOT / relative) != info['sha256']:
             raise ValueError('Asset changed after audit: ' + relative)
+    for name, info in audit['clip']['files'].items():
+        if sha256(info['path']) != info['sha256']:
+            raise ValueError('CLIP asset changed after audit: ' + name)
     protocol_path = ROOT / 'reproduction/protocol.json'
     protocol = json.loads(protocol_path.read_text())
     commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()

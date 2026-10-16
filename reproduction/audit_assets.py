@@ -10,6 +10,8 @@ import numpy as np
 from download_assets import FILES
 
 ROOT = Path(__file__).resolve().parents[1]
+CLIP_REPO = 'openai/clip-vit-base-patch32'
+CLIP_REVISION = '3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268'
 
 
 def sha256(path):
@@ -99,12 +101,19 @@ def main():
                 result['errors'].append('Invalid normalization array: ' + str(path))
             if name == 'std.npy' and (values <= 0).any():
                 result['errors'].append('Nonpositive normalization standard deviation')
-    files = list((ROOT / 'checkpoints' / args.dataset).rglob('*.tar'))
-    files += list((ROOT / 'checkpoints' / args.dataset).rglob('opt.txt'))
-    files += list((ROOT / 'checkpoints' / args.dataset).rglob('*.npy'))
-    files += list((ROOT / 'glove').glob('our_vab*'))
+    files = [p for p in required if p.is_file()]
     result['asset_files'] = {str(p.relative_to(ROOT)): {'bytes': p.stat().st_size,
                               'sha256': sha256(p)} for p in sorted(files)}
+    from huggingface_hub import try_to_load_from_cache
+    result['clip'] = {'repo': CLIP_REPO, 'revision': CLIP_REVISION, 'files': {}}
+    for name in ['config.json', 'pytorch_model.bin', 'tokenizer.json', 'tokenizer_config.json',
+                 'special_tokens_map.json', 'vocab.json', 'merges.txt']:
+        cached = try_to_load_from_cache(CLIP_REPO, name, revision=CLIP_REVISION)
+        if not isinstance(cached, str) or not Path(cached).is_file():
+            result['errors'].append('Missing fixed CLIP asset: ' + name)
+            continue
+        result['clip']['files'][name] = {'path': cached, 'bytes': Path(cached).stat().st_size,
+                                          'sha256': sha256(cached)}
     result['checked_at'] = datetime.now(timezone.utc).isoformat()
     result['status'] = 'passed' if not result['errors'] else 'failed'
     args.output.parent.mkdir(parents=True, exist_ok=True)

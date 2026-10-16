@@ -22,8 +22,9 @@ class FrozenCLIPTextEncoder(nn.Module):
         # clip.model.convert_weights(self.model)
         # self.model.to(opt.device)
         if opt.clip_version == "ViT-B/32":
-            self.tokenizer = AutoTokenizer.from_pretrained("openai/clip-vit-base-patch32")
-            self.model = AutoModel.from_pretrained("openai/clip-vit-base-patch32")
+            revision = "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+            self.tokenizer = AutoTokenizer.from_pretrained("openai/clip-vit-base-patch32", revision=revision)
+            self.model = AutoModel.from_pretrained("openai/clip-vit-base-patch32", revision=revision)
         elif opt.clip_version == "ViT-L/14":
             self.tokenizer = AutoTokenizer.from_pretrained("openai/clip-vit-large-patch14")
             self.model = AutoModel.from_pretrained("openai/clip-vit-large-patch14")
