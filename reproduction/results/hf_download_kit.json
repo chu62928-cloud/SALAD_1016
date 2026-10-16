@@ -1,0 +1,57 @@
+{
+  "repo": "camenduru/KIT-ML",
+  "revision": "f5bf633e1084638a4e00fa92cda55dfab23658c4",
+  "endpoint": "https://hf-mirror.com",
+  "files": {
+    "new_joint_vecs.rar": {
+      "path": "/root/autodl-tmp/SALAD_1016/dataset/kit-ml_download/new_joint_vecs.rar",
+      "bytes": 1030482962,
+      "sha256": "1c5219abbf62812f991536946b933dd6dd7876f8e353fa3fd575ad03d762457f",
+      "published_hash": "1c5219abbf62812f991536946b933dd6dd7876f8e353fa3fd575ad03d762457f",
+      "published_hash_kind": "sha256"
+    },
+    "texts.rar": {
+      "path": "/root/autodl-tmp/SALAD_1016/dataset/kit-ml_download/texts.rar",
+      "bytes": 1246728,
+      "sha256": "9c882e373206ca13bfbc7b16f2b0379a1f01ff5265f79d1f1f4edfea12f92afb",
+      "published_hash": "9c882e373206ca13bfbc7b16f2b0379a1f01ff5265f79d1f1f4edfea12f92afb",
+      "published_hash_kind": "sha256"
+    },
+    "Mean.npy": {
+      "path": "/root/autodl-tmp/SALAD_1016/dataset/kit-ml_download/Mean.npy",
+      "bytes": 2136,
+      "sha256": "9e23fac51db2215ab5666324226be48f27efd6a6e7b22ebd17c28e0f056a7c22",
+      "published_hash": "9e23fac51db2215ab5666324226be48f27efd6a6e7b22ebd17c28e0f056a7c22",
+      "published_hash_kind": "sha256"
+    },
+    "Std.npy": {
+      "path": "/root/autodl-tmp/SALAD_1016/dataset/kit-ml_download/Std.npy",
+      "bytes": 2136,
+      "sha256": "d370201d449fcafa106684f8de9aa688399b27db5e363295829085674e713145",
+      "published_hash": "d370201d449fcafa106684f8de9aa688399b27db5e363295829085674e713145",
+      "published_hash_kind": "sha256"
+    },
+    "train.txt": {
+      "path": "/root/autodl-tmp/SALAD_1016/dataset/kit-ml_download/train.txt",
+      "bytes": 31772,
+      "sha256": "4860e167cfc4c3dd4f3e41d74bff4e2339dafdc67d2c9024331aa2a070a857ea",
+      "published_hash": "4860e167cfc4c3dd4f3e41d74bff4e2339dafdc67d2c9024331aa2a070a857ea",
+      "published_hash_kind": "sha256"
+    },
+    "val.txt": {
+      "path": "/root/autodl-tmp/SALAD_1016/dataset/kit-ml_download/val.txt",
+      "bytes": 1950,
+      "sha256": "1d3bee66f33d8bef65868c099c10e51101bf5a77c40412438c995755cd7159ac",
+      "published_hash": "1d3bee66f33d8bef65868c099c10e51101bf5a77c40412438c995755cd7159ac",
+      "published_hash_kind": "sha256"
+    },
+    "test.txt": {
+      "path": "/root/autodl-tmp/SALAD_1016/dataset/kit-ml_download/test.txt",
+      "bytes": 5395,
+      "sha256": "0e6fd0ee0a0a9a24da1681da56a22d86d95b78c41e59b0f0fa9bd984dbf281db",
+      "published_hash": "0e6fd0ee0a0a9a24da1681da56a22d86d95b78c41e59b0f0fa9bd984dbf281db",
+      "published_hash_kind": "sha256"
+    }
+  },
+  "status": "complete"
+}

@@ -1,0 +1,48 @@
+{
+  "status": "complete",
+  "pid": 973547,
+  "binding_sha256": "ab2d2f4b8cf215eacd739a688f7a62c410f193ce9a45257cc43098af2156d8e0",
+  "coverage": {
+    "loaded_entries": 734,
+    "evaluated_per_repeat": 704,
+    "dropped_per_repeat": 30,
+    "batch_size": 32,
+    "shuffle": true,
+    "drop_last": true
+  },
+  "requested_repeats": 20,
+  "completed_repeats": 20,
+  "table1_evaluation_complete": false,
+  "metrics": {
+    "fid": {
+      "mean": 0.0734387380241344,
+      "ci95_half_width": 0.0010840086527722818
+    },
+    "diversity": {
+      "mean": 10.816111326217651,
+      "ci95_half_width": 0.09259904622593425
+    },
+    "top1": {
+      "mean": 0.41875,
+      "ci95_half_width": 0.0062830461588381575
+    },
+    "top2": {
+      "mean": 0.6505681818181819,
+      "ci95_half_width": 0.004362236029452431
+    },
+    "top3": {
+      "mean": 0.7809659090909091,
+      "ci95_half_width": 0.005386334567911591
+    },
+    "matching": {
+      "mean": 2.7876490219072863,
+      "ci95_half_width": 0.012011026284945096
+    },
+    "mpjpe": {
+      "mean": 15.16299614906311,
+      "ci95_half_width": 0.030061884614621705
+    }
+  },
+  "updated_at": "2026-10-16T11:53:18.396435+00:00",
+  "comparison_note": "Interval overlap is descriptive, not proof of equality or validation of training/editing."
+}

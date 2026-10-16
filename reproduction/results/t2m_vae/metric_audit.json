@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "repeat": 0,
+  "checks": {
+    "root_aligned_mpjpe": {
+      "calls": 4640,
+      "max_abs_error": 2.596867060278285e-08
+    },
+    "retrieval_counts": {
+      "calls": 290,
+      "max_abs_error": 0
+    },
+    "matching_distance_matrix": {
+      "calls": 290,
+      "max_abs_error": 0.00013742315170761632,
+      "max_squared_error": 0.0002556008224203765,
+      "max_mean_diagonal_error": 7.653159078468974e-06,
+      "criterion": "Squared-distance roundoff bound gamma_(D+3) times absolute norm/product sum; original values retained"
+    },
+    "embedding_mean": {
+      "calls": 2,
+      "max_abs_error": 1.8666515925191973e-06
+    },
+    "embedding_covariance": {
+      "calls": 2,
+      "max_abs_error": 5.551115123125783e-17
+    },
+    "calculate_diversity": {
+      "calls": 2,
+      "max_abs_error": 7.086499493880183e-07
+    },
+    "fid_symmetric_eigendecomposition": {
+      "calls": 1,
+      "max_abs_error": 1.1999929938610876e-09
+    }
+  }
+}

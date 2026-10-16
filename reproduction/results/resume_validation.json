@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "resumed": "resume_validation_a_v2",
+  "continuous": "eval_t2m_vae_v2",
+  "repetitions": 2,
+  "all_unrounded_metrics_exact": true
+}

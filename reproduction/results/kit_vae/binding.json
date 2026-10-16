@@ -1,0 +1,22 @@
+{
+  "commit": "18d94fd7ee46d7102b5adda6bd2d24a17eaebd0a",
+  "protocol_sha256": "b7e72d18bf09c5cc28096ed0e9994c838feb11a72b3f67ab597d4f99be659c8e",
+  "asset_audit_sha256": "7b40e6af827c63919b6b65b234794ff4a853a6afeeb719c887689af1a581ff79",
+  "dataset": "kit",
+  "kind": "vae",
+  "seed": 1234,
+  "repeats": 20,
+  "cal_mm": false,
+  "steps": 50,
+  "scale": 7.5,
+  "python": "3.9.23",
+  "packages": {
+    "torch": "1.13.1+cu117",
+    "numpy": "1.21.2",
+    "scipy": "1.10.1",
+    "diffusers": "0.27.2",
+    "transformers": "4.38.2",
+    "huggingface-hub": "0.22.2"
+  },
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER"
+}

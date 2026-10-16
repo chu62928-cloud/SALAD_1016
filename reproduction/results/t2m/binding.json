@@ -1,0 +1,22 @@
+{
+  "commit": "bd2b7d5bc143d422629f9dfe3e09838a8c6532c1",
+  "protocol_sha256": "b7e72d18bf09c5cc28096ed0e9994c838feb11a72b3f67ab597d4f99be659c8e",
+  "asset_audit_sha256": "f30177391e87eb3d5cdbda2187e177fa1bb8a84a864de01411aa030c6e3e8723",
+  "dataset": "t2m",
+  "kind": "denoiser",
+  "seed": 1234,
+  "repeats": 20,
+  "cal_mm": true,
+  "steps": 50,
+  "scale": 7.5,
+  "python": "3.9.23",
+  "packages": {
+    "torch": "1.13.1+cu117",
+    "numpy": "1.21.2",
+    "scipy": "1.10.1",
+    "diffusers": "0.27.2",
+    "transformers": "4.38.2",
+    "huggingface-hub": "0.22.2"
+  },
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER"
+}

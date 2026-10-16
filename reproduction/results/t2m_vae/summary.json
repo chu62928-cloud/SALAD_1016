@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "pid": 976471,
+  "binding_sha256": "0b745d9f9337966386d4a14c227c0f8c3f3cb03a995345a91395fd66ce4b3ccf",
+  "coverage": {
+    "loaded_entries": 4648,
+    "evaluated_per_repeat": 4640,
+    "dropped_per_repeat": 8,
+    "batch_size": 32,
+    "shuffle": true,
+    "drop_last": true
+  },
+  "requested_repeats": 20,
+  "completed_repeats": 20,
+  "table1_evaluation_complete": false,
+  "metrics": {
+    "fid": {
+      "mean": 0.0033695465572165517,
+      "ci95_half_width": 5.2878295919163784e-05,
+      "paper_mean": 0.003,
+      "paper_ci95_half_width": 0.0,
+      "difference": 0.00036954655721655166,
+      "confidence_intervals_overlap": false
+    },
+    "diversity": {
+      "mean": 9.436062145233155,
+      "ci95_half_width": 0.09019205201507582
+    },
+    "top1": {
+      "mean": 0.512252155172414,
+      "ci95_half_width": 0.0022146077962845773
+    },
+    "top2": {
+      "mean": 0.7036745689655173,
+      "ci95_half_width": 0.0024515425992340215
+    },
+    "top3": {
+      "mean": 0.7973060344827586,
+      "ci95_half_width": 0.002379899703681615
+    },
+    "matching": {
+      "mean": 2.9756761917163588,
+      "ci95_half_width": 0.007174051070968875
+    },
+    "mpjpe": {
+      "mean": 0.01632737657055259,
+      "ci95_half_width": 8.826378412741092e-06,
+      "paper_mean": 0.016,
+      "paper_ci95_half_width": 0.0,
+      "difference": 0.00032737657055258856,
+      "confidence_intervals_overlap": false
+    }
+  },
+  "updated_at": "2026-10-16T12:03:18.402408+00:00",
+  "comparison_note": "Interval overlap is descriptive, not proof of equality or validation of training/editing."
+}

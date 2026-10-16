@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "dataset": "t2m",
+  "checks": {
+    "vae_reconstruction_shape_finite": [
+      32,
+      196,
+      263
+    ],
+    "evaluator_text_motion_pairing_exact": true,
+    "vae_parameter_count": 168223,
+    "sampling_50_steps_finite": [
+      2,
+      196,
+      263
+    ],
+    "same_seed_repeat_exact": true,
+    "generation_independent_of_gt_motion_values": true,
+    "released_weights_text_effect_without_guidance": 75.72714233398438,
+    "normalization_roundtrip_max_abs": 1.4210854715202004e-14,
+    "fresh_vae_backward_optimizer": 0.9280282855033875,
+    "denoiser_backward_optimizer_frozen_vae_clip": 0.3122538626194,
+    "editing_word_swap": {
+      "shape": [
+        1,
+        64,
+        263
+      ],
+      "max_abs_change": 13.064847946166992
+    },
+    "editing_refine": {
+      "shape": [
+        1,
+        64,
+        263
+      ],
+      "max_abs_change": 70.84520721435547
+    },
+    "editing_reweight": {
+      "shape": [
+        1,
+        64,
+        263
+      ],
+      "max_abs_change": 22.50663948059082
+    },
+    "editing_mirror": {
+      "shape": [
+        1,
+        64,
+        263
+      ],
+      "max_abs_change": 14.302392959594727
+    },
+    "normalized_sample_archive": {
+      "path": "/root/autodl-tmp/SALAD_1016/reproduction/artifacts/preflight_t2m.samples.npz",
+      "sha256": "21daab29746d3d6bffc97d6b15cb7d68884de32104fc9a6c9479a74f55597325",
+      "source_text": "a person waves the left hand.",
+      "frames": 64,
+      "seed": 456
+    }
+  },
+  "scope": "Engineering smoke tests, not full training or human perceptual validation",
+  "commit": "18d94fd7ee46d7102b5adda6bd2d24a17eaebd0a"
+}

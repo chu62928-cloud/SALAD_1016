@@ -1,0 +1,117 @@
+{
+  "checked_at": "2026-10-16T15:23:08.080128+00:00",
+  "sha256": {
+    "assets_t2m.json": "f30177391e87eb3d5cdbda2187e177fa1bb8a84a864de01411aa030c6e3e8723",
+    "assets_kit.json": "7b40e6af827c63919b6b65b234794ff4a853a6afeeb719c887689af1a581ff79",
+    "downloads_t2m.json": "8280843e96bfc59b1390d37544c6da0d0a018a4647fd0106f410ba594ec96c17",
+    "downloads_kit.json": "faeded3389af88cf27b66879c9fcaa98ec40a566169f2af54f6e2d1dc62c36bd",
+    "hf_download_clip.json": "a71d6ba3d4f703e822137edd4b66eab0f40cb46d2085cf7e4610d1e494669d55",
+    "hf_download_kit.json": "dc64bd4c83cc60133754c8237af286e94af6248a3eea99ec635d7a519c24b9e1",
+    "preflight_t2m.json": "cabd5de2aa77bf93467e9a8857968938abe33007f58ec330b50e872ff512a127",
+    "preflight_kit.json": "3124e64faa71da5a6b7d6de664d08d92fd40060e9efb2c169302b8b2646f97dd",
+    "training_t2m/summary.json": "9ccae73794f49100443d2add512c8c5c9ad46e57017b17448a0dacd59fab21f6",
+    "training_kit/summary.json": "0d6af3cc4ea9e379117f883c78a1666320c5cbbe1a150b124e6e42df4f412319",
+    "resume_validation.json": "8f90dd633bc7d1496dedbe71f8e3bfe24e0042f1fd85462ab7999a860a352a72",
+    "engineering_checks.json": "6508002b9afeefe7ff1b3dc796218eef3a6904bce95d226bb733fd6357030faa",
+    "eval_t2m_v2/summary.json": "1f6814e64a65178f35db10e0011efd06be9d9eba1e2e810e98c43df94c100d2c",
+    "eval_t2m_v2/binding.json": "4fde255456a220bca364ee906847413884ae984cbb3b5d5787310e2ed95c5b4a",
+    "eval_t2m_v2/repetitions.json": "e53c0ce0c368dc8f117ec1774b5e86ba53f09d29a7d2bb038656ed62ab33fc42",
+    "eval_t2m_v2/metric_audit.json": "fcc4173e69a6c78b0408b2f9b28e7e80b84d8d5dc10d9270a1e8a4a3efebcdef",
+    "eval_kit_v3/summary.json": "fa1c2233d57f25c746b0c4bfe98198cd5d9ad9d80cf8999dffb51418ddf06f7f",
+    "eval_kit_v3/binding.json": "1ad8af07fe3fdaa60363b460caf3688d9201efb547dd96266a730139eb1884bf",
+    "eval_kit_v3/repetitions.json": "c5e619df09bc9b8780a6c8de083da9e44bcdd7644fe771da828df24535a1d9f7",
+    "eval_kit_v3/metric_audit.json": "e28489d8df07bcb8d1a5da79ac3e37078a1cb76f9e1b2f6144011e85a5e34612",
+    "eval_t2m_vae_v2/summary.json": "9ef7e487000a70839ed5377ab8555d2c66f6ce32c95a6cab3bf9a603019e8042",
+    "eval_t2m_vae_v2/binding.json": "07edd7b663f52dbf4bf461e9f17688ff3256f9bc273c24d497c8c2caa298bd32",
+    "eval_t2m_vae_v2/repetitions.json": "7463e0e15e800a56c360a90ab29403496d10604ef42e483fc8e0be3e667f905f",
+    "eval_t2m_vae_v2/metric_audit.json": "0592a07a532fa466b3813d80402453993292199888e07a9ff042cdc949c45f86",
+    "eval_kit_vae/summary.json": "9c2f7d9137a97d6516a9d850474b472ff148a22ab62a970adec5e2239a9f4f75",
+    "eval_kit_vae/binding.json": "87811dfa213f9e815ec00f0550c41f7f011794a4c2ee11da8db4524eddf20eb1",
+    "eval_kit_vae/repetitions.json": "0e4a4bc13d4a757107a648598ef5380a8f7afe16a7d0dca93ac8f15b28c76347",
+    "eval_kit_vae/metric_audit.json": "df27689646158e2e7836cd93b378ee87ea0361e3c00b7342cabdacec4144c143"
+  },
+  "jobs": {
+    "eval_t2m_v2": {
+      "pid": 974762,
+      "alive": false,
+      "status": "complete",
+      "completed_repeats": 20
+    },
+    "eval_kit_v3": {
+      "pid": 979398,
+      "alive": false,
+      "status": "complete",
+      "completed_repeats": 20
+    },
+    "eval_t2m_vae_v2": {
+      "pid": 976471,
+      "alive": false,
+      "status": "complete",
+      "completed_repeats": 20
+    },
+    "eval_kit_vae": {
+      "pid": 973547,
+      "alive": false,
+      "status": "complete",
+      "completed_repeats": 20
+    }
+  },
+  "tails": {
+    "eval_t2m_v2": "[06:22<00:28,  1.77s/it]\nEvaluation:  90%|████████▉ | 130/145 [06:24<00:26,  1.76s/it]\nEvaluation:  90%|█████████ | 131/145 [06:25<00:24,  1.76s/it]\nEvaluation:  91%|█████████ | 132/145 [06:27<00:22,  1.76s/it]\nEvaluation:  92%|█████████▏| 133/145 [06:29<00:21,  1.76s/it]\nEvaluation:  92%|█████████▏| 134/145 [06:31<00:19,  1.78s/it]\nEvaluation:  93%|█████████▎| 135/145 [06:33<00:17,  1.79s/it]\nEvaluation:  94%|█████████▍| 136/145 [06:34<00:16,  1.80s/it]\nEvaluation:  94%|█████████▍| 137/145 [06:36<00:14,  1.79s/it]\nEvaluation:  95%|█████████▌| 138/145 [06:38<00:12,  1.78s/it]\nEvaluation:  96%|█████████▌| 139/145 [06:40<00:10,  1.78s/it]\nEvaluation:  97%|█████████▋| 140/145 [06:41<00:08,  1.78s/it]\nEvaluation:  97%|█████████▋| 141/145 [06:43<00:07,  1.82s/it]\nEvaluation:  98%|█████████▊| 142/145 [06:45<00:05,  1.82s/it]\nEvaluation:  99%|█████████▊| 143/145 [06:47<00:03,  1.83s/it]\nEvaluation:  99%|█████████▉| 144/145 [06:49<00:01,  1.83s/it]\nEvaluation: 100%|██████████| 145/145 [06:51<00:00,  1.83s/it]\n                                                             \n--> \t Eva. Repeat 19 : FID. 0.0683, Diversity Real. 9.7857, Diversity. 9.6865, R_precision_real. (0.5142, 0.7067, 0.7953), R_precision. (0.5763, 0.7659, 0.8591), matching_real. 2.9936, matching_pred. 2.6717, mae. 0.3450, Multimodality. 1.8017\n{\"repeat\": 19, \"fid\": 0.06829970839055477, \"diversity\": 9.6864595413208, \"top1\": 0.5762931034482759, \"top2\": 0.7659482758620689, \"top3\": 0.8590517241379311, \"matching\": 2.671743598477594, \"mpjpe\": null, \"multimodality\": 1.8016886711120605, \"elapsed_seconds\": 411.6112840026617}\n",
+    "eval_kit_v3": "luation:  27%|██▋       | 6/22 [05:30<07:58, 29.93s/it]\nEvaluation:  32%|███▏      | 7/22 [05:34<05:20, 21.34s/it]\nEvaluation:  36%|███▋      | 8/22 [05:37<03:39, 15.70s/it]\nEvaluation:  41%|████      | 9/22 [05:41<02:35, 11.93s/it]\nEvaluation:  45%|████▌     | 10/22 [05:45<01:52,  9.37s/it]\nEvaluation:  50%|█████     | 11/22 [05:48<01:23,  7.63s/it]\nEvaluation:  55%|█████▍    | 12/22 [05:52<01:04,  6.42s/it]\nEvaluation:  59%|█████▉    | 13/22 [05:55<00:50,  5.58s/it]\nEvaluation:  64%|██████▎   | 14/22 [05:59<00:39,  4.99s/it]\nEvaluation:  68%|██████▊   | 15/22 [06:03<00:32,  4.59s/it]\nEvaluation:  73%|███████▎  | 16/22 [06:06<00:25,  4.30s/it]\nEvaluation:  77%|███████▋  | 17/22 [06:10<00:20,  4.10s/it]\nEvaluation:  82%|████████▏ | 18/22 [06:14<00:15,  3.97s/it]\nEvaluation:  86%|████████▋ | 19/22 [06:17<00:11,  3.87s/it]\nEvaluation:  91%|█████████ | 20/22 [06:21<00:07,  3.80s/it]\nEvaluation:  95%|█████████▌| 21/22 [06:25<00:03,  3.76s/it]\nEvaluation: 100%|██████████| 22/22 [06:28<00:00,  3.72s/it]\n                                                           \n--> \t Eva. Repeat 19 : FID. 0.3218, Diversity Real. 10.7380, Diversity. 10.5187, R_precision_real. (0.4247, 0.6477, 0.7756), R_precision. (0.4901, 0.7159, 0.8295), matching_real. 2.7597, matching_pred. 2.5600, mae. 326.4333, Multimodality. 1.0272\n{\"repeat\": 19, \"fid\": 0.3217508551468313, \"diversity\": 10.51866340637207, \"top1\": 0.4900568181818182, \"top2\": 0.7159090909090909, \"top3\": 0.8295454545454546, \"matching\": 2.5599675557830115, \"mpjpe\": null, \"multimodality\": 1.0272024869918823, \"elapsed_seconds\": 389.0697295945138}\n",
+    "eval_t2m_vae_v2": "0:01,  8.92it/s]\nEvaluation:  90%|████████▉ | 130/145 [00:15<00:01,  8.78it/s]\nEvaluation:  90%|█████████ | 131/145 [00:15<00:01,  8.49it/s]\nEvaluation:  91%|█████████ | 132/145 [00:15<00:01,  8.32it/s]\nEvaluation:  92%|█████████▏| 133/145 [00:16<00:01,  8.16it/s]\nEvaluation:  92%|█████████▏| 134/145 [00:16<00:01,  7.82it/s]\nEvaluation:  93%|█████████▎| 135/145 [00:16<00:01,  7.77it/s]\nEvaluation:  94%|█████████▍| 136/145 [00:16<00:01,  7.63it/s]\nEvaluation:  94%|█████████▍| 137/145 [00:16<00:01,  7.73it/s]\nEvaluation:  95%|█████████▌| 138/145 [00:16<00:00,  7.90it/s]\nEvaluation:  96%|█████████▌| 139/145 [00:16<00:00,  7.93it/s]\nEvaluation:  97%|█████████▋| 140/145 [00:16<00:00,  7.97it/s]\nEvaluation:  97%|█████████▋| 141/145 [00:17<00:00,  8.33it/s]\nEvaluation:  98%|█████████▊| 142/145 [00:17<00:00,  8.00it/s]\nEvaluation:  99%|█████████▊| 143/145 [00:17<00:00,  8.05it/s]\nEvaluation:  99%|█████████▉| 144/145 [00:17<00:00,  7.99it/s]\nEvaluation: 100%|██████████| 145/145 [00:17<00:00,  8.00it/s]\n                                                             \n--> \t Eva. Repeat 19 : FID. 0.0035, Diversity Real. 9.1976, Diversity. 9.7081, R_precision_real. (0.5142, 0.7067, 0.7953), R_precision. (0.5099, 0.7078, 0.7914), matching_real. 2.9936, matching_pred. 2.9984, MPJPE. 0.0163, Multimodality. 0.0000\n{\"repeat\": 19, \"fid\": 0.0034660500634657865, \"diversity\": 9.70812702178955, \"top1\": 0.5099137931034483, \"top2\": 0.7077586206896552, \"top3\": 0.7913793103448276, \"matching\": 2.998432494854105, \"mpjpe\": 0.016319354996085167, \"multimodality\": null, \"elapsed_seconds\": 17.937448555603623}\n",
+    "eval_kit_vae": "[00:00<00:02,  6.14it/s]\nEvaluation:  27%|██▋       | 6/22 [00:01<00:02,  6.51it/s]\nEvaluation:  32%|███▏      | 7/22 [00:01<00:02,  6.69it/s]\nEvaluation:  36%|███▋      | 8/22 [00:01<00:01,  7.04it/s]\nEvaluation:  41%|████      | 9/22 [00:01<00:01,  6.96it/s]\nEvaluation:  45%|████▌     | 10/22 [00:01<00:01,  7.02it/s]\nEvaluation:  50%|█████     | 11/22 [00:01<00:01,  7.11it/s]\nEvaluation:  55%|█████▍    | 12/22 [00:01<00:01,  7.08it/s]\nEvaluation:  59%|█████▉    | 13/22 [00:02<00:01,  7.01it/s]\nEvaluation:  64%|██████▎   | 14/22 [00:02<00:01,  7.41it/s]\nEvaluation:  68%|██████▊   | 15/22 [00:02<00:00,  7.14it/s]\nEvaluation:  73%|███████▎  | 16/22 [00:02<00:00,  6.93it/s]\nEvaluation:  77%|███████▋  | 17/22 [00:02<00:00,  6.56it/s]\nEvaluation:  82%|████████▏ | 18/22 [00:02<00:00,  6.43it/s]\nEvaluation:  86%|████████▋ | 19/22 [00:03<00:00,  6.38it/s]\nEvaluation:  91%|█████████ | 20/22 [00:03<00:00,  6.50it/s]\nEvaluation:  95%|█████████▌| 21/22 [00:03<00:00,  6.87it/s]\nEvaluation: 100%|██████████| 22/22 [00:03<00:00,  5.16it/s]\n                                                           \n--> \t Eva. Repeat 19 : FID. 0.0757, Diversity Real. 11.1248, Diversity. 10.3828, R_precision_real. (0.4247, 0.6477, 0.7756), R_precision. (0.4062, 0.6406, 0.7812), matching_real. 2.7597, matching_pred. 2.7677, MPJPE. 15.2848, Multimodality. 0.0000\n{\"repeat\": 19, \"fid\": 0.07570908484856886, \"diversity\": 10.382787704467773, \"top1\": 0.40625, \"top2\": 0.640625, \"top3\": 0.78125, \"matching\": 2.7677194530313667, \"mpjpe\": 15.284809112548828, \"multimodality\": null, \"elapsed_seconds\": 3.8658414632081985}\n"
+  },
+  "media": {
+    "videos_t2m/original.mp4": {
+      "bytes": 27242,
+      "sha256": "3a40eeab4eeca5a4db896ad572a02556e94c5f03387fc95acb589b749cadac52"
+    },
+    "videos_t2m/word_swap.mp4": {
+      "bytes": 25604,
+      "sha256": "52e89045b212b246e4776f4fe3e1cebf9a37f856fd3ec7ce777851269079186f"
+    },
+    "videos_t2m/refine.mp4": {
+      "bytes": 30617,
+      "sha256": "8b502f6894900ddd98ba1e365267a2002492608699b33dbdc6d6cbf19a61d9a3"
+    },
+    "videos_t2m/reweight.mp4": {
+      "bytes": 30275,
+      "sha256": "d0e20afb3038614c0b49fcae32de518fdaac80029c8f3c103ff5cc5a869c6f07"
+    },
+    "videos_t2m/mirror.mp4": {
+      "bytes": 28626,
+      "sha256": "9f8246bd6369189a16f1959a6378e646db37289db2d600d0f094a21439fabecd"
+    },
+    "videos_t2m/manifest.json": {
+      "bytes": 1044,
+      "sha256": "be219c291254674512715c4b894dac16bc7044ec11dbbfead8b076c231cfe764"
+    },
+    "videos_kit/original.mp4": {
+      "bytes": 37892,
+      "sha256": "ab6847997c54c6e1e1cf864948b3e41a1766e25ac56c87d6891013ee2df53577"
+    },
+    "videos_kit/word_swap.mp4": {
+      "bytes": 36302,
+      "sha256": "f7b9d9916ec46eae12edceff555ae5227420418fec867be55231bb8fa80f4ff1"
+    },
+    "videos_kit/refine.mp4": {
+      "bytes": 39473,
+      "sha256": "63a51f024eddce4f776772afb51ac6e7786f6c8d549f50643872a8cf30939446"
+    },
+    "videos_kit/reweight.mp4": {
+      "bytes": 39962,
+      "sha256": "3529ce8b8c11c562f8bfe3d97ea02f3f83dbd66cadefeaf311cae1b18f9e4da5"
+    },
+    "videos_kit/mirror.mp4": {
+      "bytes": 37115,
+      "sha256": "579b637468d20ff42d3c68bb661c7037c452002b6c7155ae1af6b99138404044"
+    },
+    "videos_kit/manifest.json": {
+      "bytes": 1046,
+      "sha256": "1539eb9e5d2c836fe7098131ff1c1c541becb1c0a3caeed166d6a4b064d01cea"
+    }
+  },
+  "head": "807ff210af0b81e5a0833c2fff0ee95cd9bd0773",
+  "dirty": ""
+}

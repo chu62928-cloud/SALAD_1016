@@ -1,0 +1,76 @@
+{
+  "status": "complete",
+  "pid": 979398,
+  "binding_sha256": "4b6bfd516a3905c06fce6e32ada8c38f538a900a293327f7a17c363b6f0ad3b7",
+  "coverage": {
+    "loaded_entries": 734,
+    "evaluated_per_repeat": 704,
+    "dropped_per_repeat": 30,
+    "batch_size": 32,
+    "shuffle": true,
+    "drop_last": true
+  },
+  "requested_repeats": 20,
+  "completed_repeats": 20,
+  "table1_evaluation_complete": true,
+  "metrics": {
+    "fid": {
+      "mean": 0.2961970152073746,
+      "ci95_half_width": 0.012555666583134988,
+      "paper_mean": 0.296,
+      "paper_ci95_half_width": 0.012,
+      "difference": 0.00019701520737464007,
+      "confidence_intervals_overlap": true
+    },
+    "diversity": {
+      "mean": 11.10455527305603,
+      "ci95_half_width": 0.09082561869741275,
+      "paper_mean": 11.097,
+      "paper_ci95_half_width": 0.095,
+      "difference": 0.007555273056031098,
+      "confidence_intervals_overlap": true
+    },
+    "top1": {
+      "mean": 0.4793323863636364,
+      "ci95_half_width": 0.006607378613366026,
+      "paper_mean": 0.477,
+      "paper_ci95_half_width": 0.006,
+      "difference": 0.0023323863636364184,
+      "confidence_intervals_overlap": true
+    },
+    "top2": {
+      "mean": 0.7111505681818182,
+      "ci95_half_width": 0.005991538933203558,
+      "paper_mean": 0.711,
+      "paper_ci95_half_width": 0.005,
+      "difference": 0.00015056818181824472,
+      "confidence_intervals_overlap": true
+    },
+    "top3": {
+      "mean": 0.825284090909091,
+      "ci95_half_width": 0.004024913536620721,
+      "paper_mean": 0.828,
+      "paper_ci95_half_width": 0.005,
+      "difference": -0.002715909090908908,
+      "confidence_intervals_overlap": true
+    },
+    "matching": {
+      "mean": 2.585109641335227,
+      "ci95_half_width": 0.016649010000020364,
+      "paper_mean": 2.585,
+      "paper_ci95_half_width": 0.016,
+      "difference": 0.00010964133522683994,
+      "confidence_intervals_overlap": true
+    },
+    "multimodality": {
+      "mean": 1.0035940319299699,
+      "ci95_half_width": 0.04290469412489831,
+      "paper_mean": 1.004,
+      "paper_ci95_half_width": 0.04,
+      "difference": -0.00040596807003012714,
+      "confidence_intervals_overlap": true
+    }
+  },
+  "updated_at": "2026-10-16T14:16:25.644060+00:00",
+  "comparison_note": "Interval overlap is descriptive, not proof of equality or validation of training/editing."
+}

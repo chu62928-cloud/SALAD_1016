@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "source_commit": "807ff210af0b81e5a0833c2fff0ee95cd9bd0773",
+  "regression_test_count": 9,
+  "test_exit_code": 0,
+  "test_output": "Reading /tmp/tmpmd8qplbg/opt.txt\nTotal number of motions 2, snippets 4\n........\n  0%|          | 0/2 [00:00<?, ?it/s]\n100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 2/2 [00:00<00:00, 2167.60it/s]\n.\n----------------------------------------------------------------------\nRan 9 tests in 0.039s\n\nOK\n",
+  "pip_check_exit_code": 0,
+  "pip_check_output": "No broken requirements found.\n",
+  "verified_at": "2026-10-16T13:45:44.486496+00:00"
+}

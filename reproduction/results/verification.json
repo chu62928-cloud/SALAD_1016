@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "runs": {
+    "t2m": {
+      "completed_repeats": 20,
+      "complete": true,
+      "source_commit": "bd2b7d5bc143d422629f9dfe3e09838a8c6532c1",
+      "summary_recomputed": true
+    },
+    "kit": {
+      "completed_repeats": 20,
+      "complete": true,
+      "source_commit": "807ff210af0b81e5a0833c2fff0ee95cd9bd0773",
+      "summary_recomputed": true
+    },
+    "t2m_vae": {
+      "completed_repeats": 20,
+      "complete": true,
+      "source_commit": "bd2b7d5bc143d422629f9dfe3e09838a8c6532c1",
+      "summary_recomputed": true
+    },
+    "kit_vae": {
+      "completed_repeats": 20,
+      "complete": true,
+      "source_commit": "18d94fd7ee46d7102b5adda6bd2d24a17eaebd0a",
+      "summary_recomputed": true
+    }
+  },
+  "complete": true
+}
