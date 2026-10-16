@@ -43,9 +43,12 @@ if __name__ == '__main__':
 
     cond_scale = opt.cond_scale
     num_inference_timesteps = opt.num_inference_timesteps
+    seed = opt.seed
     opt = get_opt(pjoin(opt.checkpoints_dir, opt.dataset_name, opt.name, 'opt.txt'), opt.device)
     opt.cond_scale = cond_scale
     opt.num_inference_timesteps = num_inference_timesteps
+    opt.seed = seed
+    opt.classifier_free_guidance = cond_scale > 1.0
     fixseed(opt.seed)
     
     # evaluation setup

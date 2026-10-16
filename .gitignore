@@ -162,6 +162,8 @@ cython_debug/
 # Custom
 *.log
 checkpoints/
+/dataset/humanml3d
+/dataset/kit-ml
 glove/
 save/
 log/

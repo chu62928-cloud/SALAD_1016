@@ -121,9 +121,10 @@ class DenoiserTrainer:
         m_lens = m_lens.to(self.opt.device, dtype=torch.long) // 4
         len_mask = lengths_to_mask(m_lens) # [B, T]
 
-        input_text = [""] * len(text)
         if self.opt.classifier_free_guidance:
-            input_text.extend(text)
+            input_text = [""] * len(text) + list(text)
+        else:
+            input_text = list(text)
         
         # initial noise
         z, _ = self.vae.encode(motion)

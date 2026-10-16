@@ -1,4 +1,5 @@
 import os
+import ast
 from argparse import Namespace
 import re
 from os.path import join as pjoin
@@ -46,7 +47,7 @@ def get_opt(opt_path, device, **kwargs):
         for line in f:
             if line.strip() not in skip:
                 # print(line.strip())
-                key, value = line.strip('\n').split(': ')
+                key, value = line.strip('\n').split(': ', 1)
                 if value in ('True', 'False'):
                     opt_dict[key] = (value == 'True')
                 #     print(key, value)
@@ -55,7 +56,7 @@ def get_opt(opt_path, device, **kwargs):
                 elif is_number(value):
                     opt_dict[key] = int(value)
                 elif is_list(value):
-                    opt_dict[key] = eval(value)
+                    opt_dict[key] = ast.literal_eval(value)
                 else:
                     opt_dict[key] = str(value)
 

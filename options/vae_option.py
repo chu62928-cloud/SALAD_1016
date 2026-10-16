@@ -49,7 +49,8 @@ def arg_parse(is_train=False):
     parser.add_argument("--eval_every_e", default=1, type=int, help="save eval results every n epoch")
 
     opt = parser.parse_args()
-    torch.cuda.set_device(opt.gpu_id)
+    if opt.gpu_id >= 0:
+        torch.cuda.set_device(opt.gpu_id)
     opt.device = torch.device("cpu" if opt.gpu_id == -1 else "cuda:" + str(opt.gpu_id))
 
     opt.save_root = pjoin(opt.checkpoints_dir, opt.dataset_name, opt.name)

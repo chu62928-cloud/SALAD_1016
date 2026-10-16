@@ -1,4 +1,6 @@
-# PyTorch is installed separately from the official CUDA 11.7 wheel index.
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch==1.13.1+cu117
+torchvision==0.14.1+cu117
 diffusers==0.27.2
 gdown==5.1.0
 huggingface-hub==0.22.2
