@@ -82,6 +82,31 @@ def main():
                 intervention_subjects=len({r['sample_id'] for r in interventions}),excluded_subjects=0,
                 source_sha256={n:sha(source/n) for n in ['decision.json','subjects.csv','interventions.csv']},
                 visual_inspection_pending=True))
+    if (source/'attention_summary.json').exists():
+        diagnostics(source)
+
+
+def diagnostics(source):
+    values=json.loads((source/'attention_summary.json').read_text())
+    fig,axes=plt.subplots(1,3,figsize=(7.204724,3.2),layout='constrained')
+    keys=['alpha','gate','residual_norm']
+    titles=['a  Posture attention','b  Motion-token gate','c  Injected residual norm']
+    posture=['Left shoulder','Right shoulder','Spine','Pelvis','Left leg','Right leg']
+    motion=['Root','Left lower','Right lower','Spine','Left upper','Right upper','Head']
+    for axis,key,title in zip(axes,keys,titles):
+        matrix=np.array(values[key])
+        image=axis.imshow(matrix,aspect='auto',cmap='cividis',vmin=0,
+                          vmax=1 if key in ['alpha','gate'] else None)
+        axis.set(xticks=range(4),xticklabels=['Q1','Q2','Q3','Q4'],
+                 yticks=range(len(matrix)),yticklabels=posture if key=='alpha' else motion,
+                 xlabel='Normalized time quarter')
+        axis.set_title(title,loc='left',fontsize=8,fontweight='bold')
+        fig.colorbar(image,ax=axis,orientation='horizontal',shrink=.85,pad=.13)
+    fig.savefig(source/'attention_gate.svg',bbox_inches='tight')
+    fig.savefig(source/'attention_gate.pdf',bbox_inches='tight')
+    fig.savefig(source/'attention_gate.png',dpi=600,bbox_inches='tight')
+    fig.savefig(source/'attention_gate.tiff',dpi=600,bbox_inches='tight',pil_kwargs={'compression':'tiff_lzw'})
+    plt.close(fig)
 
 
 if __name__=='__main__':

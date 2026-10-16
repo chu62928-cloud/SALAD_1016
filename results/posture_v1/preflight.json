@@ -1,0 +1,61 @@
+{
+  "engineering": {
+    "status": "passed",
+    "checks": {
+      "neutral_reference_zero": true,
+      "head_neck_arms_hands_invariant": true,
+      "global_yaw_invariant": true,
+      "left_right_mirror": true,
+      "zero_scale_and_initialization_exact": true,
+      "encoder_attention_gate_gradients": true,
+      "optimizer_rng_schedule_exact_resume": true,
+      "frozen_backbone_unchanged": true,
+      "frozen_parameters_no_gradients": true
+    },
+    "data": {
+      "manifest": "be2d317952759b79a59c794ca37278f84809cb7c544558c6401f396e81d1aa4b",
+      "candidates": "705cc68f3c12317bbcba09154abcf9ce99904435b0fb771988c1a93eac62d798",
+      "identity_splits": "29fc83ee98fb6c7603ce54fdf736b7ec89157665943930bab7c14c8eb74c5fa5",
+      "subjects": "39461b0eec2d2a8c640fe9a182469bc5397ffab404b68cac951cef8a559734b8",
+      "body_model": "376021446ddc86e99acacd795182bbef903e61d33b76b9d8b359c2b0865bd992",
+      "mean": "0bdb5ba69a3a9e34d71990db15bc535ebc024c8d95ddb5574196f96058faa7d3",
+      "std": "6a5f7d60301c9465972fc225f8ad0ee8f957e7720431189123eb6d15873a9557",
+      "counts": {
+        "train": {
+          "subjects": 256,
+          "clips": 5299
+        },
+        "validation": {
+          "subjects": 56,
+          "clips": 1061
+        },
+        "test": {
+          "subjects": 57,
+          "clips": 1327
+        }
+      },
+      "cross_source_identity_audited": false
+    },
+    "completed_steps": 100,
+    "elapsed_sec": 27.21119976043701,
+    "optimizer_seconds": 0.26941781941026743,
+    "peak_gpu_bytes": 1389603840,
+    "loss_first": 0.5810523927211761,
+    "loss_last": 0.5170742869377136
+  },
+  "coordinates": {
+    "status": "passed",
+    "subjects": 369,
+    "max_error_m": 2.312347180728077e-07,
+    "external_asset_identical_to_fit": false,
+    "external_asset_max_error_m": 0.020423100746020027
+  },
+  "statistics": {
+    "status": "passed",
+    "checks": [
+      "constant_2percent_improvement_exact",
+      "identical_models_zero_and_fail_gate"
+    ]
+  },
+  "phase": "preflight only; scientific results pending"
+}

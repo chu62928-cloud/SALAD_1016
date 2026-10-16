@@ -22,6 +22,12 @@ def main():
     assert bindings['evaluation_source_sha256']==sha(ROOT/'posture_conditioning/evaluate.py')
     assert bindings['sample_source_sha256']==sha(ROOT/'posture_conditioning/sample.py')
     checks={}
+    released=json.loads((ROOT/'reproduction/results/assets_t2m.json').read_text())
+    for name,asset in released['asset_files'].items():
+        assert sha(ROOT/name)==asset['sha256']
+    for asset in released['clip']['files'].values():
+        assert sha(asset['path'])==asset['sha256']
+    checks['released_weights_evaluator_normalization_and_text_assets_unchanged']=True
     train_source=[]
     for variant in cfg['variants']:
         folder=run/variant/str(seed)
@@ -100,8 +106,14 @@ def main():
     geometry=json.loads((run/'preflight/geometry.json').read_text())
     assert preflight['status']==geometry['status']=='passed'
     assert geometry['subjects']==369
+    cache_audit=json.loads((run/'preflight/cache_audit.json').read_text())
+    statistics_audit=json.loads((run/'preflight/statistics.json').read_text())
+    assert cache_audit['status']==statistics_audit['status']=='passed'
+    assert cache_audit['same_batch_text_max_error']==0
     checks.update(preflight['checks'])
     checks['native_coordinate_convention_all_subjects']=True
+    checks['frozen_cache_recomputed']=True
+    checks['analytic_statistics_checks']=True
     artifact_bytes=sum(p.stat().st_size for p in run.rglob('*') if p.is_file())
     assert artifact_bytes<8*1024**3
     receipt=dict(status='passed',checks=checks,generation_counts=counts,physics_max_error=largest_physics_error,

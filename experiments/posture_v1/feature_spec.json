@@ -1,0 +1,24 @@
+{
+  "version": "posture-v1",
+  "core_joint_indices": [0,1,2,3,4,5,6,7,8,9,10,11],
+  "excluded": ["head", "neck", "upper_arm", "forearm", "hands", "fingers", "face"],
+  "core_features_per_joint": {
+    "rotation_residual": "first two matrix rows minus identity, 6D; root relative to upright reference",
+    "position_residual": "fixed neutral skeleton FK relative to upright reference, divided by reference leg length, 3D",
+    "direction_residual": "unit bone direction minus reference; root uses local up direction, 3D"
+  },
+  "shoulder_feature": "one scalar: left minus right shoulder height, subtract neutral baseline, divide by reference leg length",
+  "shoulder_measurement_joints": [16,17],
+  "shoulder_rotation_ancestors_allowed": [0,3,6,9,13,14],
+  "shoulder_upper_arm_rotations_used": false,
+  "groups": ["left_shoulder_girdle", "right_shoulder_girdle", "spine", "pelvis", "left_leg", "right_leg"],
+  "shoulder_groups_independent_measurements": false,
+  "translation_used": false,
+  "shape_coefficients_used": false,
+  "scale": "mean left/right hip-knee-ankle reference leg length",
+  "reference_body": "neutral SMPL-X asset, fingerprint in run bindings; not claimed identical to fitting asset",
+  "world_coordinate": "z-up after explicit native y/z conversion, horizontal yaw removed",
+  "normalization_from_heldout_subjects": false,
+  "representative_frame": "metadata.fitted_representative_index",
+  "output": "full 263D HumanML motion, including head and arms"
+}
