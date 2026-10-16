@@ -3,6 +3,7 @@ import argparse
 import copy
 import json
 import os
+import subprocess
 from pathlib import Path
 
 os.environ.setdefault('OMP_NUM_THREADS', '2')
@@ -38,7 +39,8 @@ def main():
     args.output.parent.mkdir(parents=True, exist_ok=True)
     opt, vae_opt, trainer, wrapper, loader = load_runtime(args.dataset, split='val')
     result = {'status': 'running', 'dataset': args.dataset, 'checks': {},
-              'scope': 'Engineering smoke tests, not full training or human perceptual validation'}
+              'scope': 'Engineering smoke tests, not full training or human perceptual validation',
+              'commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()}
 
     def passed(name, value=True):
         result['checks'][name] = value
@@ -80,6 +82,18 @@ def main():
     passed('sampling_50_steps_finite', list(generated.shape))
     passed('same_seed_repeat_exact')
     passed('generation_independent_of_gt_motion_values')
+    trainer.opt.classifier_free_guidance = False
+    trainer.opt.cond_scale = 1.0
+    fixseed(321)
+    plain, _ = trainer.generate((sample_captions, sample_motion, sample_lengths))
+    fixseed(321)
+    empty, _ = trainer.generate((['']*len(sample_captions), sample_motion, sample_lengths))
+    finite(plain)
+    finite(empty)
+    assert not torch.equal(plain, empty)
+    passed('released_weights_text_effect_without_guidance', float(torch.max(torch.abs(plain-empty))))
+    trainer.opt.classifier_free_guidance = True
+    trainer.opt.cond_scale = 7.5
     passed('normalization_roundtrip_max_abs', float(np.max(np.abs(
         (loader.dataset.inv_transform(motion.numpy())-loader.dataset.mean)/loader.dataset.std-motion.numpy()))))
 

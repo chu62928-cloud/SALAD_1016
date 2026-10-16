@@ -2,6 +2,7 @@
 import argparse
 import copy
 import os
+import subprocess
 from pathlib import Path
 
 os.environ.setdefault('OMP_NUM_THREADS', '2')
@@ -106,6 +107,7 @@ def main():
     std = np.load(ROOT/'checkpoints'/args.dataset/'Comp_v6_KLD005/meta/std.npy')
     train_split = Path(opt.data_root)/'train.txt'
     result = {'status': 'running', 'dataset': args.dataset, 'split': 'train',
+              'commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip(),
               'seed': 20261016, 'scope': 'Engineering checks; fresh trainable networks, no convergence claim',
               'resume_limit': 'Original checkpoints omit random generator and data iterator states; exact trajectory resumption is not claimed.'}
     result_path = args.output/'summary.json'
