@@ -31,7 +31,25 @@ class MetricAudit:
     def distance(self, first, second):
         output = self.originals['euclidean_distance_matrix'](first, second)
         independent = np.linalg.norm(first.astype('float64')[:, None]-second.astype('float64')[None], axis=-1)
-        self.check('matching_distance_matrix', output, independent, atol=1e-4)
+        # The author's float32 expansion subtracts large squared norms. Bound
+        # roundoff in squared distance rather than imposing an absolute bound
+        # on its ill-conditioned square root. Keep the original returned values.
+        epsilon = np.finfo(first.dtype).eps
+        count = first.shape[1]+3
+        gamma = count*epsilon/(1-count*epsilon)
+        a, b = first.astype('float64'), second.astype('float64')
+        scale = (a*a).sum(axis=1)[:, None]+(b*b).sum(axis=1)[None]+2*np.abs(a)@np.abs(b).T
+        squared_error = np.abs(output.astype('float64')**2-independent**2)
+        if not np.isfinite(output).all() or np.any(squared_error > gamma*scale):
+            raise AssertionError('Distance discrepancy exceeds float dot-product error bound')
+        row = self.results.setdefault('matching_distance_matrix', {'calls': 0, 'max_abs_error': 0,
+                                      'max_squared_error': 0, 'max_mean_diagonal_error': 0,
+                                      'criterion': 'Squared-distance roundoff bound gamma_(D+3) times absolute norm/product sum; original values retained'})
+        row['calls'] += 1
+        row['max_abs_error'] = max(row['max_abs_error'], float(np.max(np.abs(output-independent))))
+        row['max_squared_error'] = max(row['max_squared_error'], float(squared_error.max()))
+        row['max_mean_diagonal_error'] = max(row['max_mean_diagonal_error'],
+                    float(abs(output.diagonal().mean()-independent.diagonal().mean())))
         return output
 
     def statistics(self, activation):
