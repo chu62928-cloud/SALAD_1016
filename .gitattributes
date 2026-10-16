@@ -8,3 +8,7 @@ reproduction/*jitter*.py text eol=lf
 reproduction/mesh_surface.py text eol=lf
 reproduction/render_mesh.py text eol=lf
 reproduction/physics_metrics.py text eol=lf
+posture_conditioning/*.py text eol=lf
+configs/posture_v1.json -text
+results/posture_v1/** -text
+models/denoiser/transformer.py text eol=crlf

@@ -178,3 +178,5 @@ visualization/data
 
 .ipynb_checkpoints/
 runs/posture_v1/
+results/posture_v1/subjects.csv
+results/posture_v1/interventions.csv
