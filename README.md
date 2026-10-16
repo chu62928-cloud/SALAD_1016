@@ -84,3 +84,7 @@ python test_vae.py --name vae_example
 python test_denoiser.py --name denoiser_example --num_inference_timesteps 50
 ```
 Evaluated results will be saved in ```checkpoints/{vae_name | denoiser_name}/eval/eval.log```
+
+## 复现记录
+
+独立环境、固定版本资产、训练短测及可恢复的 20 次评估命令见 [中文复现说明](reproduction/README_zh.md)，已验证内容与剩余进度见 [复现状态](reproduction/STATUS_zh.md)。数值复现结论以完成全部重复后的结果记录为准。
