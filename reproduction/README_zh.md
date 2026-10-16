@@ -66,3 +66,5 @@ python reproduction/sync_results.py watch --publish
 `watch --publish` 每 60 秒同步。四组均完成 20 次且验证通过后，生成 `reproduction/RESULTS_zh.md` 和 `reproduction/results/`，提交并推送 GitHub，再快进拉取到服务器并核对提交号。网络故障会重试；证据异常或任务提前停止则记录失败并退出。已有本地改动或生成报告被手工改动时停止自动发布；不会覆盖这些改动。
 
 证据文件按服务器原始字节提交，避免 Windows 换行转换破坏实验绑定摘要。状态与发布收据分别位于 `reproduction/artifacts/evidence/watch_status.json` 和 `publication.json`。持续监控依赖本地工作站与 SSH 连接保持可用，不会唤醒聊天。
+
+本次服务器拉取优先使用仅绑定回环的代理桥 `127.0.0.1:18979`，不可用时尝试直连；两者均有超时，不修改服务器的持久 Git 代理配置。代理桥需要保持运行。全部评估完成并通过检查前，不在服务器执行拉取。

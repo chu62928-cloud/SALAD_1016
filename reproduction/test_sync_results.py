@@ -125,6 +125,17 @@ class PublicationChecks(unittest.TestCase):
             self.assertEqual(value['status'],'complete')
             self.assertEqual(value['server_commit'],head)
 
+    def test_server_pull_command_is_valid_python(self):
+        real_git = sync.git
+        def git_without_network(*arguments, **kwargs):
+            return '' if arguments[0]=='push' else real_git(*arguments, **kwargs)
+        def remote_without_network(code, **kwargs):
+            compile(code,'<server-pull>','exec')
+            return json.dumps({'exit_code':0,'head':real_git('rev-parse','HEAD')})
+        with patch.object(sync,'git',side_effect=git_without_network):
+            with patch.object(sync,'remote',side_effect=remote_without_network):
+                sync.finalize(self.snapshot,self.verification,True)
+
 
 if __name__ == '__main__':
     unittest.main()

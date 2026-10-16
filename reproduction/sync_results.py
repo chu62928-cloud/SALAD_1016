@@ -342,9 +342,17 @@ def finalize(snapshot, verification, publish):
 p={SERVER!r}
 dirty=subprocess.check_output(['git','-C',p,'status','--porcelain','--untracked-files=no'],text=True)
 if dirty:raise RuntimeError('Server changes detected; results published but pull stopped')
-r=subprocess.run(['git','-C',p,'-c','http.lowSpeedLimit=100','-c','http.lowSpeedTime=30','pull','--ff-only'],capture_output=True,text=True,timeout=75)
+attempts=[]
+for proxy in ['http://127.0.0.1:18979','']:
+ try:
+  r=subprocess.run(['git','-C',p,'-c','http.proxy='+proxy,'-c','http.lowSpeedLimit=100','-c','http.lowSpeedTime=15','pull','--ff-only'],capture_output=True,text=True,timeout=30)
+  attempt=dict(exit_code=r.returncode,output=r.stdout,error=r.stderr,transport='loopback' if proxy else 'direct')
+ except subprocess.TimeoutExpired:
+  attempt=dict(exit_code=124,output='',error='Git pull timed out',transport='loopback' if proxy else 'direct')
+ attempts.append(attempt)
+ if attempt['exit_code']==0:break
 head=subprocess.check_output(['git','-C',p,'rev-parse','HEAD'],text=True).strip()
-print(json.dumps(dict(exit_code=r.returncode,output=r.stdout,error=r.stderr,head=head)))
+print(json.dumps(dict(exit_code=attempt['exit_code'],attempts=attempts,head=head)))
 '''
         pull=json.loads(remote(pull_code,timeout=85))
         json_write(DESTINATION/'final_server_pull.json',pull)
@@ -381,6 +389,7 @@ def main():
             if result['complete'] and args.stage in ['watch','finalize']:
                 finalize(snapshot,result,args.publish)
                 json_write(DESTINATION/'watch_status.json',{'status':'complete','checked_at':snapshot['checked_at'],'published':args.publish})
+                (DESTINATION/'watch_error.json').unlink(missing_ok=True)
                 return
             if args.stage=='finalize':raise RuntimeError('Evaluations still running')
             json_write(DESTINATION/'watch_status.json',{'status':'watching' if args.stage=='watch' else 'synced',
