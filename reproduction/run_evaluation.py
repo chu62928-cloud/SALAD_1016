@@ -10,6 +10,7 @@ import random
 import subprocess
 import sys
 import time
+from contextlib import nullcontext
 
 os.environ.setdefault('OMP_NUM_THREADS', '2')
 os.environ.setdefault('OPENBLAS_NUM_THREADS', '2')
@@ -20,6 +21,7 @@ from audit_assets import sha256
 import numpy as np
 import torch
 from utils.eval_t2m import test_denoiser, test_vae
+from audit_metrics import MetricAudit
 import importlib.metadata as metadata
 
 
@@ -135,15 +137,20 @@ def main():
     atomic_json(args.output / 'summary.json', progress)
     for repeat in range(len(rows), args.repeats):
         start = time.monotonic()
-        if args.kind == 'denoiser':
-            output = test_denoiser(loader, trainer.generate, repeat, wrapper, opt.joints_num,
-                                   cal_mm=args.cal_mm)
-            _, fid, div, precision, matching, _, mm, _, _ = output
-            mpjpe = None
-        else:
-            fid, div, precision, matching, mpjpe, mm = test_vae(
-                loader, trainer.vae, repeat, wrapper, opt.joints_num, cal_mm=args.cal_mm)
-            mpjpe = float(mpjpe)
+        audit_context = MetricAudit() if repeat == 0 else nullcontext()
+        with audit_context as metric_audit:
+            if args.kind == 'denoiser':
+                output = test_denoiser(loader, trainer.generate, repeat, wrapper, opt.joints_num,
+                                       cal_mm=args.cal_mm)
+                _, fid, div, precision, matching, _, mm, _, _ = output
+                mpjpe = None
+            else:
+                fid, div, precision, matching, mpjpe, mm = test_vae(
+                    loader, trainer.vae, repeat, wrapper, opt.joints_num, cal_mm=args.cal_mm)
+                mpjpe = float(mpjpe)
+        if metric_audit is not None:
+            atomic_json(args.output / 'metric_audit.json', {'status': 'passed',
+                        'repeat': repeat, 'checks': metric_audit.results})
         row = {'repeat': repeat, 'fid': float(fid), 'diversity': float(div),
                'top1': float(precision[0]), 'top2': float(precision[1]),
                'top3': float(precision[2]), 'matching': float(matching),
