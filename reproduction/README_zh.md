@@ -68,3 +68,16 @@ python reproduction/sync_results.py watch --publish
 证据文件按服务器原始字节提交，避免 Windows 换行转换破坏实验绑定摘要。状态与发布收据分别位于 `reproduction/artifacts/evidence/watch_status.json` 和 `publication.json`。持续监控依赖本地工作站与 SSH 连接保持可用，不会唤醒聊天。
 
 本次服务器拉取优先使用仅绑定回环的代理桥 `127.0.0.1:18979`，不可用时尝试直连；两者均有超时，不修改服务器的持久 Git 代理配置。代理桥需要保持运行。全部评估完成并通过检查前，不在服务器执行拉取。
+
+## 动作示例与物理诊断
+
+```bash
+python reproduction/test_physics_metrics.py
+HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 python reproduction/sample_physics.py --protocol reproduction/physics_protocol.json --output reproduction/artifacts/physics_v1 --render
+```
+
+独立冻结的 `physics_protocol.json` 定义六种动作、三个种子及物理指标。先生成 18 段六秒动作，再对 128 段官方验证集描述各生成三次，与真实参考动作作相同长度的物理指标对照。沿用官方评估加载器选描述和裁剪，按编号摘要固定抽样，不选择展示结果。输出保留原始归一化特征、世界坐标、逐动作指标、配对汇总及原编号分组重采样区间。镜像编号与其原编号分在同一组。
+
+滑步使用原始世界坐标与固定地面 `y=0`：脚尖在相邻两帧都低于 5 厘米时统计水平速度，超过 0.2 米/秒记为滑步；同时报告低位接触覆盖率、条件滑步比例，以及三档高度/速度阈值敏感性。无低位接触时速度为 `null`，不写零。脚部穿地、腾空、骨长变异及根相对加速度/加加速度是运动学诊断，不是力学仿真、网格碰撞或统一合格门槛；跳跃腾空本身不是错误。这些指标是补充诊断，不是原论文结果表。
+
+视频包含双视角和脚尖曲线。相机水平跟随根节点，0.5 米网格固定于世界坐标；原动作不贴地、不平滑、不锁脚。主要基准评估运行期间，可将新增脚本复制到被忽略的独立目录并设置 `SALAD_ROOT`，不更新正在运行的核心源码。运行绑定记录核心提交、新增代码摘要及资产摘要。
