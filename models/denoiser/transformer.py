@@ -223,6 +223,9 @@ class STTransformerLayer(nn.Module):
         ca_out = featurewise_affine(ca_out, cross_cond)
         x = x + ca_out
 
+        if hasattr(self, "posture_adapter"):
+            x = self.posture_adapter(x)
+
         # feed-forward
         ff_out = self._ff_block(x)
         ff_out = featurewise_affine(ff_out, ffn_cond)

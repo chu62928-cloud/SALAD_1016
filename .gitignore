@@ -177,3 +177,4 @@ edit_result/
 visualization/data
 
 .ipynb_checkpoints/
+runs/posture_v1/
