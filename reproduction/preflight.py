@@ -140,6 +140,7 @@ def main():
     source = 'a person waves the left hand.'
     noise, original, attention = playground.generate(source, 64)
     finite(original)
+    samples = {'original': original.detach().cpu().numpy()}
     original_attention = [value.clone() for value in attention]
     for mode, target, options in [
         ('word_swap', 'a person waves the right hand.', {'swap_src_proportion': 0.2}),
@@ -155,6 +156,11 @@ def main():
         difference = float(torch.max(torch.abs(edited-original)))
         assert difference > 0
         passed('editing_' + mode, {'shape': list(edited.shape), 'max_abs_change': difference})
+        samples[mode] = edited.detach().cpu().numpy()
+    sample_path = args.output.with_suffix('.samples.npz')
+    np.savez_compressed(sample_path, **samples)
+    passed('normalized_sample_archive', {'path': str(sample_path), 'sha256': sha256(sample_path),
+                                        'source_text': source, 'frames': 64, 'seed': 456})
     result['status'] = 'passed'
     atomic_json(args.output, result)
 
