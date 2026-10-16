@@ -49,7 +49,7 @@ def main():
     primary.set(yticks=[0,1],yticklabels=[names[c['control']] for c in decision['comparisons']],
                 xlabel='Paired-model denoising improvement (%)',ylim=(-.7,1.7))
     primary.set_title('a  Posture contribution on unseen subjects',loc='left',fontweight='bold',fontsize=8)
-    primary.text(.99,.97,'57 subjects; stratified subject bootstrap\n97.5% CIs; one training seed',
+    primary.text(.80,.97,'57 subjects; stratified subject bootstrap\n97.5% CIs; one training seed',
                  transform=primary.transAxes,ha='right',va='top',fontsize=7)
     individual=fig.add_subplot(grid[1,0])
     for i,control in enumerate(['fixed','shuffled']):

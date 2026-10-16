@@ -163,6 +163,7 @@ cython_debug/
 /reproduction/artifacts/
 *.log
 checkpoints/
+/checkpoints
 /dataset/humanml3d
 /dataset/kit-ml
 /dataset/kit-ml_download/

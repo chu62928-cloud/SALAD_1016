@@ -1,0 +1,129 @@
+{
+  "seed": 20261017,
+  "main_gate_passed": false,
+  "quality_gate_passed": true,
+  "expand_training_seeds": false,
+  "stop_after_single_seed": true,
+  "comparisons": [
+    {
+      "control": "fixed",
+      "improvement_fraction": 0.00029737278190394704,
+      "ci_97_5": [
+        -0.0003171889892434351,
+        0.0008302945112615016
+      ],
+      "point_at_least_one_percent": false,
+      "corrected_ci_supports_improvement": false,
+      "passed": false
+    },
+    {
+      "control": "shuffled",
+      "improvement_fraction": 5.0872530042950594e-05,
+      "ci_97_5": [
+        -7.997621826733827e-05,
+        0.00018868565245230273
+      ],
+      "point_at_least_one_percent": false,
+      "corrected_ci_supports_improvement": false,
+      "passed": false
+    }
+  ],
+  "quality": [
+    {
+      "reference": "original",
+      "metric": "r3",
+      "change": -0.006531022356191962,
+      "limit": 0.02,
+      "change_kind": "absolute_decrease",
+      "passed": true
+    },
+    {
+      "reference": "original",
+      "metric": "fid",
+      "change": -0.21225900254481267,
+      "limit": 0.1,
+      "change_kind": "relative_increase",
+      "passed": true
+    },
+    {
+      "reference": "original",
+      "metric": "bone_length_cv",
+      "change": -0.0021392951225895213,
+      "limit": 0.005,
+      "change_kind": "absolute_increase",
+      "passed": true
+    },
+    {
+      "reference": "original",
+      "metric": "root_height_hf_m",
+      "change": 0.09585411187820392,
+      "limit": 0.1,
+      "change_kind": "relative_increase",
+      "passed": true
+    },
+    {
+      "reference": "original",
+      "metric": "relative_hf_m",
+      "change": -0.05805288841103973,
+      "limit": 0.1,
+      "change_kind": "relative_increase",
+      "passed": true
+    },
+    {
+      "reference": "original",
+      "metric": "skating_frame_ratio",
+      "change": -0.009235727849038089,
+      "limit": 0.02,
+      "change_kind": "absolute_increase",
+      "passed": true
+    },
+    {
+      "reference": "fixed",
+      "metric": "r3",
+      "change": 0.00025119316754584897,
+      "limit": 0.02,
+      "change_kind": "absolute_decrease",
+      "passed": true
+    },
+    {
+      "reference": "fixed",
+      "metric": "fid",
+      "change": 0.013126307946888627,
+      "limit": 0.1,
+      "change_kind": "relative_increase",
+      "passed": true
+    },
+    {
+      "reference": "fixed",
+      "metric": "bone_length_cv",
+      "change": -0.0001450093214679926,
+      "limit": 0.005,
+      "change_kind": "absolute_increase",
+      "passed": true
+    },
+    {
+      "reference": "fixed",
+      "metric": "root_height_hf_m",
+      "change": -0.0028020504153724035,
+      "limit": 0.1,
+      "change_kind": "relative_increase",
+      "passed": true
+    },
+    {
+      "reference": "fixed",
+      "metric": "relative_hf_m",
+      "change": -0.0020948210078856055,
+      "limit": 0.1,
+      "change_kind": "relative_increase",
+      "passed": true
+    },
+    {
+      "reference": "fixed",
+      "metric": "skating_frame_ratio",
+      "change": -0.0002771328402204065,
+      "limit": 0.02,
+      "change_kind": "absolute_increase",
+      "passed": true
+    }
+  ]
+}

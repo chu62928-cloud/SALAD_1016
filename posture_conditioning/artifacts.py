@@ -9,6 +9,11 @@ def main():
     run=ROOT/config()['run_root']
     campaign=json.loads((run/'campaign_status.json').read_text())
     assert campaign['status']=='complete' and campaign['training_stopped']
+    results=ROOT/'results/posture_v1'
+    for name in ['verification.json','delivery_verification.json','figure_qa.json']:
+        assert json.loads((results/name).read_text())['status']=='passed'
+    proc=Path('/proc')/str(campaign['pid'])/'cmdline'
+    assert not (proc.exists() and b'posture_conditioning.campaign' in proc.read_bytes())
     jobs=json.loads((run/'jobs.json').read_text())
     alive={}
     for variant,pid in jobs.items():
@@ -30,7 +35,11 @@ def main():
     assert total<8*1024**3
     write_json(ROOT/'results/posture_v1/artifact_index.json',dict(status='complete',server_root=str(ROOT),
                training_jobs_alive=alive,training_stopped=True,bytes=total,checkpoints=checkpoints,files=files,
-               campaign=campaign,data_and_individual_media_uploaded_to_github=False))
+               campaign=campaign,data_and_individual_media_uploaded_to_github=False,
+               acceptance_sha256={name:sha(results/name) for name in
+                   ['verification.json','delivery_verification.json','figure_qa.json']},
+               source_sha256={str(path.relative_to(ROOT)):sha(path) for path in
+                   sorted((ROOT/'posture_conditioning').glob('*.py'))}))
     print('Artifact index complete; stopped jobs; bytes',total,flush=True)
 
 

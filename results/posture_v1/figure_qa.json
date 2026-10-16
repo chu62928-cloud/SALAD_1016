@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "backend": "python",
+  "subjects": 57,
+  "intervention_subjects": 8,
+  "excluded_subjects": 0,
+  "source_sha256": {
+    "decision.json": "840c862590b3bfea9154fbfb37dfc2b7fde2792e824ed99f0f7947c41e6f49cb",
+    "subjects.csv": "962a290dd41b22f04af90bfad6a6637cdb330ae2d189712db19ded6b0d78084c",
+    "interventions.csv": "d5a71368a885a00aff1527c39da475dd338a9b10fa4f5526d01ee5ede186513e"
+  },
+  "visual_inspection_pending": false,
+  "visually_inspected": ["posture_results.png", "attention_gate.png"],
+  "notes": "All 57 subjects retained. The 1% threshold is shown without clipping the confidence intervals. Panel b bars are arithmetic means of individual relative improvements, distinct from panel a ratios of subject means. Intervention summaries retain all 8 predetermined examples. Attention and residual norms are descriptive latent-space quantities, not anatomical or causal effects."
+}

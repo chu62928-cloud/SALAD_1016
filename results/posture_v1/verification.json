@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "checks": {
+    "released_weights_evaluator_normalization_and_text_assets_unchanged": true,
+    "training_completed_frozen_sources_and_validation_selection": true,
+    "complete_primary_endpoint_replayed": true,
+    "full_test_generation_coverage": true,
+    "retrieval_recomputed": true,
+    "independent_fid": true,
+    "all_physics_recomputed": true,
+    "motion_feature_recovery_checked": true,
+    "all_saved_input_interventions_recomputed": true,
+    "neutral_reference_zero": true,
+    "head_neck_arms_hands_invariant": true,
+    "global_yaw_invariant": true,
+    "left_right_mirror": true,
+    "zero_scale_and_initialization_exact": true,
+    "encoder_attention_gate_gradients": true,
+    "optimizer_rng_schedule_exact_resume": true,
+    "frozen_backbone_unchanged": true,
+    "frozen_parameters_no_gradients": true,
+    "native_coordinate_convention_all_subjects": true,
+    "frozen_cache_recomputed": true,
+    "analytic_statistics_checks": true
+  },
+  "generation_counts": {
+    "original/0": 1327,
+    "original/1": 1327,
+    "original/2": 1327,
+    "fixed/0": 1327,
+    "fixed/1": 1327,
+    "fixed/2": 1327,
+    "paired/0": 1327,
+    "paired/1": 1327,
+    "paired/2": 1327,
+    "shuffled/0": 1327,
+    "shuffled/1": 1327,
+    "shuffled/2": 1327
+  },
+  "physics_max_error": 0.0,
+  "independent_fid_max_error": 1.8754139605725584e-06,
+  "feature_to_xyz_max_error": 0.0,
+  "primary_endpoint_replay_max_error": 0.0,
+  "intervention_max_error": 0.0,
+  "native_geometry_max_error": 2.312347180728077e-07,
+  "external_reference_asset_identical_to_fitting_asset": false,
+  "external_reference_asset_max_difference_m": 0.020423100746020027,
+  "artifact_bytes": 3645468463,
+  "training_source_binding": {
+    "files": {
+      "posture_conditioning/adapter.py": "30d33329a5a6ffba5a930a98bd986127f4a666b6bd952bf38459a7dfc44c1da2",
+      "posture_conditioning/common.py": "61ca12a5564aae92acc08c2113b01f69edf6ef683896dcdaff1e0aca355a7987",
+      "posture_conditioning/data.py": "1b617e02857fd7862cc92ab171d4419ef202a1125430200e3e049c3334756b0f",
+      "posture_conditioning/features.py": "43463f062cc428932c6c0cb984c9e17a62d7f77242af6ebe28bbb0985eebaed4",
+      "posture_conditioning/runtime.py": "e055e35237ab02feaf80ce06e1619860218edc29748545022177bc1bf1d6ccf2",
+      "posture_conditioning/train.py": "f3133a17a3ded637058c3ab0acc36ad4af945c41f26f620c08390580c55be256"
+    },
+    "transformer_sha256": "9b38c8a447d62b9f5d2edd1dd85549fbf7a9205403c950821a5c93f01a10b748",
+    "config_sha256": "9152d934ae17ce4feae87e52f33b32dcd114803a9c374248d8992301f0d44c54"
+  },
+  "audit_source_sha256": "4419ed559d19c38d75bca7f890df39ef017739399296ffc1c5e8aa9bcc719073",
+  "naturalness_fixed": false
+}

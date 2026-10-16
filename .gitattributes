@@ -11,4 +11,6 @@ reproduction/physics_metrics.py text eol=lf
 posture_conditioning/*.py text eol=lf
 configs/posture_v1.json -text
 results/posture_v1/** -text
+results/posture_v1/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+results/posture_v1/*.svg whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 models/denoiser/transformer.py text eol=crlf

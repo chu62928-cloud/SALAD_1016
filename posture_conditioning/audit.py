@@ -46,6 +46,32 @@ def main():
         assert state['bindings']==data.bindings and state['sample_position']==state['step']*64
     assert train_source[0]==train_source[1]==train_source[2]
     checks['training_completed_frozen_sources_and_validation_selection']=True
+    # Re-evaluate the complete primary endpoint from the frozen checkpoints,
+    # then independently reconstruct subject means from the persisted clip rows.
+    from .evaluate import Evaluation
+    from .train import denoise_evaluation
+    evaluator=Evaluation(seed)
+    denoise_error=0.
+    for variant in VARIANTS:
+        evaluator.load(variant)
+        mean,replayed=denoise_evaluation(evaluator.data,evaluator.model,evaluator.scheduler,
+                                        'test',variant,repeats=cfg['evaluation_repeats'])
+        with (evaluation/variant/'denoise.csv').open(newline='',encoding='utf-8') as stream:
+            saved=list(csv.DictReader(stream))
+        assert len(saved)==len(replayed)==1327
+        grouped={}
+        for old,new in zip(saved,replayed):
+            assert old['sample_id']==new['sample_id'] and old['identity']==new['identity']
+            denoise_error=max(denoise_error,abs(float(old['error'])-new['error']))
+            grouped.setdefault(new['identity'],[]).append(new['error'])
+        independent_mean=float(np.mean([np.mean(v) for v in grouped.values()]))
+        recorded=json.loads((evaluation/variant/'denoise.json').read_text())
+        assert len(grouped)==57 and abs(independent_mean-mean)<1e-12
+        assert abs(recorded['subject_mean']-mean)<1e-8
+    assert denoise_error<1e-7
+    del evaluator
+    torch.cuda.empty_cache()
+    checks['complete_primary_endpoint_replayed']=True
     test={i for i,r in enumerate(data.rows) if r['split']=='test'}
     counts={};largest_physics_error=0.;fid_error=0.;xyz_error=0.
     for variant in VARIANTS:
@@ -102,6 +128,30 @@ def main():
     assert xyz_error<1e-6
     checks.update(full_test_generation_coverage=True,retrieval_recomputed=True,independent_fid=True,
                   all_physics_recomputed=True,motion_feature_recovery_checked=True)
+    with (evaluation/'interventions.csv').open(newline='',encoding='utf-8') as stream:
+        intervention_rows=list(csv.DictReader(stream))
+    intervention_error=0.
+    for group in ['swap','pelvis','spine','left_leg','right_leg','shoulders']:
+        with np.load(evaluation/('intervention_'+group+'.npz')) as a:
+            selected=[r for r in intervention_rows if r['group']==group]
+            assert len(selected)==len(a['ids'])*4==32
+            for k,i in enumerate(a['ids']):
+                length=int(a['lengths'][k])
+                positions=[]
+                for key in ['baseline','changed']:
+                    raw=torch.tensor(a[key][k,:length],device='cuda')*torch.tensor(std,device='cuda')+torch.tensor(mean,device='cuda')
+                    positions.append(recover_from_ric(raw.float(),22).cpu().numpy())
+                delta=np.linalg.norm(positions[1]-positions[0],axis=-1)
+                for quarter,part in enumerate(np.array_split(np.arange(length),4)):
+                    row=selected[k*4+quarter]
+                    assert row['sample_id']==data.rows[int(i)]['sample_id'] and int(row['quarter'])==quarter
+                    values=dict(mean_joint_change_m=delta[part].mean(),pelvis_change_m=delta[part,0].mean(),
+                                trunk_change_m=delta[part][:,[3,6,9]].mean(),
+                                legs_change_m=delta[part][:,[1,2,4,5,7,8,10,11]].mean())
+                    for key,value in values.items():
+                        intervention_error=max(intervention_error,abs(float(row[key])-float(value)))
+    assert intervention_error<1e-7
+    checks['all_saved_input_interventions_recomputed']=True
     preflight=json.loads((run/'preflight/summary.json').read_text())
     geometry=json.loads((run/'preflight/geometry.json').read_text())
     assert preflight['status']==geometry['status']=='passed'
@@ -118,6 +168,7 @@ def main():
     assert artifact_bytes<8*1024**3
     receipt=dict(status='passed',checks=checks,generation_counts=counts,physics_max_error=largest_physics_error,
                  independent_fid_max_error=fid_error,feature_to_xyz_max_error=xyz_error,
+                 primary_endpoint_replay_max_error=denoise_error,intervention_max_error=intervention_error,
                  native_geometry_max_error=geometry['max_error_m'],
                  external_reference_asset_identical_to_fitting_asset=False,
                  external_reference_asset_max_difference_m=geometry['external_asset_max_error_m'],

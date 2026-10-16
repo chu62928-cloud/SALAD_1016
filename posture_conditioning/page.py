@@ -39,6 +39,10 @@ def main():
     <div class="scroll"><table><thead><tr><th>模型</th><th>去噪误差 ↓</th><th>FID ↓</th><th>R3 ↑</th><th>骨长变异 ↓</th><th>平地脚滑 ↓</th></tr></thead>
     <tbody>TABLE</tbody></table></div><section><h2>身份级对照与实际输入干预</h2>
     <img class="figure" src="../../../results/posture_v1/posture_results.png" alt="身份级对照与干预结果图"></section>
+    <section><h2>注意力、门控与注入残差</h2><p>八个固定样例、五个去噪块、第 25 个去噪步骤的汇总。
+    时间仅分成四个等长区间。头部与上肢标签属于输出动作潜变量区域，不是静态编码器输入，且潜变量区域存在重叠。
+    注意力和门控不等于人体实际影响；注入残差范数使用潜变量单位，实际关节变化见上图。</p>
+    <img class="figure" src="../../../results/posture_v1/attention_gate.png" alt="体态注意力、动作令牌门控及注入残差"></section>
     <section><h2>固定网格对照</h2><p>每来源按编号取前两位测试身份的首片段，共八段。三列依次为原 SALAD、固定中性条件适配、正确同人配对。
     采用原始关节驱动的估计表面，固定地面与同尺度相机；未平滑、贴地或锁脚。阶梯、斜坡片段的世界平面只作视觉参考。</p>GALLERY</section></main></html>'''
     (media/'index.html').write_text(text.replace('CONCLUSION',conclusion).replace('TABLE',table).replace('GALLERY',gallery),encoding='utf-8')

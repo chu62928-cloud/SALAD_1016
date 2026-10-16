@@ -27,7 +27,7 @@ def compare(subjects,paired,control,repeats=10000):
     low,high=np.quantile(relative,[.0125,.9875])
     point=float((c.mean()-p.mean())/c.mean())
     return dict(control=control,improvement_fraction=point,ci_97_5=[float(low),float(high)],
-                point_at_least_one_percent=point>=.01,corrected_ci_supports_improvement=low>0,
+                point_at_least_one_percent=point>=.01,corrected_ci_supports_improvement=bool(low>0),
                 passed=bool(point>=.01 and low>0))
 
 
@@ -95,6 +95,16 @@ def aggregate(seed=20261017):
                report_source_sha256=sha(__file__)))
     for name in ['interventions.csv']:
         (out/name).write_bytes((evaluation/name).read_bytes())
+    intervention_rows=read_csv(evaluation/'interventions.csv')
+    intervention_summary=[]
+    for group in ['swap','shoulders','spine','pelvis','left_leg','right_leg']:
+        for quarter in range(4):
+            selected=[r for r in intervention_rows if r['group']==group and int(r['quarter'])==quarter]
+            assert len(selected)==8 and len({r['sample_id'] for r in selected})==8
+            values={key:float(np.mean([float(r[key]) for r in selected])) for key in
+                    ['mean_joint_change_m','pelvis_change_m','trunk_change_m','legs_change_m']}
+            intervention_summary.append(dict(group=group,quarter=quarter,subjects=8,**values))
+    csv_write(out/'intervention_summary.csv',intervention_summary)
     p=by_variant['paired']
     names={'original':'原 SALAD','fixed':'固定中性条件适配','paired':'正确同人配对','shuffled':'训练配对打乱'}
     lines=['# 静态体态条件动作扩散：第一轮结果','',
@@ -118,12 +128,26 @@ def aggregate(seed=20261017):
         lines.append('- 相对%s：改善 %.4f%%，经两项比较校正的 97.5%% 区间 [%.4f%%, %.4f%%]；门槛%s。'%(
             names[c['control']],c['improvement_fraction']*100,c['ci_97_5'][0]*100,c['ci_97_5'][1]*100,'通过' if c['passed'] else '未通过'))
     lines+=['','区间按来源分层、受试者为单位进行 10000 次自举，不能将片段当作独立受试者增加样本量。区间只反映当前训练种子下的受试者抽样不确定性，不包含训练随机性。训练配对打乱是训练阶段对照，不等同于仅推理替换条件。','',
-            '## 质量门槛','', '| 参照 | 指标 | 变化 | 上限 | 结果 |','|---|---|---:|---:|---|']
+            '## 质量门槛','', '| 参照 | 指标及单位 | 变化 | 上限 | 结果 |','|---|---|---:|---:|---|']
+    quality_labels={'r3':'R3 下降（百分点）','fid':'FID 增加（%）',
+                    'bone_length_cv':'骨长变异增加（百分点）','root_height_hf_m':'根高度高频增加（%）',
+                    'relative_hf_m':'根相对高频增加（%）','skating_frame_ratio':'平地脚滑增加（百分点）'}
     for c in quality:
-        lines.append('| %s | %s | %.6f | %.6f | %s |'%(names[c['reference']],c['metric'],c['change'],c['limit'],'通过' if c['passed'] else '未通过'))
+        lines.append('| %s | %s | %.4f | %.4f | %s |'%(names[c['reference']],quality_labels[c['metric']],c['change']*100,c['limit']*100,'通过' if c['passed'] else '未通过'))
+    lines+=['','质量门槛只限制预设指标的退化，不是动作自然度或物理正确性的认证。以下接触、离地和穿地统计仅对应每次重复的 %d 段预先识别平地行走；骨长及高频统计覆盖全部测试片段。'%p['flat_ground_clips'],'',
+            '| 模型 | 脚部低位覆盖 % | 双脚离地帧 % | 穿地超过 2 cm 帧 % | 根高度高频 mm | 根相对高频 mm |',
+            '|---|---:|---:|---:|---:|---:|']
+    for row in metrics:
+        lines.append('| %s | %.3f | %.3f | %.3f | %.3f | %.3f |'%(
+            names[row['variant']],row['near_floor_toe_interval_fraction']*100,row['airborne_frame_ratio']*100,
+            row['penetration_frame_ratio']*100,row['root_height_hf_m']*1000,row['relative_hf_m']*1000))
+    lines+=['','正确配对的脚滑仍有 %.2f%%，平地片段双脚离地 %.2f%%；根高度高频相对原 SALAD 增加 %.2f%%。这些结果不支持本轮已经解决原模型滑步与抖动的说法。固定中性条件已经取得大部分去噪和 FID 改善，不能将一般域适配收益归于个体体态信息。'%(
+        p['skating_frame_ratio']*100,p['airborne_frame_ratio']*100,
+        (p['root_height_hf_m']/by_variant['original']['root_height_hf_m']-1)*100)]
     lines+=['','脚滑只用于任务名预先识别的平地行走，未把阶梯与斜坡按世界平面评价。接触高度 5 cm，水平脚尖速度阈值 0.2 m/s，分母为全部帧间隔；必须连同接触覆盖、悬空与穿地一起看。骨长与高频指标不依赖地面。高频指高于 3 Hz 的离散余弦分量，包含正常运动成分，不能冒充感知评分。','',
             '## 干预与可视化','',
             'interventions.csv 保存同噪声下体态替换与单组中性化的实际关节变化，分四个归一化时间区间；attention_gate_residual.pt 在服务器保存注意力、门控和实际注入范数。注意力本身不能解释为真实影响强度。单组输入中性化可能产生训练分布外组合，且消息传递会把影响传播到其他令牌，只作为模型敏感性检验。固定视频按身份编号选样，不根据外观挑选。','',
+            '匿名汇总 intervention_summary.csv 按八个预选身份等权，保留全部六类干预、四个时间区间及骨盆、躯干、下肢变化。区间仅按序列长度四等分，未经标注不命名下蹲最低点等语义阶段；变化大小不是体态保持准确率。','',
             '## 文件与复现','',
             '- 训练：`python -m posture_conditioning.train --variant paired`，另两组使用 fixed、shuffled。',
             '- 评价：`python -m posture_conditioning.evaluate --seed 20261017`。',

@@ -42,6 +42,8 @@ python -m posture_conditioning.audit
 
 训练入口会保护已有运行；中断后在原命令加 `--resume`，从 last.pt 保存的位置恢复。三组可以在显存允许时并行运行，但不得重复启动同一变体和种子。监督队列 campaign.py 用于本次已登记的三个进程，在训练结束后自动评价和按门槛停止；它不替代人工核验最终结果。
 
+封存结果后不要在同一运行目录重跑短测或覆盖验收文件。新实验应使用新的工作树或运行目录，保留原始源码、数据与资产摘要。恢复训练必须继续使用原运行绑定的代码、配置和资产。
+
 任意文本采样不接受目标动作值：
 
 ```bash
@@ -90,3 +92,29 @@ results/posture_v1/
 cache 包含测试集经冻结编码器处理的无统计缓存，但训练抽样、损失和选模只使用对应训练／验证身份；没有用测试集估计归一化或其他可学习预处理。
 
 GitHub 保留代码、协议、汇总、匿名结果图及文件摘要。逐人误差表、逐人干预、数据、完整模型检查点和媒体默认不上传。检查点只保存新增模块和恢复训练所需的状态，不重复保存冻结主干。
+
+## 结果复核与媒体
+
+以下命令用于已有结果的复核与交付；正式评价必须先完整结束。独立审计会重放全部主指标，复算生成覆盖、检索、FID、物理指标及全部输入干预，并核对冻结源码、资产与验证选模。
+
+```bash
+# 使用 SALAD 环境，仓库根目录。
+python -m posture_conditioning.audit
+python -m posture_conditioning.attention_summary
+
+# 网格渲染使用服务器已有的 mdm5090 环境。
+/root/miniconda3/envs/mdm5090/bin/python -m posture_conditioning.render
+```
+
+将 results/posture_v1 与 runs/posture_v1/media 同步到本地同名目录后，可使用具有 numpy、scipy、matplotlib、Pillow 的 Python 生成离线报告；此步骤不需要 PyTorch。
+
+```bash
+python -m posture_conditioning.figures
+python -m posture_conditioning.page
+node posture_conditioning/qa_browser.cjs /absolute/path/to/playwright
+python -m posture_conditioning.delivery_audit
+```
+
+离线入口为 runs/posture_v1/media/index.html，无需启动服务器。浏览器验收使用已安装的 Edge，检查桌面和手机两种宽度、全部八视频播放、三个时刻三列人体像素与运动，另存截图供目视复核。播放器通过不等于动作自然度通过。将本地验收证据同步回服务器后，在 SALAD 环境运行 `python -m posture_conditioning.artifacts`，记录检查点与生成产物摘要、存储预算和训练停止状态。
+
+本轮已执行结果见 `results/posture_v1/REPORT_zh.md`，交付验收及解释边界见 `results/posture_v1/DELIVERY_zh.md`。第一轮未通过主要研究门槛，按方案停止扩展训练。
