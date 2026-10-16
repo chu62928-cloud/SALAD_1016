@@ -68,6 +68,7 @@ def main():
     parser.add_argument('--repeats', type=int, default=20)
     parser.add_argument('--cal-mm', action='store_true')
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--stop-after', type=int, help='Stop cleanly after this many total repetitions, retaining the original binding')
     args = parser.parse_args()
     if args.repeats < 1:
         parser.error('--repeats must be positive')
@@ -167,6 +168,10 @@ def main():
                         updated_at=datetime.now(timezone.utc).isoformat())
         atomic_json(args.output / 'summary.json', progress)
         print(json.dumps(row), flush=True)
+        if args.stop_after is not None and len(rows) >= args.stop_after and len(rows) < args.repeats:
+            progress['status'] = 'interrupted_for_resume_check'
+            atomic_json(args.output / 'summary.json', progress)
+            return
     progress.update(status='complete',
                     table1_evaluation_complete=args.repeats == 20 and args.kind == 'denoiser' and args.cal_mm,
                     comparison_note='Interval overlap is descriptive, not proof of equality or validation of training/editing.')
