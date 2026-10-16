@@ -11,6 +11,8 @@ import numpy as np
 from models.denoiser.trainer import DenoiserTrainer
 from utils.get_opt import get_opt
 from utils.metrics import calculate_R_precision, calculate_frechet_distance
+from data.t2m_dataset import MotionDataset
+from t2m import mirror
 
 
 class SmallVAE(torch.nn.Module):
@@ -72,6 +74,25 @@ class Regressions(unittest.TestCase):
             opt = get_opt(path, torch.device('cpu'))
             self.assertEqual(opt.label, 'value: detail')
             self.assertEqual(opt.layers, [1, 2])
+
+    def test_training_windows_cover_exact_and_last_window_once(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            np.save(root/'a.npy', np.repeat(np.arange(10, 14)[:, None], 263, axis=1))
+            np.save(root/'b.npy', np.repeat(np.arange(20, 26)[:, None], 263, axis=1))
+            (root/'train.txt').write_text('a\nb\n')
+            opt = Namespace(joints_num=22, window_size=4, motion_dir=str(root))
+            dataset = MotionDataset(opt, np.zeros(263), np.ones(263), root/'train.txt')
+            self.assertEqual(len(dataset), 4)
+            self.assertEqual([dataset[i][0, 0] for i in range(len(dataset))], [10, 20, 21, 22])
+
+    def test_mirror_preserves_source_attention(self):
+        source = torch.arange(2*7*3, dtype=torch.float32).reshape(1, 1, 1, 14, 3)
+        original = source.clone()
+        output = mirror(source, 'upper')
+        self.assertTrue(torch.equal(source, original))
+        self.assertFalse(torch.equal(output, original))
+        self.assertTrue(torch.equal(mirror(output, 'upper'), original))
 
 
 if __name__ == '__main__':

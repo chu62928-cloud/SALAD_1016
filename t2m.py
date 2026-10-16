@@ -256,7 +256,7 @@ def mirror(
     n_frames = n_frames_n_joints // 7
 
     # reshape
-    attn_weights = src_attn_weights.reshape(bsz, n_layers, n_heads, n_frames, n_joints, n_words)
+    attn_weights = src_attn_weights.clone().reshape(bsz, n_layers, n_heads, n_frames, n_joints, n_words)
 
     # swap attn weights
     if mirror_mode == "lower":

@@ -2,6 +2,7 @@
 
 ## 范围与版本
 
+- 用户确认：本次完成预训练权重评估与训练短测，不启动完整从零训练。
 - 用户仓库：https://github.com/chu62928-cloud/SALAD_1016
 - 初始提交：`6487e98957d1643ac70d77cecdab21f3cda62e2b`。
 - 论文：https://openaccess.thecvf.com/content/CVPR2025/html/Hong_SALAD_Skeleton-aware_Latent_Diffusion_for_Text-driven_Motion_Generation_and_Editing_CVPR_2025_paper.html

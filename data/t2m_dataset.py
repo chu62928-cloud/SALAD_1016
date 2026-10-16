@@ -29,7 +29,7 @@ class MotionDataset(data.Dataset):
                 motion = np.load(pjoin(opt.motion_dir, name + '.npy'))
                 if motion.shape[0] < opt.window_size:
                     continue
-                self.lengths.append(motion.shape[0] - opt.window_size)
+                self.lengths.append(motion.shape[0] - opt.window_size + 1)
                 self.data.append(motion)
             except Exception as e:
                 # Some motion may not exist in KIT dataset
@@ -49,12 +49,10 @@ class MotionDataset(data.Dataset):
         return self.cumsum[-1]
 
     def __getitem__(self, item):
-        if item != 0:
-            motion_id = np.searchsorted(self.cumsum, item) - 1
-            idx = item - self.cumsum[motion_id] - 1
-        else:
-            motion_id = 0
-            idx = 0
+        if item < 0 or item >= len(self):
+            raise IndexError(item)
+        motion_id = np.searchsorted(self.cumsum, item, side='right') - 1
+        idx = item - self.cumsum[motion_id]
         motion = self.data[motion_id][idx:idx + self.opt.window_size]
         "Z Normalization"
         motion = (motion - self.mean) / self.std

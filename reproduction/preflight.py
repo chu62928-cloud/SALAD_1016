@@ -126,6 +126,7 @@ def main():
     source = 'a person waves the left hand.'
     noise, original, attention = playground.generate(source, 64)
     finite(original)
+    original_attention = [value.clone() for value in attention]
     for mode, target, options in [
         ('word_swap', 'a person waves the right hand.', {'swap_src_proportion': 0.2}),
         ('refine', 'a person waves the left hand while walking.', {}),
@@ -136,6 +137,7 @@ def main():
                                  src_sa=attention[0], src_ta=attention[1], src_ca=attention[2], **options)
         finite(edited)
         assert edited.shape == original.shape
+        assert all(torch.equal(value, saved) for value, saved in zip(attention, original_attention))
         difference = float(torch.max(torch.abs(edited-original)))
         assert difference > 0
         passed('editing_' + mode, {'shape': list(edited.shape), 'max_abs_change': difference})

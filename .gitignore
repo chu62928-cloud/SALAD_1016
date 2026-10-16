@@ -164,6 +164,8 @@ cython_debug/
 checkpoints/
 /dataset/humanml3d
 /dataset/kit-ml
+/dataset/kit-ml_download/
+/glove
 glove/
 save/
 log/
