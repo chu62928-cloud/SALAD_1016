@@ -12,6 +12,16 @@ from download_assets import FILES
 ROOT = Path(__file__).resolve().parents[1]
 CLIP_REPO = 'openai/clip-vit-base-patch32'
 CLIP_REVISION = '3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268'
+KIT_TRAIN_EXCEPTIONS = {
+    '01102': ('malformed_caption', 'a9c0b726b6627f3700988a1f00e292fd031d468f72275aa8368e99a09d5e5178'),
+    '01796': ('malformed_caption', '1f55b31d85e1de9dc4edaeb5064d5edb01e028b12c09fec13034909373c03a7f'),
+    '01919': ('malformed_caption', '5d1e44679f2ea86657dc82f4d410527244ca8528ac026c07a9f29dd2b5b7c3f9'),
+    'M01102': ('malformed_caption', '8af5701d2cdfa24aa75ea9664b73a9ee588434ad714a89044516339edb80bf3a'),
+    'M01796': ('malformed_caption', '45a3cb2d0b2930f58975418b15a8ef67bed955d8e7770c7b77804f91647311e1'),
+    'M01919': ('malformed_caption', 'bd51ac5948211c1acc3cc4e6248828bec8e027eff5b60bf279198856a9b9e97b'),
+    '00942': ('missing_motion', 'b4b0ccec62aebf84df7c5ce0ab253b072badb5148f363e8f2b392a3398c7626f'),
+    'M00942': ('missing_motion', '0d357b775c542323001cd6909c9d7e52251bca95e30884246c050a6cf2196aac'),
+}
 
 
 def sha256(path):
@@ -26,6 +36,7 @@ def audit_dataset(root, dataset):
     dim, minimum = (263, 40) if dataset == 't2m' else (251, 24)
     splits = {}
     errors = []
+    warnings = []
     checked = set()
     timed_captions = 0
     filtered = []
@@ -65,7 +76,18 @@ def audit_dataset(root, dataset):
                     if np.isfinite(start) and np.isfinite(end) and (start or end):
                         timed_captions += 1
             except (OSError, ValueError) as exc:
-                errors.append(name + ': ' + str(exc))
+                known = KIT_TRAIN_EXCEPTIONS.get(name) if dataset == 'kit' and split == 'train' else None
+                expected_problem = (known and text_path.is_file() and sha256(text_path) == known[1]
+                    and ((known[0] == 'malformed_caption' and str(exc) == 'Malformed caption')
+                         or (known[0] == 'missing_motion' and not motion_path.exists())))
+                if expected_problem:
+                    warnings.append({'id': name, 'split': split, 'problem': known[0],
+                                     'text_sha256': known[1],
+                                     'handling': 'Keep original files and the released loader behavior; excluded upstream from text-motion training, absent from val/test.'})
+                    if known[0] == 'missing_motion':
+                        content_digest.update((name+':MISSING:'+known[1]+'\n').encode())
+                else:
+                    errors.append(name + ': ' + str(exc))
     sets = {s: set((root / (s + '.txt')).read_text().splitlines())
             for s in splits}
     for a, b in [('train', 'val'), ('train', 'test'), ('val', 'test')]:
@@ -75,6 +97,7 @@ def audit_dataset(root, dataset):
             'checked_ids': len(checked), 'length_filtered_ids': filtered,
             'timed_captions': timed_captions,
             'motion_text_content_sha256': content_digest.hexdigest(),
+            'upstream_training_data_warnings': warnings,
             'kit_time_crop_note': 'Upstream loader uses 20 fps for time tags even for KIT; audit before interpreting timed KIT segments.' if dataset == 'kit' and timed_captions else None,
             'errors': errors}
 
