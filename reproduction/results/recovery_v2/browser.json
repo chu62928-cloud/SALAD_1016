@@ -1,0 +1,560 @@
+{
+  "status": "passed",
+  "viewports": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "corrupted": false,
+      "videos": 4,
+      "textOverflow": false,
+      "links": [
+        "REPORT_zh.md",
+        "metrics.csv",
+        "audit.json",
+        "videos/walk_20261016.mp4",
+        "official_skeleton/walk_20261016.mp4",
+        "videos/jump_20261016.mp4",
+        "official_skeleton/jump_20261016.mp4",
+        "videos/real_jump_control.mp4",
+        "official_skeleton/real_jump_control.mp4",
+        "videos/real_walk_control.mp4",
+        "official_skeleton/real_walk_control.mp4"
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "corrupted": false,
+      "videos": 4,
+      "textOverflow": false,
+      "links": [
+        "REPORT_zh.md",
+        "metrics.csv",
+        "audit.json",
+        "videos/walk_20261016.mp4",
+        "official_skeleton/walk_20261016.mp4",
+        "videos/jump_20261016.mp4",
+        "official_skeleton/jump_20261016.mp4",
+        "videos/real_jump_control.mp4",
+        "official_skeleton/real_jump_control.mp4",
+        "videos/real_walk_control.mp4",
+        "official_skeleton/real_walk_control.mp4"
+      ]
+    }
+  ],
+  "video_checks": [
+    {
+      "viewport": 1440,
+      "name": "walk_20261016",
+      "kind": "six_panels",
+      "width": 1920,
+      "height": 1460,
+      "duration": 6,
+      "colored": [
+        [
+          5125,
+          19584,
+          18778,
+          4971,
+          18933,
+          18914
+        ],
+        [
+          5090,
+          19905,
+          19123,
+          5069,
+          19444,
+          19441
+        ],
+        [
+          5196,
+          20400,
+          19197,
+          5172,
+          19837,
+          19807
+        ]
+      ],
+      "changed_pixels": [
+        9015,
+        5639,
+        5439,
+        8973,
+        6543,
+        5399
+      ]
+    },
+    {
+      "viewport": 1440,
+      "name": "jump_20261016",
+      "kind": "six_panels",
+      "width": 1920,
+      "height": 1460,
+      "duration": 6,
+      "colored": [
+        [
+          5147,
+          20007,
+          18938,
+          5058,
+          17974,
+          19693
+        ],
+        [
+          5111,
+          18671,
+          18059,
+          5069,
+          17006,
+          19578
+        ],
+        [
+          5225,
+          20583,
+          19290,
+          5221,
+          18771,
+          20858
+        ]
+      ],
+      "changed_pixels": [
+        9463,
+        5070,
+        5180,
+        8674,
+        4200,
+        5629
+      ]
+    },
+    {
+      "viewport": 1440,
+      "name": "real_jump_control",
+      "kind": "six_panels",
+      "width": 1920,
+      "height": 1460,
+      "duration": 6,
+      "colored": [
+        [
+          5068,
+          18205,
+          17452,
+          4995,
+          17798,
+          18715
+        ],
+        [
+          4804,
+          19879,
+          18904,
+          5033,
+          19069,
+          18880
+        ],
+        [
+          5094,
+          19734,
+          18828,
+          5090,
+          18856,
+          19210
+        ]
+      ],
+      "changed_pixels": [
+        9021,
+        4429,
+        4381,
+        9129,
+        4746,
+        4611
+      ]
+    },
+    {
+      "viewport": 1440,
+      "name": "real_walk_control",
+      "kind": "six_panels",
+      "width": 1920,
+      "height": 1460,
+      "duration": 6,
+      "colored": [
+        [
+          5063,
+          19158,
+          18614,
+          5027,
+          21571,
+          17469
+        ],
+        [
+          5121,
+          21532,
+          20527,
+          5093,
+          22410,
+          20415
+        ],
+        [
+          5151,
+          23179,
+          22280,
+          5054,
+          21590,
+          22207
+        ]
+      ],
+      "changed_pixels": [
+        9547,
+        5897,
+        6329,
+        6947,
+        5355,
+        6977
+      ]
+    },
+    {
+      "viewport": 1440,
+      "name": "walk_20261016",
+      "kind": "official_skeleton",
+      "width": 1000,
+      "height": 1000,
+      "duration": 6,
+      "colored": [
+        [
+          4062
+        ],
+        [
+          4301
+        ],
+        [
+          4348
+        ]
+      ],
+      "changed_pixels": [
+        41514
+      ]
+    },
+    {
+      "viewport": 1440,
+      "name": "jump_20261016",
+      "kind": "official_skeleton",
+      "width": 1000,
+      "height": 1000,
+      "duration": 6,
+      "colored": [
+        [
+          4276
+        ],
+        [
+          4113
+        ],
+        [
+          4103
+        ]
+      ],
+      "changed_pixels": [
+        11546
+      ]
+    },
+    {
+      "viewport": 1440,
+      "name": "real_jump_control",
+      "kind": "official_skeleton",
+      "width": 1000,
+      "height": 1000,
+      "duration": 6,
+      "colored": [
+        [
+          3928
+        ],
+        [
+          4061
+        ],
+        [
+          4109
+        ]
+      ],
+      "changed_pixels": [
+        7715
+      ]
+    },
+    {
+      "viewport": 1440,
+      "name": "real_walk_control",
+      "kind": "official_skeleton",
+      "width": 1000,
+      "height": 1000,
+      "duration": 6,
+      "colored": [
+        [
+          4229
+        ],
+        [
+          4519
+        ],
+        [
+          5783
+        ]
+      ],
+      "changed_pixels": [
+        102908
+      ]
+    },
+    {
+      "viewport": 390,
+      "name": "walk_20261016",
+      "kind": "six_panels",
+      "width": 1920,
+      "height": 1460,
+      "duration": 6,
+      "colored": [
+        [
+          5125,
+          19584,
+          18778,
+          4971,
+          18933,
+          18914
+        ],
+        [
+          5090,
+          19905,
+          19123,
+          5069,
+          19444,
+          19441
+        ],
+        [
+          5196,
+          20400,
+          19197,
+          5172,
+          19837,
+          19807
+        ]
+      ],
+      "changed_pixels": [
+        9015,
+        5639,
+        5439,
+        8973,
+        6543,
+        5399
+      ]
+    },
+    {
+      "viewport": 390,
+      "name": "jump_20261016",
+      "kind": "six_panels",
+      "width": 1920,
+      "height": 1460,
+      "duration": 6,
+      "colored": [
+        [
+          5147,
+          20007,
+          18938,
+          5058,
+          17974,
+          19693
+        ],
+        [
+          5111,
+          18671,
+          18059,
+          5069,
+          17006,
+          19578
+        ],
+        [
+          5225,
+          20583,
+          19290,
+          5221,
+          18771,
+          20858
+        ]
+      ],
+      "changed_pixels": [
+        9463,
+        5070,
+        5180,
+        8674,
+        4200,
+        5629
+      ]
+    },
+    {
+      "viewport": 390,
+      "name": "real_jump_control",
+      "kind": "six_panels",
+      "width": 1920,
+      "height": 1460,
+      "duration": 6,
+      "colored": [
+        [
+          5068,
+          18205,
+          17452,
+          4995,
+          17798,
+          18715
+        ],
+        [
+          4804,
+          19879,
+          18904,
+          5033,
+          19069,
+          18880
+        ],
+        [
+          5094,
+          19734,
+          18828,
+          5090,
+          18856,
+          19210
+        ]
+      ],
+      "changed_pixels": [
+        9021,
+        4429,
+        4381,
+        9129,
+        4746,
+        4611
+      ]
+    },
+    {
+      "viewport": 390,
+      "name": "real_walk_control",
+      "kind": "six_panels",
+      "width": 1920,
+      "height": 1460,
+      "duration": 6,
+      "colored": [
+        [
+          5063,
+          19158,
+          18614,
+          5027,
+          21571,
+          17469
+        ],
+        [
+          5121,
+          21532,
+          20527,
+          5093,
+          22410,
+          20415
+        ],
+        [
+          5151,
+          23179,
+          22280,
+          5054,
+          21590,
+          22207
+        ]
+      ],
+      "changed_pixels": [
+        9547,
+        5897,
+        6329,
+        6947,
+        5355,
+        6977
+      ]
+    },
+    {
+      "viewport": 390,
+      "name": "walk_20261016",
+      "kind": "official_skeleton",
+      "width": 1000,
+      "height": 1000,
+      "duration": 6,
+      "colored": [
+        [
+          4062
+        ],
+        [
+          4301
+        ],
+        [
+          4348
+        ]
+      ],
+      "changed_pixels": [
+        41514
+      ]
+    },
+    {
+      "viewport": 390,
+      "name": "jump_20261016",
+      "kind": "official_skeleton",
+      "width": 1000,
+      "height": 1000,
+      "duration": 6,
+      "colored": [
+        [
+          4276
+        ],
+        [
+          4113
+        ],
+        [
+          4103
+        ]
+      ],
+      "changed_pixels": [
+        11546
+      ]
+    },
+    {
+      "viewport": 390,
+      "name": "real_jump_control",
+      "kind": "official_skeleton",
+      "width": 1000,
+      "height": 1000,
+      "duration": 6,
+      "colored": [
+        [
+          3928
+        ],
+        [
+          4061
+        ],
+        [
+          4109
+        ]
+      ],
+      "changed_pixels": [
+        7715
+      ]
+    },
+    {
+      "viewport": 390,
+      "name": "real_walk_control",
+      "kind": "official_skeleton",
+      "width": 1000,
+      "height": 1000,
+      "duration": 6,
+      "colored": [
+        [
+          4229
+        ],
+        [
+          4519
+        ],
+        [
+          5783
+        ]
+      ],
+      "changed_pixels": [
+        102908
+      ]
+    }
+  ],
+  "naturalness_verified": false
+}

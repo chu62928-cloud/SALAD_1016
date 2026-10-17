@@ -8,3 +8,5 @@ reproduction/*jitter*.py text eol=lf
 reproduction/mesh_surface.py text eol=lf
 reproduction/render_mesh.py text eol=lf
 reproduction/physics_metrics.py text eol=lf
+reproduction/*recovery_v2.py text eol=lf
+reproduction/qa_recovery_v2.cjs text eol=lf

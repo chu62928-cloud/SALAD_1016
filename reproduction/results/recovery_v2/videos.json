@@ -1,0 +1,97 @@
+{
+  "status": "complete",
+  "videos": [
+    {
+      "name": "walk_20261016",
+      "kind": "generated",
+      "path": "videos/walk_20261016.mp4",
+      "poster": "videos/walk_20261016.png",
+      "sha256": "e1ca288297f06e7b4c1b62c2a2a1f541acf64fac5ca91b17d614934e9735e7d4",
+      "poster_sha256": "9a6675280f49a8642923b70d54d1d923b4cf7dd727e2198339a92bd02c7a685c",
+      "frames": 120,
+      "min_pixels": [
+        3695,
+        18692,
+        17720,
+        3859,
+        18475,
+        17835
+      ]
+    },
+    {
+      "name": "jump_20261016",
+      "kind": "generated",
+      "path": "videos/jump_20261016.mp4",
+      "poster": "videos/jump_20261016.png",
+      "sha256": "7f20043284a2d1658cdb8bbc79400e97b6a9b992580632070822f8831097062b",
+      "poster_sha256": "410fe9a62482df3dac164e9a1b5eccf0be202429b2f37ee372d1b9772b58a5c4",
+      "frames": 120,
+      "min_pixels": [
+        3673,
+        19568,
+        19068,
+        3552,
+        18342,
+        18487
+      ]
+    },
+    {
+      "name": "real_jump_control",
+      "kind": "real",
+      "path": "videos/real_jump_control.mp4",
+      "poster": "videos/real_jump_control.png",
+      "sha256": "ef1a5a43e268105ddf3469b25bbc5a51d44d8bf9222957e4a62e3fe561ff7cbf",
+      "poster_sha256": "87fbcd22a8e22da765760e7c3848bdc77d1b59750f66c936b12c5a8c399b8730",
+      "frames": 120,
+      "min_pixels": [
+        3726,
+        19089,
+        18468,
+        3808,
+        18763,
+        19105
+      ]
+    },
+    {
+      "name": "real_walk_control",
+      "kind": "real",
+      "path": "videos/real_walk_control.mp4",
+      "poster": "videos/real_walk_control.png",
+      "sha256": "2cdc52418d37caff8ae8847b4f6f75e083f53dcf05ce4b5de56348df0fcdc7f0",
+      "poster_sha256": "068a5a5e7976b82b78101ccf8583cfd20a9854cad04bf5953ca334c081e9b4c5",
+      "frames": 120,
+      "min_pixels": [
+        3083,
+        16873,
+        16112,
+        3089,
+        16283,
+        16486
+      ]
+    }
+  ],
+  "stages": [
+    "position_xyz",
+    "original_vertices",
+    "position_smpl_vertices",
+    "rotation_xyz",
+    "rotation_smpl_vertices",
+    "author_vertices"
+  ],
+  "labels": [
+    "位置恢复：22 关节，无蒙皮",
+    "此前流程：变长骨架直接蒙皮",
+    "位置 → SMPL 旋转 → 固定骨长蒙皮",
+    "旋转恢复：6D → FK 骨架",
+    "6D → FK → SMPL 旋转 → 蒙皮",
+    "作者 BVH 足部拟合 → 估计表面"
+  ],
+  "fps": 20,
+  "width": 1920,
+  "height": 1460,
+  "camera": {
+    "ycenter": 1.0386840924620628,
+    "ymag": 1.4337816561127348
+  },
+  "audit_sha256": "39d79409984dca21bdd7281655d877866c39257ee2441cc42eba795379b5fb65"
+}

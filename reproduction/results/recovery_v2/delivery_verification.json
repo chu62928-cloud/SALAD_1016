@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "numerical_verification": true,
+  "playback_checks": 16,
+  "fixed_case_count": 4,
+  "official_skeleton_videos": 4,
+  "synchronized_comparison_videos": 4,
+  "ground_truth_constant_heading_check_passed": false,
+  "previous_renderer_equals_official": false,
+  "naturalness_fixed": false,
+  "sha256": {
+    "reproduction\\artifacts\\physics_v1_20261016\\recovery_v2\\audit.json": "39d79409984dca21bdd7281655d877866c39257ee2441cc42eba795379b5fb65",
+    "reproduction\\artifacts\\physics_v1_20261016\\recovery_v2\\verification.json": "df35869333befef527d869ff859f812e3c1093ce259db78787a0f60f90f569a1",
+    "reproduction\\artifacts\\physics_v1_20261016\\recovery_v2\\videos.json": "d69bf611694d921b250ca1ce8a63f8b007600aad9067fc0cd34130184517aec1",
+    "reproduction\\artifacts\\physics_v1_20261016\\recovery_v2\\official_videos.json": "7257d7f0b3766ee434ad24985e9ab2011f343d21737af32afbbd19cd2e6d5e5b",
+    "reproduction\\artifacts\\physics_v1_20261016\\recovery_v2\\metrics.csv": "ecf6a03ce7b685371645e4540847f2de316bb49e288ac29a01b9defcb741d5f1",
+    "reproduction\\artifacts\\physics_v1_20261016\\recovery_v2\\qa\\browser.json": "4666aa0d6f59221a6cd540bc31ba162ed0582c10a66d0bd34568d7ebceb41ea5",
+    "reproduction\\audit_recovery_v2.py": "080c7e3118d2f3a344399a2e7680302085e587097ab6076ec720fc4516cf5c3f",
+    "reproduction\\verify_recovery_v2.py": "760f031a19a107be40f274350e9ef8e9ad272b6a1cc5cc85b5492f0129d7e3d3",
+    "reproduction\\render_recovery_v2.py": "e4d8d366c6a5f5055a6c18aa972fc6b8279878f423d6f38e8680533d26e1d5f4",
+    "reproduction\\remote_recovery_v2.py": "e0f9c9439922f79c498a9077ad2de500bd63935e006176b7c8a4bf2322c18f48",
+    "reproduction\\report_recovery_v2.py": "fc04fc6530dbf217aaab588bd280d62e839cb2ba80abe512cc10c73de04718ce",
+    "reproduction\\qa_recovery_v2.cjs": "c8357a1f03453e630f450915e96af0958d06cb088a393bc5fa3970085820af8b"
+  }
+}

@@ -102,3 +102,11 @@ python reproduction/remote_mesh.py fetch
 ```
 
 本地播放页为 `reproduction/artifacts/physics_v1_20261016/mesh_v1/index.html`，网格记录见 [MESH_zh.md](MESH_zh.md)。原始数组及网格缓存只留服务器，Git 仅保存渲染代码和小型核验证据。相机共用固定尺度及高度，仅跟随水平根位移；地面为固定的 `y=0`，网格间距 0.5 米。没有逆运动学拟合、贴地、平滑、锁脚或骨长修正。
+
+## 位置、旋转与蒙皮专项检查
+
+此前关节驱动表面不等同于作者的完整显示流程。新增 [专项报告](RECOVERY_SKINNING_zh.md) 与 [四组同步对照](artifacts/physics_v1_20261016/recovery_v2/index.html)，分别检查无蒙皮位置骨架、6D 旋转恢复、标准固定骨长 SMPL-H 蒙皮、作者 BVH 转换，并提供未修改官方绘图函数生成的骨架视频。
+
+本次只读复查原 18 段生成动作和 128 段真实动作，不重新采样或训练。生成位置骨长变异平均 3.477%，旋转分支固定骨长但未改善加加速度；真实数据另有七段整体朝向轨迹不一致，保留在报告中，不据此声称旋转分支全部正确或自然度已经修复。
+
+查看和同步已有诊断使用 `python reproduction/remote_recovery_v2.py status` 与 `fetch`。报告入口为 `python reproduction/report_recovery_v2.py`。播放复核脚本为 `node reproduction/qa_recovery_v2.cjs`，需要 Playwright 与 Edge；可通过 `PLAYWRIGHT_MODULE` 指定 Playwright 模块位置。已有 `audit`、`render`、`official`、`verify` 阶段均已结束，不重复启动。

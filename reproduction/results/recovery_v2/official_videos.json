@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "videos": [
+    {
+      "name": "walk_20261016",
+      "path": "official_skeleton/walk_20261016.mp4",
+      "sha256": "cf413f4c4738ebabb2deed2e29bfb96210b78eb8aafb7981dea6c883c3297a5e"
+    },
+    {
+      "name": "jump_20261016",
+      "path": "official_skeleton/jump_20261016.mp4",
+      "sha256": "ee7502f5b2727ce8c415a19fe8e7f4741e61f7f6941cda48214d94cd6ca23afd"
+    },
+    {
+      "name": "real_jump_control",
+      "path": "official_skeleton/real_jump_control.mp4",
+      "sha256": "a6be9287da0ae90c3805007e802961c3247053bc2fe71efb46427b7355dea4ae"
+    },
+    {
+      "name": "real_walk_control",
+      "path": "official_skeleton/real_walk_control.mp4",
+      "sha256": "4ae97d97c054eb6373bb53a3016b58432acf330e3f7c0c30fac9429defa737d1"
+    }
+  ],
+  "source_sha256": "5374c3fe17b8a25cd22437a0f62a82c3b08d7d581ac9c3604ad1d0ea4bff7f00",
+  "smoothing": false,
+  "note": "Unmodified official plotter subtracts one sequence-wide minimum height and follows root XZ; does not change bone lengths"
+}
