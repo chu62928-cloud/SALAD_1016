@@ -99,7 +99,7 @@ def main():
             fixed_case_count=4,official_skeleton_videos=4,synchronized_comparison_videos=4,
             ground_truth_constant_heading_check_passed=verification['ground_truth_constant_heading_check_passed'],
             previous_renderer_equals_official=False,naturalness_fixed=False,
-            sha256={str(p.relative_to(REPO)):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths})
+            sha256={p.relative_to(REPO).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in paths})
         content=json.dumps(delivery,indent=2,ensure_ascii=False)
         (ROOT/'delivery_verification.json').write_text(content,encoding='utf-8')
         (TRACKED/'delivery_verification.json').write_text(content,encoding='utf-8')
