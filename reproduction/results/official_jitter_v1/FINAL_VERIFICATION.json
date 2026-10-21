@@ -1,0 +1,124 @@
+{
+  "status": "complete",
+  "scope": "Official HumanML3D and KIT-ML benchmark; no new training",
+  "numerical_verification_sha256": "3a85a7622bc4420d762ee99b95907aaf01943f0f23e0c19fc31a87069458f768",
+  "public_manifest_sha256": "853160cbfa6e0ddf69e906e530db4c7a16b774babb99e4fd8ce19f4718768cd5",
+  "verified_public_files": 49,
+  "completed_runs": {
+    "gt_t2m": {
+      "status": "complete",
+      "completed": 20,
+      "pid": 525928
+    },
+    "gt_kit": {
+      "status": "complete",
+      "completed": 20,
+      "pid": 525376
+    },
+    "salad_t2m": {
+      "status": "complete",
+      "requested_repeats": 3,
+      "pid": 529357
+    },
+    "salad_kit": {
+      "status": "complete",
+      "requested_repeats": 3,
+      "pid": 528410
+    },
+    "salad_ft_t2m": {
+      "status": "complete",
+      "requested_repeats": 3,
+      "pid": 530553
+    },
+    "mdm_bert50_t2m": {
+      "status": "complete",
+      "pid": 531045,
+      "per_clip_sha256": "3dfa35b35a3e0d0ca5903fca431abd310ac94756c16aa3c2f256100e2999c8bf"
+    },
+    "mdm_clip1000_kit": {
+      "status": "complete",
+      "pid": 534907,
+      "per_clip_sha256": "6abf76ed81fcfed26ecf44f49259bea53109b51e16a90f42f34f65e72f2f5380"
+    },
+    "flow_humanml_attempt3": {
+      "status": "complete",
+      "completed": 20,
+      "pid": 529783,
+      "per_clip_sha256": "f065875510a445ec6d10c020fdb3e45f43262c74d23b8e18d1caa9316840f74c"
+    }
+  },
+  "sources_sha256": {
+    "audit_gt.py": "6ca33d56afad3f4142de09ac3221201804ac28a1dcc4f52c9d771a7881dea51e",
+    "tests_metrics.py": "ba44a7f93cf827055edd7c2ddbe67a9d607c70ac256e67c66c3ab1eec3baebe6",
+    "run_salad.py": "6f34b523792ceae45dd567335840c6b7c904dbfae787ecf25cd7d1449dafcdf1",
+    "run_flow.py": "fdf774a640c9a6273a9042e1c8991131173b5614936222f2ab83544058f49c77",
+    "run_mdm.py": "c8d9bd6aa45fd5175bbd422650eba35aa593402ea577a77129dc6d469926caad",
+    "verify.py": "9cb3133f1bff5cb45edd390c753f2afaf361099a202439c6abe87ca162226abb",
+    "run_mdm_kit.py": "2b8b8bce63d74c267763fed4366bb0b46b2588eca46ba7558948f42327a5828b",
+    "report.py": "8401d274e681e6351c02a10aafafb2db7582a595bcbbfca510f0b21b627bb373",
+    "PROTOCOL_zh.md": "06ce3682844ed8fac9f7ff8475d83f29fd7db1f47eaf20b4eb199553e9c26334",
+    ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "finalize.py": "e00828e233e33d28e8871f7128e30cb10bd92ede38ec3604a1294d768a2d8ed3",
+    "audit_text_lengths.py": "1a18d6f93da7b77a79884d480c1688107cf79b0a314c37b7ae657f6eb07f0353"
+  },
+  "salad_and_verification_environment": {
+    "numpy": "1.21.2",
+    "scipy": "1.10.1",
+    "torch": "1.13.1+cu117",
+    "diffusers": "0.27.2",
+    "transformers": "4.38.2",
+    "matplotlib": "3.3.4",
+    "Pillow": "10.3.0"
+  },
+  "flow_and_MDM_environment": {
+    "numpy": "1.23.5",
+    "scipy": "1.15.3",
+    "torch": "2.7.0+cu128",
+    "transformers": "4.57.6",
+    "torchdiffeq": "0.2.5",
+    "hydra-core": "1.3.7"
+  },
+  "figures": [
+    {
+      "file": "01_humanml3d_physical.png",
+      "width": 2760,
+      "height": 1860,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "all_panels_nonblank": true,
+      "sha256": "0116625be6ac1241b10661feaa27ae12c59a8960d8699c95314a13aca8f96caa"
+    },
+    {
+      "file": "02_kitml_physical.png",
+      "width": 2760,
+      "height": 1860,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "all_panels_nonblank": true,
+      "sha256": "e3de75daeb25c4fdfad84426b23ee548b74ac82681f306ffdd6d470beecfee2b"
+    },
+    {
+      "file": "03_official_jitter_check.png",
+      "width": 3150,
+      "height": 1050,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "all_panels_nonblank": true,
+      "sha256": "c39adb9f6253603d68f82e0b5e6eee61328f095494cdcf618f529362659598aa"
+    }
+  ],
+  "flow_upstream_tracked_clean": true,
+  "visual_review": "PNG bounds and panel pixels passed; human-visible final image inspection is separate",
+  "limitations": [
+    "ViMoGen unmeasured: official representation/evaluator adaptation unverified",
+    "No KIT-compatible full fine-tuning checkpoint; no LoRA checkpoint",
+    "FlowMotion semantic paper scores not fully reproduced; native sample count differs",
+    "Sampling intervals do not measure training seed or subject uncertainty"
+  ]
+}

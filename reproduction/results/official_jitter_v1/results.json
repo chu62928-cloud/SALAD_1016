@@ -1,0 +1,693 @@
+{
+  "datasets": {
+    "t2m": {
+      "SALAD": {
+        "world_jerk_rms_mps3": {
+          "mean": 86.70784302767618,
+          "ci95_half_width": 0.2418339153524685
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 84.2272233623184,
+          "ci95_half_width": 0.2171476603783144
+        },
+        "bone_cv_percent": {
+          "mean": 4.796665509056621,
+          "ci95_half_width": 0.021376634181709025
+        },
+        "local_hf3_coordinate_rms_mm": {
+          "mean": 2.6103058465743794,
+          "ci95_half_width": 0.011537127883296274
+        },
+        "local_hf3_vector_rms_mm": {
+          "mean": 4.521182349560916,
+          "ci95_half_width": 0.019982891667288557
+        },
+        "sliding_frame_percent": {
+          "mean": 35.75519638592448,
+          "ci95_half_width": 0.07812644362985874
+        },
+        "toe_contact_interval_percent": {
+          "mean": 76.63676302881213,
+          "ci95_half_width": 0.27136315332748323
+        },
+        "flow_published_padded": {
+          "mean": 42.82131115026857,
+          "ci95_half_width": 0.18953161208461416
+        },
+        "flow_valid_actual_joints": {
+          "mean": 48.912328493184056,
+          "ci95_half_width": 0.10501893348501593
+        },
+        "fid": {
+          "mean": 0.07630894397481806,
+          "ci95_half_width": 0.006883211221032144
+        },
+        "top1": {
+          "mean": 0.5778017241379311,
+          "ci95_half_width": 0.0009125180868447797
+        },
+        "top2": {
+          "mean": 0.7679597701149427,
+          "ci95_half_width": 0.001934035423608818
+        },
+        "top3": {
+          "mean": 0.8558189655172413,
+          "ci95_half_width": 0.0011947666302807335
+        },
+        "matching": {
+          "mean": 2.6578273666316066,
+          "ci95_half_width": 0.005778071348583656
+        }
+      },
+      "GT": {
+        "world_jerk_rms_mps3": {
+          "mean": 82.2145655802331,
+          "ci95_half_width": 0.03306868489982084
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 79.92892484936795,
+          "ci95_half_width": 0.04439286060389769
+        },
+        "bone_cv_percent": {
+          "mean": 4.476691485702131e-05,
+          "ci95_half_width": 1.8088604557907284e-08
+        },
+        "local_hf3_coordinate_rms_mm": {
+          "mean": 2.45049948942821,
+          "ci95_half_width": 0.0012359420373445212
+        },
+        "local_hf3_vector_rms_mm": {
+          "mean": 4.244389619611254,
+          "ci95_half_width": 0.0021407144038904317
+        },
+        "sliding_frame_percent": {
+          "mean": 12.66776452826367,
+          "ci95_half_width": 0.010407445380088774
+        },
+        "toe_contact_interval_percent": {
+          "mean": 78.21895075405685,
+          "ci95_half_width": 0.008644873026960927
+        },
+        "flow_published_padded": {
+          "mean": 47.33334527853234,
+          "ci95_half_width": 0.203591144516867
+        },
+        "flow_valid_actual_joints": {
+          "mean": 48.84385453691029,
+          "ci95_half_width": 0.009018147298643557
+        },
+        "fid": {
+          "mean": 0.0,
+          "ci95_half_width": 0.0
+        },
+        "top1": {
+          "mean": 0.5101293103448276,
+          "ci95_half_width": 0.0033968653218903557
+        },
+        "top2": {
+          "mean": 0.7024425287356322,
+          "ci95_half_width": 0.004784594650815016
+        },
+        "top3": {
+          "mean": 0.7971264367816092,
+          "ci95_half_width": 0.0038834170117948113
+        },
+        "matching": {
+          "mean": 2.9702872544869607,
+          "ci95_half_width": 0.009637408817729901
+        }
+      },
+      "SALAD_full_finetune": {
+        "world_jerk_rms_mps3": {
+          "mean": 87.25449041049484,
+          "ci95_half_width": 0.2690821516451405
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 84.69581270561194,
+          "ci95_half_width": 0.24439675687275134
+        },
+        "bone_cv_percent": {
+          "mean": 4.784116331352955,
+          "ci95_half_width": 0.014673924672872568
+        },
+        "local_hf3_coordinate_rms_mm": {
+          "mean": 2.5934276948579043,
+          "ci95_half_width": 0.009633902328614432
+        },
+        "local_hf3_vector_rms_mm": {
+          "mean": 4.491948533250125,
+          "ci95_half_width": 0.01668640830831658
+        },
+        "sliding_frame_percent": {
+          "mean": 37.93922969345189,
+          "ci95_half_width": 0.14098500291553995
+        },
+        "toe_contact_interval_percent": {
+          "mean": 78.57934341096986,
+          "ci95_half_width": 0.2346164370456004
+        },
+        "flow_published_padded": {
+          "mean": 42.71169067929531,
+          "ci95_half_width": 0.1275124876087273
+        },
+        "flow_valid_actual_joints": {
+          "mean": 49.476638776063915,
+          "ci95_half_width": 0.13708443420658753
+        },
+        "fid": {
+          "mean": 0.16229503671783618,
+          "ci95_half_width": 0.002042401598388847
+        },
+        "top1": {
+          "mean": 0.5784482758620689,
+          "ci95_half_width": 0.004284718842991057
+        },
+        "top2": {
+          "mean": 0.7654454022988505,
+          "ci95_half_width": 0.0012002852122120391
+        },
+        "top3": {
+          "mean": 0.8510775862068966,
+          "ci95_half_width": 0.004828591849279494
+        },
+        "matching": {
+          "mean": 2.668620762605777,
+          "ci95_half_width": 0.006327413897980907
+        }
+      },
+      "MDM_BERT_50": {
+        "world_jerk_rms_mps3": {
+          "mean": 65.08438358603425,
+          "ci95_half_width": 0.5530989018946885
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 60.577279088827936,
+          "ci95_half_width": 0.5700612850268522
+        },
+        "bone_cv_percent": {
+          "mean": 1.2383846730007069,
+          "ci95_half_width": 0.012803518928260484
+        },
+        "local_hf3_coordinate_rms_mm": {
+          "mean": 1.8027483209462059,
+          "ci95_half_width": 0.019763569355853924
+        },
+        "local_hf3_vector_rms_mm": {
+          "mean": 3.1224516851383135,
+          "ci95_half_width": 0.03423150626325076
+        },
+        "sliding_frame_percent": {
+          "mean": 14.150173733847986,
+          "ci95_half_width": 0.2322982190564314
+        },
+        "toe_contact_interval_percent": {
+          "mean": 80.63978852175372,
+          "ci95_half_width": 0.31923146286873194
+        },
+        "flow_published_padded": {
+          "mean": 168.57280145482773,
+          "ci95_half_width": 3.912412948978711
+        },
+        "flow_valid_actual_joints": {
+          "mean": 35.87834302088481,
+          "ci95_half_width": 0.27821534257260927
+        },
+        "flow_zero_normalized_padding": {
+          "mean": 39.188055609963065,
+          "ci95_half_width": 0.27515263303499277
+        },
+        "fid": {
+          "mean": 0.47454149460013656,
+          "ci95_half_width": 0.004424477199454508
+        },
+        "top1": {
+          "mean": 0.5612068965517242,
+          "ci95_half_width": 0.0033260895329877767
+        },
+        "top2": {
+          "mean": 0.7637212643678161,
+          "ci95_half_width": 0.007172286385055654
+        },
+        "top3": {
+          "mean": 0.8520114942528735,
+          "ci95_half_width": 0.005908202977325646
+        },
+        "matching": {
+          "mean": 2.714240459464062,
+          "ci95_half_width": 0.010108092136335699
+        }
+      }
+    },
+    "kit": {
+      "SALAD": {
+        "world_jerk_rms_mps3": {
+          "mean": 40.1657068102597,
+          "ci95_half_width": 0.17941350768158304
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 37.49463764803239,
+          "ci95_half_width": 0.18519226425839275
+        },
+        "bone_cv_percent": {
+          "mean": 8.720594270409057,
+          "ci95_half_width": 0.03692920841714238
+        },
+        "local_hf3_coordinate_rms_mm": {
+          "mean": 1.8068977568458038,
+          "ci95_half_width": 0.010241882471491081
+        },
+        "local_hf3_vector_rms_mm": {
+          "mean": 3.1296387189391663,
+          "ci95_half_width": 0.017739460805771996
+        },
+        "sliding_frame_percent": {
+          "mean": 43.35079959379618,
+          "ci95_half_width": 0.33646538188396347
+        },
+        "toe_contact_interval_percent": {
+          "mean": 68.5608169355471,
+          "ci95_half_width": 0.3769282212955654
+        },
+        "flow_published_padded": {
+          "mean": 32.660965186176874,
+          "ci95_half_width": 0.2368684752089871
+        },
+        "flow_valid_actual_joints": {
+          "mean": 74.0615614332033,
+          "ci95_half_width": 0.30784608373495803
+        },
+        "fid": {
+          "mean": 0.2833399964851158,
+          "ci95_half_width": 0.022580103046293706
+        },
+        "top1": {
+          "mean": 0.4867424242424243,
+          "ci95_half_width": 0.019214187058338595
+        },
+        "top2": {
+          "mean": 0.7111742424242425,
+          "ci95_half_width": 0.002004774584734711
+        },
+        "top3": {
+          "mean": 0.8347537878787877,
+          "ci95_half_width": 0.00647407845509067
+        },
+        "matching": {
+          "mean": 2.5854201714197793,
+          "ci95_half_width": 0.028884463298862257
+        }
+      },
+      "GT": {
+        "world_jerk_rms_mps3": {
+          "mean": 64.52807730922389,
+          "ci95_half_width": 0.22609431299141003
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 61.8010380257112,
+          "ci95_half_width": 0.21902160289328418
+        },
+        "bone_cv_percent": {
+          "mean": 5.3684648990499006e-05,
+          "ci95_half_width": 3.473812273488258e-07
+        },
+        "local_hf3_coordinate_rms_mm": {
+          "mean": 3.082572403100249,
+          "ci95_half_width": 0.01407248645150462
+        },
+        "local_hf3_vector_rms_mm": {
+          "mean": 5.339172020179322,
+          "ci95_half_width": 0.024374261522830315
+        },
+        "sliding_frame_percent": {
+          "mean": 39.5435894537776,
+          "ci95_half_width": 0.05502639542735984
+        },
+        "toe_contact_interval_percent": {
+          "mean": 70.65292397366214,
+          "ci95_half_width": 0.243675695368332
+        },
+        "flow_published_padded": {
+          "mean": 50.15561073702393,
+          "ci95_half_width": 0.1442079969994476
+        },
+        "flow_valid_actual_joints": {
+          "mean": 111.7955633283339,
+          "ci95_half_width": 0.4581723252954063
+        },
+        "fid": {
+          "mean": 0.0,
+          "ci95_half_width": 0.0
+        },
+        "top1": {
+          "mean": 0.4431818181818182,
+          "ci95_half_width": 0.009187031285870664
+        },
+        "top2": {
+          "mean": 0.684185606060606,
+          "ci95_half_width": 0.011315375211495192
+        },
+        "top3": {
+          "mean": 0.7921401515151515,
+          "ci95_half_width": 0.012194567725718718
+        },
+        "matching": {
+          "mean": 2.7631345878947866,
+          "ci95_half_width": 0.0223134823897475
+        }
+      },
+      "MDM_CLIP_1000": {
+        "world_jerk_rms_mps3": {
+          "mean": 47.007019883152445,
+          "ci95_half_width": 0.27961617343495826
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 43.4424991867709,
+          "ci95_half_width": 0.2011304411987068
+        },
+        "bone_cv_percent": {
+          "mean": 2.3820537433365407,
+          "ci95_half_width": 0.014382062376656622
+        },
+        "local_hf3_coordinate_rms_mm": {
+          "mean": 2.1504293934118683,
+          "ci95_half_width": 0.0026041196918423592
+        },
+        "local_hf3_vector_rms_mm": {
+          "mean": 3.7246529674788778,
+          "ci95_half_width": 0.00451046761526177
+        },
+        "sliding_frame_percent": {
+          "mean": 35.44601390371667,
+          "ci95_half_width": 0.37530806357385893
+        },
+        "toe_contact_interval_percent": {
+          "mean": 69.87371528386373,
+          "ci95_half_width": 0.4997370050743754
+        },
+        "flow_published_padded": {
+          "mean": 73.54437127077219,
+          "ci95_half_width": 1.0936696228160059
+        },
+        "flow_valid_actual_joints": {
+          "mean": 71.89372892993869,
+          "ci95_half_width": 0.09446534939712545
+        },
+        "flow_zero_normalized_padding": {
+          "mean": 37.711675314740695,
+          "ci95_half_width": 0.07999783445794495
+        },
+        "fid": {
+          "mean": 0.49377433379735675,
+          "ci95_half_width": 0.043274888301143156
+        },
+        "top1": {
+          "mean": 0.4119318181818182,
+          "ci95_half_width": 0.0177542650949951
+        },
+        "top2": {
+          "mean": 0.6089015151515151,
+          "ci95_half_width": 0.007228317561008213
+        },
+        "top3": {
+          "mean": 0.7310606060606061,
+          "ci95_half_width": 0.006734883281545337
+        },
+        "matching": {
+          "mean": 3.1121449398271963,
+          "ci95_half_width": 0.014942382437329963
+        }
+      }
+    }
+  },
+  "gt_gate": {
+    "t2m": {
+      "status": "complete",
+      "dataset": "t2m",
+      "repetitions": 20,
+      "clips_per_repeat": 4640,
+      "metrics": {
+        "valid_frames": {
+          "mean": 139.83400862068964,
+          "ci95_half_width": 0.02050808307263075
+        },
+        "padded_frames": {
+          "mean": 196.0,
+          "ci95_half_width": 0.0
+        },
+        "flow_published_padded": {
+          "mean": 47.32435599349375,
+          "ci95_half_width": 0.07093233548159457
+        },
+        "flow_valid_22": {
+          "mean": 48.857128038474315,
+          "ci95_half_width": 0.019449876818936583
+        },
+        "flow_valid_actual_joints": {
+          "mean": 48.857128038474315,
+          "ci95_half_width": 0.019449876818936583
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 82.21203783267103,
+          "ci95_half_width": 0.0261207504374649
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 79.91241276683759,
+          "ci95_half_width": 0.02424635910400555
+        },
+        "bone_cv_percent": {
+          "mean": 4.4768171220428625e-05,
+          "ci95_half_width": 7.74022805415024e-09
+        },
+        "local_hf3_coordinate_rms_mm": {
+          "mean": 2.450344902794888,
+          "ci95_half_width": 0.0013575414162461902
+        },
+        "local_hf3_vector_rms_mm": {
+          "mean": 4.244121867708168,
+          "ci95_half_width": 0.002351330706317444
+        },
+        "sliding_frame_percent": {
+          "mean": 12.67005999635348,
+          "ci95_half_width": 0.003862012206841201
+        },
+        "toe_contact_interval_percent": {
+          "mean": 78.22558138343697,
+          "ci95_half_width": 0.006165405331960485
+        },
+        "flow_boundary_and_padding_sum_fraction": {
+          "mean": 0.3814001443626054,
+          "ci95_half_width": 0.0009612930602945877
+        },
+        "original_torch_aggregation": {
+          "mean": 47.324355125427246,
+          "ci95_half_width": 0.07093252938203677
+        }
+      },
+      "paper_gt_target": 47.262,
+      "relative_difference": 0.0013193501211807717,
+      "gt_closeness_screen_passed": true,
+      "model_comparison_authorized_by_gt_check": true,
+      "elapsed_seconds": 258.55415269359946,
+      "per_clip_sha256": "6f085c0fb014cde10f8e9bf40209a8185a1a3fdb426b9b05019b22f2ee17f8e0",
+      "warning": "The published KIT path reads 3 rotation features as a phantom 22nd joint. Published metric includes padding boundaries. Native physical diagnostics do not."
+    },
+    "kit": {
+      "status": "complete",
+      "dataset": "kit",
+      "repetitions": 20,
+      "clips_per_repeat": 704,
+      "metrics": {
+        "valid_frames": {
+          "mean": 75.72130681818183,
+          "ci95_half_width": 0.12206509964943997
+        },
+        "padded_frames": {
+          "mean": 196.0,
+          "ci95_half_width": 0.0
+        },
+        "flow_published_padded": {
+          "mean": 50.00791055458513,
+          "ci95_half_width": 0.1297687712179332
+        },
+        "flow_valid_22": {
+          "mean": 108.21737229197541,
+          "ci95_half_width": 0.30355820180101206
+        },
+        "flow_valid_actual_joints": {
+          "mean": 111.56587052506138,
+          "ci95_half_width": 0.31233838899512795
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 64.40018156148118,
+          "ci95_half_width": 0.16318108101805973
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 61.71358077015968,
+          "ci95_half_width": 0.1497369343767726
+        },
+        "bone_cv_percent": {
+          "mean": 6.813648536410984e-05,
+          "ci95_half_width": 9.5330864257982e-08
+        },
+        "local_hf3_coordinate_rms_mm": {
+          "mean": 3.0765394573620712,
+          "ci95_half_width": 0.008518344787936099
+        },
+        "local_hf3_vector_rms_mm": {
+          "mean": 5.328722651641491,
+          "ci95_half_width": 0.014754205969094877
+        },
+        "sliding_frame_percent": {
+          "mean": 39.61923815135531,
+          "ci95_half_width": 0.09392265221041861
+        },
+        "toe_contact_interval_percent": {
+          "mean": 70.78319054472604,
+          "ci95_half_width": 0.11230536800653669
+        },
+        "flow_boundary_and_padding_sum_fraction": {
+          "mean": 0.2734451633979916,
+          "ci95_half_width": 0.0005459124954471063
+        },
+        "original_torch_aggregation": {
+          "mean": 50.00791149139404,
+          "ci95_half_width": 0.12976907853923692
+        }
+      },
+      "paper_gt_target": 49.922,
+      "relative_difference": 0.0017209144544297723,
+      "gt_closeness_screen_passed": true,
+      "model_comparison_authorized_by_gt_check": true,
+      "elapsed_seconds": 46.24849013984203,
+      "per_clip_sha256": "a4cb27ac69dfd2c123542a5cb94cb3aca76e8f5d8609b3e486be9e1e58c95c4e",
+      "warning": "The published KIT path reads 3 rotation features as a phantom 22nd joint. Published metric includes padding boundaries. Native physical diagnostics do not."
+    }
+  },
+  "flow_native": {
+    "ground truth": {
+      "valid_frames": {
+        "mean": 139.8348275862069,
+        "ci95_half_width": 0.017107873349976592
+      },
+      "flow_published_padded": {
+        "mean": 47.26595715438112,
+        "ci95_half_width": 0.05056510102562857
+      },
+      "flow_valid_actual_joints": {
+        "mean": 48.86827282081456,
+        "ci95_half_width": 0.013525626457634115
+      },
+      "world_jerk_rms_mps3": {
+        "mean": 82.23362544446636,
+        "ci95_half_width": 0.021859017736083276
+      },
+      "local_jerk_rms_mps3": {
+        "mean": 79.93589979400012,
+        "ci95_half_width": 0.021405357902711142
+      },
+      "bone_cv_percent": {
+        "mean": 4.477042382604537e-05,
+        "ci95_half_width": 6.33668021147021e-09
+      },
+      "local_hf3_coordinate_rms_mm": {
+        "mean": 2.4516595380039483,
+        "ci95_half_width": 0.0009241596573528809
+      },
+      "local_hf3_vector_rms_mm": {
+        "mean": 4.246398882683679,
+        "ci95_half_width": 0.0016006914808405232
+      },
+      "sliding_frame_percent": {
+        "mean": 12.667858860936065,
+        "ci95_half_width": 0.003426700010378081
+      },
+      "toe_contact_interval_percent": {
+        "mean": 78.23244102844943,
+        "ci95_half_width": 0.007903687386096273
+      },
+      "fid": {
+        "mean": 0.001605,
+        "ci95_half_width": 5.2729100125073234e-05
+      },
+      "matching": {
+        "mean": 2.9683149999999996,
+        "ci95_half_width": 0.008728442221954607
+      },
+      "top1": {
+        "mean": 0.51387,
+        "ci95_half_width": 0.002565058971641784
+      },
+      "top2": {
+        "mean": 0.70473,
+        "ci95_half_width": 0.003023013292726316
+      },
+      "top3": {
+        "mean": 0.7979,
+        "ci95_half_width": 0.002542528741233814
+      }
+    },
+    "vald": {
+      "valid_frames": {
+        "mean": 140.14921875,
+        "ci95_half_width": 0.5867874073094557
+      },
+      "flow_published_padded": {
+        "mean": 39.63003706316813,
+        "ci95_half_width": 0.5455223675809668
+      },
+      "flow_valid_actual_joints": {
+        "mean": 41.647786774451376,
+        "ci95_half_width": 0.637434449053423
+      },
+      "world_jerk_rms_mps3": {
+        "mean": 75.63446981867544,
+        "ci95_half_width": 1.0498947344040666
+      },
+      "local_jerk_rms_mps3": {
+        "mean": 70.4211700845766,
+        "ci95_half_width": 1.0161412406026333
+      },
+      "bone_cv_percent": {
+        "mean": 1.48886511830139,
+        "ci95_half_width": 0.01641017213601684
+      },
+      "local_hf3_coordinate_rms_mm": {
+        "mean": 2.1423300438707065,
+        "ci95_half_width": 0.03110162999738949
+      },
+      "local_hf3_vector_rms_mm": {
+        "mean": 3.7106244825653247,
+        "ci95_half_width": 0.053869603353686894
+      },
+      "sliding_frame_percent": {
+        "mean": 13.7408728622556,
+        "ci95_half_width": 0.2484556055327121
+      },
+      "toe_contact_interval_percent": {
+        "mean": 73.85884310317617,
+        "ci95_half_width": 0.3881610344484737
+      },
+      "fid": {
+        "mean": 0.267005,
+        "ci95_half_width": 0.03046263588788731
+      },
+      "matching": {
+        "mean": 5.206495,
+        "ci95_half_width": 0.0291046651730955
+      },
+      "top1": {
+        "mean": 0.37632000000000004,
+        "ci95_half_width": 0.006692468719986664
+      },
+      "top2": {
+        "mean": 0.56176,
+        "ci95_half_width": 0.006970733868969608
+      },
+      "top3": {
+        "mean": 0.6700200000000001,
+        "ci95_half_width": 0.006997318038220074
+      }
+    },
+    "semantic_precision": "Per-repeat semantic results read from native log rounded to four decimals; diagnostics retain full precision."
+  }
+}

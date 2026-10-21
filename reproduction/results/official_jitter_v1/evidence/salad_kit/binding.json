@@ -1,0 +1,33 @@
+{
+  "dataset": "kit",
+  "model": "SALAD",
+  "seed": 1234,
+  "repeats": 3,
+  "steps": 50,
+  "cfg": 7.5,
+  "scheduler": "Author DDIMScheduler",
+  "batch_size": 32,
+  "workers": 4,
+  "shuffle": true,
+  "drop_last": true,
+  "loaded": 734,
+  "evaluated_per_repeat": 704,
+  "flow_commit": "fe4021b9170545b4e9ddc6d13d309bfa0988c83f",
+  "flow_metric_source_sha256": "767e80a9e868f605b9d18d504df578b4aa570951dcac8b391cd4bee55e78d558",
+  "metric_protocol": "Two separate families; original FlowMotion padded 22-joint fps20 scaled path; native valid-frame physical diagnostics",
+  "generation_protocol": "Full SALAD official evaluation loader; 3 fixed repetitions; no multimodality sampling. New FID/R share these exact draws; archived 20-repeat publication estimates reported separately.",
+  "checkpoints": {
+    "checkpoints/kit/kit_denoiser_vpred_vaegelu_bsz16/model/net_best_fid.tar": "d44ad0f52664b990590060022a37d982c9b0824659abb7de05413c31a3735629",
+    "checkpoints/kit/kit_vae_gelu/model/net_best_fid.tar": "8302e72b74ea1bca572d57b5be0b4408f19738a299b835d77ae105a4f112e4e6",
+    "/root/autodl-tmp/SALAD_1016/checkpoints/kit/text_mot_match/model/finest.tar": "6f786d733ca1bfa5dc1474554f167e1f608ec629868061e51ccfdb812ea61e6a"
+  },
+  "source_sha256": {
+    "reproduction/official_jitter_v1/audit_gt.py": "6ca33d56afad3f4142de09ac3221201804ac28a1dcc4f52c9d771a7881dea51e",
+    "reproduction/official_jitter_v1/tests_metrics.py": "ba44a7f93cf827055edd7c2ddbe67a9d607c70ac256e67c66c3ab1eec3baebe6",
+    "reproduction/official_jitter_v1/run_salad.py": "6f34b523792ceae45dd567335840c6b7c904dbfae787ecf25cd7d1449dafcdf1"
+  },
+  "gt_compatibility_sha256": "878e86ae69b1d3d058dafdc7f27e28577c3c803623ef1c4fbefa5fa0ef71a03f",
+  "split_sha256": "0e6fd0ee0a0a9a24da1681da56a22d86d95b78c41e59b0f0fa9bd984dbf281db",
+  "no_training": true,
+  "no_postprocessing": true
+}

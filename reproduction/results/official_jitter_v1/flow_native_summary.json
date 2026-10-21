@@ -1,0 +1,127 @@
+{
+  "ground truth": {
+    "valid_frames": {
+      "mean": 139.8348275862069,
+      "ci95_half_width": 0.017107873349976592
+    },
+    "flow_published_padded": {
+      "mean": 47.26595715438112,
+      "ci95_half_width": 0.05056510102562857
+    },
+    "flow_valid_actual_joints": {
+      "mean": 48.86827282081456,
+      "ci95_half_width": 0.013525626457634115
+    },
+    "world_jerk_rms_mps3": {
+      "mean": 82.23362544446636,
+      "ci95_half_width": 0.021859017736083276
+    },
+    "local_jerk_rms_mps3": {
+      "mean": 79.93589979400012,
+      "ci95_half_width": 0.021405357902711142
+    },
+    "bone_cv_percent": {
+      "mean": 4.477042382604537e-05,
+      "ci95_half_width": 6.33668021147021e-09
+    },
+    "local_hf3_coordinate_rms_mm": {
+      "mean": 2.4516595380039483,
+      "ci95_half_width": 0.0009241596573528809
+    },
+    "local_hf3_vector_rms_mm": {
+      "mean": 4.246398882683679,
+      "ci95_half_width": 0.0016006914808405232
+    },
+    "sliding_frame_percent": {
+      "mean": 12.667858860936065,
+      "ci95_half_width": 0.003426700010378081
+    },
+    "toe_contact_interval_percent": {
+      "mean": 78.23244102844943,
+      "ci95_half_width": 0.007903687386096273
+    },
+    "fid": {
+      "mean": 0.001605,
+      "ci95_half_width": 5.2729100125073234e-05
+    },
+    "matching": {
+      "mean": 2.9683149999999996,
+      "ci95_half_width": 0.008728442221954607
+    },
+    "top1": {
+      "mean": 0.51387,
+      "ci95_half_width": 0.002565058971641784
+    },
+    "top2": {
+      "mean": 0.70473,
+      "ci95_half_width": 0.003023013292726316
+    },
+    "top3": {
+      "mean": 0.7979,
+      "ci95_half_width": 0.002542528741233814
+    }
+  },
+  "vald": {
+    "valid_frames": {
+      "mean": 140.14921875,
+      "ci95_half_width": 0.5867874073094557
+    },
+    "flow_published_padded": {
+      "mean": 39.63003706316813,
+      "ci95_half_width": 0.5455223675809668
+    },
+    "flow_valid_actual_joints": {
+      "mean": 41.647786774451376,
+      "ci95_half_width": 0.637434449053423
+    },
+    "world_jerk_rms_mps3": {
+      "mean": 75.63446981867544,
+      "ci95_half_width": 1.0498947344040666
+    },
+    "local_jerk_rms_mps3": {
+      "mean": 70.4211700845766,
+      "ci95_half_width": 1.0161412406026333
+    },
+    "bone_cv_percent": {
+      "mean": 1.48886511830139,
+      "ci95_half_width": 0.01641017213601684
+    },
+    "local_hf3_coordinate_rms_mm": {
+      "mean": 2.1423300438707065,
+      "ci95_half_width": 0.03110162999738949
+    },
+    "local_hf3_vector_rms_mm": {
+      "mean": 3.7106244825653247,
+      "ci95_half_width": 0.053869603353686894
+    },
+    "sliding_frame_percent": {
+      "mean": 13.7408728622556,
+      "ci95_half_width": 0.2484556055327121
+    },
+    "toe_contact_interval_percent": {
+      "mean": 73.85884310317617,
+      "ci95_half_width": 0.3881610344484737
+    },
+    "fid": {
+      "mean": 0.267005,
+      "ci95_half_width": 0.03046263588788731
+    },
+    "matching": {
+      "mean": 5.206495,
+      "ci95_half_width": 0.0291046651730955
+    },
+    "top1": {
+      "mean": 0.37632000000000004,
+      "ci95_half_width": 0.006692468719986664
+    },
+    "top2": {
+      "mean": 0.56176,
+      "ci95_half_width": 0.006970733868969608
+    },
+    "top3": {
+      "mean": 0.6700200000000001,
+      "ci95_half_width": 0.006997318038220074
+    }
+  },
+  "semantic_precision": "Per-repeat semantic results read from native log rounded to four decimals; diagnostics retain full precision."
+}

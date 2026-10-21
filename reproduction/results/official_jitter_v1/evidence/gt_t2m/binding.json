@@ -1,0 +1,54 @@
+{
+  "flow_repository": "https://github.com/mccuba/FlowMotion",
+  "flow_commit": "fe4021b9170545b4e9ddc6d13d309bfa0988c83f",
+  "flow_source_sha256": {
+    "eval_humanml.py": "767e80a9e868f605b9d18d504df578b4aa570951dcac8b391cd4bee55e78d558",
+    "data_loaders/humanml/data/dataset.py": "0abb300963f7eb22d949fe05960fd5bbb69cde1f102ca2202f7db9fa669007b5",
+    "data_loaders/humanml/scripts/motion_process.py": "88e0299c8cd599166665a1923be9bbd3eb1667c7b7bb5a63ce325d3b35741edc"
+  },
+  "definitions_executed_unchanged": {
+    "collate_fn": {
+      "line": 19,
+      "end_line": 21
+    },
+    "Text2MotionDatasetV2": {
+      "line": 234,
+      "end_line": 405
+    },
+    "pred_jitter": {
+      "line": 28,
+      "end_line": 45
+    },
+    "evaluate_jitter": {
+      "line": 317,
+      "end_line": 347
+    }
+  },
+  "dataset": "t2m",
+  "split_sha256": "b89bc7df558df6246840702d0976a5d37ecbc4f055642b5c99e509a2d85ac12e",
+  "mean_sha256": "0bdb5ba69a3a9e34d71990db15bc535ebc024c8d95ddb5574196f96058faa7d3",
+  "std_sha256": "6a5f7d60301c9465972fc225f8ad0ee8f957e7720431189123eb6d15873a9557",
+  "dataset_asset_audit_sha256": "f30177391e87eb3d5cdbda2187e177fa1bb8a84a864de01411aa030c6e3e8723",
+  "seed": 10,
+  "repeats": 20,
+  "batch_size": 32,
+  "workers": 8,
+  "shuffle": true,
+  "drop_last": true,
+  "loaded_entries": 4648,
+  "per_repeat": 4640,
+  "official_metric": "Unmodified pred_jitter/evaluate_jitter; world coordinates; mean norm of third difference; fps=20; recover_from_ric(...,22); full padded 196 frames; KIT factor .00073",
+  "diagnostic_metric": "Actual joints 22/21, valid frames only, metres (KIT .001), native fps 20/12.5; clip-equal aggregation; no concatenation, filters or retargeting",
+  "gate": "Relative discrepancy <=1% is only a practical closeness screen, not statistical equivalence or proof of reproducing the paper.",
+  "candidate_acceleration_not_used": true,
+  "tests": [
+    "cubic_mean_jerk_is_6_not_acceleration",
+    "Euclidean_norm_then_mean_not_RMS",
+    "KIT_scale_is_linear",
+    "padding_boundary_can_dominate",
+    "constant_pose_zero_temporal_metrics",
+    "root_relative_diagnostic_removes_translation",
+    "KIT_21_joint_mm_native_fps_supported"
+  ],
+  "scope": "GT audit only. Do not run model comparisons until GT paper compatibility is established."
+}

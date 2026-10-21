@@ -1,0 +1,34 @@
+{
+  "dataset": "t2m",
+  "model": "SALAD_full_finetune",
+  "seed": 1234,
+  "repeats": 3,
+  "steps": 50,
+  "cfg": 7.5,
+  "scheduler": "Author DDIMScheduler",
+  "batch_size": 32,
+  "workers": 4,
+  "shuffle": true,
+  "drop_last": true,
+  "loaded": 4648,
+  "evaluated_per_repeat": 4640,
+  "flow_commit": "fe4021b9170545b4e9ddc6d13d309bfa0988c83f",
+  "flow_metric_source_sha256": "767e80a9e868f605b9d18d504df578b4aa570951dcac8b391cd4bee55e78d558",
+  "metric_protocol": "Two separate families; original FlowMotion padded 22-joint fps20 scaled path; native valid-frame physical diagnostics",
+  "generation_protocol": "Full SALAD official evaluation loader; 3 fixed repetitions; no multimodality sampling. New FID/R share these exact draws; archived 20-repeat publication estimates reported separately.",
+  "checkpoints": {
+    "/root/autodl-tmp/SALAD_1016/reproduction/artifacts/posture_after_ft_full_v2/adaptation/mixed_replay/checkpoints/best_val.tar": "e3c4bb7b2223571fe6bbe3996c7b3e9fc303b6a55873a2d6dfe5af7732459cb9",
+    "checkpoints/t2m/t2m_vae_gelu/model/net_best_fid.tar": "353ecd1a47647a18ec9bb116cd3456e472f997509150f967871ebafc3d58d9fb",
+    "/root/autodl-tmp/SALAD_1016/checkpoints/t2m/text_mot_match/model/finest.tar": "881e45bea6fb84b15eca6e7cdd75d602b58a72f2038c223ee96ab75d4f684ada"
+  },
+  "source_sha256": {
+    "reproduction/official_jitter_v1/audit_gt.py": "6ca33d56afad3f4142de09ac3221201804ac28a1dcc4f52c9d771a7881dea51e",
+    "reproduction/official_jitter_v1/tests_metrics.py": "ba44a7f93cf827055edd7c2ddbe67a9d607c70ac256e67c66c3ab1eec3baebe6",
+    "reproduction/official_jitter_v1/run_salad.py": "6f34b523792ceae45dd567335840c6b7c904dbfae787ecf25cd7d1449dafcdf1",
+    "reproduction/official_jitter_v1/run_flow.py": "fdf774a640c9a6273a9042e1c8991131173b5614936222f2ab83544058f49c77"
+  },
+  "gt_compatibility_sha256": "b6e0665582510ea752a5e4d501688adad27b4c918b133ad043daf20b60d2ffd9",
+  "split_sha256": "b89bc7df558df6246840702d0976a5d37ecbc4f055642b5c99e509a2d85ac12e",
+  "no_training": true,
+  "no_postprocessing": true
+}

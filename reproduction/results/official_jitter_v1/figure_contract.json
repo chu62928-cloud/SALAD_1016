@@ -1,0 +1,15 @@
+{
+  "core_conclusion": "Temporal jitter alone does not establish correct geometry or foot contact; datasets and metric conventions are separate.",
+  "evidence_chain": {
+    "01": "HumanML3D full valid-frame diagnostics",
+    "02": "KIT-ML full valid-frame diagnostics",
+    "03": "GT compatibility and separate native FlowMotion check"
+  },
+  "archetype": "quantitative grid",
+  "backend": "python",
+  "export": "PNG only, 300dpi, report figures, not a journal submission",
+  "source_data": "main_summary.csv; evidence/*/repetitions.json",
+  "interval": "1.96*population_sd/sqrt(sampling_repeats); not independent training seeds",
+  "exclusions": "ViMoGen and KIT full fine-tuning not plotted because no verified compatible results; omissions explicit in report; FlowMotion separate native protocol",
+  "transformations": "None on motion; no smoothing, resampling, bone correction, IK, frame concatenation or visual image retouching"
+}

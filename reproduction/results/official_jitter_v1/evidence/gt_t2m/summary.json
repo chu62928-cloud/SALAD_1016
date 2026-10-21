@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "dataset": "t2m",
+  "repetitions": 20,
+  "clips_per_repeat": 4640,
+  "metrics": {
+    "valid_frames": {
+      "mean": 139.83400862068964,
+      "ci95_half_width": 0.02050808307263075
+    },
+    "padded_frames": {
+      "mean": 196.0,
+      "ci95_half_width": 0.0
+    },
+    "flow_published_padded": {
+      "mean": 47.32435599349375,
+      "ci95_half_width": 0.07093233548159457
+    },
+    "flow_valid_22": {
+      "mean": 48.857128038474315,
+      "ci95_half_width": 0.019449876818936583
+    },
+    "flow_valid_actual_joints": {
+      "mean": 48.857128038474315,
+      "ci95_half_width": 0.019449876818936583
+    },
+    "world_jerk_rms_mps3": {
+      "mean": 82.21203783267103,
+      "ci95_half_width": 0.0261207504374649
+    },
+    "local_jerk_rms_mps3": {
+      "mean": 79.91241276683759,
+      "ci95_half_width": 0.02424635910400555
+    },
+    "bone_cv_percent": {
+      "mean": 4.4768171220428625e-05,
+      "ci95_half_width": 7.74022805415024e-09
+    },
+    "local_hf3_coordinate_rms_mm": {
+      "mean": 2.450344902794888,
+      "ci95_half_width": 0.0013575414162461902
+    },
+    "local_hf3_vector_rms_mm": {
+      "mean": 4.244121867708168,
+      "ci95_half_width": 0.002351330706317444
+    },
+    "sliding_frame_percent": {
+      "mean": 12.67005999635348,
+      "ci95_half_width": 0.003862012206841201
+    },
+    "toe_contact_interval_percent": {
+      "mean": 78.22558138343697,
+      "ci95_half_width": 0.006165405331960485
+    },
+    "flow_boundary_and_padding_sum_fraction": {
+      "mean": 0.3814001443626054,
+      "ci95_half_width": 0.0009612930602945877
+    },
+    "original_torch_aggregation": {
+      "mean": 47.324355125427246,
+      "ci95_half_width": 0.07093252938203677
+    }
+  },
+  "paper_gt_target": 47.262,
+  "relative_difference": 0.0013193501211807717,
+  "gt_closeness_screen_passed": true,
+  "model_comparison_authorized_by_gt_check": true,
+  "elapsed_seconds": 258.55415269359946,
+  "per_clip_sha256": "6f085c0fb014cde10f8e9bf40209a8185a1a3fdb426b9b05019b22f2ee17f8e0",
+  "warning": "The published KIT path reads 3 rotation features as a phantom 22nd joint. Published metric includes padding boundaries. Native physical diagnostics do not."
+}

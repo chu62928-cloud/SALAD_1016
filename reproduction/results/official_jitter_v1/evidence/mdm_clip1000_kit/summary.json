@@ -1,0 +1,68 @@
+{
+  "status": "complete",
+  "dataset": "kit",
+  "model": "MDM_CLIP_1000",
+  "repeats": 3,
+  "metrics": {
+    "world_jerk_rms_mps3": {
+      "mean": 47.007019883152445,
+      "ci95_half_width": 0.27961617343495826
+    },
+    "local_jerk_rms_mps3": {
+      "mean": 43.4424991867709,
+      "ci95_half_width": 0.2011304411987068
+    },
+    "bone_cv_percent": {
+      "mean": 2.3820537433365407,
+      "ci95_half_width": 0.014382062376656622
+    },
+    "local_hf3_coordinate_rms_mm": {
+      "mean": 2.1504293934118683,
+      "ci95_half_width": 0.0026041196918423592
+    },
+    "local_hf3_vector_rms_mm": {
+      "mean": 3.7246529674788778,
+      "ci95_half_width": 0.00451046761526177
+    },
+    "sliding_frame_percent": {
+      "mean": 35.44601390371667,
+      "ci95_half_width": 0.37530806357385893
+    },
+    "toe_contact_interval_percent": {
+      "mean": 69.87371528386373,
+      "ci95_half_width": 0.4997370050743754
+    },
+    "flow_published_padded": {
+      "mean": 73.54437127077219,
+      "ci95_half_width": 1.0936696228160059
+    },
+    "flow_valid_actual_joints": {
+      "mean": 71.89372892993869,
+      "ci95_half_width": 0.09446534939712545
+    },
+    "flow_zero_normalized_padding": {
+      "mean": 37.711675314740695,
+      "ci95_half_width": 0.07999783445794495
+    },
+    "fid": {
+      "mean": 0.49377433379735675,
+      "ci95_half_width": 0.043274888301143156
+    },
+    "top1": {
+      "mean": 0.4119318181818182,
+      "ci95_half_width": 0.0177542650949951
+    },
+    "top2": {
+      "mean": 0.6089015151515151,
+      "ci95_half_width": 0.007228317561008213
+    },
+    "top3": {
+      "mean": 0.7310606060606061,
+      "ci95_half_width": 0.006734883281545337
+    },
+    "matching": {
+      "mean": 3.1121449398271963,
+      "ci95_half_width": 0.014942382437329963
+    }
+  }
+}

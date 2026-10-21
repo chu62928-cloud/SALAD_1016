@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "text_objects_within_canvas": 67,
+  "pixel_width": 2760,
+  "pixel_height": 1860,
+  "dpi": 300,
+  "format": "PNG",
+  "static_preflight_exceptions": {
+    "EXPORT-VECTOR": "User explicitly requested PNG only; no SVG/PDF/TIFF exported",
+    "FINAL-WIDTH": "Report figure, not a fixed-width journal submission"
+  },
+  "visual_review": "Required after rendering; bounds alone do not establish correct layout"
+}
