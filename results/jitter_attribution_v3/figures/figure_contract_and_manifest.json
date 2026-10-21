@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "backend": "python",
+  "archetype": "quantitative grid",
+  "export": "PNG only, 300 dpi, white background; no smoothing or data exclusions",
+  "inference": "Descriptive paired bootstrap confidence intervals; no p-value claims or multiple-testing significance claims.",
+  "data_integrity": "All frozen clips included; undefined no-contact statistics remain missing and use available-subject counts.",
+  "figures": [
+    {
+      "file": "01_vae_reconstruction.png",
+      "sha256": "eaa6d20bb039742f805bd1d1cc58bb567b109cfc7a6319521eb59f704e10abe6",
+      "claim": "VAE alone introduces bone-length variation; jerk changes depend on domain.",
+      "source": "summary/summary.json; root-relative vector RMS; equal subject weights; 95% bootstrap CI, 4000 resamples."
+    },
+    {
+      "file": "02_finetuning_and_posture.png",
+      "sha256": "eb87f248f67a451c9f846c3e92d8b056c1736f2a26d358266a387938c2762402",
+      "claim": "Adaptation and posture effects must be assessed jointly across physical metrics.",
+      "source": "summary/summary.json and flat_walking.json; a-c: 1327 clips, 57 held-out subjects; d: 72 flat-walking clips, 20 subjects; 3 repeats; subject weights; 95% bootstrap CI."
+    },
+    {
+      "file": "03_recovery_paths.png",
+      "sha256": "3c51d9a451833a192a6163b4abc123e53204c32b4df747747501e285673fe4ac",
+      "claim": "Fixing lengths and selecting rotation FK affect temporal jitter independently.",
+      "source": "summary/summary.json; same target sequences in all three paths; no filtering; mean across subjects."
+    },
+    {
+      "file": "04_sampling_sensitivity.png",
+      "sha256": "ace4cd0720dc11adf9d48af9179c5c56cd0db59b5a56a06d9418771308b71c8c",
+      "claim": "Configuration sensitivity is exploratory and not semantic-quality validation.",
+      "source": "6 prespecified prompts x 3 paired seeds; same initial noise per seed; equal prompt means; 95% prompt bootstrap CI."
+    },
+    {
+      "file": "05_complete_sequence_traces.png",
+      "sha256": "6c2d79c2f70d40e1b9c7fc86052e38ffdb0cc188b3c21cfb73c28183e7778521",
+      "claim": "Full per-bone and per-joint time series distinguish length oscillation from direction jitter.",
+      "source": "sampling/examples/humanml_probe_steps50_cfg7.5_20261016_walk.npz; diagnostic example only; maximum-CV bone and maximum-RMS-jerk joint selected within this fixed clip, not population evidence."
+    },
+    {
+      "file": "06_decoder_phase_diagnostic.png",
+      "sha256": "3acc90b2e11b10b9d362d96556a8716dc7db3171ec7675a5429d91dd02760689",
+      "claim": "Reconstructed and generated motions show decoder-stride-linked jerk modulation absent in target GT.",
+      "source": "summary/summary.json; 57 held-out subjects; derivative start index modulo 4; full valid clips; no filtering; observational diagnostic, not a layer ablation."
+    }
+  ]
+}

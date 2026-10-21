@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "stage_rows": {
+    "vae": 13095,
+    "generated": 60099,
+    "sampling": 270
+  },
+  "shared_subjects": 57,
+  "shared_clips": 1327,
+  "input_hashes_unchanged": true,
+  "output_hashes_verified": true,
+  "bootstrap_repetitions": 4000,
+  "generation_framewise_gt_error": false,
+  "definition": "Repeats within clip, clips within subject, equal subject weights; paired subject bootstrap."
+}

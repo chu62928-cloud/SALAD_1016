@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "checks": {
+    "model_bindings": {
+      "selected_backbone_sha256": "e3c4bb7b2223571fe6bbe3996c7b3e9fc303b6a55873a2d6dfe5af7732459cb9",
+      "models": [
+        {
+          "variant": "official",
+          "base": "official",
+          "frozen_backbone_sha256": "82c5d8411c7ee1801bec609607f358d10452fac77f4140626db1e65ad3e5fc4a"
+        },
+        {
+          "variant": "adapted",
+          "base": "adapted",
+          "frozen_backbone_sha256": "5f34008edb58b428e05bfd801aa77d440dbc473fd59bdd233df4e54d6d428848"
+        },
+        {
+          "variant": "fixed",
+          "base": "adapted",
+          "frozen_backbone_sha256": "5f34008edb58b428e05bfd801aa77d440dbc473fd59bdd233df4e54d6d428848",
+          "checkpoint_sha256": "45ea9391ccfb5e8bc96c0f5215f4d7c61628e8558f4672555bdfd4cd3676a824",
+          "selected_step": 10000,
+          "validation": 0.45218144170795366
+        },
+        {
+          "variant": "paired",
+          "base": "adapted",
+          "frozen_backbone_sha256": "5f34008edb58b428e05bfd801aa77d440dbc473fd59bdd233df4e54d6d428848",
+          "checkpoint_sha256": "9e66e880a044239b3758d7f959b227f7d513636f9477b64b1d83b75107eec075",
+          "selected_step": 9000,
+          "validation": 0.452248241686771
+        },
+        {
+          "variant": "shuffled",
+          "base": "adapted",
+          "frozen_backbone_sha256": "5f34008edb58b428e05bfd801aa77d440dbc473fd59bdd233df4e54d6d428848",
+          "checkpoint_sha256": "6cd52e0f87886a53c97a83361a89caebe32a1566ca4d0c7f4263de8ee245432b",
+          "selected_step": 9000,
+          "validation": 0.45233202921838644
+        }
+      ],
+      "binding_sha256": "11362d6b2035e0f26e86fc5e013505c789fc15baf543e683d2b588bc975f4eaf"
+    },
+    "subject_disjoint_split": {
+      "train": 256,
+      "validation": 56,
+      "test": 57
+    },
+    "same_generated_ids_lengths_seeds_texts_across_five_models": true,
+    "generated_paired_clip_seed_records": 3981,
+    "independent_analytic_formula_examples": 30,
+    "independent_formula_max_absolute_error": {
+      "bone_length_cv": 0.0,
+      "local_jerk_rms_mps3": 0.0,
+      "local_acceleration_rms_mps2": 0.0,
+      "local_hf3_rms_m": 2.42861286636753e-17
+    },
+    "independent_subject_equal_weight_aggregation": true,
+    "three_videos_valid_dimensions_fps_frames": true
+  },
+  "limits": "Numerical and media checks do not certify naturalness or causally isolate the training loss."
+}

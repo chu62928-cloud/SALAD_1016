@@ -1,0 +1,110 @@
+{
+  "source": "third_party\\SALAD_1016\\reproduction\\jitter_attribution_v3\\figures.py",
+  "backend": "python",
+  "summary": {
+    "ready": false,
+    "strict": false,
+    "counts": {
+      "PASS": 10,
+      "WARN": 3,
+      "FAIL": 1
+    }
+  },
+  "findings": [
+    {
+      "check_id": "SOURCE-SYNTAX",
+      "level": "PASS",
+      "message": "Python source parses successfully",
+      "evidence": []
+    },
+    {
+      "check_id": "FONT-FAMILY",
+      "level": "PASS",
+      "message": "A publication-safe sans-serif family is configured",
+      "evidence": [
+        "sans-serif"
+      ]
+    },
+    {
+      "check_id": "FONT-SIZE",
+      "level": "PASS",
+      "message": "All detected text sizes are at least 5 pt (minimum 7 pt)",
+      "evidence": []
+    },
+    {
+      "check_id": "COLOR-MAP",
+      "level": "PASS",
+      "message": "No rainbow/jet/hsv color mapping detected",
+      "evidence": []
+    },
+    {
+      "check_id": "EDITABLE-TEXT",
+      "level": "PASS",
+      "message": "SVG and PDF editable-text settings are configured",
+      "evidence": []
+    },
+    {
+      "check_id": "EXPORT-VECTOR",
+      "level": "FAIL",
+      "message": "Missing required vector export: SVG, PDF",
+      "evidence": []
+    },
+    {
+      "check_id": "EXPORT-RASTER",
+      "level": "WARN",
+      "message": "PNG preview is present but no TIFF submission raster was found",
+      "evidence": []
+    },
+    {
+      "check_id": "RASTER-DPI",
+      "level": "WARN",
+      "message": "Raster export meets the 300 dpi floor but not the 600 dpi default",
+      "evidence": [
+        "300"
+      ]
+    },
+    {
+      "check_id": "FINAL-WIDTH",
+      "level": "WARN",
+      "message": "Detected width 233.7 mm is not near the common 89/183 mm defaults; verify the target journal",
+      "evidence": []
+    },
+    {
+      "check_id": "DATA-SAMPLING",
+      "level": "PASS",
+      "message": "No high-confidence row-sampling operation detected",
+      "evidence": []
+    },
+    {
+      "check_id": "DATA-EXCLUSION",
+      "level": "PASS",
+      "message": "No high-confidence missing-data exclusion detected",
+      "evidence": []
+    },
+    {
+      "check_id": "DEMO-DATA",
+      "level": "PASS",
+      "message": "No obvious simulated-data generator detected",
+      "evidence": []
+    },
+    {
+      "check_id": "LOG-GUARD",
+      "level": "PASS",
+      "message": "No logarithmic transform or axis detected",
+      "evidence": []
+    },
+    {
+      "check_id": "BACKEND-EXCLUSIVE",
+      "level": "PASS",
+      "message": "No obvious cross-backend plotting reference found for python",
+      "evidence": []
+    }
+  ],
+  "task_overrides": {
+    "EXPORT-VECTOR": "User explicitly requested PNG only. No SVG/PDF generated.",
+    "EXPORT-RASTER": "PNG only per user. TIFF omitted.",
+    "RASTER-DPI": "300 dpi report figures, not a journal submission.",
+    "FINAL-WIDTH": "Browser-readable report dimensions, not a journal column."
+  },
+  "effective_status": "passed_with_explicit_export_overrides"
+}

@@ -1,0 +1,6079 @@
+{
+  "status": "complete",
+  "selection": "Same frozen original rule: walk/gait and no stair/step/ramp/slope/uphill/downhill/incline/decline.",
+  "subjects": 20,
+  "clips": 72,
+  "summary": [
+    {
+      "dataset": "data_self",
+      "variant": "adapted",
+      "path": "position",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 0.0333596896634162,
+          "ci95": [
+            0.03192669853501224,
+            0.03485149168417384
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 0.008858613178198426,
+          "ci95": [
+            0.008397338754583225,
+            0.00923039123303767
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 125.87087669182092,
+          "ci95": [
+            118.18087611777595,
+            131.3342619505646
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 7.21940925733883,
+          "ci95": [
+            6.731350396713372,
+            7.590764980138978
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.004322961467759965,
+          "ci95": [
+            0.004056950108677058,
+            0.0045361624151401365
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.0032807201735133525,
+          "ci95": [
+            0.0030107643887547497,
+            0.0035382893561609653
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.4769324655222724,
+          "ci95": [
+            0.41573549049087155,
+            0.5319689018510765
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.5276811781473492,
+          "ci95": [
+            0.4977833427858283,
+            0.5659612663440862
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.551883772736692,
+          "ci95": [
+            0.4866332678880303,
+            0.610069802331925
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.44359416636491444,
+          "ci95": [
+            0.4160180907589217,
+            0.46974896868172883
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.04084857819420132,
+          "ci95": [
+            0.03890224824240424,
+            0.043876100329188435
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 6.144841237122135,
+          "ci95": [
+            5.5210640685104515,
+            7.14549594321442
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 120.05610326036151,
+          "ci95": [
+            112.15933715634522,
+            125.71072924034782
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 125.96344378765562,
+          "ci95": [
+            118.60115443645296,
+            131.34703662718485
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 37.51415097712474,
+          "ci95": [
+            34.63066244512832,
+            39.82660394541029
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.6133538233167128,
+          "ci95": [
+            0.5385439429790615,
+            0.6732340039626654
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.35303250696744015,
+          "ci95": [
+            0.3032861717458143,
+            0.40287673287320735
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.20268705303712728,
+          "ci95": [
+            0.16948272968235242,
+            0.2395715404915059
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.7473641084848408,
+          "ci95": [
+            0.6710035661875099,
+            0.8086100675809981
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.4769324655222724,
+          "ci95": [
+            0.41633820736962734,
+            0.5345398254228041
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.30915271064083527,
+          "ci95": [
+            0.26132326199901035,
+            0.36081568477566744
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9024838131245849,
+          "ci95": [
+            0.8349942063990493,
+            0.9551924097193147
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.8189996489848047,
+          "ci95": [
+            0.7419575802894396,
+            0.8813761978922172
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.7479171477266481,
+          "ci95": [
+            0.6693483165015204,
+            0.8123612456493149
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "adapted",
+      "path": "position_fixed",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 4.262953951020361e-08,
+          "ci95": [
+            4.2441694271776046e-08,
+            4.280670586069132e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 3.595226717636325e-08,
+          "ci95": [
+            3.577109001826886e-08,
+            3.61545431113444e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 129.099653091373,
+          "ci95": [
+            120.78683013540243,
+            135.08823971532422
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 7.352921684019796,
+          "ci95": [
+            6.848218311205462,
+            7.736748117409231
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.004580221070937709,
+          "ci95": [
+            0.004270409662458237,
+            0.00483463662498716
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.003750870744060931,
+          "ci95": [
+            0.003387854963843357,
+            0.004099468244690464
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.5076744820411322,
+          "ci95": [
+            0.44282963181466395,
+            0.5646306648777578
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.5561117178437203,
+          "ci95": [
+            0.5272776672095443,
+            0.5895675849767827
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.5785009748072589,
+          "ci95": [
+            0.5091908152169314,
+            0.6389718122639633
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.5631466271770649,
+          "ci95": [
+            0.5168583528055957,
+            0.6041590185180321
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.006191287878787879,
+          "ci95": [
+            0.001365435606060606,
+            0.013493939393939398
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.04084857819420132,
+          "ci95": [
+            0.03890224824240424,
+            0.043876100329188435
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 6.144841237122135,
+          "ci95": [
+            5.5210640685104515,
+            7.14549594321442
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 123.48245955496077,
+          "ci95": [
+            114.87953327659929,
+            129.68369378905797
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 130.68453286843624,
+          "ci95": [
+            122.73380048813382,
+            136.58862406488547
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 37.51415097712474,
+          "ci95": [
+            34.63066244512832,
+            39.82660394541029
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.62535292886233,
+          "ci95": [
+            0.5427140148631675,
+            0.6909464630461352
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.3662752847240725,
+          "ci95": [
+            0.3133978878823634,
+            0.41755641564851115
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.21517134193532014,
+          "ci95": [
+            0.17887638000778153,
+            0.2559158078953045
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.7606111682039441,
+          "ci95": [
+            0.6781018858608543,
+            0.8269010137149672
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.5076744820411322,
+          "ci95": [
+            0.44271143907771815,
+            0.5637512613286982
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.357264502636843,
+          "ci95": [
+            0.3066900530540437,
+            0.4097143505478797
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.8944593625902384,
+          "ci95": [
+            0.8230340344650401,
+            0.9507377657459919
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.8033599237916407,
+          "ci95": [
+            0.7266673031460267,
+            0.8644608110565558
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.731036879855534,
+          "ci95": [
+            0.6533517431287719,
+            0.7925378528125622
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "adapted",
+      "path": "rotation_fk",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 1.9679354995900383e-07,
+          "ci95": [
+            1.9258067582862203e-07,
+            2.0027766522114544e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 1.6539629274600223e-07,
+          "ci95": [
+            1.61993194747592e-07,
+            1.6815766997995177e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 178.35116270791625,
+          "ci95": [
+            166.21505598995094,
+            193.7701833593487
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 8.678969495336148,
+          "ci95": [
+            8.012576613368363,
+            9.491143531299691
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.0064975772517266665,
+          "ci95": [
+            0.005702276367656086,
+            0.007650778418155316
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.008578297782893146,
+          "ci95": [
+            0.00685210412174265,
+            0.011246996771389595
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.7946205229703497,
+          "ci95": [
+            0.7121923920099638,
+            0.8579893339486672
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.859306664222116,
+          "ci95": [
+            0.8418999376394217,
+            0.8752722069385179
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.5993608034441779,
+          "ci95": [
+            0.5290805085596958,
+            0.6563944728851334
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.7825163453127499,
+          "ci95": [
+            0.7218663341986594,
+            0.8324199091238074
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.028742424242424246,
+          "ci95": [
+            0.019845407196969696,
+            0.03896022727272728
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.04084857819420132,
+          "ci95": [
+            0.03890224824240424,
+            0.043876100329188435
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 6.144841237122135,
+          "ci95": [
+            5.5210640685104515,
+            7.14549594321442
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 163.8636316607219,
+          "ci95": [
+            154.440316016971,
+            170.37531267535226
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 180.62982388769123,
+          "ci95": [
+            168.63937721649526,
+            195.9913440470929
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 37.51415097712474,
+          "ci95": [
+            34.63066244512832,
+            39.82660394541029
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.760888131880215,
+          "ci95": [
+            0.661077476031583,
+            0.8414662967262546
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.669669865979861,
+          "ci95": [
+            0.5836408728648339,
+            0.7415380764261579
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.5510341626595957,
+          "ci95": [
+            0.4800489507606034,
+            0.6140387099980122
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.8875142520627429,
+          "ci95": [
+            0.8005753421869516,
+            0.9571316280549952
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.7946205229703497,
+          "ci95": [
+            0.7111850066819762,
+            0.8579192049188648
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.6808171993216525,
+          "ci95": [
+            0.6089293883243043,
+            0.7394207797295069
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9360578561852686,
+          "ci95": [
+            0.8714294996024647,
+            0.9872260440058869
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.9040505990518362,
+          "ci95": [
+            0.8380849768668299,
+            0.9565701282368466
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.860133755820297,
+          "ci95": [
+            0.792727897672727,
+            0.9128440839666409
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "fixed",
+      "path": "position",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 0.029957519842448155,
+          "ci95": [
+            0.028584355550640195,
+            0.031523645198609763
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 0.0088298376667056,
+          "ci95": [
+            0.008421208406208386,
+            0.009187992233271413
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 123.14772546848403,
+          "ci95": [
+            116.24780089704838,
+            128.75601630175782
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 7.111975703369208,
+          "ci95": [
+            6.656562012659568,
+            7.478384799281416
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.004233810621272734,
+          "ci95": [
+            0.003983501847392222,
+            0.004449855934630421
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.003405585952433389,
+          "ci95": [
+            0.003100077939514702,
+            0.0037270030516296515
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.5040728335384446,
+          "ci95": [
+            0.4511253555086126,
+            0.5491741241536517
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.5426302236336042,
+          "ci95": [
+            0.5155843004945991,
+            0.5740517284565074
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.6209148174932441,
+          "ci95": [
+            0.5546098402669408,
+            0.6786742396609109
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.6030979404995307,
+          "ci95": [
+            0.5628449771288921,
+            0.6425559824592942
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.00020833333333333332,
+          "ci95": [
+            0.0,
+            0.000625
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.03692404969743989,
+          "ci95": [
+            0.0346947086093284,
+            0.04023064438649098
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 5.93794691145336,
+          "ci95": [
+            5.239516788684905,
+            7.091341603692166
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 116.22870686468664,
+          "ci95": [
+            109.3130605984165,
+            121.69485701560852
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 122.97992347601662,
+          "ci95": [
+            116.43576214053705,
+            128.26487237607554
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 36.908038440536345,
+          "ci95": [
+            34.012436714635214,
+            39.3940318539847
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.6506316158963364,
+          "ci95": [
+            0.5856357564483186,
+            0.7014833407871197
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.35490185319106643,
+          "ci95": [
+            0.3124566961434848,
+            0.39184634019081693
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.20496715047556213,
+          "ci95": [
+            0.17639450328178063,
+            0.23381692258000406
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.7598287426466547,
+          "ci95": [
+            0.7002493682783762,
+            0.8087660489010686
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.5040728335384446,
+          "ci95": [
+            0.4516456720989439,
+            0.5516716178840128
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.36658312082112177,
+          "ci95": [
+            0.32124974043906507,
+            0.411509025161023
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9356372828886436,
+          "ci95": [
+            0.87511940120191,
+            0.9821602778200688
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.8881299982660694,
+          "ci95": [
+            0.8213802869020582,
+            0.940349108928896
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.8446367204185116,
+          "ci95": [
+            0.7779650998913121,
+            0.89862185355054
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "fixed",
+      "path": "position_fixed",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 4.2564622829967665e-08,
+          "ci95": [
+            4.2398141895516725e-08,
+            4.27109842505415e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 3.5941455101093865e-08,
+          "ci95": [
+            3.5743555385378073e-08,
+            3.611549448615201e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 125.30336359261885,
+          "ci95": [
+            117.9103729017494,
+            131.14552004341041
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 7.213611518870826,
+          "ci95": [
+            6.740984999458912,
+            7.595268029596113
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.004460730901327087,
+          "ci95": [
+            0.004184355788230719,
+            0.004700575353557549
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.003832265882817318,
+          "ci95": [
+            0.0034535750127329605,
+            0.004211767908176695
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.5397459263206417,
+          "ci95": [
+            0.48346234278325445,
+            0.585225871934432
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.5752291696596503,
+          "ci95": [
+            0.5498261150470477,
+            0.6033912559821477
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.6403309322625257,
+          "ci95": [
+            0.5729932526051248,
+            0.6977970513666333
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.6739106663175832,
+          "ci95": [
+            0.6053131276267955,
+            0.7316749032037853
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.004789772727272728,
+          "ci95": [
+            0.0009356060606060606,
+            0.010938494318181823
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.03692404969743989,
+          "ci95": [
+            0.0346947086093284,
+            0.04023064438649098
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 5.93794691145336,
+          "ci95": [
+            5.239516788684905,
+            7.091341603692166
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 118.59419256632641,
+          "ci95": [
+            111.01971063593487,
+            124.36820264220009
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 126.69242691070062,
+          "ci95": [
+            119.590582795541,
+            132.33810806409312
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 36.908038440536345,
+          "ci95": [
+            34.012436714635214,
+            39.3940318539847
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.6642956964691253,
+          "ci95": [
+            0.5874620456890682,
+            0.7259484322202346
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.3823019301606635,
+          "ci95": [
+            0.33206277383414323,
+            0.4291902446850802
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.234993444896958,
+          "ci95": [
+            0.19655237342307483,
+            0.2780274886131517
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.7735470719834896,
+          "ci95": [
+            0.7094591905187835,
+            0.8248892113576678
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.5397459263206417,
+          "ci95": [
+            0.48370555825160594,
+            0.586248029768626
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.40453993749392064,
+          "ci95": [
+            0.35310231855051877,
+            0.4524543957780907
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9275884516000794,
+          "ci95": [
+            0.8650089987291558,
+            0.976553776162262
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.8773604926054208,
+          "ci95": [
+            0.8071740760476535,
+            0.9325837382695374
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.8269180971593142,
+          "ci95": [
+            0.7537364187780443,
+            0.8853134814152256
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "fixed",
+      "path": "rotation_fk",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 1.9641852426145755e-07,
+          "ci95": [
+            1.9227168984054912e-07,
+            1.9972983541672611e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 1.6523983575544068e-07,
+          "ci95": [
+            1.6149647996459545e-07,
+            1.682328178607436e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 174.46696413882918,
+          "ci95": [
+            161.60870905808932,
+            192.4015293119284
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 8.584478218105028,
+          "ci95": [
+            7.850493881287616,
+            9.578665499929578
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.006422234241142877,
+          "ci95": [
+            0.005560089258264042,
+            0.007764298757332172
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.008666340689027024,
+          "ci95": [
+            0.006894240260703716,
+            0.01151138552373331
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.8166405837002075,
+          "ci95": [
+            0.7436592842461843,
+            0.8731755485669699
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.8727131949560383,
+          "ci95": [
+            0.8582185868848843,
+            0.8868109374229404
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.653516146698977,
+          "ci95": [
+            0.5839736817899238,
+            0.7106633505246196
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.89285855467267,
+          "ci95": [
+            0.8194426625482012,
+            0.9527248116214363
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.048278409090909094,
+          "ci95": [
+            0.030815861742424244,
+            0.0717236268939394
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.03692404969743989,
+          "ci95": [
+            0.0346947086093284,
+            0.04023064438649098
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 5.93794691145336,
+          "ci95": [
+            5.239516788684905,
+            7.091341603692166
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 156.46794447001227,
+          "ci95": [
+            149.25581313413574,
+            161.67411286992575
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 176.54539354901874,
+          "ci95": [
+            163.84070697577422,
+            193.89721524878343
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 36.908038440536345,
+          "ci95": [
+            34.012436714635214,
+            39.3940318539847
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.8295746901127898,
+          "ci95": [
+            0.7367041010627724,
+            0.9026512124826077
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.7263418718836829,
+          "ci95": [
+            0.6478644172090485,
+            0.7919417010809577
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.5976182033096926,
+          "ci95": [
+            0.5292659016755688,
+            0.6575329745471692
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.8994210152374429,
+          "ci95": [
+            0.8230242612821782,
+            0.9610306139171182
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.8166405837002075,
+          "ci95": [
+            0.7436589853017673,
+            0.8728345008289032
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.7095943237036756,
+          "ci95": [
+            0.642650939177102,
+            0.764005504172006
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9455252857813472,
+          "ci95": [
+            0.8848767788646563,
+            0.992292898920311
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.9269776957332624,
+          "ci95": [
+            0.8647644563810757,
+            0.9748539493967192
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.8978180916614859,
+          "ci95": [
+            0.8377630861530849,
+            0.9452060567566196
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "ground_truth",
+      "path": "position",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 1,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 7.188592970685463e-07,
+          "ci95": [
+            6.984225783401588e-07,
+            7.389555104406785e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 6.063339724935423e-07,
+          "ci95": [
+            5.881734967729808e-07,
+            6.238918372695293e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 107.05490419299788,
+          "ci95": [
+            101.1991782020834,
+            112.80465586216415
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 6.833136246009746,
+          "ci95": [
+            6.603232009108649,
+            7.065513392497154
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.004336396420383118,
+          "ci95": [
+            0.004124400711997179,
+            0.004548074136553972
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.003955090359460471,
+          "ci95": [
+            0.003638620425915259,
+            0.00426239322848563
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.1751493611946358,
+          "ci95": [
+            0.14769765380174832,
+            0.20528551967165282
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.1971187957802159,
+          "ci95": [
+            0.1726729392531655,
+            0.2232488405896077
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.5027429141450666,
+          "ci95": [
+            0.44879250521765046,
+            0.5554215873552063
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.4809153143716693,
+          "ci95": [
+            0.4295767629701548,
+            0.5333981075159033
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 1.454487655353167e-07,
+          "ci95": [
+            1.411305772273867e-07,
+            1.494568092846332e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 0.0001915157232952722,
+          "ci95": [
+            0.0001843377471783667,
+            0.00019777978991009822
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 109.91982876702465,
+          "ci95": [
+            104.56635298505965,
+            115.33446817838625
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 105.7112600842022,
+          "ci95": [
+            99.99967316481256,
+            111.44815584861757
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 42.45054999545828,
+          "ci95": [
+            39.72096995040417,
+            45.583691257395365
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.08784966188355602,
+          "ci95": [
+            0.06653387428792551,
+            0.11369791864905669
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.04195244801380378,
+          "ci95": [
+            0.02614424187061495,
+            0.059464897423210136
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.028803048757279338,
+          "ci95": [
+            0.014880739415623137,
+            0.045952856386150556
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.2355972861873406,
+          "ci95": [
+            0.20139527271343205,
+            0.2686367531940268
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.1751493611946358,
+          "ci95": [
+            0.14709605234778417,
+            0.20478077382991414
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.14814210406120354,
+          "ci95": [
+            0.12379637761834077,
+            0.17532527927910785
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.7972745467463429,
+          "ci95": [
+            0.7389871794871794,
+            0.8546077310039457
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.7728880409545921,
+          "ci95": [
+            0.7184960923127672,
+            0.8270687825904921
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.7382471865920653,
+          "ci95": [
+            0.6830367178281886,
+            0.7923220622565625
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "ground_truth",
+      "path": "position_fixed",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 1,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 3.8552230794459545e-08,
+          "ci95": [
+            3.8205097768649833e-08,
+            3.895359308519378e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 3.244989014806768e-08,
+          "ci95": [
+            3.2188274766534885e-08,
+            3.274758130273484e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 107.05493783147855,
+          "ci95": [
+            101.19919997011979,
+            112.80472367177767
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 6.833136610802818,
+          "ci95": [
+            6.603232118551147,
+            7.065512876330754
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.00433639692969231,
+          "ci95": [
+            0.004124400784691174,
+            0.004548075479507808
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.003955091275632592,
+          "ci95": [
+            0.0036386207465220416,
+            0.004262396192963464
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.1751493611946358,
+          "ci95": [
+            0.14769765380174832,
+            0.20528551967165282
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.1971187957802159,
+          "ci95": [
+            0.1726729392531655,
+            0.2232488405896077
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.5027429141450666,
+          "ci95": [
+            0.44879250521765046,
+            0.5554215873552063
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.48091521576550705,
+          "ci95": [
+            0.4295764881522151,
+            0.5333981156104178
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 1.454487655353167e-07,
+          "ci95": [
+            1.411305772273867e-07,
+            1.494568092846332e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 0.0001915157232952722,
+          "ci95": [
+            0.0001843377471783667,
+            0.00019777978991009822
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 109.91987872398502,
+          "ci95": [
+            104.56641677215804,
+            115.33454921947545
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 105.71129963599829,
+          "ci95": [
+            99.99969904431798,
+            111.44821529561369
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 42.45054999545828,
+          "ci95": [
+            39.72096995040417,
+            45.583691257395365
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.08784966188355602,
+          "ci95": [
+            0.06653387428792551,
+            0.11369791864905669
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.04195244801380378,
+          "ci95": [
+            0.02614424187061495,
+            0.059464897423210136
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.028803048757279338,
+          "ci95": [
+            0.014880739415623137,
+            0.045952856386150556
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.2355972861873406,
+          "ci95": [
+            0.20139527271343205,
+            0.2686367531940268
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.1751493611946358,
+          "ci95": [
+            0.14709605234778417,
+            0.20478077382991414
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.14814210406120354,
+          "ci95": [
+            0.12379637761834077,
+            0.17532527927910785
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.7972745467463429,
+          "ci95": [
+            0.7389871794871794,
+            0.8546077310039457
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.7728880409545921,
+          "ci95": [
+            0.7184960923127672,
+            0.8270687825904921
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.7382471865920653,
+          "ci95": [
+            0.6830367178281886,
+            0.7923220622565625
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "ground_truth",
+      "path": "rotation_fk",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 1,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 1.896223907358896e-07,
+          "ci95": [
+            1.8751095185287604e-07,
+            1.9203273272894786e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 1.5957633133117e-07,
+          "ci95": [
+            1.5735684792672244e-07,
+            1.6163781954099329e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 107.05496025278212,
+          "ci95": [
+            101.19921432375097,
+            112.80476202735868
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 6.833137655920638,
+          "ci95": [
+            6.603232934356698,
+            7.065513796790172
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.0043363974688387635,
+          "ci95": [
+            0.004124401218679354,
+            0.0045480760553231
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.003955091410404989,
+          "ci95": [
+            0.0036386206159643264,
+            0.004262396827201436
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.1751493611946358,
+          "ci95": [
+            0.14769765380174832,
+            0.20528551967165282
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.1971187957802159,
+          "ci95": [
+            0.1726729392531655,
+            0.2232488405896077
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.5027429141450666,
+          "ci95": [
+            0.44879250521765046,
+            0.5554215873552063
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.48091522909128204,
+          "ci95": [
+            0.4295764789157351,
+            0.5333981011305418
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 1.454487655353167e-07,
+          "ci95": [
+            1.411305772273867e-07,
+            1.494568092846332e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 0.0001915157232952722,
+          "ci95": [
+            0.0001843377471783667,
+            0.00019777978991009822
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 109.91989943669323,
+          "ci95": [
+            104.56641700816976,
+            115.33458238878043
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 105.71133167752912,
+          "ci95": [
+            99.99971851729107,
+            111.44826261052245
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 42.45054999545828,
+          "ci95": [
+            39.72096995040417,
+            45.583691257395365
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.08784966188355602,
+          "ci95": [
+            0.06653387428792551,
+            0.11369791864905669
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.04195244801380378,
+          "ci95": [
+            0.02614424187061495,
+            0.059464897423210136
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.028803048757279338,
+          "ci95": [
+            0.014880739415623137,
+            0.045952856386150556
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.2355972861873406,
+          "ci95": [
+            0.20139527271343205,
+            0.2686367531940268
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.1751493611946358,
+          "ci95": [
+            0.14709605234778417,
+            0.20478077382991414
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.14814210406120354,
+          "ci95": [
+            0.12379637761834077,
+            0.17532527927910785
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.7972745467463429,
+          "ci95": [
+            0.7389871794871794,
+            0.8546077310039457
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.7728880409545921,
+          "ci95": [
+            0.7184960923127672,
+            0.8270687825904921
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.7382471865920653,
+          "ci95": [
+            0.6830367178281886,
+            0.7923220622565625
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "official",
+      "path": "position",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 0.04058589529888933,
+          "ci95": [
+            0.03788014916469958,
+            0.04346759361765639
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 0.010414122998433847,
+          "ci95": [
+            0.00972542230313525,
+            0.011028421307473193
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 140.55892835903998,
+          "ci95": [
+            132.15436105517287,
+            145.97070529078906
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 7.997330064239067,
+          "ci95": [
+            7.431323014651675,
+            8.416089652677599
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.004991664477679951,
+          "ci95": [
+            0.004664205452269838,
+            0.0052225117344177376
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.00377395849262547,
+          "ci95": [
+            0.0032474052623501686,
+            0.0044829011281983635
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.41704488553944274,
+          "ci95": [
+            0.36517349639680796,
+            0.47952980087288594
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.5260247134656589,
+          "ci95": [
+            0.482700992901955,
+            0.5752366104420492
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.46541137500687235,
+          "ci95": [
+            0.40059240620387637,
+            0.5436505856508794
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.3482951420722249,
+          "ci95": [
+            0.32354847011304133,
+            0.3776687608268081
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.05039175880242016,
+          "ci95": [
+            0.04398331967410354,
+            0.060171228823412
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 6.695303724697202,
+          "ci95": [
+            6.2068144907327225,
+            7.186932862309824
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 131.79547712321974,
+          "ci95": [
+            124.24243763832591,
+            136.99432020399414
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 140.94705661321177,
+          "ci95": [
+            132.82097000796404,
+            146.3664212256187
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 40.257478959400245,
+          "ci95": [
+            36.00769729247378,
+            44.75033595507928
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.44428051400466045,
+          "ci95": [
+            0.3660131517041153,
+            0.5248985159035258
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.26946870889844665,
+          "ci95": [
+            0.2194687477532913,
+            0.3326985450843071
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.15930248417259799,
+          "ci95": [
+            0.12309328810312233,
+            0.211155845460274
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.6562717217083868,
+          "ci95": [
+            0.5972062068896248,
+            0.7155037868936002
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.41704488553944274,
+          "ci95": [
+            0.36674283062036656,
+            0.47853270150598215
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.2613247757520395,
+          "ci95": [
+            0.2163436330389881,
+            0.3208409668565532
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.8344725785237908,
+          "ci95": [
+            0.7810374132506122,
+            0.8815301746194869
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.6863747214081208,
+          "ci95": [
+            0.6349434862892618,
+            0.7327421975771494
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.5643156895334035,
+          "ci95": [
+            0.5180377531644232,
+            0.6100839904295496
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "official",
+      "path": "position_fixed",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 4.21662090154433e-08,
+          "ci95": [
+            4.1903592631068125e-08,
+            4.243223710644438e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 3.5441156101985404e-08,
+          "ci95": [
+            3.5196842525874446e-08,
+            3.565849013527167e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 146.7364067258244,
+          "ci95": [
+            136.7787929304764,
+            153.50993129139744
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 8.166087406177926,
+          "ci95": [
+            7.572135494137972,
+            8.604541539127384
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.005260574148214459,
+          "ci95": [
+            0.004886369409872633,
+            0.005532552236228342
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.004297373582814084,
+          "ci95": [
+            0.003710984233863146,
+            0.005110730849222179
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.4251691639494708,
+          "ci95": [
+            0.3772501099565671,
+            0.4825652597512444
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.5346030977760367,
+          "ci95": [
+            0.49667191077954087,
+            0.5784751671348054
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.4750519069006204,
+          "ci95": [
+            0.41352317704698954,
+            0.5505539964718744
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.4086709596418645,
+          "ci95": [
+            0.37787227436610576,
+            0.44457493692071653
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.008142045454545454,
+          "ci95": [
+            0.0011511837121212121,
+            0.017280492424242427
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.05039175880242016,
+          "ci95": [
+            0.04398331967410354,
+            0.060171228823412
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 6.695303724697202,
+          "ci95": [
+            6.2068144907327225,
+            7.186932862309824
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 138.12352687717149,
+          "ci95": [
+            129.1293710064919,
+            144.6284192472667
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 149.06513447255367,
+          "ci95": [
+            139.3755372279021,
+            155.7801717611381
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 40.257478959400245,
+          "ci95": [
+            36.00769729247378,
+            44.75033595507928
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.46039735554455985,
+          "ci95": [
+            0.3945716930033791,
+            0.5353536988226189
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.28240113424428126,
+          "ci95": [
+            0.23603092158405126,
+            0.3439280101667534
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.1709065707507073,
+          "ci95": [
+            0.13421308525440143,
+            0.2213644769450682
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.6603797836393086,
+          "ci95": [
+            0.6032997894437466,
+            0.719255078883264
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.4251691639494708,
+          "ci95": [
+            0.378261702444842,
+            0.48167838338471686
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.2742805668683947,
+          "ci95": [
+            0.2330743845604063,
+            0.32655282725823304
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.830650424812968,
+          "ci95": [
+            0.782635153273111,
+            0.8729520406987317
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.6806313198594247,
+          "ci95": [
+            0.6328028526328254,
+            0.7253193292015039
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.563496153634699,
+          "ci95": [
+            0.5208102551415268,
+            0.6039223249364577
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "official",
+      "path": "rotation_fk",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 1.949275971735771e-07,
+          "ci95": [
+            1.9028464085399104e-07,
+            1.9915826670514675e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 1.640511725287509e-07,
+          "ci95": [
+            1.5990114434963131e-07,
+            1.6767300278883636e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 190.96482836637617,
+          "ci95": [
+            178.2827484934805,
+            200.77396970000788
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 9.431832496869472,
+          "ci95": [
+            8.789908656501176,
+            9.9189792994787
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.0070166222136143555,
+          "ci95": [
+            0.006405141164077076,
+            0.0076217248714613986
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.00870276794506062,
+          "ci95": [
+            0.007050569937879317,
+            0.01086630551190692
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.6737918627911206,
+          "ci95": [
+            0.6140618822872658,
+            0.7356792360767498
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.8624216327451112,
+          "ci95": [
+            0.8417856786004932,
+            0.8841871621099658
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.47415934503947865,
+          "ci95": [
+            0.4182648716257079,
+            0.5404589374336561
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.6835583581419281,
+          "ci95": [
+            0.6293772872521617,
+            0.7399807860894785
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.020200757575757577,
+          "ci95": [
+            0.00850719696969697,
+            0.036291666666666667
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.05039175880242016,
+          "ci95": [
+            0.04398331967410354,
+            0.060171228823412
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 6.695303724697202,
+          "ci95": [
+            6.2068144907327225,
+            7.186932862309824
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 176.80131523134838,
+          "ci95": [
+            165.6250940363001,
+            185.3404561345272
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 193.55028896203535,
+          "ci95": [
+            181.25312088098693,
+            203.13472131411095
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 40.257478959400245,
+          "ci95": [
+            36.00769729247378,
+            44.75033595507928
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.5488862139839379,
+          "ci95": [
+            0.4866592623077346,
+            0.6114777443678977
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.48937108015410846,
+          "ci95": [
+            0.42997124133563397,
+            0.5536901455655785
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.39775554329116924,
+          "ci95": [
+            0.3464524501283532,
+            0.455006899774589
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.7531503930947276,
+          "ci95": [
+            0.687001692168132,
+            0.8157900276265875
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.6737918627911206,
+          "ci95": [
+            0.6130858544048178,
+            0.7345602022777925
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.5626281734099645,
+          "ci95": [
+            0.5090769590242624,
+            0.617714139885899
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.8895661261878482,
+          "ci95": [
+            0.8417987422131717,
+            0.929672518417725
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.8372054432729842,
+          "ci95": [
+            0.7925570410264868,
+            0.876959812989254
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.7652624367221101,
+          "ci95": [
+            0.7232492932118737,
+            0.8036891015068279
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "paired",
+      "path": "position",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 0.029899091948714866,
+          "ci95": [
+            0.0286215035941971,
+            0.0313965128200692
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 0.008841633323436583,
+          "ci95": [
+            0.008415270042629546,
+            0.009199197294077265
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 123.12705005772216,
+          "ci95": [
+            116.17961170810787,
+            128.57945187535842
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 7.095705257001207,
+          "ci95": [
+            6.623928233266471,
+            7.471519280515035
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.0042018927519919275,
+          "ci95": [
+            0.0039584349648575205,
+            0.004422311709293807
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.0033749877951472123,
+          "ci95": [
+            0.0030645388129128892,
+            0.003696346411053935
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.5122352372735846,
+          "ci95": [
+            0.46377827258233,
+            0.55697811785018
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.5413304858422298,
+          "ci95": [
+            0.5106060273134634,
+            0.5762131765435359
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.6342187691631037,
+          "ci95": [
+            0.5714824954960097,
+            0.689792714558038
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.597675675626122,
+          "ci95": [
+            0.5433238346554121,
+            0.6498109387273944
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.00020833333333333332,
+          "ci95": [
+            0.0,
+            0.000625
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.03724977896798333,
+          "ci95": [
+            0.03469916035224425,
+            0.04069316272792324
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 5.954329811063767,
+          "ci95": [
+            5.30387064423832,
+            7.088629993792152
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 116.49024194385056,
+          "ci95": [
+            109.52952168644238,
+            121.68761702107827
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 122.88886793700854,
+          "ci95": [
+            116.32226340879727,
+            128.01532381129604
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 36.821743234587665,
+          "ci95": [
+            33.860359079439284,
+            39.22542713448304
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.6643151714688083,
+          "ci95": [
+            0.6012759650803317,
+            0.7148010840765973
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.3651933966852325,
+          "ci95": [
+            0.32404231319013604,
+            0.40063678861272883
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.21556380229809222,
+          "ci95": [
+            0.18566708746199098,
+            0.24691248990302672
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.7686376487056844,
+          "ci95": [
+            0.712965212491066,
+            0.812536634832126
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.5122352372735846,
+          "ci95": [
+            0.46387891508815565,
+            0.5581150737766274
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.37091698490634667,
+          "ci95": [
+            0.3242777362797464,
+            0.41742810585011236
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9397491827266695,
+          "ci95": [
+            0.8797578846259574,
+            0.9822432022524179
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.8957440359135065,
+          "ci95": [
+            0.8304964499359292,
+            0.9429993701286069
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.8527153034166888,
+          "ci95": [
+            0.7910739198881827,
+            0.9020659678609642
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "paired",
+      "path": "position_fixed",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 4.270217232377899e-08,
+          "ci95": [
+            4.2584433506116376e-08,
+            4.2834843080583445e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 3.597120157991572e-08,
+          "ci95": [
+            3.579060561044225e-08,
+            3.61296316876385e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 125.22217311253905,
+          "ci95": [
+            118.0442216317615,
+            130.81766529320873
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 7.194936744488482,
+          "ci95": [
+            6.70637849410845,
+            7.581217723074282
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.0044386788592397095,
+          "ci95": [
+            0.004165287368110285,
+            0.004680551349485773
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.003811733781134259,
+          "ci95": [
+            0.0034456929592340804,
+            0.004185784279983795
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.5470840575664919,
+          "ci95": [
+            0.49511734585992373,
+            0.5919539387711085
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.582471124888803,
+          "ci95": [
+            0.5586196289600891,
+            0.6099669783567718
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.6465873657789789,
+          "ci95": [
+            0.5801094530400875,
+            0.7033796304666388
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.679021664028577,
+          "ci95": [
+            0.6251745048963926,
+            0.726186889370187
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.006407196969696968,
+          "ci95": [
+            0.0010833333333333333,
+            0.01459649621212122
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.03724977896798333,
+          "ci95": [
+            0.03469916035224425,
+            0.04069316272792324
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 5.954329811063767,
+          "ci95": [
+            5.30387064423832,
+            7.088629993792152
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 118.86957249304321,
+          "ci95": [
+            111.53664854041942,
+            124.33996044404263
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 126.58278590332779,
+          "ci95": [
+            119.53124574811581,
+            131.953644906065
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 36.821743234587665,
+          "ci95": [
+            33.860359079439284,
+            39.22542713448304
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.6735749100259243,
+          "ci95": [
+            0.6038923480273369,
+            0.7305772965592052
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.3911284821341724,
+          "ci95": [
+            0.3427181466926333,
+            0.4377436891274101
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.23379996151520147,
+          "ci95": [
+            0.19517432265697357,
+            0.27772364240644176
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.7785981172052423,
+          "ci95": [
+            0.7185813580799046,
+            0.825157188199123
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.5470840575664919,
+          "ci95": [
+            0.49360053704267576,
+            0.5930392933493194
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.40449674782307143,
+          "ci95": [
+            0.352769784252528,
+            0.45276485338771955
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9329010982969418,
+          "ci95": [
+            0.8702705375607405,
+            0.9781150795916382
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.8839946057845612,
+          "ci95": [
+            0.8173440044067207,
+            0.9338417029840519
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.8320211602955293,
+          "ci95": [
+            0.7624488469362295,
+            0.888525162080209
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "paired",
+      "path": "rotation_fk",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 1.9775796728755024e-07,
+          "ci95": [
+            1.9353769989505515e-07,
+            2.012123599303763e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 1.6648203552203502e-07,
+          "ci95": [
+            1.6291167761659786e-07,
+            1.6941721359697817e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 174.6983235672884,
+          "ci95": [
+            163.1072815469136,
+            191.8813332212924
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 8.58135325381031,
+          "ci95": [
+            7.876070440601236,
+            9.566172869051389
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.006443917580512777,
+          "ci95": [
+            0.005623609426073485,
+            0.007775750711061132
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.008833654869993216,
+          "ci95": [
+            0.007008846957970126,
+            0.011645285844607278
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.8231233268628122,
+          "ci95": [
+            0.7555221226798107,
+            0.8737780278232405
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.877153285774048,
+          "ci95": [
+            0.8648727652017205,
+            0.8896960391539969
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.6620270810337608,
+          "ci95": [
+            0.5951849062408809,
+            0.7179624577618763
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.9125009621344464,
+          "ci95": [
+            0.8580308773860603,
+            0.9560687112995848
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.049296085858585866,
+          "ci95": [
+            0.032451388888888884,
+            0.07312174873737373
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.03724977896798333,
+          "ci95": [
+            0.03469916035224425,
+            0.04069316272792324
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 5.954329811063767,
+          "ci95": [
+            5.30387064423832,
+            7.088629993792152
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 157.1758506708439,
+          "ci95": [
+            151.2920031389736,
+            161.58740798224204
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 176.72530561388888,
+          "ci95": [
+            165.1532792847046,
+            193.54461744718304
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 36.821743234587665,
+          "ci95": [
+            33.860359079439284,
+            39.22542713448304
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.8476772732462983,
+          "ci95": [
+            0.7582287746820775,
+            0.9181682816537468
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.7414148872733731,
+          "ci95": [
+            0.6629183781300617,
+            0.8049847815881959
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.6024193616598366,
+          "ci95": [
+            0.538396161352804,
+            0.6593552115183734
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.9075976075988447,
+          "ci95": [
+            0.8369616082416677,
+            0.9633971813585557
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.8231233268628122,
+          "ci95": [
+            0.7561033980279713,
+            0.875093514095586
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.7080862588123845,
+          "ci95": [
+            0.647577137703684,
+            0.7568470358775592
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9503793924476754,
+          "ci95": [
+            0.8923706440283011,
+            0.9921340555576702
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.9295969668903858,
+          "ci95": [
+            0.8704828081849978,
+            0.9714591770385315
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.8962971068735541,
+          "ci95": [
+            0.8401432342878411,
+            0.93980052662852
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "posterior_mean",
+      "path": "position",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 1,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 0.01821013777141892,
+          "ci95": [
+            0.017608820366178314,
+            0.01879480897912986
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 0.006886169803278215,
+          "ci95": [
+            0.006643690616093798,
+            0.007136572678278985
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 116.80711493816789,
+          "ci95": [
+            112.59482327171506,
+            120.78604265605593
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 6.797893964225972,
+          "ci95": [
+            6.593787250491216,
+            7.008218096352108
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.003775665526810654,
+          "ci95": [
+            0.003615643709629379,
+            0.003935305416434966
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.0030157135026194675,
+          "ci95": [
+            0.0028187346228382413,
+            0.00321002632358859
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.28655571626130755,
+          "ci95": [
+            0.2604999904845279,
+            0.31086407940978694
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.2963178952999364,
+          "ci95": [
+            0.2740404951153158,
+            0.31662255319737176
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.5424136153719281,
+          "ci95": [
+            0.510288972202134,
+            0.5713847450329237
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.39921911725021003,
+          "ci95": [
+            0.35065230874492964,
+            0.4497633689732074
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "subjects_nonmissing": 20
+        },
+        "mpjpe_root_aligned_m": {
+          "mean": 0.01046852130719015,
+          "ci95": [
+            0.010167804519660763,
+            0.01079350043974686
+          ],
+          "subjects_nonmissing": 20
+        },
+        "acceleration_error_local_mps2": {
+          "mean": 3.287378009214909,
+          "ci95": [
+            3.1642403332734808,
+            3.420537672089188
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.027555685764519243,
+          "ci95": [
+            0.026601281494284323,
+            0.028576090135372025
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 4.619937121129095,
+          "ci95": [
+            4.4027496507852915,
+            4.825359829006124
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 113.78184689940932,
+          "ci95": [
+            109.86323755036163,
+            117.7612842231621
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 115.88052994432879,
+          "ci95": [
+            111.98271422382291,
+            119.77005476821755
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 36.8908092892958,
+          "ci95": [
+            35.29116253201011,
+            38.56620203069006
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.3966861416663495,
+          "ci95": [
+            0.36586941917557947,
+            0.43056287665410625
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.15321204278156283,
+          "ci95": [
+            0.1353045902637689,
+            0.17213724403379896
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.09491080830764155,
+          "ci95": [
+            0.08356701588449486,
+            0.10649678377041068
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.5657880396858624,
+          "ci95": [
+            0.5395798443268754,
+            0.5917954189345208
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.28655571626130755,
+          "ci95": [
+            0.2598818892018422,
+            0.3113692463111686
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.20182633628947336,
+          "ci95": [
+            0.18138669530823787,
+            0.2213887466854439
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9429075476725156,
+          "ci95": [
+            0.9199146684175136,
+            0.9646074701214176
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.8595254634034941,
+          "ci95": [
+            0.8171825115137212,
+            0.901022135367107
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.8237871896370166,
+          "ci95": [
+            0.7781970749438588,
+            0.868291442260115
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "posterior_mean",
+      "path": "position_fixed",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 1,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 4.277300145715721e-08,
+          "ci95": [
+            4.237587971118833e-08,
+            4.3191326295577227e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 3.6105562868348854e-08,
+          "ci95": [
+            3.569894707502484e-08,
+            3.6514591091500084e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 119.28099779263387,
+          "ci95": [
+            114.74107051042199,
+            123.63297488308264
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 6.898987863016577,
+          "ci95": [
+            6.6748067773512325,
+            7.127008787836623
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.003926753456351968,
+          "ci95": [
+            0.0037422789483269035,
+            0.004108228314737057
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.003298881963480952,
+          "ci95": [
+            0.003049525315475188,
+            0.0035441373085495016
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.3030025755211307,
+          "ci95": [
+            0.26854001414633527,
+            0.3413563449168348
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.3189451644966452,
+          "ci95": [
+            0.29042860880818705,
+            0.3506843888949945
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.5315766820182951,
+          "ci95": [
+            0.4886489892982656,
+            0.5736542791078293
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.41673312136693613,
+          "ci95": [
+            0.3460934138078399,
+            0.49878313762534593
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "subjects_nonmissing": 20
+        },
+        "mpjpe_root_aligned_m": {
+          "mean": 0.01056354445538702,
+          "ci95": [
+            0.010038843986684231,
+            0.011209755250930082
+          ],
+          "subjects_nonmissing": 20
+        },
+        "acceleration_error_local_mps2": {
+          "mean": 3.272132597570553,
+          "ci95": [
+            3.1439035868393077,
+            3.406993192006451
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.027555685764519243,
+          "ci95": [
+            0.026601281494284323,
+            0.028576090135372025
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 4.619937121129095,
+          "ci95": [
+            4.4027496507852915,
+            4.825359829006124
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 116.94573198861833,
+          "ci95": [
+            112.54076840998226,
+            121.429700622101
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 120.01251561314466,
+          "ci95": [
+            115.73803129023412,
+            124.34971063594176
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 36.8908092892958,
+          "ci95": [
+            35.29116253201011,
+            38.56620203069006
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.304604124639998,
+          "ci95": [
+            0.2620120933721564,
+            0.34892672293482535
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.1404637841129677,
+          "ci95": [
+            0.11949969709080296,
+            0.1645199983506515
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.08466483335236427,
+          "ci95": [
+            0.0702356784214466,
+            0.10125400442786639
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.5270849985409609,
+          "ci95": [
+            0.4933781472424162,
+            0.5621289187886169
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.3030025755211307,
+          "ci95": [
+            0.26876381805148497,
+            0.33953342151004196
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.2199857267917634,
+          "ci95": [
+            0.18667096924599397,
+            0.25626125601060656
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9204755515802028,
+          "ci95": [
+            0.8929171511627908,
+            0.947728943053071
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.8504870018650326,
+          "ci95": [
+            0.8064670130298531,
+            0.8942458631484795
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.8112981958664788,
+          "ci95": [
+            0.761300561254266,
+            0.8596974143290322
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "posterior_mean",
+      "path": "rotation_fk",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 1,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 1.9826818406661895e-07,
+          "ci95": [
+            1.956689801523536e-07,
+            2.0123554054428526e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 1.6670543554019293e-07,
+          "ci95": [
+            1.6456318448749835e-07,
+            1.689168307991043e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 156.7439152531957,
+          "ci95": [
+            149.8632714844212,
+            163.33968168200428
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 7.560235235115613,
+          "ci95": [
+            7.275700774539534,
+            7.85050571354793
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.004686782819344514,
+          "ci95": [
+            0.004447793748604975,
+            0.004934142476182863
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.005479299288117625,
+          "ci95": [
+            0.005027371249502524,
+            0.005932915091755174
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.6767637244826754,
+          "ci95": [
+            0.6263951038138011,
+            0.7251393271292454
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.7289095195656233,
+          "ci95": [
+            0.7031989329090594,
+            0.7551574236683243
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.5471041880764791,
+          "ci95": [
+            0.49932522377218685,
+            0.5934429864626548
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.6450302875881286,
+          "ci95": [
+            0.582562053367867,
+            0.716923024313874
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.003409090909090909,
+          "ci95": [
+            0.0,
+            0.010227272727272727
+          ],
+          "subjects_nonmissing": 20
+        },
+        "mpjpe_root_aligned_m": {
+          "mean": 0.027282919503115916,
+          "ci95": [
+            0.02627384071908525,
+            0.028308854458094994
+          ],
+          "subjects_nonmissing": 20
+        },
+        "acceleration_error_local_mps2": {
+          "mean": 5.02241594941808,
+          "ci95": [
+            4.808238460464463,
+            5.259898544438255
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.027555685764519243,
+          "ci95": [
+            0.026601281494284323,
+            0.028576090135372025
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 4.619937121129095,
+          "ci95": [
+            4.4027496507852915,
+            4.825359829006124
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 146.16758139404607,
+          "ci95": [
+            138.93724053164362,
+            153.83538215088433
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 158.45382730317658,
+          "ci95": [
+            151.96025012764147,
+            165.1107655079954
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 36.8908092892958,
+          "ci95": [
+            35.29116253201011,
+            38.56620203069006
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.6027866377396311,
+          "ci95": [
+            0.5511707226366739,
+            0.66049119898121
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.4622753714205966,
+          "ci95": [
+            0.4147940883543309,
+            0.5170609132950177
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.3126226544361131,
+          "ci95": [
+            0.27933040256790875,
+            0.35329533488118353
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.8390274235907584,
+          "ci95": [
+            0.788926691216585,
+            0.8841564240538449
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.6767637244826754,
+          "ci95": [
+            0.6266819968852687,
+            0.7234199780509775
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.49524299344066786,
+          "ci95": [
+            0.4563067201436201,
+            0.5354067523376342
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9721213476446036,
+          "ci95": [
+            0.9613697450805008,
+            0.9820667859272509
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.9148127355079361,
+          "ci95": [
+            0.8932884758116697,
+            0.9359379940115962
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.8714468275415825,
+          "ci95": [
+            0.8441733393915173,
+            0.8978980417158301
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "posterior_sample",
+      "path": "position",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 1,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 0.028615300944967316,
+          "ci95": [
+            0.02800611425302693,
+            0.029233855495460554
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 0.00790245639551236,
+          "ci95": [
+            0.007681080079027857,
+            0.00811676253024912
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 120.04516124226612,
+          "ci95": [
+            115.3339804364094,
+            124.56000491918103
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 6.887303953204706,
+          "ci95": [
+            6.67125501763569,
+            7.114632360618728
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.0038660003057918876,
+          "ci95": [
+            0.0036933128995172144,
+            0.004037580046111577
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.0031430292746800178,
+          "ci95": [
+            0.002939042434700645,
+            0.0033394563435326964
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.3758895063373044,
+          "ci95": [
+            0.3493391956571385,
+            0.4001877315431559
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.389157078242126,
+          "ci95": [
+            0.36857025096594753,
+            0.4082019591728779
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.5475523192377473,
+          "ci95": [
+            0.5187726016252427,
+            0.5743644727159695
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.4373774492331023,
+          "ci95": [
+            0.388117686928469,
+            0.4866617322134466
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "subjects_nonmissing": 20
+        },
+        "mpjpe_root_aligned_m": {
+          "mean": 0.01528624167978911,
+          "ci95": [
+            0.015053420402176707,
+            0.015511952909769028
+          ],
+          "subjects_nonmissing": 20
+        },
+        "acceleration_error_local_mps2": {
+          "mean": 3.526042678348939,
+          "ci95": [
+            3.401061878457446,
+            3.6662252556207426
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.03333846039402094,
+          "ci95": [
+            0.032257563290376115,
+            0.034429545481046556
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 5.27935156843945,
+          "ci95": [
+            5.052308483595309,
+            5.498000760568648
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 117.16480310135978,
+          "ci95": [
+            112.66479723158022,
+            121.92107490173281
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 119.04063162126003,
+          "ci95": [
+            114.78349689715607,
+            123.45775984882626
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 37.90479327097682,
+          "ci95": [
+            36.129340690106524,
+            39.63738898489554
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.501950291173448,
+          "ci95": [
+            0.4584272684885624,
+            0.5473855177685585
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.22553020210862865,
+          "ci95": [
+            0.20030518656669077,
+            0.252902994519088
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.11960704271812632,
+          "ci95": [
+            0.1048616632728149,
+            0.1351611564153313
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.6855114883467184,
+          "ci95": [
+            0.65087488660729,
+            0.7186509843755948
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.3758895063373044,
+          "ci95": [
+            0.3500526721031731,
+            0.39991249175325755
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.23528869942526548,
+          "ci95": [
+            0.21736478831246275,
+            0.25303649500754893
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9468410852713177,
+          "ci95": [
+            0.925539989564699,
+            0.9672100849731663
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.8692295005011482,
+          "ci95": [
+            0.831780882464888,
+            0.9074319548586002
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.8174566411652012,
+          "ci95": [
+            0.7733037869993276,
+            0.8615752523186034
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "posterior_sample",
+      "path": "position_fixed",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 1,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 4.2838477489152765e-08,
+          "ci95": [
+            4.2309070254669026e-08,
+            4.3322910775932295e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 3.603916876715153e-08,
+          "ci95": [
+            3.5529961520371997e-08,
+            3.6494542961432803e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 122.55078619530097,
+          "ci95": [
+            117.47874859339665,
+            127.4269331450349
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 6.9935798426481455,
+          "ci95": [
+            6.749788451079477,
+            7.240835103610761
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.004024968540799341,
+          "ci95": [
+            0.0038255018348137106,
+            0.004224143429351189
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.003442717522587742,
+          "ci95": [
+            0.0031805468848367397,
+            0.003706619560305959
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.379590612669534,
+          "ci95": [
+            0.3430229576624926,
+            0.41958634022253516
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.40166005399118443,
+          "ci95": [
+            0.3747631698254243,
+            0.43255435709418627
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.5373089927555538,
+          "ci95": [
+            0.4916772585766123,
+            0.5808886880066988
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.47297717852202403,
+          "ci95": [
+            0.40029418831334723,
+            0.559739990749872
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.0011363636363636363,
+          "ci95": [
+            0.0,
+            0.003409090909090909
+          ],
+          "subjects_nonmissing": 20
+        },
+        "mpjpe_root_aligned_m": {
+          "mean": 0.014789821657683893,
+          "ci95": [
+            0.01440394347575215,
+            0.015269051761555932
+          ],
+          "subjects_nonmissing": 20
+        },
+        "acceleration_error_local_mps2": {
+          "mean": 3.5089359032264418,
+          "ci95": [
+            3.3698871695695827,
+            3.661959510395287
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.03333846039402094,
+          "ci95": [
+            0.032257563290376115,
+            0.034429545481046556
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 5.27935156843945,
+          "ci95": [
+            5.052308483595309,
+            5.498000760568648
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 120.1858829195567,
+          "ci95": [
+            115.11096079878132,
+            125.34700294065503
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 123.44119996446065,
+          "ci95": [
+            118.72288703300606,
+            128.3716441700883
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 37.90479327097682,
+          "ci95": [
+            36.129340690106524,
+            39.63738898489554
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.43353816973064874,
+          "ci95": [
+            0.3795547726436519,
+            0.48787611965389066
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.1991137606414697,
+          "ci95": [
+            0.16518472068917392,
+            0.23786957618087012
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.11058028521041878,
+          "ci95": [
+            0.0922705914817493,
+            0.1315449740861975
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.6730613811390656,
+          "ci95": [
+            0.6321859370836982,
+            0.7091776356271965
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.379590612669534,
+          "ci95": [
+            0.3428552990078535,
+            0.4172748060429593
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.2521379362843984,
+          "ci95": [
+            0.21908507942247424,
+            0.2848907259036526
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9414823836892119,
+          "ci95": [
+            0.9207980396541442,
+            0.9613884889747397
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.8684343559294078,
+          "ci95": [
+            0.8301879591215316,
+            0.9073890432509928
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.8178092528451261,
+          "ci95": [
+            0.7724435280516119,
+            0.8621565096930942
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "posterior_sample",
+      "path": "rotation_fk",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 1,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 1.9814752572322482e-07,
+          "ci95": [
+            1.9592958668058122e-07,
+            2.0076094585796067e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 1.66718602550805e-07,
+          "ci95": [
+            1.650789996025564e-07,
+            1.6852725505330435e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 168.12332423566477,
+          "ci95": [
+            160.7575744117204,
+            175.03499291452783
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 7.940193784300209,
+          "ci95": [
+            7.6455485124337,
+            8.238519771159645
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.005000380185970587,
+          "ci95": [
+            0.0047385245285567834,
+            0.0052645233617838304
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.006113710060357153,
+          "ci95": [
+            0.005620073129399136,
+            0.0066389956587928215
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.7534422220530583,
+          "ci95": [
+            0.7117391087491595,
+            0.793418674431292
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.8239463418416861,
+          "ci95": [
+            0.8068984212322547,
+            0.8401277930874201
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.5479809278219718,
+          "ci95": [
+            0.5009037589286847,
+            0.5947091243069564
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.7634866323117278,
+          "ci95": [
+            0.7082118240509493,
+            0.8268302584112268
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.009441287878787879,
+          "ci95": [
+            0.00022727272727272727,
+            0.02462689393939396
+          ],
+          "subjects_nonmissing": 20
+        },
+        "mpjpe_root_aligned_m": {
+          "mean": 0.03284996363364379,
+          "ci95": [
+            0.03162742273125912,
+            0.03407814416223326
+          ],
+          "subjects_nonmissing": 20
+        },
+        "acceleration_error_local_mps2": {
+          "mean": 5.629268645193566,
+          "ci95": [
+            5.401437799220839,
+            5.879273882597036
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.03333846039402094,
+          "ci95": [
+            0.032257563290376115,
+            0.034429545481046556
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 5.27935156843945,
+          "ci95": [
+            5.052308483595309,
+            5.498000760568648
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 157.30849147932526,
+          "ci95": [
+            150.04976632903268,
+            164.88393096202702
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 169.87202119172068,
+          "ci95": [
+            163.0268237856961,
+            176.85056751116676
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 37.90479327097682,
+          "ci95": [
+            36.129340690106524,
+            39.63738898489554
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.632572095560715,
+          "ci95": [
+            0.5744016845557544,
+            0.6941332784607772
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.5186648841015491,
+          "ci95": [
+            0.47345060914880926,
+            0.5687516223880028
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.39329352694147346,
+          "ci95": [
+            0.35821888361308823,
+            0.436647139331887
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.8680209403823952,
+          "ci95": [
+            0.8223252531115595,
+            0.9095513676905316
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.7534422220530583,
+          "ci95": [
+            0.7111883912825586,
+            0.7928105517070756
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.6096333054212817,
+          "ci95": [
+            0.5697006139065453,
+            0.6496883278460777
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9851520572450806,
+          "ci95": [
+            0.9802396019677998,
+            0.9902570065593322
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.9484060315406184,
+          "ci95": [
+            0.9360805992210002,
+            0.9609743407363708
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.9027544437254977,
+          "ci95": [
+            0.8825125524936881,
+            0.9216335226912292
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "shuffled",
+      "path": "position",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 0.029929415322264636,
+          "ci95": [
+            0.028582804620190947,
+            0.03146390498836033
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 0.008842570739988249,
+          "ci95": [
+            0.008431283482159045,
+            0.009203506596380365
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 122.94875489355339,
+          "ci95": [
+            116.38613206260383,
+            128.09604721465934
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 7.093290770702467,
+          "ci95": [
+            6.636015691122134,
+            7.462358312472814
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.004216553149192058,
+          "ci95": [
+            0.003968630325256458,
+            0.004435659844119891
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.003385131382917075,
+          "ci95": [
+            0.0030659364270820303,
+            0.0037281274277782507
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.5078622645977914,
+          "ci95": [
+            0.4563279859022993,
+            0.5531478072651688
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.5471850855255206,
+          "ci95": [
+            0.5187190204969919,
+            0.5797859735064841
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.6276237434290378,
+          "ci95": [
+            0.5608249578676039,
+            0.6864448694688674
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.6101140036371092,
+          "ci95": [
+            0.5730369185346983,
+            0.6455615054002749
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.00020833333333333332,
+          "ci95": [
+            0.0,
+            0.000625
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.03697684714870218,
+          "ci95": [
+            0.03467889183559317,
+            0.040289856655319124
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 5.92055583209368,
+          "ci95": [
+            5.234879699750209,
+            7.061343442002406
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 116.2045406416267,
+          "ci95": [
+            109.59398430020956,
+            121.28365301576507
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 122.77954522887906,
+          "ci95": [
+            116.53979858715829,
+            127.76176078652207
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 36.91011394097457,
+          "ci95": [
+            33.91513922890223,
+            39.39899878024541
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.65761704030754,
+          "ci95": [
+            0.5930339533192082,
+            0.70894961055287
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.35991985857893816,
+          "ci95": [
+            0.319366675547774,
+            0.394773809825888
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.21007918987384597,
+          "ci95": [
+            0.1822440216402982,
+            0.23796044946861375
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.7639208397298451,
+          "ci95": [
+            0.7035176559585888,
+            0.8134029009502787
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.5078622645977914,
+          "ci95": [
+            0.45672533721776043,
+            0.55524513310031
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.3711071886220328,
+          "ci95": [
+            0.325153693641973,
+            0.4175437085284005
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9373000905027133,
+          "ci95": [
+            0.8762900252477195,
+            0.9834894156231366
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.8901143125388549,
+          "ci95": [
+            0.8216253600020299,
+            0.9428358744930369
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.8477113915003571,
+          "ci95": [
+            0.7804071141898951,
+            0.9021964395217735
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "shuffled",
+      "path": "position_fixed",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 4.260238990473186e-08,
+          "ci95": [
+            4.240232119745632e-08,
+            4.275999052330931e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 3.590501313916712e-08,
+          "ci95": [
+            3.5647166559960877e-08,
+            3.613834839228568e-08
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 124.79075879305438,
+          "ci95": [
+            117.80440195985906,
+            130.21019634574054
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 7.188641708455817,
+          "ci95": [
+            6.7149348834245135,
+            7.568759719858334
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.004444125086405017,
+          "ci95": [
+            0.004167536361533769,
+            0.004689537257601561
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.0038075607138176627,
+          "ci95": [
+            0.003422757191531185,
+            0.004198883847192903
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.5350709854222966,
+          "ci95": [
+            0.4772014023691411,
+            0.5828070494846843
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.5696493746458301,
+          "ci95": [
+            0.5412916432109335,
+            0.5996918725456251
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.641102822077587,
+          "ci95": [
+            0.5726789918462976,
+            0.6990894042045699
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.6699657557345572,
+          "ci95": [
+            0.6020499941614551,
+            0.7278726682169111
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.00528219696969697,
+          "ci95": [
+            0.001,
+            0.011708901515151516
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.03697684714870218,
+          "ci95": [
+            0.03467889183559317,
+            0.040289856655319124
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 5.92055583209368,
+          "ci95": [
+            5.234879699750209,
+            7.061343442002406
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 118.37558664732956,
+          "ci95": [
+            111.16034374354284,
+            123.82928709064909
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 126.18215572833928,
+          "ci95": [
+            119.33109680624418,
+            131.47194623244675
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 36.91011394097457,
+          "ci95": [
+            33.91513922890223,
+            39.39899878024541
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.6644465695665597,
+          "ci95": [
+            0.5877519519933856,
+            0.7251768529796114
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.38294780869248957,
+          "ci95": [
+            0.3312428507085856,
+            0.43271110286436865
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.2326389258935028,
+          "ci95": [
+            0.19256691332885048,
+            0.27824592658496045
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.7665162376245999,
+          "ci95": [
+            0.7018962588863937,
+            0.8174801729278475
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.5350709854222966,
+          "ci95": [
+            0.4772114485931903,
+            0.5831047706348299
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.40015382289380313,
+          "ci95": [
+            0.34786972763546864,
+            0.44921773911324264
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9277662323382263,
+          "ci95": [
+            0.8638320788769206,
+            0.9776876757719164
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.8785905576912503,
+          "ci95": [
+            0.8059689327763611,
+            0.9351787766908993
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.831257311054441,
+          "ci95": [
+            0.7550423871993638,
+            0.8922685136726762
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "variant": "shuffled",
+      "path": "rotation_fk",
+      "subjects": 20,
+      "clips": 72,
+      "repeats": 3,
+      "metrics": {
+        "bone_length_cv": {
+          "mean": 1.9798544581099848e-07,
+          "ci95": [
+            1.9377617805610949e-07,
+            2.0143454502195308e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "mean": 1.6733351716305498e-07,
+          "ci95": [
+            1.6360890864638858e-07,
+            1.704816827113304e-07
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "mean": 174.45677055417866,
+          "ci95": [
+            161.46268893946024,
+            192.40965871574824
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "mean": 8.568687986744306,
+          "ci95": [
+            7.83517884993138,
+            9.557082971064961
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "mean": 0.006423021963801828,
+          "ci95": [
+            0.005574079287580508,
+            0.007755170153665997
+          ],
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "mean": 0.0087213778895654,
+          "ci95": [
+            0.00691575846601133,
+            0.011525601392570606
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "mean": 0.8173225893079925,
+          "ci95": [
+            0.7446015734361849,
+            0.8732061315588034
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "mean": 0.873219473645201,
+          "ci95": [
+            0.8610703115978672,
+            0.8853712246818576
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "mean": 0.6570924946184717,
+          "ci95": [
+            0.5863556487014553,
+            0.7152073188782737
+          ],
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "mean": 0.8912564579827595,
+          "ci95": [
+            0.8206800324305997,
+            0.948961959453515
+          ],
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "mean": 0.04620265151515152,
+          "ci95": [
+            0.02975909090909091,
+            0.06825284090909091
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "mean": 0.03697684714870218,
+          "ci95": [
+            0.03467889183559317,
+            0.040289856655319124
+          ],
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "mean": 5.92055583209368,
+          "ci95": [
+            5.234879699750209,
+            7.061343442002406
+          ],
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "mean": 156.46216861625078,
+          "ci95": [
+            148.52723913031164,
+            161.85398233830725
+          ],
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "mean": 176.50993612955648,
+          "ci95": [
+            163.64718551494073,
+            193.82920287946126
+          ],
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "mean": 36.91011394097457,
+          "ci95": [
+            33.91513922890223,
+            39.39899878024541
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v010": {
+          "mean": 0.8382832396587961,
+          "ci95": [
+            0.7449911619765962,
+            0.9110086307975657
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v020": {
+          "mean": 0.7307167476539076,
+          "ci95": [
+            0.6522442500116301,
+            0.7957984210659866
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h03_v030": {
+          "mean": 0.5979072199173633,
+          "ci95": [
+            0.5300345683887556,
+            0.6566975192635448
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v010": {
+          "mean": 0.9013103439526002,
+          "ci95": [
+            0.825332906194361,
+            0.9619397583387254
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v020": {
+          "mean": 0.8173225893079925,
+          "ci95": [
+            0.745146049810325,
+            0.8731579724326199
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h05_v030": {
+          "mean": 0.7089156485111457,
+          "ci95": [
+            0.6434871023061276,
+            0.7613129144516764
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v010": {
+          "mean": 0.9470158527766148,
+          "ci95": [
+            0.8866722852886572,
+            0.9937293360949346
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v020": {
+          "mean": 0.9258306161373951,
+          "ci95": [
+            0.8634503519667424,
+            0.9728311294442541
+          ],
+          "subjects_nonmissing": 20
+        },
+        "skating_h10_v030": {
+          "mean": 0.8961137331523277,
+          "ci95": [
+            0.8356640610132074,
+            0.9443533322126222
+          ],
+          "subjects_nonmissing": 20
+        }
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "dataset": "data_self",
+      "a": "official",
+      "b": "adapted",
+      "path": "position",
+      "subjects": 20,
+      "metrics": {
+        "bone_length_cv": {
+          "a": 0.04058589529888933,
+          "b": 0.0333596896634162,
+          "delta_b_minus_a": -0.0072262056354731345,
+          "delta_ci95": [
+            -0.009725999689081296,
+            -0.004877019257259389
+          ],
+          "percent_change": -17.804721522727817,
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "a": 0.010414122998433849,
+          "b": 0.008858613178198426,
+          "delta_b_minus_a": -0.0015555098202354259,
+          "delta_ci95": [
+            -0.0019473026059414348,
+            -0.0011684631348771039
+          ],
+          "percent_change": -14.936541660486935,
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "a": 140.55892835903998,
+          "b": 125.8708766918209,
+          "delta_b_minus_a": -14.688051667219067,
+          "delta_ci95": [
+            -18.350495744048015,
+            -11.428583214220268
+          ],
+          "percent_change": -10.449746479071266,
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "a": 7.9973300642390655,
+          "b": 7.219409257338832,
+          "delta_b_minus_a": -0.7779208069002345,
+          "delta_ci95": [
+            -0.9625967728193165,
+            -0.5899678271589249
+          ],
+          "percent_change": -9.727256479994384,
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "a": 0.004991664477679951,
+          "b": 0.004322961467759965,
+          "delta_b_minus_a": -0.0006687030099199864,
+          "delta_ci95": [
+            -0.0007944330865491493,
+            -0.0005431474011517079
+          ],
+          "percent_change": -13.396393385614513,
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "a": 0.00377395849262547,
+          "b": 0.0032807201735133517,
+          "delta_b_minus_a": -0.0004932383191121179,
+          "delta_ci95": [
+            -0.0012765613705038818,
+            4.7835847220286824e-05
+          ],
+          "percent_change": -13.069521566703346,
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "a": 0.4170448855394427,
+          "b": 0.47693246552227253,
+          "delta_b_minus_a": 0.059887579982829876,
+          "delta_ci95": [
+            -0.0015643193054127986,
+            0.11357881982770653
+          ],
+          "percent_change": 14.359984274921867,
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "a": 0.5260247134656589,
+          "b": 0.5276811781473492,
+          "delta_b_minus_a": 0.0016564646816901534,
+          "delta_ci95": [
+            -0.033701475488116354,
+            0.03501081935392489
+          ],
+          "percent_change": 0.3149024445594506,
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "a": 0.46541137500687224,
+          "b": 0.5518837727366921,
+          "delta_b_minus_a": 0.08647239772981984,
+          "delta_ci95": [
+            0.03427225404619019,
+            0.13351680894940735
+          ],
+          "percent_change": 18.57977745570636,
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "a": 0.3482951420722249,
+          "b": 0.44359416636491444,
+          "delta_b_minus_a": 0.09529902429268941,
+          "delta_ci95": [
+            0.04704306520000934,
+            0.1362624559097282
+          ],
+          "percent_change": 27.361571489540815,
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "a": 0.0,
+          "b": 0.0,
+          "delta_b_minus_a": 0.0,
+          "delta_ci95": [
+            0.0,
+            0.0
+          ],
+          "percent_change": null,
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "a": 0.05039175880242016,
+          "b": 0.04084857819420132,
+          "delta_b_minus_a": -0.009543180608218845,
+          "delta_ci95": [
+            -0.018800821218856574,
+            -0.003366854602719501
+          ],
+          "percent_change": -18.93797881839463,
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "a": 6.695303724697203,
+          "b": 6.144841237122135,
+          "delta_b_minus_a": -0.5504624875750679,
+          "delta_ci95": [
+            -1.2477205939012592,
+            0.4006986100053798
+          ],
+          "percent_change": -8.22162085858118,
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "a": 131.79547712321974,
+          "b": 120.05610326036151,
+          "delta_b_minus_a": -11.739373862858223,
+          "delta_ci95": [
+            -15.291462948092734,
+            -8.530202899382747
+          ],
+          "percent_change": -8.907266105863954,
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "a": 140.94705661321177,
+          "b": 125.96344378765562,
+          "delta_b_minus_a": -14.983612825556127,
+          "delta_ci95": [
+            -18.454991441742134,
+            -11.641465712119325
+          ],
+          "percent_change": -10.630667419096461,
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "a": 40.25747895940025,
+          "b": 37.51415097712474,
+          "delta_b_minus_a": -2.743327982275496,
+          "delta_ci95": [
+            -6.015647925127327,
+            0.5745672980622981
+          ],
+          "percent_change": -6.8144554830225745,
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "a": "adapted",
+      "b": "fixed",
+      "path": "position",
+      "subjects": 20,
+      "metrics": {
+        "bone_length_cv": {
+          "a": 0.0333596896634162,
+          "b": 0.029957519842448162,
+          "delta_b_minus_a": -0.0034021698209680423,
+          "delta_ci95": [
+            -0.0036671082220486625,
+            -0.003125791811491687
+          ],
+          "percent_change": -10.198445654903733,
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "a": 0.008858613178198426,
+          "b": 0.008829837666705597,
+          "delta_b_minus_a": -2.8775511492826157e-05,
+          "delta_ci95": [
+            -0.00010766807290393032,
+            5.90734245462021e-05
+          ],
+          "percent_change": -0.3248308839542413,
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "a": 125.8708766918209,
+          "b": 123.14772546848403,
+          "delta_b_minus_a": -2.723151223336869,
+          "delta_ci95": [
+            -4.048591861513596,
+            -1.2553079365923037
+          ],
+          "percent_change": -2.1634482057387827,
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "a": 7.219409257338832,
+          "b": 7.111975703369207,
+          "delta_b_minus_a": -0.10743355396962376,
+          "delta_ci95": [
+            -0.16509928029754295,
+            -0.04465496977190069
+          ],
+          "percent_change": -1.4881211209963552,
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "a": 0.004322961467759965,
+          "b": 0.004233810621272733,
+          "delta_b_minus_a": -8.915084648723076e-05,
+          "delta_ci95": [
+            -0.0001448330667545501,
+            -2.757060269811723e-05
+          ],
+          "percent_change": -2.062263269106279,
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "a": 0.0032807201735133517,
+          "b": 0.003405585952433389,
+          "delta_b_minus_a": 0.00012486577892003672,
+          "delta_ci95": [
+            1.9785891368288443e-05,
+            0.00026084509162141786
+          ],
+          "percent_change": 3.806047828404635,
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "a": 0.47693246552227253,
+          "b": 0.5040728335384446,
+          "delta_b_minus_a": 0.02714036801617208,
+          "delta_ci95": [
+            0.008775998913121624,
+            0.04544675273939871
+          ],
+          "percent_change": 5.690610301911736,
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "a": 0.5276811781473492,
+          "b": 0.5426302236336042,
+          "delta_b_minus_a": 0.014949045486255136,
+          "delta_ci95": [
+            -0.013926127955930437,
+            0.04581909521342676
+          ],
+          "percent_change": 2.832969244561667,
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "a": 0.5518837727366921,
+          "b": 0.620914817493244,
+          "delta_b_minus_a": 0.06903104475655189,
+          "delta_ci95": [
+            0.06285773827270921,
+            0.07559350973432799
+          ],
+          "percent_change": 12.508257746778707,
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "a": 0.44359416636491444,
+          "b": 0.6030979404995307,
+          "delta_b_minus_a": 0.15950377413461636,
+          "delta_ci95": [
+            0.12871000876809824,
+            0.1898948970688442
+          ],
+          "percent_change": 35.95713970760459,
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "a": 0.0,
+          "b": 0.00020833333333333332,
+          "delta_b_minus_a": 0.00020833333333333332,
+          "delta_ci95": [
+            0.0,
+            0.000625
+          ],
+          "percent_change": null,
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "a": 0.04084857819420132,
+          "b": 0.036924049697439884,
+          "delta_b_minus_a": -0.003924528496761429,
+          "delta_ci95": [
+            -0.004566170522545892,
+            -0.0032134488848490792
+          ],
+          "percent_change": -9.607503296941044,
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "a": 6.144841237122135,
+          "b": 5.93794691145336,
+          "delta_b_minus_a": -0.20689432566877491,
+          "delta_ci95": [
+            -0.33009338211870054,
+            -0.012488396693645269
+          ],
+          "percent_change": -3.3669596607132424,
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "a": 120.05610326036151,
+          "b": 116.22870686468661,
+          "delta_b_minus_a": -3.827396395674864,
+          "delta_ci95": [
+            -5.33536996765422,
+            -2.0725725376332984
+          ],
+          "percent_change": -3.188006516732056,
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "a": 125.96344378765562,
+          "b": 122.97992347601662,
+          "delta_b_minus_a": -2.983520311639036,
+          "delta_ci95": [
+            -4.284145909762525,
+            -1.6153352256645277
+          ],
+          "percent_change": -2.368560450497448,
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "a": 37.51415097712474,
+          "b": 36.908038440536345,
+          "delta_b_minus_a": -0.606112536588405,
+          "delta_ci95": [
+            -1.0283208135292365,
+            -0.06400142518901827
+          ],
+          "percent_change": -1.615690401624692,
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "a": "adapted",
+      "b": "paired",
+      "path": "position",
+      "subjects": 20,
+      "metrics": {
+        "bone_length_cv": {
+          "a": 0.0333596896634162,
+          "b": 0.029899091948714873,
+          "delta_b_minus_a": -0.0034605977147013217,
+          "delta_ci95": [
+            -0.0038016496780699047,
+            -0.0030529711718722936
+          ],
+          "percent_change": -10.373590850565916,
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "a": 0.008858613178198426,
+          "b": 0.008841633323436581,
+          "delta_b_minus_a": -1.6979854761842423e-05,
+          "delta_ci95": [
+            -8.104216156719029e-05,
+            4.8235667612598926e-05
+          ],
+          "percent_change": -0.1916762186166321,
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "a": 125.8708766918209,
+          "b": 123.12705005772219,
+          "delta_b_minus_a": -2.7438266340987347,
+          "delta_ci95": [
+            -3.9689417473018733,
+            -1.3403755215827031
+          ],
+          "percent_change": -2.1798740949557582,
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "a": 7.219409257338832,
+          "b": 7.095705257001207,
+          "delta_b_minus_a": -0.12370400033762545,
+          "delta_ci95": [
+            -0.16936837528193996,
+            -0.07579888392878152
+          ],
+          "percent_change": -1.7134920036826373,
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "a": 0.004322961467759965,
+          "b": 0.004201892751991927,
+          "delta_b_minus_a": -0.00012106871576803722,
+          "delta_ci95": [
+            -0.00017868018581930313,
+            -5.264149212078178e-05
+          ],
+          "percent_change": -2.8005966898144052,
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "a": 0.0032807201735133517,
+          "b": 0.0033749877951472123,
+          "delta_b_minus_a": 9.426762163385997e-05,
+          "delta_ci95": [
+            -3.7353862263855274e-05,
+            0.0002663594797646782
+          ],
+          "percent_change": 2.8733819603062427,
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "a": 0.47693246552227253,
+          "b": 0.5122352372735846,
+          "delta_b_minus_a": 0.035302771751312065,
+          "delta_ci95": [
+            0.01109017839395744,
+            0.06358151482087651
+          ],
+          "percent_change": 7.402048361847879,
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "a": 0.5276811781473492,
+          "b": 0.5413304858422298,
+          "delta_b_minus_a": 0.013649307694880694,
+          "delta_ci95": [
+            -0.010695022049148349,
+            0.03750092360781883
+          ],
+          "percent_change": 2.586658054168689,
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "a": 0.5518837727366921,
+          "b": 0.6342187691631036,
+          "delta_b_minus_a": 0.08233499642641154,
+          "delta_ci95": [
+            0.07008241694050078,
+            0.09924611279746422
+          ],
+          "percent_change": 14.918901495894165,
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "a": 0.44359416636491444,
+          "b": 0.597675675626122,
+          "delta_b_minus_a": 0.15408150926120762,
+          "delta_ci95": [
+            0.12423275246692612,
+            0.18494025482262502
+          ],
+          "percent_change": 34.73479160554498,
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "a": 0.0,
+          "b": 0.00020833333333333332,
+          "delta_b_minus_a": 0.00020833333333333332,
+          "delta_ci95": [
+            0.0,
+            0.000625
+          ],
+          "percent_change": null,
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "a": 0.04084857819420132,
+          "b": 0.03724977896798333,
+          "delta_b_minus_a": -0.0035987992262179933,
+          "delta_ci95": [
+            -0.004789730136134306,
+            -0.00195740832785412
+          ],
+          "percent_change": -8.810096667523325,
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "a": 6.144841237122135,
+          "b": 5.954329811063767,
+          "delta_b_minus_a": -0.1905114260583683,
+          "delta_ci95": [
+            -0.33769893824756947,
+            0.020156801647776085
+          ],
+          "percent_change": -3.1003474086108707,
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "a": 120.05610326036151,
+          "b": 116.49024194385058,
+          "delta_b_minus_a": -3.5658613165109267,
+          "delta_ci95": [
+            -4.770293122148863,
+            -2.0820732878036825
+          ],
+          "percent_change": -2.9701624654414838,
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "a": 125.96344378765562,
+          "b": 122.88886793700854,
+          "delta_b_minus_a": -3.0745758506471015,
+          "delta_ci95": [
+            -4.223825760692462,
+            -1.787863978039155
+          ],
+          "percent_change": -2.4408477239079684,
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "a": 37.51415097712474,
+          "b": 36.82174323458766,
+          "delta_b_minus_a": -0.6924077425370878,
+          "delta_ci95": [
+            -0.9584433871174328,
+            -0.44281679059460555
+          ],
+          "percent_change": -1.8457241454279516,
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "a": "fixed",
+      "b": "paired",
+      "path": "position",
+      "subjects": 20,
+      "metrics": {
+        "bone_length_cv": {
+          "a": 0.029957519842448162,
+          "b": 0.029899091948714873,
+          "delta_b_minus_a": -5.8427893733279185e-05,
+          "delta_ci95": [
+            -0.00022654027659674609,
+            0.00014098538327241637
+          ],
+          "percent_change": -0.1950358175195066,
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "a": 0.008829837666705597,
+          "b": 0.008841633323436581,
+          "delta_b_minus_a": 1.1795656730983736e-05,
+          "delta_ci95": [
+            -3.5849820411112155e-05,
+            5.499034081351508e-05
+          ],
+          "percent_change": 0.13358860237557835,
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "a": 123.14772546848403,
+          "b": 123.12705005772219,
+          "delta_b_minus_a": -0.02067541076186572,
+          "delta_ci95": [
+            -0.7466059314662284,
+            0.7463636019337955
+          ],
+          "percent_change": -0.01678911298051977,
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "a": 7.111975703369207,
+          "b": 7.095705257001207,
+          "delta_b_minus_a": -0.0162704463680017,
+          "delta_ci95": [
+            -0.044312797543718724,
+            0.011791561125576545
+          ],
+          "percent_change": -0.22877533679273032,
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "a": 0.004233810621272733,
+          "b": 0.004201892751991927,
+          "delta_b_minus_a": -3.191786928080646e-05,
+          "delta_ci95": [
+            -5.176944962070435e-05,
+            -1.1356731232941076e-05
+          ],
+          "percent_change": -0.7538804196965176,
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "a": 0.003405585952433389,
+          "b": 0.0033749877951472123,
+          "delta_b_minus_a": -3.059815728617673e-05,
+          "delta_ci95": [
+            -8.127668617123044e-05,
+            2.3628836772877657e-05
+          ],
+          "percent_change": -0.8984696822675553,
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "a": 0.5040728335384446,
+          "b": 0.5122352372735846,
+          "delta_b_minus_a": 0.008162403735139984,
+          "delta_ci95": [
+            -0.004732885630368351,
+            0.02190683691960905
+          ],
+          "percent_change": 1.6192905453448647,
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "a": 0.5426302236336042,
+          "b": 0.5413304858422298,
+          "delta_b_minus_a": -0.0012997377913744417,
+          "delta_ci95": [
+            -0.028069912743487538,
+            0.020492510558715565
+          ],
+          "percent_change": -0.23952550646203496,
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "a": 0.620914817493244,
+          "b": 0.6342187691631036,
+          "delta_b_minus_a": 0.013303951669859634,
+          "delta_ci95": [
+            0.005704158948561483,
+            0.024962998293558653
+          ],
+          "percent_change": 2.142637169389894,
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "a": 0.6030979404995307,
+          "b": 0.597675675626122,
+          "delta_b_minus_a": -0.005422264873408749,
+          "delta_ci95": [
+            -0.04091280597918939,
+            0.021342439314181127
+          ],
+          "percent_change": -0.8990687099540651,
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "a": 0.00020833333333333332,
+          "b": 0.00020833333333333332,
+          "delta_b_minus_a": 0.0,
+          "delta_ci95": [
+            0.0,
+            0.0
+          ],
+          "percent_change": 0.0,
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "a": 0.036924049697439884,
+          "b": 0.03724977896798333,
+          "delta_b_minus_a": 0.0003257292705434352,
+          "delta_ci95": [
+            -0.00031182975447907265,
+            0.00133637856653352
+          ],
+          "percent_change": 0.8821601996869433,
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "a": 5.93794691145336,
+          "b": 5.954329811063767,
+          "delta_b_minus_a": 0.01638289961040662,
+          "delta_ci95": [
+            -0.0403939226369588,
+            0.08330600773347865
+          ],
+          "percent_change": 0.2759017528231267,
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "a": 116.22870686468661,
+          "b": 116.49024194385058,
+          "delta_b_minus_a": 0.2615350791639372,
+          "delta_ci95": [
+            -0.49653228594246085,
+            1.025698446358606
+          ],
+          "percent_change": 0.2250176279328775,
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "a": 122.97992347601662,
+          "b": 122.88886793700854,
+          "delta_b_minus_a": -0.09105553900806526,
+          "delta_ci95": [
+            -0.802430049916123,
+            0.6313630856597695
+          ],
+          "percent_change": -0.07404097875035598,
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "a": 36.908038440536345,
+          "b": 36.82174323458766,
+          "delta_b_minus_a": -0.08629520594868278,
+          "delta_ci95": [
+            -0.5902859794597516,
+            0.3156097867485772
+          ],
+          "percent_change": -0.23381141235051528,
+          "subjects_nonmissing": 20
+        }
+      }
+    },
+    {
+      "dataset": "data_self",
+      "a": "paired",
+      "b": "shuffled",
+      "path": "position",
+      "subjects": 20,
+      "metrics": {
+        "bone_length_cv": {
+          "a": 0.029899091948714873,
+          "b": 0.029929415322264636,
+          "delta_b_minus_a": 3.0323373549761592e-05,
+          "delta_ci95": [
+            -0.000130810240948138,
+            0.00020096411118734208
+          ],
+          "percent_change": 0.10141904510603261,
+          "subjects_nonmissing": 20
+        },
+        "bone_hf3_cv": {
+          "a": 0.008841633323436581,
+          "b": 0.00884257073998825,
+          "delta_b_minus_a": 9.374165516677982e-07,
+          "delta_ci95": [
+            -3.8366086336252016e-05,
+            4.431696567278609e-05
+          ],
+          "percent_change": 0.010602300699180667,
+          "subjects_nonmissing": 20
+        },
+        "local_jerk_rms_mps3": {
+          "a": 123.12705005772219,
+          "b": 122.94875489355339,
+          "delta_b_minus_a": -0.1782951641687994,
+          "delta_ci95": [
+            -0.8679740555103418,
+            0.4850705920854469
+          ],
+          "percent_change": -0.14480584411403763,
+          "subjects_nonmissing": 20
+        },
+        "local_acceleration_rms_mps2": {
+          "a": 7.095705257001207,
+          "b": 7.093290770702467,
+          "delta_b_minus_a": -0.0024144862987401485,
+          "delta_ci95": [
+            -0.027700448078353753,
+            0.020507502078491707
+          ],
+          "percent_change": -0.0340274322465306,
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_rms_m": {
+          "a": 0.004201892751991927,
+          "b": 0.004216553149192058,
+          "delta_b_minus_a": 1.4660397200130858e-05,
+          "delta_ci95": [
+            2.937490937047059e-06,
+            2.69175450321053e-05
+          ],
+          "percent_change": 0.34889984265260576,
+          "subjects_nonmissing": 20
+        },
+        "local_hf3_energy_fraction": {
+          "a": 0.0033749877951472123,
+          "b": 0.003385131382917075,
+          "delta_b_minus_a": 1.0143587769863435e-05,
+          "delta_ci95": [
+            -2.771036107056567e-05,
+            4.509130925739424e-05
+          ],
+          "percent_change": 0.300551835608065,
+          "subjects_nonmissing": 20
+        },
+        "skating_frame_ratio": {
+          "a": 0.5122352372735846,
+          "b": 0.5078622645977916,
+          "delta_b_minus_a": -0.0043729726757930545,
+          "delta_ci95": [
+            -0.013479688431723308,
+            0.004965796371010401
+          ],
+          "percent_change": -0.8537039933192547,
+          "subjects_nonmissing": 20
+        },
+        "skating_given_contact_ratio": {
+          "a": 0.5413304858422298,
+          "b": 0.5471850855255207,
+          "delta_b_minus_a": 0.0058545996832908755,
+          "delta_ci95": [
+            -0.01499355045363671,
+            0.03366750645422388
+          ],
+          "percent_change": 1.081520408772474,
+          "subjects_nonmissing": 20
+        },
+        "near_floor_toe_interval_fraction": {
+          "a": 0.6342187691631036,
+          "b": 0.6276237434290378,
+          "delta_b_minus_a": -0.006595025734065821,
+          "delta_ci95": [
+            -0.016581386229843065,
+            3.7316509978473254e-06
+          ],
+          "percent_change": -1.03986606116504,
+          "subjects_nonmissing": 20
+        },
+        "near_floor_speed_mps": {
+          "a": 0.597675675626122,
+          "b": 0.6101140036371092,
+          "delta_b_minus_a": 0.012438328010987335,
+          "delta_ci95": [
+            -0.015613569088911265,
+            0.04977955756148915
+          ],
+          "percent_change": 2.0811166520967816,
+          "subjects_nonmissing": 20
+        },
+        "penetration_frame_ratio": {
+          "a": 0.00020833333333333332,
+          "b": 0.00020833333333333332,
+          "delta_b_minus_a": 0.0,
+          "delta_ci95": [
+            0.0,
+            0.0
+          ],
+          "percent_change": 0.0,
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_discrepancy_m": {
+          "a": 0.03724977896798333,
+          "b": 0.03697684714870218,
+          "delta_b_minus_a": -0.0002729318192811447,
+          "delta_ci95": [
+            -0.0010449371764355642,
+            0.00022144499239092543
+          ],
+          "percent_change": -0.732707218251516,
+          "subjects_nonmissing": 20
+        },
+        "position_rotation_acceleration_discrepancy_mps2": {
+          "a": 5.954329811063767,
+          "b": 5.92055583209368,
+          "delta_b_minus_a": -0.033773978970085605,
+          "delta_ci95": [
+            -0.0969181127590372,
+            0.018400495525673057
+          ],
+          "percent_change": -0.5672171351229327,
+          "subjects_nonmissing": 20
+        },
+        "interior_local_jerk_rms_mps3": {
+          "a": 116.49024194385058,
+          "b": 116.20454064162672,
+          "delta_b_minus_a": -0.28570130222385115,
+          "delta_ci95": [
+            -1.0687033587857089,
+            0.4189514042813375
+          ],
+          "percent_change": -0.2452577121108246,
+          "subjects_nonmissing": 20
+        },
+        "world_jerk_rms_mps3": {
+          "a": 122.88886793700854,
+          "b": 122.77954522887906,
+          "delta_b_minus_a": -0.10932270812946854,
+          "delta_ci95": [
+            -0.6792267689638573,
+            0.49061135231431746
+          ],
+          "percent_change": -0.0889606275692234,
+          "subjects_nonmissing": 20
+        },
+        "root_jerk_rms_mps3": {
+          "a": 36.82174323458766,
+          "b": 36.91011394097457,
+          "delta_b_minus_a": 0.0883707063868954,
+          "delta_ci95": [
+            -0.19577430157851816,
+            0.45681528037664976
+          ],
+          "percent_change": 0.2399959877616542,
+          "subjects_nonmissing": 20
+        }
+      }
+    }
+  ],
+  "original_flat_summary_replay_max_errors": {
+    "official": 5.551115123125783e-17,
+    "adapted": 5.551115123125783e-17,
+    "fixed": 0.0,
+    "paired": 0.0,
+    "shuffled": 1.1102230246251565e-16
+  },
+  "limit": "Foot contact is a height-based proxy. Stairs, slopes and other tasks are not valid flat-floor sliding comparisons."
+}

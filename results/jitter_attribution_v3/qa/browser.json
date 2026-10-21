@@ -1,0 +1,608 @@
+{
+  "status": "passed",
+  "records": [
+    {
+      "viewport": 1440,
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "images": 6,
+      "videos": [
+        {
+          "src": "media/vae_reconstruction.mp4",
+          "duration": 2.2,
+          "width": 1920,
+          "height": 1430,
+          "samples": [
+            {
+              "time": 0.05,
+              "panels": [
+                {
+                  "body": 230,
+                  "brightness": 6574783
+                },
+                {
+                  "body": 238,
+                  "brightness": 6574171
+                },
+                {
+                  "body": 234,
+                  "brightness": 6573981
+                },
+                {
+                  "body": 934,
+                  "brightness": 4656353
+                },
+                {
+                  "body": 952,
+                  "brightness": 4656267
+                },
+                {
+                  "body": 939,
+                  "brightness": 4655988
+                }
+              ]
+            },
+            {
+              "time": 1.1,
+              "panels": [
+                {
+                  "body": 215,
+                  "brightness": 6578358
+                },
+                {
+                  "body": 221,
+                  "brightness": 6576869
+                },
+                {
+                  "body": 222,
+                  "brightness": 6576602
+                },
+                {
+                  "body": 948,
+                  "brightness": 4655369
+                },
+                {
+                  "body": 947,
+                  "brightness": 4655282
+                },
+                {
+                  "body": 957,
+                  "brightness": 4654524
+                }
+              ]
+            },
+            {
+              "time": 2.1,
+              "panels": [
+                {
+                  "body": 212,
+                  "brightness": 6580822
+                },
+                {
+                  "body": 218,
+                  "brightness": 6576983
+                },
+                {
+                  "body": 211,
+                  "brightness": 6578733
+                },
+                {
+                  "body": 940,
+                  "brightness": 4658157
+                },
+                {
+                  "body": 943,
+                  "brightness": 4657581
+                },
+                {
+                  "body": 939,
+                  "brightness": 4657172
+                }
+              ]
+            }
+          ],
+          "motionDifference": 532937,
+          "playback": true
+        },
+        {
+          "src": "media/recovery_paths.mp4",
+          "duration": 6,
+          "width": 1920,
+          "height": 1430,
+          "samples": [
+            {
+              "time": 0.05,
+              "panels": [
+                {
+                  "body": 219,
+                  "brightness": 6576680
+                },
+                {
+                  "body": 222,
+                  "brightness": 6577383
+                },
+                {
+                  "body": 206,
+                  "brightness": 6578643
+                },
+                {
+                  "body": 785,
+                  "brightness": 4670489
+                },
+                {
+                  "body": 790,
+                  "brightness": 4670441
+                },
+                {
+                  "body": 823,
+                  "brightness": 4670410
+                }
+              ]
+            },
+            {
+              "time": 3,
+              "panels": [
+                {
+                  "body": 218,
+                  "brightness": 6577715
+                },
+                {
+                  "body": 215,
+                  "brightness": 6576897
+                },
+                {
+                  "body": 215,
+                  "brightness": 6576769
+                },
+                {
+                  "body": 874,
+                  "brightness": 4664640
+                },
+                {
+                  "body": 866,
+                  "brightness": 4664377
+                },
+                {
+                  "body": 884,
+                  "brightness": 4663001
+                }
+              ]
+            },
+            {
+              "time": 5.9,
+              "panels": [
+                {
+                  "body": 215,
+                  "brightness": 6576371
+                },
+                {
+                  "body": 227,
+                  "brightness": 6579800
+                },
+                {
+                  "body": 230,
+                  "brightness": 6577355
+                },
+                {
+                  "body": 786,
+                  "brightness": 4672258
+                },
+                {
+                  "body": 786,
+                  "brightness": 4672354
+                },
+                {
+                  "body": 826,
+                  "brightness": 4669804
+                }
+              ]
+            }
+          ],
+          "motionDifference": 540152,
+          "playback": true
+        },
+        {
+          "src": "media/finetuning.mp4",
+          "duration": 2.2,
+          "width": 1920,
+          "height": 1430,
+          "samples": [
+            {
+              "time": 0.05,
+              "panels": [
+                {
+                  "body": 209,
+                  "brightness": 6579192
+                },
+                {
+                  "body": 190,
+                  "brightness": 6582277
+                },
+                {
+                  "body": 186,
+                  "brightness": 6581596
+                },
+                {
+                  "body": 831,
+                  "brightness": 4656408
+                },
+                {
+                  "body": 865,
+                  "brightness": 4650770
+                },
+                {
+                  "body": 857,
+                  "brightness": 4650601
+                }
+              ]
+            },
+            {
+              "time": 1.1,
+              "panels": [
+                {
+                  "body": 195,
+                  "brightness": 6580204
+                },
+                {
+                  "body": 184,
+                  "brightness": 6581869
+                },
+                {
+                  "body": 193,
+                  "brightness": 6582139
+                },
+                {
+                  "body": 840,
+                  "brightness": 4654951
+                },
+                {
+                  "body": 878,
+                  "brightness": 4649405
+                },
+                {
+                  "body": 882,
+                  "brightness": 4649803
+                }
+              ]
+            },
+            {
+              "time": 2.1,
+              "panels": [
+                {
+                  "body": 178,
+                  "brightness": 6586783
+                },
+                {
+                  "body": 194,
+                  "brightness": 6582946
+                },
+                {
+                  "body": 190,
+                  "brightness": 6582025
+                },
+                {
+                  "body": 840,
+                  "brightness": 4651791
+                },
+                {
+                  "body": 859,
+                  "brightness": 4655769
+                },
+                {
+                  "body": 869,
+                  "brightness": 4655273
+                }
+              ]
+            }
+          ],
+          "motionDifference": 433765,
+          "playback": true
+        }
+      ]
+    },
+    {
+      "viewport": 390,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "images": 6,
+      "videos": [
+        {
+          "src": "media/vae_reconstruction.mp4",
+          "duration": 2.2,
+          "width": 1920,
+          "height": 1430,
+          "samples": [
+            {
+              "time": 0.05,
+              "panels": [
+                {
+                  "body": 230,
+                  "brightness": 6574783
+                },
+                {
+                  "body": 238,
+                  "brightness": 6574171
+                },
+                {
+                  "body": 234,
+                  "brightness": 6573981
+                },
+                {
+                  "body": 934,
+                  "brightness": 4656353
+                },
+                {
+                  "body": 952,
+                  "brightness": 4656267
+                },
+                {
+                  "body": 939,
+                  "brightness": 4655988
+                }
+              ]
+            },
+            {
+              "time": 1.1,
+              "panels": [
+                {
+                  "body": 215,
+                  "brightness": 6578358
+                },
+                {
+                  "body": 221,
+                  "brightness": 6576869
+                },
+                {
+                  "body": 222,
+                  "brightness": 6576602
+                },
+                {
+                  "body": 948,
+                  "brightness": 4655369
+                },
+                {
+                  "body": 947,
+                  "brightness": 4655282
+                },
+                {
+                  "body": 957,
+                  "brightness": 4654524
+                }
+              ]
+            },
+            {
+              "time": 2.1,
+              "panels": [
+                {
+                  "body": 212,
+                  "brightness": 6580822
+                },
+                {
+                  "body": 218,
+                  "brightness": 6576983
+                },
+                {
+                  "body": 211,
+                  "brightness": 6578733
+                },
+                {
+                  "body": 940,
+                  "brightness": 4658157
+                },
+                {
+                  "body": 943,
+                  "brightness": 4657581
+                },
+                {
+                  "body": 939,
+                  "brightness": 4657172
+                }
+              ]
+            }
+          ],
+          "motionDifference": 532937,
+          "playback": true
+        },
+        {
+          "src": "media/recovery_paths.mp4",
+          "duration": 6,
+          "width": 1920,
+          "height": 1430,
+          "samples": [
+            {
+              "time": 0.05,
+              "panels": [
+                {
+                  "body": 219,
+                  "brightness": 6576680
+                },
+                {
+                  "body": 222,
+                  "brightness": 6577383
+                },
+                {
+                  "body": 206,
+                  "brightness": 6578643
+                },
+                {
+                  "body": 785,
+                  "brightness": 4670489
+                },
+                {
+                  "body": 790,
+                  "brightness": 4670441
+                },
+                {
+                  "body": 823,
+                  "brightness": 4670410
+                }
+              ]
+            },
+            {
+              "time": 3,
+              "panels": [
+                {
+                  "body": 218,
+                  "brightness": 6577715
+                },
+                {
+                  "body": 215,
+                  "brightness": 6576897
+                },
+                {
+                  "body": 215,
+                  "brightness": 6576769
+                },
+                {
+                  "body": 874,
+                  "brightness": 4664640
+                },
+                {
+                  "body": 866,
+                  "brightness": 4664377
+                },
+                {
+                  "body": 884,
+                  "brightness": 4663001
+                }
+              ]
+            },
+            {
+              "time": 5.9,
+              "panels": [
+                {
+                  "body": 215,
+                  "brightness": 6576371
+                },
+                {
+                  "body": 227,
+                  "brightness": 6579800
+                },
+                {
+                  "body": 230,
+                  "brightness": 6577355
+                },
+                {
+                  "body": 786,
+                  "brightness": 4672258
+                },
+                {
+                  "body": 786,
+                  "brightness": 4672354
+                },
+                {
+                  "body": 826,
+                  "brightness": 4669804
+                }
+              ]
+            }
+          ],
+          "motionDifference": 540152,
+          "playback": true
+        },
+        {
+          "src": "media/finetuning.mp4",
+          "duration": 2.2,
+          "width": 1920,
+          "height": 1430,
+          "samples": [
+            {
+              "time": 0.05,
+              "panels": [
+                {
+                  "body": 209,
+                  "brightness": 6579192
+                },
+                {
+                  "body": 190,
+                  "brightness": 6582277
+                },
+                {
+                  "body": 186,
+                  "brightness": 6581596
+                },
+                {
+                  "body": 831,
+                  "brightness": 4656408
+                },
+                {
+                  "body": 865,
+                  "brightness": 4650770
+                },
+                {
+                  "body": 857,
+                  "brightness": 4650601
+                }
+              ]
+            },
+            {
+              "time": 1.1,
+              "panels": [
+                {
+                  "body": 195,
+                  "brightness": 6580204
+                },
+                {
+                  "body": 184,
+                  "brightness": 6581869
+                },
+                {
+                  "body": 193,
+                  "brightness": 6582139
+                },
+                {
+                  "body": 840,
+                  "brightness": 4654951
+                },
+                {
+                  "body": 878,
+                  "brightness": 4649405
+                },
+                {
+                  "body": 882,
+                  "brightness": 4649803
+                }
+              ]
+            },
+            {
+              "time": 2.1,
+              "panels": [
+                {
+                  "body": 178,
+                  "brightness": 6586783
+                },
+                {
+                  "body": 194,
+                  "brightness": 6582946
+                },
+                {
+                  "body": 190,
+                  "brightness": 6582025
+                },
+                {
+                  "body": 840,
+                  "brightness": 4651791
+                },
+                {
+                  "body": 859,
+                  "brightness": 4655769
+                },
+                {
+                  "body": 869,
+                  "brightness": 4655273
+                }
+              ]
+            }
+          ],
+          "motionDifference": 433765,
+          "playback": true
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,90 @@
+{
+  "REPORT_zh.md": {
+    "bytes": 14108,
+    "sha256": "883c487adb057acb70dd50e21ec18b2ea39465f27bf7922a56a8c79cd13142e0"
+  },
+  "protocol.json": {
+    "bytes": 3464,
+    "sha256": "20bc650b9ebacf566a2cd47189fa9271b31efa17801b94d2ef3e05b2de81164e"
+  },
+  "FINAL_VERIFICATION.json": {
+    "bytes": 7255,
+    "sha256": "44e40654bd074a83f273187525aaf2ee9f7cafb313d2747559485b195908c9c9"
+  },
+  "summary/summary.json": {
+    "bytes": 717762,
+    "sha256": "cd93d5bb8642fb85b4169507a9b3bfa5266a21c3499f93656f9d40234c56b504"
+  },
+  "summary/paired_comparisons.json": {
+    "bytes": 237929,
+    "sha256": "62bfae8ae99da7db1bbbf9236bdf371a90d68179afdcecef5fd2eb56a7036dd1"
+  },
+  "summary/flat_walking.json": {
+    "bytes": 166888,
+    "sha256": "c3c3ab924cd2a19125ae5094d5143bccd985ca4d0194576f3b310ac947ad7baa"
+  },
+  "summary/group_means.csv": {
+    "bytes": 73352,
+    "sha256": "b64f3415f11a3167b06eec74053a5c906895fcfae2ce479ae012f40567005a15"
+  },
+  "summary/verification.json": {
+    "bytes": 413,
+    "sha256": "154273343d893ec766fc8474940e140e42d8f8bb5cead8dbdc050a745cd0fd37"
+  },
+  "summary/independent_verification.json": {
+    "bytes": 2442,
+    "sha256": "07e7467671304c30571a6f4b17f0f278124aa86a33d2d4be488de3042658bce6"
+  },
+  "summary/generated_bone_summary.csv": {
+    "bytes": 37025,
+    "sha256": "6e74a100b4be3da00e7cbec888858eb97dce66bb0a3bb7e9377aa8fe357858da"
+  },
+  "summary/generated_joint_summary.csv": {
+    "bytes": 42345,
+    "sha256": "f3b8bf34a2054de060938db22280b82ee93c7fba68283073a1d494e7a35f55f4"
+  },
+  "summary/vae_bone_summary.csv": {
+    "bytes": 44313,
+    "sha256": "e88d4c1cea4fe408cbb002ba30c4254e45b6f6978ca0b6b6e4082e25216c3810"
+  },
+  "summary/vae_joint_summary.csv": {
+    "bytes": 50243,
+    "sha256": "caaf6b4ecd1bc56595db6fd24715e8436d19cf06ed025b1eb0d2a8e657205084"
+  },
+  "figures/figure_contract_and_manifest.json": {
+    "bytes": 2862,
+    "sha256": "e71e196fd47adbd9bd70627fc8419dd84371df9fa5fca62e959c3b5ac0625cec"
+  },
+  "qa/browser.json": {
+    "bytes": 15246,
+    "sha256": "77374735e8411a466caebf2bd4bc608a5af773ce9cd233330d4f85905b5bf88b"
+  },
+  "qa/figure_source_preflight.json": {
+    "bytes": 3101,
+    "sha256": "f03f08d38adc37df4b4806172fc8d9153c2fd5407b5f3f0a4203e41f21a3005d"
+  },
+  "figures/01_vae_reconstruction.png": {
+    "bytes": 241218,
+    "sha256": "eaa6d20bb039742f805bd1d1cc58bb567b109cfc7a6319521eb59f704e10abe6"
+  },
+  "figures/02_finetuning_and_posture.png": {
+    "bytes": 255860,
+    "sha256": "eb87f248f67a451c9f846c3e92d8b056c1736f2a26d358266a387938c2762402"
+  },
+  "figures/03_recovery_paths.png": {
+    "bytes": 215956,
+    "sha256": "3c51d9a451833a192a6163b4abc123e53204c32b4df747747501e285673fe4ac"
+  },
+  "figures/04_sampling_sensitivity.png": {
+    "bytes": 157227,
+    "sha256": "ace4cd0720dc11adf9d48af9179c5c56cd0db59b5a56a06d9418771308b71c8c"
+  },
+  "figures/05_complete_sequence_traces.png": {
+    "bytes": 668090,
+    "sha256": "6c2d79c2f70d40e1b9c7fc86052e38ffdb0cc188b3c21cfb73c28183e7778521"
+  },
+  "figures/06_decoder_phase_diagnostic.png": {
+    "bytes": 289084,
+    "sha256": "3acc90b2e11b10b9d362d96556a8716dc7db3171ec7675a5429d91dd02760689"
+  }
+}
